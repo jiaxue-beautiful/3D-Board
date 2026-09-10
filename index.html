@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f2"><title>3D RADAR · 3D 热点雷达</title>
+  <link rel="stylesheet" href="styles.css?v=restored-social-3"><script src="social-cases.js?v=restored-social-3" defer></script><script src="case-ui.js?v=restored-social-3" defer></script><script src="app.js?v=restored-social-3" defer></script>
+</head>
+<body>
+  <header class="topbar"><div class="topbar-inner">
+    <a class="brand" href="#today" aria-label="3D RADAR 首页"><span class="brand-mark">3D<span>·</span></span><span>RADAR<small>3D 热点雷达</small></span></a>
+    <nav aria-label="主导航"><a href="#today" data-view="today" class="active">今日雷达</a><a href="#explore" data-view="explore">全部事件</a><a href="#cases" data-view="cases">案例灵感</a><a href="#saved" data-view="saved">我的收藏 <span id="saved-count">0</span></a></nav>
+    <span class="edition">PREVIEW <span>01</span></span>
+  </div></header>
+  <main>
+    <div class="prototype-note"><span class="note-dot"></span> 界面预览 · 以历史真实项目演示，热度状态为示例，尚未接入每日采集。<button id="about">查看说明 ↗</button></div>
+    <section class="intro" id="intro"><div><div class="eyebrow">THE WORLD OF 3D, IN FOCUS.</div><h1>看见 3D 的下一波热点<span>。</span></h1><p>从建模工具到学术前沿，每天发现值得关注的新变化。</p></div><div class="date"><strong>09<span>/</span>10</strong><span>2026 · 星期四</span></div></section>
+    <section id="featured-section" aria-labelledby="featured-title"><div class="section-heading"><h2 id="featured-title"><span class="orange-line"></span>此刻，值得关注</h2><span class="section-note">3 条精选 · 演示排序</span></div><div id="featured" class="featured-grid"></div></section>
+    <section class="cases-section" id="cases" aria-labelledby="cases-title">
+      <div class="social-hero"><div class="eyebrow">FOR THE SOCIAL CREATIVE TEAM</div><h2 id="cases-title">从别人的作品，找到你的下一条内容<span>。</span></h2><p>给社媒组的 3D 创作灵感库。看真实原作，拆解创意组合，再做自己的视频和图文。</p><div class="social-hero-foot"><span id="case-count">10 条真实作品 · 2026-09-10 收录</span><span>Instagram / YouTube / Behance</span></div></div>
+      <div class="social-disclosure">本批是新收录的作品参考，<b>不是全部今天发布，也不等于爆款榜</b>。作者方法与编辑建议分开；不与今日雷达共用事件。</div>
+      <div class="social-toolbar"><label class="search"><input id="case-search" type="search" placeholder="搜索创意、作者、工具、平台…" aria-label="搜索案例"></label><a href="social-cases.js" target="_blank" rel="noopener noreferrer">本批资料 ↗</a></div>
+      <div class="social-filter-row"><span>创作方向</span><div id="case-filters" class="category-tabs" aria-label="按创作方向筛选"></div></div>
+      <div class="social-filter-row"><span>内容形式</span><div id="case-formats" class="category-tabs" aria-label="按内容形式筛选"></div></div>
+      <div id="case-grid" class="case-grid"></div><p id="case-empty" class="empty" hidden>没有匹配的作品，请换一个关键词或将筛选切回“全部”。</p>
+      <p class="social-bottom-note">本轮手动检索与整理 · 尚未启用每日自动采集。未覆盖所有平台；TikTok、小红书、X 等仍待后续补充。原图仅用于内部学习预览，转载或复用须另行确认权利。</p>
+    </section>
+    <section class="feed-section" id="feed-section" aria-labelledby="feed-title">
+      <div class="feed-top"><div><div class="eyebrow">EXPLORE THE SIGNALS</div><h2 id="feed-title">热点速览 <span id="result-count"></span></h2></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索事件、工具、论文…" aria-label="搜索事件、工具、论文"><kbd>/</kbd></label></div>
+      <div class="filters"><div id="categories" class="category-tabs" aria-label="按领域筛选"></div><label class="sort"><span class="sr-only">排序</span><select id="sort"><option value="rank">推荐顺序</option><option value="recent">最近发布</option><option value="sources">来源数量</option></select></label></div>
+      <div class="content-layout"><div><div id="active-filter" class="active-filter" hidden></div><div id="event-list" aria-live="polite"></div><div id="empty" class="empty" hidden><h3>没有找到相关事件</h3><p>试试其他关键词，或清除筛选。</p><button id="reset" class="solid-button">查看全部事件</button></div><div class="end-note" id="end-note">已经看完本次预览的所有事件 <span>·</span> 让有价值的变化浮出水面</div></div>
+      <aside><section class="side-section"><div class="eyebrow">TOPICS IN FOCUS</div><h3>顺着一个话题，继续探索</h3><div id="topic-links" class="topic-links"></div></section><section class="side-section reading-note"><span class="small-label">阅读指南</span><h3>热点背后，保留证据。</h3><p>每条事件都附上原始来源。点击标题了解事件背景，点击来源直接阅读原文。</p><div class="key"><span class="status rising">升温</span><span>关注度正在增加</span></div><div class="key"><span class="status professional">专业关注</span><span>来自专业圈的信号</span></div><small>本页标签用于演示样式，并非实时监测结果。</small></section><section class="side-section source-note"><div class="eyebrow">SOURCES, NOT NOISE</div><p>官网 · 论文 · 代码 · 社区 · 媒体</p><span>围绕事件聚合，回到原始出处。</span></section></aside></div>
+    </section>
+    <footer><span>3D RADAR <span class="footer-cn">发现热点，也理解热点。</span></span><span>独立 3D 行业雷达 · 原型 v0.1</span></footer>
+  </main>
+  <dialog id="detail"><div class="dialog-top"><span>3D RADAR / EVENT BRIEF</span><button id="close-detail" aria-label="关闭详情">×</button></div><div id="detail-body"></div></dialog>
+  <dialog id="case-detail"><div class="dialog-top"><span>3D RADAR / CASE STUDY</span><button id="close-case" aria-label="关闭案例详情">×</button></div><div id="case-body"></div></dialog>
+  <dialog id="info"><div class="dialog-top"><span>关于这一版</span><button id="close-info" aria-label="关闭说明">×</button></div><div class="info-body"><h2>先看体验，再接入实时信号。</h2><p>这是独立的3D热点雷达前端原型。事件使用历史已公开的项目和版本作为阅读样例，不代表2026年9月9日的真实热点。</p><p>推荐顺序、热点状态为演示；没有编造浏览量、增长率或采集完成记录。来源均是外部原始页面链接，来源数量只统计卡片附带的链接。</p><p>当前可使用：分类、搜索、排序、事件详情、原文跳转和本机收藏。实时采集、热度曲线和事件自动聚合尚未接入。</p></div></dialog>
+  <div id="toast" role="status"></div>
+</body></html>

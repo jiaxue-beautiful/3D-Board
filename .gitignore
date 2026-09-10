@@ -1,0 +1,5 @@
+.env*
+.DS_Store
+.wrangler/
+.work/
+node_modules/
