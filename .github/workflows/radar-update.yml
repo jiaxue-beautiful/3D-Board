@@ -1,8 +1,6 @@
 name: 3D Radar daily update
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '17 0 * * *'
 
 concurrency:
   group: radar-daily-update
