@@ -8,7 +8,7 @@ import shutil
 import subprocess
 from urllib.parse import urlsplit
 
-ASSETS = ['app.js', 'case-ui.js', 'report-utils.js', 'public-ui.js', 'styles.css', '_headers']
+ASSETS = ['app.js', 'case-ui.js', 'data-ui.js', 'report-utils.js', 'styles.css', '_headers']
 OUTPUTS = set(ASSETS + ['index.html', 'site-data.js', 'report.json'])
 CASE_FIELDS = ('id title author platform format use desc combination tools method evidence unknown hook videoIdea postIdea adaptation nature url originalTitle originalPublishedAt publishedLabel collectedAt checkedAt checkLabel chapters').split()
 
@@ -69,10 +69,6 @@ def build(root, destination):
     destination.mkdir(parents=True, exist_ok=True)
     for name in ASSETS:
         shutil.copyfile(root / name, destination / name)
-    if (root / 'data-ui.js').exists():
-        shutil.copyfile(root / 'data-ui.js', destination / 'data-ui.js')
-    if (root / 'data/digest.json').exists():
-        shutil.copyfile(root / 'data/digest.json', destination / 'digest.json')
     (destination / 'index.html').write_text(html)
     (destination / 'report.json').write_text(json.dumps(public_report, ensure_ascii=False))
     payload = json.dumps({'publicMode': True, 'report': public_report, 'cases': cases}, ensure_ascii=False)
