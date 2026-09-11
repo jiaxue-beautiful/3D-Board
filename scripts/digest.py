@@ -222,7 +222,12 @@ if __name__ == '__main__':
         else:
             parser.error('Explicit budget ledger required')
         def generate(row):
-            content = complete(config, budget, messages(row), max_output=3000)['content']
+            try:
+                content = complete(config, budget, messages(row), max_output=3000)['content']
+            except Exception:
+                # A gateway error is not evidence; preserve a source-only card
+                # while keeping the charged/blocked ledger state visible.
+                return local_fallback(row)
             # The gateway may return a free-form object despite JSON mode. Keep
             # the paid response private and publish only source-bound fallback.
             if not isinstance(content, dict) or not isinstance(content.get('relevant'), bool) or not all(k in content for k in FACTS + IDEAS):
