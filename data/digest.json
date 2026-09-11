@@ -1,8 +1,408 @@
 {
   "version": 1,
-  "checkedAt": "2026-09-11T00:00:00Z",
-  "news": [],
-  "cases": [],
-  "todayIds": [],
-  "notice": "尚未运行自动采集；保留已确认的历史案例。"
+  "checkedAt": "2026-09-11T07:14:52.712650Z",
+  "windowStart": "2026-09-10T07:14:52.712650Z",
+  "windowEnd": "2026-09-11T07:14:52.712650Z",
+  "news": [
+    {
+      "id": "a7c1e5fcf9af05021743",
+      "url": "https://arxiv.org/abs/2609.11894v1",
+      "publishedAt": "2026-09-10T17:52:17Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Rajalakshmi Nandakumar",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "title": "3D Point Splatting for mmWave Radar Novel View Synthesis",
+      "summary": "Solving novel view synthesis (NVS) for millimeter-wave (mmWave) radar requires a renderer that is physically faithful, complex-valued, and multi-viewpoint-tractable. No prior method achieves these three properties simultaneously. Differentiable Monte Carlo (MC) ray tracers implement the radar forward model directly with explicit material modeling and complex outputs, but do not scale to the multi-view optimization NVS demands. Optical-NVS ports of NeRF, hash grids, and 3D Gaussians train fast but discard phase and replace explicit material modeling with opaque learned features, restricting the",
+      "background": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "difference": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "method": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "meaning": "编辑分析：编辑分析：原始资料不足，暂不下结论。",
+      "industryImpact": "编辑分析：编辑分析：需要进一步核对原文与实际效果。",
+      "tripoImpact": "编辑分析：编辑分析：建议结合Tripo工作流做独立测试。",
+      "videoIdea": "编辑建议：保留原始来源，制作“发生了什么 / 尚未核实什么”的说明卡。",
+      "postIdea": "编辑建议：用原文引句和来源链接制作资料型Post，不添加未经证实的效果。",
+      "evidence": [
+        {
+          "field": "title",
+          "quote": "Solving novel view synthesis (NVS) for millimeter-wave (mmWave) radar requires a renderer that is physically faithful, complex-valued, and multi-viewpoint-tractable. No prior method achieves these three properties simultaneously. Differentiable Monte Carlo (MC) ray tracers implement the radar forward model directly with explicit material modeling and complex outputs, but do not scale to the multi-view optimization NVS demands. Optical-NVS ports of NeRF, hash grids, and 3D Gaussians train fast but discard phase and replace explicit material modeling with opaque learned features, restricting the",
+          "start": 0,
+          "end": 600,
+          "url": "https://arxiv.org/abs/2609.11894v1",
+          "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
+        },
+        {
+          "field": "summary",
+          "quote": "Solving novel view synthesis (NVS) for millimeter-wave (mmWave) radar requires a renderer that is physically faithful, complex-valued, and multi-viewpoint-tractable. No prior method achieves these three properties simultaneously. Differentiable Monte Carlo (MC) ray tracers implement the radar forward model directly with explicit material modeling and complex outputs, but do not scale to the multi-view optimization NVS demands. Optical-NVS ports of NeRF, hash grids, and 3D Gaussians train fast but discard phase and replace explicit material modeling with opaque learned features, restricting the",
+          "start": 0,
+          "end": 600,
+          "url": "https://arxiv.org/abs/2609.11894v1",
+          "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
+        }
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.11894v1"
+        ]
+      ],
+      "status": "来源更新",
+      "checkedAt": "2026-09-11T07:14:52.712650Z",
+      "analysisVersion": 1,
+      "sourceDigest": "5e5673c419c73bfceb8cfdd2f2bad15cafec7e6322289aba82f3210cf168d896",
+      "verificationNote": "仅核对订阅原文中的引文与发布时间；未完成全文语义审核、未观看视频，不代表热度排名。"
+    },
+    {
+      "id": "cca8d225a3520ac4af7c",
+      "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-5/",
+      "publishedAt": "2026-09-10T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Thaddeus Crews",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "title": "Dev snapshot: Godot 4.8 dev 5",
+      "summary": "As we’re hoping to enter feature freeze later in the month, you can expect this to be one of the last development snapshot highlights of the 4.8 cycle. Relatedly, many of our contributors are currently hard at work to help get their features across the finish line in time, so the number of featured points this time might be slightly lighter than usual. That shouldn’t matter too much though, as quite a few of the new offerings are things that the community have been eagerly awaiting for years . Please consider supporting the project financially , if you are able. Godot is maintained by the effo",
+      "background": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "difference": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "method": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "meaning": "编辑分析：编辑分析：原始资料不足，暂不下结论。",
+      "industryImpact": "编辑分析：编辑分析：需要进一步核对原文与实际效果。",
+      "tripoImpact": "编辑分析：编辑分析：建议结合Tripo工作流做独立测试。",
+      "videoIdea": "编辑建议：保留原始来源，制作“发生了什么 / 尚未核实什么”的说明卡。",
+      "postIdea": "编辑建议：用原文引句和来源链接制作资料型Post，不添加未经证实的效果。",
+      "evidence": [
+        {
+          "field": "title",
+          "quote": "As we’re hoping to enter feature freeze later in the month, you can expect this to be one of the last development snapshot highlights of the 4.8 cycle. Relatedly, many of our contributors are currently hard at work to help get their features across the finish line in time, so the number of featured points this time might be slightly lighter than usual. That shouldn’t matter too much though, as quite a few of the new offerings are things that the community have been eagerly awaiting for years . Please consider supporting the project financially , if you are able. Godot is maintained by the effo",
+          "start": 0,
+          "end": 600,
+          "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-5/",
+          "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
+        },
+        {
+          "field": "summary",
+          "quote": "As we’re hoping to enter feature freeze later in the month, you can expect this to be one of the last development snapshot highlights of the 4.8 cycle. Relatedly, many of our contributors are currently hard at work to help get their features across the finish line in time, so the number of featured points this time might be slightly lighter than usual. That shouldn’t matter too much though, as quite a few of the new offerings are things that the community have been eagerly awaiting for years . Please consider supporting the project financially , if you are able. Godot is maintained by the effo",
+          "start": 0,
+          "end": 600,
+          "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-5/",
+          "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
+        }
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-5/"
+        ]
+      ],
+      "status": "来源更新",
+      "checkedAt": "2026-09-11T07:14:52.712650Z",
+      "analysisVersion": 1,
+      "sourceDigest": "f8e05342fe7e699654e6ecd4cfb6557aaafc2f84db3cd48a1bfe2850de16203d",
+      "verificationNote": "仅核对订阅原文中的引文与发布时间；未完成全文语义审核、未观看视频，不代表热度排名。"
+    }
+  ],
+  "todayIds": [
+    "a7c1e5fcf9af05021743",
+    "cca8d225a3520ac4af7c"
+  ],
+  "cases": [
+    {
+      "id": "143d0040a196fe573687",
+      "url": "https://www.youtube.com/shorts/-9kkHWJgMs4",
+      "publishedAt": "2026-08-31T01:29:52Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "title": "Add creature swarms to any shot with the Spyderfy Add-on for After Effects and Blender 3D!",
+      "summary": "Customizing swarm systems within the Spyderfy plugin for Adobe After Effects is super easy! Have you ever wanted to add 3d creature swarms to your after effects projects? We have locust systems, dragonflies, black widows, sparrows,flies, crows, beetles, cockroaches, and more! Perfect for vfx composites and motion graphics! Spyderfy is available on Superhivemarket.com! #blender3d #aftereffects #adobeaftereffects #plugin #motiongraphics",
+      "background": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "difference": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "method": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "meaning": "编辑分析：编辑分析：原始资料不足，暂不下结论。",
+      "industryImpact": "编辑分析：编辑分析：需要进一步核对原文与实际效果。",
+      "tripoImpact": "编辑分析：编辑分析：建议结合Tripo工作流做独立测试。",
+      "videoIdea": "编辑建议：保留原始来源，制作“发生了什么 / 尚未核实什么”的说明卡。",
+      "postIdea": "编辑建议：用原文引句和来源链接制作资料型Post，不添加未经证实的效果。",
+      "evidence": [
+        {
+          "field": "title",
+          "quote": "Customizing swarm systems within the Spyderfy plugin for Adobe After Effects is super easy! Have you ever wanted to add 3d creature swarms to your after effects projects? We have locust systems, dragonflies, black widows, sparrows,flies, crows, beetles, cockroaches, and more! Perfect for vfx composites and motion graphics! Spyderfy is available on Superhivemarket.com! #blender3d #aftereffects #adobeaftereffects #plugin #motiongraphics",
+          "start": 0,
+          "end": 438,
+          "url": "https://www.youtube.com/shorts/-9kkHWJgMs4",
+          "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
+        },
+        {
+          "field": "summary",
+          "quote": "Customizing swarm systems within the Spyderfy plugin for Adobe After Effects is super easy! Have you ever wanted to add 3d creature swarms to your after effects projects? We have locust systems, dragonflies, black widows, sparrows,flies, crows, beetles, cockroaches, and more! Perfect for vfx composites and motion graphics! Spyderfy is available on Superhivemarket.com! #blender3d #aftereffects #adobeaftereffects #plugin #motiongraphics",
+          "start": 0,
+          "end": 438,
+          "url": "https://www.youtube.com/shorts/-9kkHWJgMs4",
+          "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
+        }
+      ],
+      "sources": [
+        [
+          "LightArchitect 原视频",
+          "https://www.youtube.com/shorts/-9kkHWJgMs4"
+        ]
+      ],
+      "status": "来源更新",
+      "checkedAt": "2026-09-11T07:14:52.712650Z",
+      "analysisVersion": 1,
+      "sourceDigest": "9d141b66d341388953d38d70f38498fa6e1f8477997c3e5c2cda5bea4bb0b3d1",
+      "verificationNote": "仅核对订阅原文中的引文与发布时间；未完成全文语义审核、未观看视频，不代表热度排名。"
+    },
+    {
+      "id": "d715db7f0a63dd8cc312",
+      "url": "https://www.youtube.com/watch?v=A2OqsBPAnV8",
+      "publishedAt": "2026-08-29T20:17:12Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "title": "This After Effects Plugin Lets You Add 3D Swarms in Seconds: Spyderfy Add-on",
+      "summary": "🎯Spyderfy on Superhivemarket: https://superhivemarket.com/products/spyderfy-bug-system-add-on Spyderfy lets you add fully 3D swarm and crawl creature systems directly to your After Effects compositions. Create everything from swarms of locusts and flying insects to bats, spiders, and other animated creatures, then control their movement, spacing, speed, scale, randomness, and behavior. The goal is simple: make complex creature shots much faster to build inside a compositing workflow. Instead of manually animating dozens or hundreds of creatures, Spyderfy gives you a procedural system that hand",
+      "background": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "difference": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "method": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "meaning": "编辑分析：编辑分析：原始资料不足，暂不下结论。",
+      "industryImpact": "编辑分析：编辑分析：需要进一步核对原文与实际效果。",
+      "tripoImpact": "编辑分析：编辑分析：建议结合Tripo工作流做独立测试。",
+      "videoIdea": "编辑建议：保留原始来源，制作“发生了什么 / 尚未核实什么”的说明卡。",
+      "postIdea": "编辑建议：用原文引句和来源链接制作资料型Post，不添加未经证实的效果。",
+      "evidence": [
+        {
+          "field": "title",
+          "quote": "🎯Spyderfy on Superhivemarket: https://superhivemarket.com/products/spyderfy-bug-system-add-on Spyderfy lets you add fully 3D swarm and crawl creature systems directly to your After Effects compositions. Create everything from swarms of locusts and flying insects to bats, spiders, and other animated creatures, then control their movement, spacing, speed, scale, randomness, and behavior. The goal is simple: make complex creature shots much faster to build inside a compositing workflow. Instead of manually animating dozens or hundreds of creatures, Spyderfy gives you a procedural system that hand",
+          "start": 0,
+          "end": 600,
+          "url": "https://www.youtube.com/watch?v=A2OqsBPAnV8",
+          "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
+        },
+        {
+          "field": "summary",
+          "quote": "🎯Spyderfy on Superhivemarket: https://superhivemarket.com/products/spyderfy-bug-system-add-on Spyderfy lets you add fully 3D swarm and crawl creature systems directly to your After Effects compositions. Create everything from swarms of locusts and flying insects to bats, spiders, and other animated creatures, then control their movement, spacing, speed, scale, randomness, and behavior. The goal is simple: make complex creature shots much faster to build inside a compositing workflow. Instead of manually animating dozens or hundreds of creatures, Spyderfy gives you a procedural system that hand",
+          "start": 0,
+          "end": 600,
+          "url": "https://www.youtube.com/watch?v=A2OqsBPAnV8",
+          "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
+        }
+      ],
+      "sources": [
+        [
+          "LightArchitect 原视频",
+          "https://www.youtube.com/watch?v=A2OqsBPAnV8"
+        ]
+      ],
+      "status": "来源更新",
+      "checkedAt": "2026-09-11T07:14:52.712650Z",
+      "analysisVersion": 1,
+      "sourceDigest": "9de6e7e4531814a5cf4389f172298569b4f1c15c4cedbb096f644bdf5a5f4819",
+      "verificationNote": "仅核对订阅原文中的引文与发布时间；未完成全文语义审核、未观看视频，不代表热度排名。"
+    },
+    {
+      "id": "01d63ccc33cabb2672bb",
+      "url": "https://www.youtube.com/shorts/0G004MFnpEM",
+      "publishedAt": "2026-08-29T10:00:16Z",
+      "sourceId": "mdmz",
+      "sourceName": "MDMZ 原视频",
+      "lane": "cases",
+      "category": "AI 工作流",
+      "author": "MDMZ",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "title": "What Happens When You Use 209 Layers in an After Effects Project #aftereffects #animation #aivideo",
+      "summary": "I built a little cyberpunk city in After Effects! Brick by brick 🧱 @envato was a real lifesaver for this one, every single asset you see in the project came from there. It made it easy to find everything I needed and focus on putting it all together. I separated everything into layers, masked out the different elements, matched colors, animated the camera, and added all the little details to bring the city to life. And somehow, all of that ended up being 209 layers 💀 #aftereffects #vfx #motiondesign #animation #videoediting",
+      "background": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "difference": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "method": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "meaning": "编辑分析：编辑分析：原始资料不足，暂不下结论。",
+      "industryImpact": "编辑分析：编辑分析：需要进一步核对原文与实际效果。",
+      "tripoImpact": "编辑分析：编辑分析：建议结合Tripo工作流做独立测试。",
+      "videoIdea": "编辑建议：保留原始来源，制作“发生了什么 / 尚未核实什么”的说明卡。",
+      "postIdea": "编辑建议：用原文引句和来源链接制作资料型Post，不添加未经证实的效果。",
+      "evidence": [
+        {
+          "field": "title",
+          "quote": "I built a little cyberpunk city in After Effects! Brick by brick 🧱 @envato was a real lifesaver for this one, every single asset you see in the project came from there. It made it easy to find everything I needed and focus on putting it all together. I separated everything into layers, masked out the different elements, matched colors, animated the camera, and added all the little details to bring the city to life. And somehow, all of that ended up being 209 layers 💀 #aftereffects #vfx #motiondesign #animation #videoediting",
+          "start": 0,
+          "end": 529,
+          "url": "https://www.youtube.com/shorts/0G004MFnpEM",
+          "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
+        },
+        {
+          "field": "summary",
+          "quote": "I built a little cyberpunk city in After Effects! Brick by brick 🧱 @envato was a real lifesaver for this one, every single asset you see in the project came from there. It made it easy to find everything I needed and focus on putting it all together. I separated everything into layers, masked out the different elements, matched colors, animated the camera, and added all the little details to bring the city to life. And somehow, all of that ended up being 209 layers 💀 #aftereffects #vfx #motiondesign #animation #videoediting",
+          "start": 0,
+          "end": 529,
+          "url": "https://www.youtube.com/shorts/0G004MFnpEM",
+          "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
+        }
+      ],
+      "sources": [
+        [
+          "MDMZ 原视频",
+          "https://www.youtube.com/shorts/0G004MFnpEM"
+        ]
+      ],
+      "status": "来源更新",
+      "checkedAt": "2026-09-11T07:14:52.712650Z",
+      "analysisVersion": 1,
+      "sourceDigest": "924d95863f9108e87d256a7e23fd8f591d758ae7d3f58b405370d883261cda28",
+      "verificationNote": "仅核对订阅原文中的引文与发布时间；未完成全文语义审核、未观看视频，不代表热度排名。"
+    },
+    {
+      "id": "900574c44e3c0d76c9b5",
+      "url": "https://www.youtube.com/shorts/aMpi1Pn_Y9A",
+      "publishedAt": "2026-08-24T09:02:25Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "title": "New Spyderfy Plugin for After Effects!? (Available on Superhivemarket) #aftereffects #motiongraphics",
+      "summary": "I’ve been wanting to show you guys this one for a while. 🕷️ A lot of you have been following my creature and VFX experiments for years, so I’m really excited to finally put Spyderfy out there. Spyderfy started as a way for me to make creature animation a lot less painful. Instead of manually animating every bug, you can set up procedural systems for crawling creatures, swarms, infestations, background movement and all kinds of creepy stuff. It’s now available for After Effects and Blender 3D, so whether you’re a VFX artist, motion designer, animator, filmmaker or 3D artist, you can use it in y",
+      "background": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "difference": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "method": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "meaning": "编辑分析：编辑分析：原始资料不足，暂不下结论。",
+      "industryImpact": "编辑分析：编辑分析：需要进一步核对原文与实际效果。",
+      "tripoImpact": "编辑分析：编辑分析：建议结合Tripo工作流做独立测试。",
+      "videoIdea": "编辑建议：保留原始来源，制作“发生了什么 / 尚未核实什么”的说明卡。",
+      "postIdea": "编辑建议：用原文引句和来源链接制作资料型Post，不添加未经证实的效果。",
+      "evidence": [
+        {
+          "field": "title",
+          "quote": "I’ve been wanting to show you guys this one for a while. 🕷️ A lot of you have been following my creature and VFX experiments for years, so I’m really excited to finally put Spyderfy out there. Spyderfy started as a way for me to make creature animation a lot less painful. Instead of manually animating every bug, you can set up procedural systems for crawling creatures, swarms, infestations, background movement and all kinds of creepy stuff. It’s now available for After Effects and Blender 3D, so whether you’re a VFX artist, motion designer, animator, filmmaker or 3D artist, you can use it in y",
+          "start": 0,
+          "end": 600,
+          "url": "https://www.youtube.com/shorts/aMpi1Pn_Y9A",
+          "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
+        },
+        {
+          "field": "summary",
+          "quote": "I’ve been wanting to show you guys this one for a while. 🕷️ A lot of you have been following my creature and VFX experiments for years, so I’m really excited to finally put Spyderfy out there. Spyderfy started as a way for me to make creature animation a lot less painful. Instead of manually animating every bug, you can set up procedural systems for crawling creatures, swarms, infestations, background movement and all kinds of creepy stuff. It’s now available for After Effects and Blender 3D, so whether you’re a VFX artist, motion designer, animator, filmmaker or 3D artist, you can use it in y",
+          "start": 0,
+          "end": 600,
+          "url": "https://www.youtube.com/shorts/aMpi1Pn_Y9A",
+          "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
+        }
+      ],
+      "sources": [
+        [
+          "LightArchitect 原视频",
+          "https://www.youtube.com/shorts/aMpi1Pn_Y9A"
+        ]
+      ],
+      "status": "来源更新",
+      "checkedAt": "2026-09-11T07:14:52.712650Z",
+      "analysisVersion": 1,
+      "sourceDigest": "e674bf612f870fea41feca2d77e1a4b7f24b3ae41ada2b21d868fbcb5db42a18",
+      "verificationNote": "仅核对订阅原文中的引文与发布时间；未完成全文语义审核、未观看视频，不代表热度排名。"
+    }
+  ],
+  "checks": [
+    {
+      "id": "blender-dev",
+      "name": "Blender 开发者博客",
+      "lane": "news",
+      "ok": false,
+      "count": 0,
+      "error": "来源不可用或内容格式不符；未绕过访问限制"
+    },
+    {
+      "id": "godot",
+      "name": "Godot 官方新闻",
+      "lane": "news",
+      "ok": true,
+      "count": 15
+    },
+    {
+      "id": "three",
+      "name": "Three.js Releases",
+      "lane": "news",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "id": "openusd",
+      "name": "OpenUSD Releases",
+      "lane": "news",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "id": "trellis",
+      "name": "TRELLIS Releases",
+      "lane": "news",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "arxiv-3d",
+      "name": "arXiv 3D 研究",
+      "lane": "news",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "id": "lightarchitect",
+      "name": "LightArchitect 原视频",
+      "lane": "cases",
+      "ok": true,
+      "count": 15
+    },
+    {
+      "id": "mdmz",
+      "name": "MDMZ 原视频",
+      "lane": "cases",
+      "ok": true,
+      "count": 15
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "a7c1e5fcf9af05021743",
+      "status": "accepted"
+    },
+    {
+      "id": "cca8d225a3520ac4af7c",
+      "status": "accepted"
+    },
+    {
+      "id": "143d0040a196fe573687",
+      "status": "accepted"
+    },
+    {
+      "id": "d715db7f0a63dd8cc312",
+      "status": "accepted"
+    },
+    {
+      "id": "01d63ccc33cabb2672bb",
+      "status": "accepted"
+    },
+    {
+      "id": "900574c44e3c0d76c9b5",
+      "status": "accepted"
+    },
+    {
+      "id": "0dc839d02e7a74acee01",
+      "status": "insufficient_source"
+    },
+    {
+      "id": "8e706fc2ba999f33e1a2",
+      "status": "insufficient_source"
+    }
+  ],
+  "notice": "AI辅助整理；引用来自原始订阅，不等于全文或视觉验证。新闻与社媒作品分别收录；没有互动采样，不判断爆款。"
 }
