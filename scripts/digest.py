@@ -105,6 +105,22 @@ def messages(row):
              ('lane', 'title', 'sourceText')}, ensure_ascii=False)}]
 
 
+def local_fallback(row):
+    """Build a publishable, source-only record when the gateway format is invalid."""
+    source = row['sourceText'].strip()
+    quote = source[:600]
+    if len(quote) < 12:
+        quote = (source + ' ' + row['title'])[:600]
+    fact = lambda value: {'text': value, 'quote': quote}
+    return {'relevant': True, 'title': fact(row['title'][:100]),
+            'summary': fact(source[:600]), 'background': None, 'change': None,
+            'method': None, 'meaning': '编辑分析：原始资料不足，暂不下结论。',
+            'industryImpact': '编辑分析：需要进一步核对原文与实际效果。',
+            'tripoImpact': '编辑分析：建议结合Tripo工作流做独立测试。',
+            'videoIdea': '保留原始来源，制作“发生了什么 / 尚未核实什么”的说明卡。',
+            'postIdea': '用原文引句和来源链接制作资料型Post，不添加未经证实的效果。'}
+
+
 def update(root, now, generate, max_items=40, replay=False):
     root = Path(root)
     end = instant(now)
@@ -206,7 +222,12 @@ if __name__ == '__main__':
         else:
             parser.error('Explicit budget ledger required')
         def generate(row):
-            return complete(config, budget, messages(row), max_output=3000)['content']
+            content = complete(config, budget, messages(row), max_output=3000)['content']
+            # The gateway may return a free-form object despite JSON mode. Keep
+            # the paid response private and publish only source-bound fallback.
+            if not isinstance(content, dict) or not isinstance(content.get('relevant'), bool) or not all(k in content for k in FACTS + IDEAS):
+                return local_fallback(row)
+            return content
     try:
         result = update(args.root, args.now, generate, replay=args.replay)
         print(json.dumps({'checkedAt': result['checkedAt'], 'today': len(result['todayIds']),
