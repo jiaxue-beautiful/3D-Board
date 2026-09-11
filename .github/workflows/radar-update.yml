@@ -1,0 +1,41 @@
+name: 3D Radar daily update
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 0 * * *'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect source updates
+        run: python scripts/collect.py
+      - name: Prepare digest
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          LLM_DAILY_BUDGET_USD: ${{ secrets.LLM_DAILY_BUDGET_USD }}
+        run: python scripts/digest.py --now "$(python -c 'from pathlib import Path; import json; print(json.loads(Path(".work/source-records.json").read_text())["checkedAt"])')" --confirm-model-usage --cloud-budget
+      - name: Publish to Cloudflare
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_PAGES_PROJECT: ${{ secrets.CLOUDFLARE_PAGES_PROJECT }}
+        run: |
+          python scripts/build.py --root . --out dist
+          npx --yes wrangler@4.130.0 pages deploy dist --project-name "$CLOUDFLARE_PAGES_PROJECT" --branch main --commit-hash "$GITHUB_SHA"
+      - name: Commit public data
+        run: |
+          git config user.name "3D Radar updater"
+          git config user.email "3d-radar-noreply@users.noreply.github.com"
+          git add data/report.json data/digest.json
+          git diff --cached --quiet || git commit -m "chore: update radar data"
+          git push

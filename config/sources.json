@@ -1,0 +1,10 @@
+[
+  {"id":"blender-dev","name":"Blender 开发者博客","url":"https://code.blender.org/feed/","kind":"feed","lane":"news","category":"传统建模","hosts":["code.blender.org"]},
+  {"id":"godot","name":"Godot 官方新闻","url":"https://godotengine.org/rss.xml","kind":"feed","lane":"news","category":"引擎与交互","hosts":["godotengine.org"]},
+  {"id":"three","name":"Three.js Releases","url":"https://api.github.com/repos/mrdoob/three.js/releases?per_page=10","kind":"github","lane":"news","category":"引擎与交互","hosts":["github.com"]},
+  {"id":"openusd","name":"OpenUSD Releases","url":"https://api.github.com/repos/PixarAnimationStudios/OpenUSD/releases?per_page=10","kind":"github","lane":"news","category":"行业动态","hosts":["github.com"]},
+  {"id":"trellis","name":"TRELLIS Releases","url":"https://api.github.com/repos/microsoft/TRELLIS/releases?per_page=10","kind":"github","lane":"news","category":"AI 3D","hosts":["github.com"]},
+  {"id":"arxiv-3d","name":"arXiv 3D 研究","url":"https://export.arxiv.org/api/query?search_query=cat:cs.GR+AND+all:3D&sortBy=submittedDate&sortOrder=descending&max_results=20","kind":"feed","lane":"news","category":"学术研究","hosts":["arxiv.org"]},
+  {"id":"lightarchitect","name":"LightArchitect 原视频","url":"https://www.youtube.com/feeds/videos.xml?channel_id=UCNlTpCS9gBS_bSXmn1B9Img","kind":"feed","lane":"cases","category":"实拍与特效","hosts":["youtube.com"]},
+  {"id":"mdmz","name":"MDMZ 原视频","url":"https://www.youtube.com/feeds/videos.xml?channel_id=UC8vOqCiMelDzID3_9lcUYXg","kind":"feed","lane":"cases","category":"AI 工作流","hosts":["youtube.com"]}
+]

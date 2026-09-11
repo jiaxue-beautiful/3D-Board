@@ -1,4 +1,4 @@
-const events = [
+let events = [
  {id:'blender',category:'传统建模',type:'软件更新',status:'升温',date:'2024-07-16',title:'Blender 4.2 LTS：实时渲染迎来一次大更新',summary:'EEVEE 重写，带来新的全局光照、位移与景深表现。',background:'EEVEE 是 Blender 的实时渲染引擎，适合快速预览、动画和风格化创作。4.2 LTS 重写了引擎，让艺术家可以在更接近最终效果的画面里工作。LTS 表示长期支持版本。',signal:'正式发布与长期支持机制，是观察专业用户迁移和工作流测试的切入点。当前“升温”标签仅用于界面演示。',meaning:'一句话：Blender 把实时预览的画质和稳定性整体往前推了一步，让更多创作者可以在接近最终效果的画面里直接制作。',difference:'以前：EEVEE 更偏快速预览，复杂光照和置换效果常需要切到 Cycles 或离线渲染；现在：EEVEE Next 重写了光照、阴影、置换和景深等核心能力，并以 4.2 LTS 形式长期维护。',industryImpact:'对 3D 行业：建模、材质和动画的迭代反馈更快，实时风格化、虚拟制作和资产展示的成本下降，但不同硬件上的效果仍需实测。',tripoImpact:'对 Tripo：生成模型进入 Blender 后，可以更快完成材质、灯光和镜头预览；导出资产的真实生产价值会更依赖 Blender 4.2 的兼容性与渲染表现。',images:[['EEVEE Next 官方示意','https://developer.blender.org/docs/release_notes/4.2/'],['Blender 4.2 发布页','https://www.blender.org/download/releases/4-2/']],evidence:[['官方发布页 · 4.2 LTS','页面中的“Blender 4.2 LTS”与版本定位，确认这是长期支持版本。'],['开发者文档 · EEVEE Next','在文档内查找 “EEVEE Next” 小节，重点看 Global Illumination、Shadow、Light Linking、Depth of Field。'],['开发者文档 · Geometry Nodes','在页面内查找 “Repeat Zone” 或 “Geometry Nodes”，核对程序化建模相关变化。']],sources:[['Blender 官方','https://www.blender.org/download/releases/4-2/'],['开发者文档（EEVEE Next）','https://developer.blender.org/docs/release_notes/4.2/']],tags:['Blender','EEVEE','实时渲染']},
  {id:'gaussian',category:'学术研究',type:'论文 / 代码',status:'专业关注',date:'2023-08-08',title:'3D Gaussian Splatting，让实景重建实时可看',summary:'用三维高斯表示场景，在新视角画质与渲染速度之间找到新路径。',background:'这项 SIGGRAPH 2023 研究以一组可优化的三维高斯表示场景。相较传统网格，它更侧重从照片重建可观看的场景；可编辑资产、几何精度与动态场景仍是需要分别评估的问题。',signal:'论文、官方实现与后续工具是不同的证据层。技术价值可以从方法和实验理解，实际关注增长仍需持续采样。',sources:[['论文原文','https://arxiv.org/abs/2308.04079'],['GitHub','https://github.com/graphdeco-inria/gaussian-splatting']],tags:['Gaussian Splatting','场景重建','实时渲染']},
  {id:'trellis',category:'AI 3D',type:'研究 / 开源',status:'升温',date:'2024-12-05',title:'TRELLIS：一张图，生成多种形式的 3D 资产',summary:'结构化潜在表示，让同一生成流程输出网格、辐射场或三维高斯。',background:'TRELLIS 是微软公开的3D生成研究。其核心是结构化潜在表示（SLAT），将形状与外观信息编码在统一表示中，再解码为不同3D格式。生成结果仍需按目标生产流程检查。',signal:'可阅读的论文、公开代码和可运行示例让研究能被开发者测试。演示排序不代表当前 GitHub 热度。',sources:[['GitHub','https://github.com/microsoft/TRELLIS'],['论文原文','https://arxiv.org/abs/2412.01506']],tags:['图生3D','开源','TRELLIS']},
@@ -19,39 +19,68 @@ const historicalCases = [
  {id:'case-web3d',use:'交互体验',title:'把 3D 资产放进可交互的网页体验',desc:'模型不止用于展示，也可以成为网页、小游戏或产品配置器中的可操作对象。',tools:'Three.js · WebGPU · glTF',source:['Three.js','https://threejs.org/docs/'],image:null},
  {id:'case-modular',use:'游戏生产',title:'把一栋房子拆成可复用的游戏资产套件',desc:'从单个建筑概念出发，拆分模块、批量生成，再放入引擎验证复用效果。',tools:'Blender · Unity · Modular Kit',source:['案例参考','https://www.youtube.com/results?search_query=AI+3D+modular+game+assets'],image:null}
 ];
-const cases = socialCases;
+let cases = socialCases;
+const baseEvents=events,baseCases=cases;let reportInfo=null;
 const categories=['全部','传统建模','AI 3D','学术研究','引擎与交互','图形与渲染','行业应用','行业动态'];
 const $=s=>document.querySelector(s);
 let category='全部',query='',sort='rank',view='today',saved=new Set(),activeId=null,toastTimer,caseUse='全部',caseFormat='全部',caseQuery='';
-try{const stored=JSON.parse(localStorage.getItem('3d-radar-saved')||'[]');if(Array.isArray(stored))saved=new Set(stored.filter(id=>events.some(e=>e.id===id)));}catch{}
+try{const stored=JSON.parse(localStorage.getItem('3d-radar-saved')||'[]');if(Array.isArray(stored))saved=new Set(stored.filter(id=>typeof id==='string'&&/^[a-zA-Z0-9_-]{1,100}$/.test(id)));}catch{}
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const badge=e=>`<span class="status ${e.status==='升温'?'rising':e.status==='新发现'?'new':'professional'}">${e.status}</span>`;
-const sources=e=>e.sources.map(([name,url])=>`<a href="${url}" target="_blank" rel="noopener noreferrer" aria-label="阅读${esc(name)}原始来源（新标签页）">${esc(name)} ↗</a>`).join('');
+const badge=e=>`<span class="status ${e.status==='升温'?'rising':e.status==='新发现'?'new':'professional'}">${esc(e.status)}</span>`;
+const sources=e=>e.sources.map(([name,url])=>`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer" aria-label="阅读${esc(name)}原始来源（新标签页）">${esc(name)} ↗</a>`).join('');
 const saveButton=e=>`<button class="save" data-save="${e.id}" aria-label="${saved.has(e.id)?'取消收藏':'收藏'}：${esc(e.title)}" aria-pressed="${saved.has(e.id)}" title="${saved.has(e.id)?'取消收藏':'收藏事件'}">${saved.has(e.id)?'★':'☆'}</button>`;
 function render(){
+ const recent=reportInfo?events.filter(e=>e.live&&Date.parse(e.publishedAt)>Date.now()-86400000&&Date.parse(e.publishedAt)<=Math.min(Date.now(),Date.parse(reportInfo.checkedAt))):events;
+ if(reportInfo){$('.section-note').textContent=Math.min(recent.length,3)+' 条来源动态 · 非热度排名';$('#empty p').textContent=view==='today'&&!recent.length?'最近24小时暂无已核验的新动态；历史资料在“全部事件”中保留。':'试试其他关键词，或清除筛选。';}
  $('#featured-section').hidden=view!=='today';$('#intro').hidden=view!=='today';
  $('#cases').hidden=!['today','cases'].includes(view);
  $('#feed-section').hidden=view==='cases';
  $('.prototype-note').hidden=view==='cases';
- const uses=['全部',...new Set(cases.map(c=>c.use))]; $('#case-filters').innerHTML=uses.map(u=>`<button data-case-use="${u}" class="${caseUse===u?'active':''}">${u}</button>`).join('');
- const formats=['全部',...new Set(cases.map(c=>c.format))]; $('#case-formats').innerHTML=formats.map(f=>`<button data-case-format="${f}" class="${caseFormat===f?'active':''}">${f}</button>`).join('');
+ const uses=['全部',...new Set(cases.map(c=>c.use))]; $('#case-filters').innerHTML=uses.map(u=>`<button data-case-use="${esc(u)}" class="${caseUse===u?'active':''}">${esc(u)}</button>`).join('');
+ const formats=['全部',...new Set(cases.map(c=>c.format))]; $('#case-formats').innerHTML=formats.map(f=>`<button data-case-format="${esc(f)}" class="${caseFormat===f?'active':''}">${esc(f)}</button>`).join('');
  const shownCases=CaseUI.filterCases(cases,{use:caseUse,format:caseFormat,query:caseQuery});
- $('#case-count').textContent=`${shownCases.length} 条真实作品 · 2026-09-10 收录`;
+ $('#case-count').textContent=`${shownCases.length} 条作品参考`;
  $('#case-empty').hidden=shownCases.length>0;
  $('#case-grid').innerHTML=shownCases.map(CaseUI.caseCard).join('');
- $('#featured').innerHTML=events.slice(0,3).map((e,i)=>`<article class="feature"><div class="feature-top"><span class="feature-num">0${i+1}</span>${badge(e)}</div><div class="feature-category">${e.category} / ${e.type}</div><h3><button class="title-button" data-event="${e.id}">${e.title}</button></h3><p>${e.summary}</p><div class="source-links">${sources(e)}</div></article>`).join('');
- let list=events.filter(e=>(category==='全部'||e.category===category)&&(view!=='saved'||saved.has(e.id))&&(!query||[e.title,e.summary,...e.tags,e.category,e.type].join(' ').toLowerCase().includes(query.toLowerCase())));
+ $('#featured').innerHTML=recent.slice(0,3).map((e,i)=>`<article class="feature"><div class="feature-top"><span class="feature-num">0${i+1}</span>${badge(e)}</div><div class="feature-category">${esc(e.category)} / ${esc(e.type)}</div><h3><button class="title-button" data-event="${e.id}">${esc(e.title)}</button></h3><p>${esc(e.summary)}</p><div class="source-links">${sources(e)}</div></article>`).join('');
+ let list=(view==='today'?recent:events).filter(e=>(category==='全部'||e.category===category)&&(view!=='saved'||saved.has(e.id))&&(!query||[e.title,e.summary,...e.tags,e.category,e.type].join(' ').toLowerCase().includes(query.toLowerCase())));
  if(sort==='recent')list.sort((a,b)=>(b.date||'').localeCompare(a.date||''));if(sort==='sources')list.sort((a,b)=>b.sources.length-a.sources.length);
  $('#feed-title').innerHTML=`${view==='saved'?'我的收藏':view==='explore'?'全部事件':'热点速览'} <span id="result-count">${list.length} 条事件</span>`;
  $('#categories').innerHTML=categories.map(c=>`<button data-category="${c}" class="${category===c?'active':''}" aria-pressed="${category===c}">${c}</button>`).join('');
- $('#event-list').innerHTML=list.map(e=>`<article class="event"><span class="event-rank">${String(events.indexOf(e)+1).padStart(2,'0')}</span><div><div class="event-meta">${badge(e)}<span>${e.category}</span><span>·</span><span>${e.type}</span></div><h3><button class="title-button" data-event="${e.id}">${e.title}</button></h3><p>${e.summary}</p><div class="event-bottom"><div class="source-links">${sources(e)}</div><span class="source-count">${e.sources.length} 个来源</span></div></div>${saveButton(e)}</article>`).join('');
+ $('#event-list').innerHTML=list.map(e=>`<article class="event"><span class="event-rank">${String(events.indexOf(e)+1).padStart(2,'0')}</span><div><div class="event-meta">${badge(e)}<span>${esc(e.category)}</span><span>·</span><span>${esc(e.type)}</span></div><h3><button class="title-button" data-event="${e.id}">${esc(e.title)}</button></h3><p>${esc(e.summary)}</p><div class="event-bottom"><div class="source-links">${sources(e)}</div><span class="source-count">${e.sources.length} 个来源</span></div></div>${saveButton(e)}</article>`).join('');
  $('#empty').hidden=!!list.length;$('#end-note').hidden=!list.length;$('#saved-count').textContent=saved.size;
  $('#active-filter').hidden=!query&&category==='全部';$('#active-filter').innerHTML=`${query?'搜索：'+esc(query):''}${category!=='全部'?' · '+category:''}<button id="clear-filter">清除筛选 ×</button>`;
  document.querySelectorAll('[data-view]').forEach(a=>a.classList.toggle('active',a.dataset.view===view));
 }
 function openCase(id){const c=cases.find(x=>x.id===id);if(!c)return;$('#case-body').innerHTML=CaseUI.caseDetail(c);if(!$('#case-detail').open)$('#case-detail').showModal();}
-function openDetail(id){const e=events.find(e=>e.id===id);if(!e)return;activeId=id;const meaning=e.meaning||`一句话：${e.summary}`;const difference=e.difference||'目前资料未提供明确的版本对比，需继续核对原始发布说明与此前版本。';const industryImpact=e.industryImpact||`对 3D 行业：${e.signal}`;const tripoImpact=e.tripoImpact||'对 Tripo 的影响：需要结合资产生成、导出格式、渲染或工作流的实际测试后判断，当前不下结论。';const evidence=e.evidence||e.sources.map(([name])=>[`${name} · 待读定位`,'当前仅确认来源入口，尚未完成段落级定位；打开原文后应核对标题、发布日期和关键变更。']);const media=e.images||e.sources.map(([name,url])=>[name,url]);$('#detail-body').innerHTML=`<div class="event-meta">${badge(e)}<span>${e.category} / ${e.type}</span></div><h2>${e.title}</h2><div class="detail-meta">${e.date?'原始事件日期：'+e.date:'持续观察话题 · 无单一发布日期'} · 历史样例</div><p class="detail-intro">${e.summary}</p><h3>发生了什么 / 背景知识</h3><p>${e.background}</p><h3>一句话判断</h3><p>${meaning}</p><div class="judgement-grid"><div><b>和之前有什么不同</b><p>${difference}</p></div><div><b>对 3D 行业的影响</b><p>${industryImpact}</p></div><div><b>对 Tripo 的影响</b><p>${tripoImpact}</p></div></div><h3>图片与案例佐证</h3><div class="evidence-gallery">${media.map(([label,url])=>`<a href="${url}" target="_blank" rel="noopener noreferrer"><div class="gallery-placeholder">3D</div><span>${label}<small>打开来源页面查看原图</small></span></a>`).join('')}</div><h3>来源资料整理</h3><div class="evidence excerpts">${evidence.map(([title,text])=>`<div><b>${title}</b><p>${text}</p></div>`).join('')}</div><h3>回到原始来源 <span class="detail-meta">${e.sources.length} 个链接</span></h3><div class="evidence">${e.sources.map(([name,url])=>`<a href="${url}" target="_blank" rel="noopener noreferrer"><span>${name}<small>${new URL(url).hostname}</small></span><span>打开并按上方定位阅读 ↗</span></a>`).join('')}</div><p class="detail-note">演示说明：本页没有实时热度数据。未来将根据多次采集快照展示增长与传播证据；没有数据时保持空缺。</p><button class="solid-button detail-save" data-save="${id}">${saved.has(id)?'已收藏 · 点击取消':'收藏这条事件'}</button>`;if(!$('#detail').open)$('#detail').showModal();}
+function openDetail(id){const e=events.find(e=>e.id===id);if(!e)return;activeId=id;const meaning=e.meaning||`一句话：${esc(e.summary)}`;const difference=e.difference||'目前资料未提供明确的版本对比，需继续核对原始发布说明与此前版本。';const industryImpact=e.industryImpact||`对 3D 行业：${e.signal}`;const tripoImpact=e.tripoImpact||'对 Tripo 的影响：需要结合资产生成、导出格式、渲染或工作流的实际测试后判断，当前不下结论。';const evidence=e.evidence||e.sources.map(([name])=>[`${esc(name)} · 待读定位`,'当前仅确认来源入口，尚未完成段落级定位；打开原文后应核对标题、发布日期和关键变更。']);const media=e.images||e.sources.map(([name,url])=>[name,url]);$('#detail-body').innerHTML=`<div class="event-meta">${badge(e)}<span>${esc(e.category)} / ${esc(e.type)}</span></div><h2>${esc(e.title)}</h2><div class="detail-meta">${e.date?'原始事件日期：'+esc(e.date):'持续观察话题 · 无单一发布日期'} · ${e.live?'订阅原文核对 · AI辅助整理':'历史样例'}</div><p class="detail-intro">${esc(e.summary)}</p><h3>发生了什么 / 背景知识</h3><p>${esc(e.background)}</p><h3>一句话判断</h3><p>${esc(meaning)}</p><div class="judgement-grid"><div><b>和之前有什么不同</b><p>${esc(difference)}</p></div><div><b>对 3D 行业的影响</b><p>${esc(industryImpact)}</p></div><div><b>对 Tripo 的影响</b><p>${esc(tripoImpact)}</p></div></div><h3>图片与案例佐证</h3><div class="evidence-gallery">${media.map(([label,url])=>`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer"><div class="gallery-placeholder">3D</div><span>${esc(label)}<small>打开来源页面查看原图</small></span></a>`).join('')}</div><h3>来源资料整理</h3><div class="evidence excerpts">${evidence.map(([title,text])=>`<div><b>${esc(title)}</b><p>${esc(text)}</p></div>`).join('')}</div><h3>回到原始来源 <span class="detail-meta">${e.sources.length} 个链接</span></h3><div class="evidence">${e.sources.map(([name,url])=>`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer"><span>${esc(name)}<small>${new URL(url).hostname}</small></span><span>打开并按上方定位阅读 ↗</span></a>`).join('')}</div><p class="detail-note">${esc(e.live?e.verificationNote:'历史样例：没有实时热度数据，不以演示标签判断爆款。')}</p><button class="solid-button detail-save" data-save="${id}">${saved.has(id)?'已收藏 · 点击取消':'收藏这条事件'}</button>`;if(!$('#detail').open)$('#detail').showModal();}
 function toggleSave(id){saved.has(id)?saved.delete(id):saved.add(id);let persisted=true;try{localStorage.setItem('3d-radar-saved',JSON.stringify([...saved]));}catch{persisted=false;}render();if($('#detail').open)openDetail(activeId);$('#toast').textContent=persisted?(saved.has(id)?'已收藏，稍后可以继续阅读':'已取消收藏'):'当前浏览器无法保存，收藏仅在本次页面内有效';$('#toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('show'),2200);}
+function applyRadarData(data){
+ const merged=RadarData.merge(data,baseEvents,baseCases);
+ events=merged.events;cases=merged.cases;reportInfo=merged;
+ const good=merged.checks.filter(c=>c.ok).length;
+ $('.prototype-note').innerHTML='<span class="note-dot"></span> '+(merged.trialOnly?'小批量真实试跑 · 非完整日报':'来源更新')+' · 采集截至 '+esc(RadarData.dateLabel(merged.checkedAt))+' · '+good+'/'+merged.checks.length+' 来源可用。<button id="about">查看说明 ↗</button>';
+ $('#about').onclick=()=>$('#info').showModal();
+ $('.edition').innerHTML=(merged.trialOnly?'TRIAL':'RADAR')+' <span>01</span>';
+ const parts=new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit',weekday:'long'}).formatToParts(new Date());
+ const part=type=>parts.find(p=>p.type===type)?.value||'';
+ $('.date strong').innerHTML=part('month')+'<span>/</span>'+part('day');
+ $('.date > span').textContent=part('year')+' · '+part('weekday');
+ $('.social-disclosure').innerHTML='保留原有作品参考，并补充作者真实发布的演示。<b>收录时间不等于发布时间，也不等于爆款榜</b>；自动整理条目仅核对原始订阅说明，未观看视频，创意建议与作者方法分开。';
+ $('.social-bottom-note').textContent='当前为人工案例与自动整理参考的混合资料库；尚未开启每日定时任务。新条目未获图片转载授权时只链接原作，不编造封面、效果或工具链。';
+ $('#end-note').innerHTML='已看完当前筛选的事件 <span>·</span> 历史资料持续保留';
+ $('.info-body').innerHTML='<h2>来源可追溯，解释有边界。</h2><p>本版接入真实来源的试跑数据，尚未开启每日自动更新。今日仅显示最近24小时的原始发布；历史样例保留在全部事件。</p><p>AI辅助中文整理，事实说明附原始订阅引文。引文匹配不等于全文语义核验；未观看的视频不推断镜头与效果。行业与Tripo影响为编辑分析，社媒创意为建议。</p><p>没有持续互动采样，不提供爆款排名。来源不可用会明确显示，数据读取失败时保留现有内容，不假装更新成功。</p>';
+ render();
+}
+async function loadRadarData(){
+ try{
+  const response=await fetch('data/digest.json',{cache:'no-store',signal:AbortSignal.timeout(12000)});
+  if(!response.ok)throw Error('Data unavailable');
+  const raw=await response.text();if(raw.length>2000000)throw Error('Data too large');
+  applyRadarData(JSON.parse(raw));
+ }catch{const note=document.querySelector('.prototype-note');note.innerHTML='<span class="note-dot"></span> 更新数据暂不可用 · 保留历史预览，未将其当作今日采集结果。<button id="about">查看说明 ↗</button>';$('#about').onclick=()=>$('#info').showModal();}
+}
+loadRadarData();
 function reset(){category='全部';query='';$('#search').value='';render();}
 document.addEventListener('click',event=>{const el=event.target.closest('[data-category],[data-case-use],[data-case-format],[data-case],[data-event],[data-save],[data-topic]');if(el?.dataset.category){category=el.dataset.category;render();}if(el?.dataset.caseUse){caseUse=el.dataset.caseUse;render();}if(el?.dataset.caseFormat){caseFormat=el.dataset.caseFormat;render();}if(el?.dataset.case)openCase(el.dataset.case);if(el?.dataset.event)openDetail(el.dataset.event);if(el?.dataset.save)toggleSave(el.dataset.save);if(el?.dataset.topic){view='explore';history.replaceState(null,'','#explore');query=el.dataset.topic;category='全部';$('#search').value=query;render();$('#feed-section').scrollIntoView();}if(event.target.id==='clear-filter')reset();});
 $('#case-search').addEventListener('input',e=>{caseQuery=e.target.value;render();});

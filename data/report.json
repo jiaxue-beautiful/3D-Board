@@ -1,0 +1,2453 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-09-10T12:53:15.811892Z",
+  "windowStart": "2026-09-09T12:53:15.811892Z",
+  "windowEnd": "2026-09-10T12:53:15.811892Z",
+  "mode": "source_metadata",
+  "checks": [
+    {
+      "id": "blender-dev",
+      "name": "Blender 开发者博客",
+      "lane": "news",
+      "ok": false,
+      "count": 0,
+      "error": "来源不可用或内容格式不符；未绕过访问限制"
+    },
+    {
+      "id": "godot",
+      "name": "Godot 官方新闻",
+      "lane": "news",
+      "ok": true,
+      "count": 15
+    },
+    {
+      "id": "three",
+      "name": "Three.js Releases",
+      "lane": "news",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "id": "openusd",
+      "name": "OpenUSD Releases",
+      "lane": "news",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "id": "trellis",
+      "name": "TRELLIS Releases",
+      "lane": "news",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "id": "arxiv-3d",
+      "name": "arXiv 3D 研究",
+      "lane": "news",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "id": "lightarchitect",
+      "name": "LightArchitect 原视频",
+      "lane": "cases",
+      "ok": true,
+      "count": 15
+    },
+    {
+      "id": "mdmz",
+      "name": "MDMZ 原视频",
+      "lane": "cases",
+      "ok": true,
+      "count": 15
+    }
+  ],
+  "events": [
+    {
+      "id": "233988d655c8bf979c7b",
+      "url": "https://arxiv.org/abs/2609.10363v1",
+      "title": "SceneHI: High-Resolution 3D-Consistent Scene Texturing with Controllable Illumination",
+      "excerpt": "SceneHI is a framework that lifts high-resolution, illumination-aware priors from 2D diffusion models to perform 3D texture synthesis. It is the first to demonstrate that high-resolution textures, previously limited to 2D synthesis, can be generated directly on 3D objects without",
+      "publishedAt": "2026-09-09T15:56:02Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Paul Henderson",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-09T15:56:02Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "SceneHI is a framework that lifts high-resolution, illumination-aware priors from 2D diffusion models to perform 3D texture synthesis. It is the first to demonstrate that high-resolution textures, previously limited to 2D synthesis, can be generated directly on 3D objects without",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "SceneHI is a framework that lifts high-resolution, illumination-aware priors from 2D diffusion models to perform 3D texture synthesis. It is the first to demonstrate that high-resolution textures, previously limited to 2D synthesis, can be generated directly on 3D objects without"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.10363v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    }
+  ],
+  "archive": [
+    {
+      "id": "233988d655c8bf979c7b",
+      "url": "https://arxiv.org/abs/2609.10363v1",
+      "title": "SceneHI: High-Resolution 3D-Consistent Scene Texturing with Controllable Illumination",
+      "excerpt": "SceneHI is a framework that lifts high-resolution, illumination-aware priors from 2D diffusion models to perform 3D texture synthesis. It is the first to demonstrate that high-resolution textures, previously limited to 2D synthesis, can be generated directly on 3D objects without",
+      "publishedAt": "2026-09-09T15:56:02Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Paul Henderson",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-09T15:56:02Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "SceneHI is a framework that lifts high-resolution, illumination-aware priors from 2D diffusion models to perform 3D texture synthesis. It is the first to demonstrate that high-resolution textures, previously limited to 2D synthesis, can be generated directly on 3D objects without",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "SceneHI is a framework that lifts high-resolution, illumination-aware priors from 2D diffusion models to perform 3D texture synthesis. It is the first to demonstrate that high-resolution textures, previously limited to 2D synthesis, can be generated directly on 3D objects without"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.10363v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "4f15611ff47199636b40",
+      "url": "https://arxiv.org/abs/2609.09828v1",
+      "title": "RealSimLoop: Online Real-to-Sim Adaptation via Differentiable Reduced-Order Simulation with Vision Feedback",
+      "excerpt": "Real-world observations of deformable objects are often sparse or surface-level, while downstream tasks require hidden physical quantities such as internal deformation, stress fields, and interaction forces. Physics-based simulation can recover these quantities, but online real-t",
+      "publishedAt": "2026-09-09T07:33:40Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Guoxin Fang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-09T07:33:40Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Real-world observations of deformable objects are often sparse or surface-level, while downstream tasks require hidden physical quantities such as internal deformation, stress fields, and interaction forces. Physics-based simulation can recover these quantities, but online real-t",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Real-world observations of deformable objects are often sparse or surface-level, while downstream tasks require hidden physical quantities such as internal deformation, stress fields, and interaction forces. Physics-based simulation can recover these quantities, but online real-t"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.09828v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "06efcedcb2a9131cd463",
+      "url": "https://github.com/mrdoob/three.js/releases/tag/r186",
+      "title": "r186",
+      "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe",
+      "publishedAt": "2026-09-08T19:16:16Z",
+      "sourceId": "three",
+      "sourceName": "Three.js Releases",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Three.js Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-08T19:16:16Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe"
+        ]
+      ],
+      "sources": [
+        [
+          "Three.js Releases",
+          "https://github.com/mrdoob/three.js/releases/tag/r186"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "347a8c40e3843b25bd72",
+      "url": "https://arxiv.org/abs/2609.07557v1",
+      "title": "Heat Kernel Textures: the Geodesic Gaussians That Do Not Splat",
+      "excerpt": "3D Gaussian Splatting has recently revolutionised novel view synthesis as well as many other 3D vision methods and applications. Drawing inspiration from this representation, we now rethink textures to overcome the main issues of UV mapping while considerably lowering their memor",
+      "publishedAt": "2026-09-07T14:39:55Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Tolga Birdal",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-07T14:39:55Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D Gaussian Splatting has recently revolutionised novel view synthesis as well as many other 3D vision methods and applications. Drawing inspiration from this representation, we now rethink textures to overcome the main issues of UV mapping while considerably lowering their memor",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D Gaussian Splatting has recently revolutionised novel view synthesis as well as many other 3D vision methods and applications. Drawing inspiration from this representation, we now rethink textures to overcome the main issues of UV mapping while considerably lowering their memor"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.07557v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "73f0fe7a5e50f05c15a4",
+      "url": "https://arxiv.org/abs/2609.07414v1",
+      "title": "RelightFormer: Feed-forward Generative Transformer for Multiview Object Relighting",
+      "excerpt": "Image relighting is traditionally tackled via complex inverse rendering pipelines, which suffer from ill-posed optimization, or single-image generative models that ignore crucial multi-view cues necessary for understanding 3D geometry and material interactions. To address these l",
+      "publishedAt": "2026-09-07T12:25:58Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Bo Yang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-07T12:25:58Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Image relighting is traditionally tackled via complex inverse rendering pipelines, which suffer from ill-posed optimization, or single-image generative models that ignore crucial multi-view cues necessary for understanding 3D geometry and material interactions. To address these l",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Image relighting is traditionally tackled via complex inverse rendering pipelines, which suffer from ill-posed optimization, or single-image generative models that ignore crucial multi-view cues necessary for understanding 3D geometry and material interactions. To address these l"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.07414v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "76d5e990ff2cf4c5a608",
+      "url": "https://arxiv.org/abs/2609.06766v1",
+      "title": "Illustrating Hyperbolic Surfaces with Mesh Embeddings",
+      "excerpt": "Hyperbolic geometry exhibits geometric phenomena, such as fast area growth, that are difficult to visualize faithfully in Euclidean space, and which standard models like the Poincaré disk can obscure. To bring hyperbolic geometry to life, we embed hyperbolic surfaces in Euclidean",
+      "publishedAt": "2026-09-06T18:17:48Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Anna Wienhard",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-06T18:17:48Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Hyperbolic geometry exhibits geometric phenomena, such as fast area growth, that are difficult to visualize faithfully in Euclidean space, and which standard models like the Poincaré disk can obscure. To bring hyperbolic geometry to life, we embed hyperbolic surfaces in Euclidean",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Hyperbolic geometry exhibits geometric phenomena, such as fast area growth, that are difficult to visualize faithfully in Euclidean space, and which standard models like the Poincaré disk can obscure. To bring hyperbolic geometry to life, we embed hyperbolic surfaces in Euclidean"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.06766v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "495e12e6bf1a48252a53",
+      "url": "https://arxiv.org/abs/2609.06591v1",
+      "title": "Unifying Physics-Based Humanoid Interaction with a Context-Conditioned Interaction Prior",
+      "excerpt": "Developing unified physics-based humanoid controllers that can navigate complex 3D scenes and manipulate objects remains a longstanding challenge. Existing approaches are often specialized for either locomotion or object-centric manipulation, or rely on task-specific reward engin",
+      "publishedAt": "2026-09-06T13:16:48Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Tien-Tsin Wong",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-06T13:16:48Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Developing unified physics-based humanoid controllers that can navigate complex 3D scenes and manipulate objects remains a longstanding challenge. Existing approaches are often specialized for either locomotion or object-centric manipulation, or rely on task-specific reward engin",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Developing unified physics-based humanoid controllers that can navigate complex 3D scenes and manipulate objects remains a longstanding challenge. Existing approaches are often specialized for either locomotion or object-centric manipulation, or rely on task-specific reward engin"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.06591v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "36d91b9ac613b3028929",
+      "url": "https://arxiv.org/abs/2609.06436v1",
+      "title": "PLSR: Progressive and Localized Super-Resolution of 3D Objects via Localized Latent Voxel Diffusion",
+      "excerpt": "High-resolution 3D asset generation is vital in various 3D applications. Existing state-of-the-art diffusion-based models remain constrained by fixed resolutions, limiting their ability to produce details. In this paper, we tackle the challenge of generating more detailed, higher",
+      "publishedAt": "2026-09-06T07:21:36Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Tien-Tsin Wong",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-06T07:21:36Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "High-resolution 3D asset generation is vital in various 3D applications. Existing state-of-the-art diffusion-based models remain constrained by fixed resolutions, limiting their ability to produce details. In this paper, we tackle the challenge of generating more detailed, higher",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "High-resolution 3D asset generation is vital in various 3D applications. Existing state-of-the-art diffusion-based models remain constrained by fixed resolutions, limiting their ability to produce details. In this paper, we tackle the challenge of generating more detailed, higher"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.06436v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "1acebe6f8a4adfd55c40",
+      "url": "https://arxiv.org/abs/2609.06157v1",
+      "title": "From Splats to Silicon: Rethinking Computational Efficiency of 3DGS",
+      "excerpt": "3D Gaussian splatting (3DGS) represents scenes with explicit primitives and supports real-time novel-view synthesis, yet its system efficiency varies substantially across scenes, viewpoints, rendering paths, and platform constraints. Existing studies pursue efficiency through rep",
+      "publishedAt": "2026-09-05T15:57:26Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Jian Cheng",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-05T15:57:26Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D Gaussian splatting (3DGS) represents scenes with explicit primitives and supports real-time novel-view synthesis, yet its system efficiency varies substantially across scenes, viewpoints, rendering paths, and platform constraints. Existing studies pursue efficiency through rep",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D Gaussian splatting (3DGS) represents scenes with explicit primitives and supports real-time novel-view synthesis, yet its system efficiency varies substantially across scenes, viewpoints, rendering paths, and platform constraints. Existing studies pursue efficiency through rep"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.06157v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "9961264907ef95a11622",
+      "url": "https://arxiv.org/abs/2609.05415v1",
+      "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
+      "excerpt": "Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck. Existing learned animators are topology-constrained: they rely on category-specific templates or require per-skeleton fine-tuning and",
+      "publishedAt": "2026-09-04T17:59:00Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Szymon Rusinkiewicz",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-04T17:59:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck. Existing learned animators are topology-constrained: they rely on category-specific templates or require per-skeleton fine-tuning and",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck. Existing learned animators are topology-constrained: they rely on category-specific templates or require per-skeleton fine-tuning and"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.05415v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "3ea9e6d8aa182a891cba",
+      "url": "https://arxiv.org/abs/2609.05255v1",
+      "title": "Compact Neural Appearance Models for Efficient Gaussian Splatting",
+      "excerpt": "Explicit primitive-based radiance fields such as 3D Gaussian Splatting typically model view-dependent appearance using low-order spherical harmonics (SH). Although efficient to evaluate, SH coefficients dominate per-primitive storage and memory traffic, while their band-limited b",
+      "publishedAt": "2026-09-04T15:18:54Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Marcus Magnor",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-04T15:18:54Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Explicit primitive-based radiance fields such as 3D Gaussian Splatting typically model view-dependent appearance using low-order spherical harmonics (SH). Although efficient to evaluate, SH coefficients dominate per-primitive storage and memory traffic, while their band-limited b",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Explicit primitive-based radiance fields such as 3D Gaussian Splatting typically model view-dependent appearance using low-order spherical harmonics (SH). Although efficient to evaluate, SH coefficients dominate per-primitive storage and memory traffic, while their band-limited b"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.05255v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "6674e686b9199b6e19fa",
+      "url": "https://arxiv.org/abs/2609.05127v1",
+      "title": "GradRig: Differentiable Weights for Skinned Gaussian Splat Deformation",
+      "excerpt": "Skinned deformation is a common framework to turn a 3D shape from its rest pose into a dynamic pose through the deformation of a coarser kinematic structure, called rig. When applied to a 3D mesh, this rig only needs to displace vertices to deform the polygons that connect them. ",
+      "publishedAt": "2026-09-04T13:27:43Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Élie Michel",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-04T13:27:43Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Skinned deformation is a common framework to turn a 3D shape from its rest pose into a dynamic pose through the deformation of a coarser kinematic structure, called rig. When applied to a 3D mesh, this rig only needs to displace vertices to deform the polygons that connect them. ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Skinned deformation is a common framework to turn a 3D shape from its rest pose into a dynamic pose through the deformation of a coarser kinematic structure, called rig. When applied to a 3D mesh, this rig only needs to displace vertices to deform the polygons that connect them. "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.05127v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "4181dac5b140e454e36d",
+      "url": "https://arxiv.org/abs/2609.03897v1",
+      "title": "Reparametrizing 3D Gaussian Splatting for Real-Time Palette-based Color and Luminance Editing",
+      "excerpt": "Professional color editing requires precise control over both color (hue and saturation) and lightness, ideally through separate, independent controls. We present a real-time interactive color editing framework for 3D Gaussian Splatting that supports palette-based recoloring, per",
+      "publishedAt": "2026-09-03T14:17:55Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Yotam Gingold",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-03T14:17:55Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Professional color editing requires precise control over both color (hue and saturation) and lightness, ideally through separate, independent controls. We present a real-time interactive color editing framework for 3D Gaussian Splatting that supports palette-based recoloring, per",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Professional color editing requires precise control over both color (hue and saturation) and lightness, ideally through separate, independent controls. We present a real-time interactive color editing framework for 3D Gaussian Splatting that supports palette-based recoloring, per"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.03897v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "76a99c77f8866c31e10d",
+      "url": "https://arxiv.org/abs/2609.03613v1",
+      "title": "TileGS: Tile-Local Depth Binning for Gaussian Splatting Rasterization",
+      "excerpt": "Real-time 3D Gaussian Splatting (3DGS) achieves high rendering quality, but standard rasterization still traverses a globally sorted tile stream that creates long per-tile ranges and heavy geometry-attribute traffic. We present TileGS, a tile-local reorganization of Gaussian spla",
+      "publishedAt": "2026-09-03T09:59:32Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Juho Kannala",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-03T09:59:32Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Real-time 3D Gaussian Splatting (3DGS) achieves high rendering quality, but standard rasterization still traverses a globally sorted tile stream that creates long per-tile ranges and heavy geometry-attribute traffic. We present TileGS, a tile-local reorganization of Gaussian spla",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Real-time 3D Gaussian Splatting (3DGS) achieves high rendering quality, but standard rasterization still traverses a globally sorted tile stream that creates long per-tile ranges and heavy geometry-attribute traffic. We present TileGS, a tile-local reorganization of Gaussian spla"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.03613v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "90b28571b52596e2fb1f",
+      "url": "https://arxiv.org/abs/2609.03534v1",
+      "title": "TruncGradGS: Improved 3D Gaussian Splatting via Truncated Gradient Updates",
+      "excerpt": "3D Gaussian Splatting has become a de facto scene representation for novel view synthesis, yet robustly learning 3D Gaussian primitives from visual input remains challenging. Standard optimization relies on gradient-based updates, but a common issue is the gradient vanishing phen",
+      "publishedAt": "2026-09-03T08:34:27Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Binh-Son Hua",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-03T08:34:27Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D Gaussian Splatting has become a de facto scene representation for novel view synthesis, yet robustly learning 3D Gaussian primitives from visual input remains challenging. Standard optimization relies on gradient-based updates, but a common issue is the gradient vanishing phen",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D Gaussian Splatting has become a de facto scene representation for novel view synthesis, yet robustly learning 3D Gaussian primitives from visual input remains challenging. Standard optimization relies on gradient-based updates, but a common issue is the gradient vanishing phen"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.03534v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "31371c8e5d970475410d",
+      "url": "https://arxiv.org/abs/2609.03349v1",
+      "title": "P-CORE: Self-Supervised Surface Consistency for Point-Based Neural Editing",
+      "excerpt": "Advances in neural rendering have enabled high-fidelity multi-view reconstruction of 3D scenes. However, free-form non-rigid shape editing remains a significant challenge. Point-based neural representations are highly desirable for multi-view reconstruction because they lack fixe",
+      "publishedAt": "2026-09-03T04:12:39Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Ke Li",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-03T04:12:39Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Advances in neural rendering have enabled high-fidelity multi-view reconstruction of 3D scenes. However, free-form non-rigid shape editing remains a significant challenge. Point-based neural representations are highly desirable for multi-view reconstruction because they lack fixe",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Advances in neural rendering have enabled high-fidelity multi-view reconstruction of 3D scenes. However, free-form non-rigid shape editing remains a significant challenge. Point-based neural representations are highly desirable for multi-view reconstruction because they lack fixe"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.03349v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "1c30f2aef9677604b32b",
+      "url": "https://arxiv.org/abs/2609.03341v1",
+      "title": "PointGT: Simultaneous Geometry and Texture Editing for Point-Based Representations",
+      "excerpt": "We present PointGT, a point-based 3D representation that enables simultaneous editing of object geometry and appearance. Existing reconstruction and view synthesis techniques produce volumetric 3D representations that are high-quality and photorealistic, but are difficult to edit",
+      "publishedAt": "2026-09-03T03:57:44Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Ke Li",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-03T03:57:44Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We present PointGT, a point-based 3D representation that enables simultaneous editing of object geometry and appearance. Existing reconstruction and view synthesis techniques produce volumetric 3D representations that are high-quality and photorealistic, but are difficult to edit",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We present PointGT, a point-based 3D representation that enables simultaneous editing of object geometry and appearance. Existing reconstruction and view synthesis techniques produce volumetric 3D representations that are high-quality and photorealistic, but are difficult to edit"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.03341v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "47cf46f96f548b37c5b3",
+      "url": "https://arxiv.org/abs/2609.02543v1",
+      "title": "LightBridge: Feed-Forward Generative Relighting for 3D Gaussian Splatting",
+      "excerpt": "3D Gaussian Splatting (3DGS) achieves high-quality, real-time novel view synthesis, but the resulting assets have baked-in illumination and cannot be easily relit. Inverse rendering methods optimize simplified reflectance and illumination models for each scene, limiting efficienc",
+      "publishedAt": "2026-09-02T12:58:24Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Ligang Liu",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-02T12:58:24Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D Gaussian Splatting (3DGS) achieves high-quality, real-time novel view synthesis, but the resulting assets have baked-in illumination and cannot be easily relit. Inverse rendering methods optimize simplified reflectance and illumination models for each scene, limiting efficienc",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D Gaussian Splatting (3DGS) achieves high-quality, real-time novel view synthesis, but the resulting assets have baked-in illumination and cannot be easily relit. Inverse rendering methods optimize simplified reflectance and illumination models for each scene, limiting efficienc"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.02543v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "2ae89d67364095529ab9",
+      "url": "https://arxiv.org/abs/2609.02413v1",
+      "title": "WildFab: Multi-Axis 3D Printing from Models in the Wild",
+      "excerpt": "Multi-axis 3D printing enables support-free fabrication and improved part quality, but robustly processing real-world geometries remains challenging. Models from design workflows or direct data acquisition often contain solid--shell combinations and non-manifold structures. Handl",
+      "publishedAt": "2026-09-02T10:35:32Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Guoxin Fang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-02T10:35:32Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Multi-axis 3D printing enables support-free fabrication and improved part quality, but robustly processing real-world geometries remains challenging. Models from design workflows or direct data acquisition often contain solid--shell combinations and non-manifold structures. Handl",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Multi-axis 3D printing enables support-free fabrication and improved part quality, but robustly processing real-world geometries remains challenging. Models from design workflows or direct data acquisition often contain solid--shell combinations and non-manifold structures. Handl"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.02413v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "5d5764c4346e2589b9fe",
+      "url": "https://arxiv.org/abs/2609.00732v1",
+      "title": "Inverse Rig Optimization from Line Drawings",
+      "excerpt": "Stylized 3D character animation is largely hand-authored, with animators authoring rig parameters one keyframe at a time to find the best pose. Because stylized work reads chiefly through contour lines, drawing contours in the camera view is the most direct and precise way to exp",
+      "publishedAt": "2026-09-01T05:09:30Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Yuki Koyama",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-01T05:09:30Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Stylized 3D character animation is largely hand-authored, with animators authoring rig parameters one keyframe at a time to find the best pose. Because stylized work reads chiefly through contour lines, drawing contours in the camera view is the most direct and precise way to exp",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Stylized 3D character animation is largely hand-authored, with animators authoring rig parameters one keyframe at a time to find the best pose. Because stylized work reads chiefly through contour lines, drawing contours in the camera view is the most direct and precise way to exp"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.00732v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "5fa3cfa818a938ced4b2",
+      "url": "https://arxiv.org/abs/2609.00625v1",
+      "title": "Inverse Rendering for Modeling with Line Primitives",
+      "excerpt": "Faithfully capturing diverse real-world objects with fuzzy, anisotropic structures, such as hair, fur, fibers, and textiles, for efficient real-time visualization remains challenging. Recent radiance field reconstruction methods capture these structures from multi-view images usi",
+      "publishedAt": "2026-09-01T03:05:52Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Bernd Bickel",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-01T03:05:52Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Faithfully capturing diverse real-world objects with fuzzy, anisotropic structures, such as hair, fur, fibers, and textiles, for efficient real-time visualization remains challenging. Recent radiance field reconstruction methods capture these structures from multi-view images usi",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Faithfully capturing diverse real-world objects with fuzzy, anisotropic structures, such as hair, fur, fibers, and textiles, for efficient real-time visualization remains challenging. Recent radiance field reconstruction methods capture these structures from multi-view images usi"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.00625v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "fd8ce10cb007550a3b6f",
+      "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-4/",
+      "title": "Dev snapshot: Godot 4.8 dev 4",
+      "excerpt": "Those of you who follow our development blogposts closely might’ve noticed that the past few snapshots have been a little on the light side. This isn’t to say that there was a lack of features on display nor that we’re dissatisfied with what we’ve been able to share so far, but i",
+      "publishedAt": "2026-08-26T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Thaddeus Crews",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-08-26T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Those of you who follow our development blogposts closely might’ve noticed that the past few snapshots have been a little on the light side. This isn’t to say that there was a lack of features on display nor that we’re dissatisfied with what we’ve been able to share so far, but i",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Those of you who follow our development blogposts closely might’ve noticed that the past few snapshots have been a little on the light side. This isn’t to say that there was a lack of features on display nor that we’re dissatisfied with what we’ve been able to share so far, but i"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-4/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "f398df516c439db7603b",
+      "url": "https://godotengine.org/article/fixing-high-polling-rate-mice-on-windows/",
+      "title": "Fixing high polling rate mice on Windows in Godot",
+      "excerpt": "At long last, a performance issue with high polling rate mice on Windows has been fixed in Godot, starting with the recently released Godot 4.7.2 . This article describes how the fix works, and why it’s so important today. Note: The definition of “high polling rate” here refers t",
+      "publishedAt": "2026-08-24T14:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Hugo Locurcio",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-08-24T14:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "At long last, a performance issue with high polling rate mice on Windows has been fixed in Godot, starting with the recently released Godot 4.7.2 . This article describes how the fix works, and why it’s so important today. Note: The definition of “high polling rate” here refers t",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "At long last, a performance issue with high polling rate mice on Windows has been fixed in Godot, starting with the recently released Godot 4.7.2 . This article describes how the fix works, and why it’s so important today. Note: The definition of “high polling rate” here refers t"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/fixing-high-polling-rate-mice-on-windows/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "028206440b47d1adb4d5",
+      "url": "https://godotengine.org/article/maintenance-release-godot-3-6-3/",
+      "title": "Maintenance release: Godot 3.6.3",
+      "excerpt": "Godot 3.6.2 has been our recommended stable LTS version of 3.x for a while now, but the time has come to make a new build, primarily due to changes in requirements for Android and iOS. Google Play now requires new apps and updates to target Android 16 (API level 36). As a result ",
+      "publishedAt": "2026-08-22T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "lawnjelly",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-08-22T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Godot 3.6.2 has been our recommended stable LTS version of 3.x for a while now, but the time has come to make a new build, primarily due to changes in requirements for Android and iOS. Google Play now requires new apps and updates to target Android 16 (API level 36). As a result ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Godot 3.6.2 has been our recommended stable LTS version of 3.x for a while now, but the time has come to make a new build, primarily due to changes in requirements for Android and iOS. Google Play now requires new apps and updates to target Android 16 (API level 36). As a result "
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/maintenance-release-godot-3-6-3/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "6d2a4e858fa295fdf957",
+      "url": "https://godotengine.org/article/maintenance-release-godot-4-7-2/",
+      "title": "Maintenance release: Godot 4.7.2",
+      "excerpt": "Has it already been a whole month since the last 4.7 maintenance release ? How time flies… Well, no time to dwell on the past; let’s instead dwell on the present with yet another maintenance release: Godot 4.7.2! Maintenance releases are expected to be safe for an upgrade, but we",
+      "publishedAt": "2026-08-18T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Thaddeus Crews",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-08-18T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Has it already been a whole month since the last 4.7 maintenance release ? How time flies… Well, no time to dwell on the past; let’s instead dwell on the present with yet another maintenance release: Godot 4.7.2! Maintenance releases are expected to be safe for an upgrade, but we",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Has it already been a whole month since the last 4.7 maintenance release ? How time flies… Well, no time to dwell on the past; let’s instead dwell on the present with yet another maintenance release: Godot 4.7.2! Maintenance releases are expected to be safe for an upgrade, but we"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/maintenance-release-godot-4-7-2/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "1fb98e79b8bb63e33ac0",
+      "url": "https://godotengine.org/article/submissions-open-godot-2026-showreel/",
+      "title": "Submissions open for Godot 2026 showreel",
+      "excerpt": "Showcase your Godot Engine 2026 creations! We invite you to submit videos featuring your published or in-progress games or tools so we can make the Godot 2026 Showreel. Our annual showreels are informative and celebratory showcases, to highlight the wide array of projects develop",
+      "publishedAt": "2026-08-15T13:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Emi",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-08-15T13:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Showcase your Godot Engine 2026 creations! We invite you to submit videos featuring your published or in-progress games or tools so we can make the Godot 2026 Showreel. Our annual showreels are informative and celebratory showcases, to highlight the wide array of projects develop",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Showcase your Godot Engine 2026 creations! We invite you to submit videos featuring your published or in-progress games or tools so we can make the Godot 2026 Showreel. Our annual showreels are informative and celebratory showcases, to highlight the wide array of projects develop"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/submissions-open-godot-2026-showreel/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "15757b3ef639c8829f8a",
+      "url": "https://godotengine.org/article/godotfest-2026/",
+      "title": "GodotFest 2026 returns to Munich this November",
+      "excerpt": "Last November, close to 500 people joined us in Munich for the first GodotFest. We had 34 speakers, two stages, a workshop room, and two busy days of Godot. For a first edition, it was quite a turnout. GodotFest is an annual conference for people who build with Godot. We are the ",
+      "publishedAt": "2026-08-12T00:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "GodotFest Team",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-08-12T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Last November, close to 500 people joined us in Munich for the first GodotFest. We had 34 speakers, two stages, a workshop room, and two busy days of Godot. For a first edition, it was quite a turnout. GodotFest is an annual conference for people who build with Godot. We are the ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Last November, close to 500 people joined us in Munich for the first GodotFest. We had 34 speakers, two stages, a workshop room, and two busy days of Godot. For a first edition, it was quite a turnout. GodotFest is an annual conference for people who build with Godot. We are the "
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/godotfest-2026/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "c125f9446bfc54410c6f",
+      "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-3/",
+      "title": "Dev snapshot: Godot 4.8 dev 3",
+      "excerpt": "With GodotCon Boston now behind us, our contributors have had nothing but time and energy to get their most-wanted features over the finish line. While feature freeze still isn’t for at least another month, that hasn’t stopped our community from making rapid progress in their wor",
+      "publishedAt": "2026-08-07T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Thaddeus Crews",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-08-07T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "With GodotCon Boston now behind us, our contributors have had nothing but time and energy to get their most-wanted features over the finish line. While feature freeze still isn’t for at least another month, that hasn’t stopped our community from making rapid progress in their wor",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "With GodotCon Boston now behind us, our contributors have had nothing but time and energy to get their most-wanted features over the finish line. While feature freeze still isn’t for at least another month, that hasn’t stopped our community from making rapid progress in their wor"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-3/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "071f218a09d892d941fa",
+      "url": "https://godotengine.org/article/release-candidate-godot-4-7-2-rc-1/",
+      "title": "Release candidate: Godot 4.7.2 RC 1",
+      "excerpt": "A month and a half has passed since our initial release of Godot 4.7 , which was then followed up with the Godot 4.7.1 maintenance release nearly three weeks ago. While we stand by the stable foundation of our maintenance releases, that doesn’t mean we’re ready to stop giving sup",
+      "publishedAt": "2026-08-03T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Thaddeus Crews",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-08-03T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "A month and a half has passed since our initial release of Godot 4.7 , which was then followed up with the Godot 4.7.1 maintenance release nearly three weeks ago. While we stand by the stable foundation of our maintenance releases, that doesn’t mean we’re ready to stop giving sup",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "A month and a half has passed since our initial release of Godot 4.7 , which was then followed up with the Godot 4.7.1 maintenance release nearly three weeks ago. While we stand by the stable foundation of our maintenance releases, that doesn’t mean we’re ready to stop giving sup"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/release-candidate-godot-4-7-2-rc-1/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "e4486c8d915c1568bf3a",
+      "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-2/",
+      "title": "Dev snapshot: Godot 4.8 dev 2",
+      "excerpt": "Happy GodotCon Boston for those who celebrate! While many key contributors are already at this event as we speak, that doesn’t mean that development snapshots are slowing down anytime soon. We hope anyone that couldn’t make it to the event this year looks forward to further cover",
+      "publishedAt": "2026-07-21T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Thaddeus Crews",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-07-21T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Happy GodotCon Boston for those who celebrate! While many key contributors are already at this event as we speak, that doesn’t mean that development snapshots are slowing down anytime soon. We hope anyone that couldn’t make it to the event this year looks forward to further cover",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Happy GodotCon Boston for those who celebrate! While many key contributors are already at this event as we speak, that doesn’t mean that development snapshots are slowing down anytime soon. We hope anyone that couldn’t make it to the event this year looks forward to further cover"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-2/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "997e77fa37fc47adc82c",
+      "url": "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v26.08",
+      "title": "Version 26.08",
+      "excerpt": "Version 26.08",
+      "publishedAt": "2026-07-20T14:30:42Z",
+      "sourceId": "openusd",
+      "sourceName": "OpenUSD Releases",
+      "lane": "news",
+      "category": "行业动态",
+      "author": "OpenUSD Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-07-20T14:30:42Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Version 26.08",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Version 26.08"
+        ]
+      ],
+      "sources": [
+        [
+          "OpenUSD Releases",
+          "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v26.08"
+        ]
+      ],
+      "tags": [
+        "行业动态"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "6bc34921968f198708e5",
+      "url": "https://godotengine.org/article/godot-community-poll-2026/",
+      "title": "Godot Community Poll 2026",
+      "excerpt": "Update: This poll is now over. You can view the results here or download the csv with all the responses . We want to learn more about the Godot community, understand who the users of the engine are, and find out how we can better support you. To achieve that, we have a short set ",
+      "publishedAt": "2026-07-16T17:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Emi",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-07-16T17:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Update: This poll is now over. You can view the results here or download the csv with all the responses . We want to learn more about the Godot community, understand who the users of the engine are, and find out how we can better support you. To achieve that, we have a short set ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Update: This poll is now over. You can view the results here or download the csv with all the responses . We want to learn more about the Godot community, understand who the users of the engine are, and find out how we can better support you. To achieve that, we have a short set "
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/godot-community-poll-2026/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "5a52fd0d717d3cea6ee7",
+      "url": "https://godotengine.org/article/godotcon-us-2026-update/",
+      "title": "Godot Team Updates @ GodotCon Boston 2026",
+      "excerpt": "h4 {margin-bottom:0} Our second annual GodotCon in North America is right around the corner and it is full steam ahead for the Godot community in Boston. The schedule has been announced so we thought it would be worth highlighting some of the official updates and fun talks from t",
+      "publishedAt": "2026-07-14T15:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Chad Stewart",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-07-14T15:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "h4 {margin-bottom:0} Our second annual GodotCon in North America is right around the corner and it is full steam ahead for the Godot community in Boston. The schedule has been announced so we thought it would be worth highlighting some of the official updates and fun talks from t",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "h4 {margin-bottom:0} Our second annual GodotCon in North America is right around the corner and it is full steam ahead for the Godot community in Boston. The schedule has been announced so we thought it would be worth highlighting some of the official updates and fun talks from t"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/godotcon-us-2026-update/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "b4fb35de6299bd20fc3a",
+      "url": "https://godotengine.org/article/maintenance-release-godot-4-7-1/",
+      "title": "Maintenance release: Godot 4.7.1",
+      "excerpt": "It’s been nearly four weeks since we saw the release of Godot 4.7 , which has given our team ample time to prepare for its first maintenance release. This progress was made in tandem with Godot 4.8, whose first development snapshot released last week , and will hopefully see its ",
+      "publishedAt": "2026-07-14T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Thaddeus Crews",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-07-14T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "It’s been nearly four weeks since we saw the release of Godot 4.7 , which has given our team ample time to prepare for its first maintenance release. This progress was made in tandem with Godot 4.8, whose first development snapshot released last week , and will hopefully see its ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "It’s been nearly four weeks since we saw the release of Godot 4.7 , which has given our team ample time to prepare for its first maintenance release. This progress was made in tandem with Godot 4.8, whose first development snapshot released last week , and will hopefully see its "
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/maintenance-release-godot-4-7-1/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "4dbc439e4a96f16bb24c",
+      "url": "https://godotengine.org/article/release-candidate-godot-4-7-1-rc-2/",
+      "title": "Release candidate: Godot 4.7.1 RC 2",
+      "excerpt": "As distance from the Godot 4.7 stable release grows, so too does the amount of spotted regressions and subsequent regression fixes. We don’t have quite as many fixes to share compared to 4.7.1 RC 1 , but there’s still enough to go around to warrant a second release candidate for ",
+      "publishedAt": "2026-07-09T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Thaddeus Crews",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-07-09T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "As distance from the Godot 4.7 stable release grows, so too does the amount of spotted regressions and subsequent regression fixes. We don’t have quite as many fixes to share compared to 4.7.1 RC 1 , but there’s still enough to go around to warrant a second release candidate for ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "As distance from the Godot 4.7 stable release grows, so too does the amount of spotted regressions and subsequent regression fixes. We don’t have quite as many fixes to share compared to 4.7.1 RC 1 , but there’s still enough to go around to warrant a second release candidate for "
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/release-candidate-godot-4-7-1-rc-2/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "a62d06c67d0e081e82c0",
+      "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-1/",
+      "title": "Dev snapshot: Godot 4.8 dev 1",
+      "excerpt": "It’s been just over two weeks since we saw the stable release of Godot 4.7 . In that time, we’ve been hard at working preparing for an upcoming maintenance release with our first 4.7.1 release candidate , and laying a strong foundation for what will become Godot 4.8. Last week al",
+      "publishedAt": "2026-07-06T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Thaddeus Crews",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-07-06T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "It’s been just over two weeks since we saw the stable release of Godot 4.7 . In that time, we’ve been hard at working preparing for an upcoming maintenance release with our first 4.7.1 release candidate , and laying a strong foundation for what will become Godot 4.8. Last week al",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "It’s been just over two weeks since we saw the stable release of Godot 4.7 . In that time, we’ve been hard at working preparing for an upcoming maintenance release with our first 4.7.1 release candidate , and laying a strong foundation for what will become Godot 4.8. Last week al"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-1/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "8c48a0fee59072421702",
+      "url": "https://github.com/mrdoob/three.js/releases/tag/r185",
+      "title": "r185",
+      "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#184--185 https://github.com/mrdoob/three.js/milestone/98?closed=1 - Global - Remove deprecated code. #33407 (@Mugen87) - Harmonize errors. #33588 (@Mugen87) - Update Three.WebGPU.js. ebd2a765edd45f419f3e530c5d24c83d2567af4f ",
+      "publishedAt": "2026-07-01T23:22:26Z",
+      "sourceId": "three",
+      "sourceName": "Three.js Releases",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Three.js Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-07-01T23:22:26Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#184--185 https://github.com/mrdoob/three.js/milestone/98?closed=1 - Global - Remove deprecated code. #33407 (@Mugen87) - Harmonize errors. #33588 (@Mugen87) - Update Three.WebGPU.js. ebd2a765edd45f419f3e530c5d24c83d2567af4f ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "https://github.com/mrdoob/three.js/wiki/Migration-Guide#184--185 https://github.com/mrdoob/three.js/milestone/98?closed=1 - Global - Remove deprecated code. #33407 (@Mugen87) - Harmonize errors. #33588 (@Mugen87) - Update Three.WebGPU.js. ebd2a765edd45f419f3e530c5d24c83d2567af4f "
+        ]
+      ],
+      "sources": [
+        [
+          "Three.js Releases",
+          "https://github.com/mrdoob/three.js/releases/tag/r185"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "dcee280e22c70bb1a956",
+      "url": "https://godotengine.org/article/release-candidate-godot-4-7-1-rc-1/",
+      "title": "Release candidate: Godot 4.7.1 RC 1",
+      "excerpt": "Ever since the release of Godot 4.7 just over a week ago, our team has been working nonstop in two critical areas: ensuring a strong initial development cycle for Godot 4.8, and polishing up the current stable release’s foundation for an upcoming maintenance release. We weren’t e",
+      "publishedAt": "2026-07-01T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Thaddeus Crews",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-07-01T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Ever since the release of Godot 4.7 just over a week ago, our team has been working nonstop in two critical areas: ensuring a strong initial development cycle for Godot 4.8, and polishing up the current stable release’s foundation for an upcoming maintenance release. We weren’t e",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Ever since the release of Godot 4.7 just over a week ago, our team has been working nonstop in two critical areas: ensuring a strong initial development cycle for Godot 4.8, and polishing up the current stable release’s foundation for an upcoming maintenance release. We weren’t e"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/release-candidate-godot-4-7-1-rc-1/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "ec0ee9eea2fe028cc001",
+      "url": "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v26.05",
+      "title": "Version 26.05",
+      "excerpt": "Version 26.05",
+      "publishedAt": "2026-04-24T19:08:58Z",
+      "sourceId": "openusd",
+      "sourceName": "OpenUSD Releases",
+      "lane": "news",
+      "category": "行业动态",
+      "author": "OpenUSD Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-04-24T19:08:58Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Version 26.05",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Version 26.05"
+        ]
+      ],
+      "sources": [
+        [
+          "OpenUSD Releases",
+          "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v26.05"
+        ]
+      ],
+      "tags": [
+        "行业动态"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "5b552c73bf5a9f75f2ce",
+      "url": "https://github.com/mrdoob/three.js/releases/tag/r184",
+      "title": "r184",
+      "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#183--184 https://github.com/mrdoob/three.js/milestone/97?closed=1 - Global - Update @rollup/plugin-terser to 1.0.0. 456f1696908c6ff169f19c1318ac8b8a87c38541 (@mrdoob, @claude) - Update ESLint to ECMA 2022. #33128 (@PoseidonE",
+      "publishedAt": "2026-04-16T16:49:08Z",
+      "sourceId": "three",
+      "sourceName": "Three.js Releases",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Three.js Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-04-16T16:49:08Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#183--184 https://github.com/mrdoob/three.js/milestone/97?closed=1 - Global - Update @rollup/plugin-terser to 1.0.0. 456f1696908c6ff169f19c1318ac8b8a87c38541 (@mrdoob, @claude) - Update ESLint to ECMA 2022. #33128 (@PoseidonE",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "https://github.com/mrdoob/three.js/wiki/Migration-Guide#183--184 https://github.com/mrdoob/three.js/milestone/97?closed=1 - Global - Update @rollup/plugin-terser to 1.0.0. 456f1696908c6ff169f19c1318ac8b8a87c38541 (@mrdoob, @claude) - Update ESLint to ECMA 2022. #33128 (@PoseidonE"
+        ]
+      ],
+      "sources": [
+        [
+          "Three.js Releases",
+          "https://github.com/mrdoob/three.js/releases/tag/r184"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "b7ce352ba9ff4eb0f09d",
+      "url": "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v26.03",
+      "title": "Version 26.03",
+      "excerpt": "Version 26.03",
+      "publishedAt": "2026-02-24T22:49:48Z",
+      "sourceId": "openusd",
+      "sourceName": "OpenUSD Releases",
+      "lane": "news",
+      "category": "行业动态",
+      "author": "OpenUSD Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-02-24T22:49:48Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Version 26.03",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Version 26.03"
+        ]
+      ],
+      "sources": [
+        [
+          "OpenUSD Releases",
+          "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v26.03"
+        ]
+      ],
+      "tags": [
+        "行业动态"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "e3cb04483637b205d369",
+      "url": "https://github.com/mrdoob/three.js/releases/tag/r183",
+      "title": "r183",
+      "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#182--183 https://github.com/mrdoob/three.js/milestone/96?closed=1 - Global - Remove deprecated code. #32569 (@Mugen87) - Replace eslint-plugin-import with eslint-plugin-import-x. #32651 (@mrdoob) - Removed eslint-plugin-impo",
+      "publishedAt": "2026-02-20T15:31:38Z",
+      "sourceId": "three",
+      "sourceName": "Three.js Releases",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Three.js Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-02-20T15:31:38Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#182--183 https://github.com/mrdoob/three.js/milestone/96?closed=1 - Global - Remove deprecated code. #32569 (@Mugen87) - Replace eslint-plugin-import with eslint-plugin-import-x. #32651 (@mrdoob) - Removed eslint-plugin-impo",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "https://github.com/mrdoob/three.js/wiki/Migration-Guide#182--183 https://github.com/mrdoob/three.js/milestone/96?closed=1 - Global - Remove deprecated code. #32569 (@Mugen87) - Replace eslint-plugin-import with eslint-plugin-import-x. #32651 (@mrdoob) - Removed eslint-plugin-impo"
+        ]
+      ],
+      "sources": [
+        [
+          "Three.js Releases",
+          "https://github.com/mrdoob/three.js/releases/tag/r183"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "b288b4a17cb64e3e9174",
+      "url": "https://github.com/mrdoob/three.js/releases/tag/r182",
+      "title": "r182",
+      "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#181--182 https://github.com/mrdoob/three.js/milestone/95?closed=1 - Global - Migrate to ESLint 9, flat config. #32471, #32518, #32519, #32520 (@gkjohnson, @Mugen87) - BatchedMesh - Fix index and attribute updates in `optimiz",
+      "publishedAt": "2025-12-10T16:46:04Z",
+      "sourceId": "three",
+      "sourceName": "Three.js Releases",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Three.js Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-12-10T16:46:04Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#181--182 https://github.com/mrdoob/three.js/milestone/95?closed=1 - Global - Migrate to ESLint 9, flat config. #32471, #32518, #32519, #32520 (@gkjohnson, @Mugen87) - BatchedMesh - Fix index and attribute updates in `optimiz",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "https://github.com/mrdoob/three.js/wiki/Migration-Guide#181--182 https://github.com/mrdoob/three.js/milestone/95?closed=1 - Global - Migrate to ESLint 9, flat config. #32471, #32518, #32519, #32520 (@gkjohnson, @Mugen87) - BatchedMesh - Fix index and attribute updates in `optimiz"
+        ]
+      ],
+      "sources": [
+        [
+          "Three.js Releases",
+          "https://github.com/mrdoob/three.js/releases/tag/r182"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "1cad412c536faf22fd59",
+      "url": "https://github.com/mrdoob/three.js/releases/tag/r181",
+      "title": "r181",
+      "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#180--181 https://github.com/mrdoob/three.js/milestone/94?closed=1 - Global - Use internal log, warn and error functions instead of the system ones. #31790 (@sunag) - Earcut - Updated to latest version. #31956 (@tonybart1337)",
+      "publishedAt": "2025-11-19T04:42:16Z",
+      "sourceId": "three",
+      "sourceName": "Three.js Releases",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Three.js Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-11-19T04:42:16Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#180--181 https://github.com/mrdoob/three.js/milestone/94?closed=1 - Global - Use internal log, warn and error functions instead of the system ones. #31790 (@sunag) - Earcut - Updated to latest version. #31956 (@tonybart1337)",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "https://github.com/mrdoob/three.js/wiki/Migration-Guide#180--181 https://github.com/mrdoob/three.js/milestone/94?closed=1 - Global - Use internal log, warn and error functions instead of the system ones. #31790 (@sunag) - Earcut - Updated to latest version. #31956 (@tonybart1337)"
+        ]
+      ],
+      "sources": [
+        [
+          "Three.js Releases",
+          "https://github.com/mrdoob/three.js/releases/tag/r181"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "a2f7ad3702b78e39f864",
+      "url": "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v25.11",
+      "title": "v25.11",
+      "excerpt": "Version 25.11",
+      "publishedAt": "2025-10-24T18:44:35Z",
+      "sourceId": "openusd",
+      "sourceName": "OpenUSD Releases",
+      "lane": "news",
+      "category": "行业动态",
+      "author": "OpenUSD Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-10-24T18:44:35Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Version 25.11",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Version 25.11"
+        ]
+      ],
+      "sources": [
+        [
+          "OpenUSD Releases",
+          "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v25.11"
+        ]
+      ],
+      "tags": [
+        "行业动态"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "7e2238449fe00d72b061",
+      "url": "https://github.com/mrdoob/three.js/releases/tag/r180",
+      "title": "r180",
+      "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#179--180 https://github.com/mrdoob/three.js/milestone/93?closed=1 - Global - Clean up. #31719, #31564, #31671, #31732, #31734, #31726 (@Methuselah96, @WestLangley, @s-rigaud) - Remove deprecated code. #31632, #31555 (@Mugen8",
+      "publishedAt": "2025-09-03T11:48:45Z",
+      "sourceId": "three",
+      "sourceName": "Three.js Releases",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Three.js Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-09-03T11:48:45Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#179--180 https://github.com/mrdoob/three.js/milestone/93?closed=1 - Global - Clean up. #31719, #31564, #31671, #31732, #31734, #31726 (@Methuselah96, @WestLangley, @s-rigaud) - Remove deprecated code. #31632, #31555 (@Mugen8",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "https://github.com/mrdoob/three.js/wiki/Migration-Guide#179--180 https://github.com/mrdoob/three.js/milestone/93?closed=1 - Global - Clean up. #31719, #31564, #31671, #31732, #31734, #31726 (@Methuselah96, @WestLangley, @s-rigaud) - Remove deprecated code. #31632, #31555 (@Mugen8"
+        ]
+      ],
+      "sources": [
+        [
+          "Three.js Releases",
+          "https://github.com/mrdoob/three.js/releases/tag/r180"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "d7d9be76f0d43c8c9c86",
+      "url": "https://github.com/mrdoob/three.js/releases/tag/r179",
+      "title": "r179",
+      "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#178--179 https://github.com/mrdoob/three.js/milestone/92?closed=1 - Global - Optimize CI workflow by eliminating redundant setup steps. #31383 (@souhailaS) - BatchedMesh - Fix `setInstanceCount()`. #31458 (@andreas-hilti) - ",
+      "publishedAt": "2025-08-02T00:55:52Z",
+      "sourceId": "three",
+      "sourceName": "Three.js Releases",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Three.js Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-08-02T00:55:52Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#178--179 https://github.com/mrdoob/three.js/milestone/92?closed=1 - Global - Optimize CI workflow by eliminating redundant setup steps. #31383 (@souhailaS) - BatchedMesh - Fix `setInstanceCount()`. #31458 (@andreas-hilti) - ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "https://github.com/mrdoob/three.js/wiki/Migration-Guide#178--179 https://github.com/mrdoob/three.js/milestone/92?closed=1 - Global - Optimize CI workflow by eliminating redundant setup steps. #31383 (@souhailaS) - BatchedMesh - Fix `setInstanceCount()`. #31458 (@andreas-hilti) - "
+        ]
+      ],
+      "sources": [
+        [
+          "Three.js Releases",
+          "https://github.com/mrdoob/three.js/releases/tag/r179"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "15bbb7b5bdfdfa80b293",
+      "url": "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v25.08",
+      "title": "v25.08",
+      "excerpt": "Version 25.08",
+      "publishedAt": "2025-07-31T19:25:25Z",
+      "sourceId": "openusd",
+      "sourceName": "OpenUSD Releases",
+      "lane": "news",
+      "category": "行业动态",
+      "author": "OpenUSD Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-07-31T19:25:25Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Version 25.08",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Version 25.08"
+        ]
+      ],
+      "sources": [
+        [
+          "OpenUSD Releases",
+          "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v25.08"
+        ]
+      ],
+      "tags": [
+        "行业动态"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "f4ac3447021c4e984042",
+      "url": "https://github.com/mrdoob/three.js/releases/tag/r178",
+      "title": "r178",
+      "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#r177--r178 https://github.com/mrdoob/three.js/milestone/91?closed=1 - Global - Remove deprecated code. #31254 (@Mugen87) - Correct the blending formulas in all renderers. #31246 (@WestLangley) - Upgrade monaco-editor. #31300",
+      "publishedAt": "2025-06-30T13:38:35Z",
+      "sourceId": "three",
+      "sourceName": "Three.js Releases",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Three.js Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-06-30T13:38:35Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#r177--r178 https://github.com/mrdoob/three.js/milestone/91?closed=1 - Global - Remove deprecated code. #31254 (@Mugen87) - Correct the blending formulas in all renderers. #31246 (@WestLangley) - Upgrade monaco-editor. #31300",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "https://github.com/mrdoob/three.js/wiki/Migration-Guide#r177--r178 https://github.com/mrdoob/three.js/milestone/91?closed=1 - Global - Remove deprecated code. #31254 (@Mugen87) - Correct the blending formulas in all renderers. #31246 (@WestLangley) - Upgrade monaco-editor. #31300"
+        ]
+      ],
+      "sources": [
+        [
+          "Three.js Releases",
+          "https://github.com/mrdoob/three.js/releases/tag/r178"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "fbead8a3501ce5438f41",
+      "url": "https://github.com/mrdoob/three.js/releases/tag/r177",
+      "title": "r177",
+      "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#r176--r177 https://github.com/mrdoob/three.js/milestone/90?closed=1 - Global - Increase version of Object/Scene format. #31096 (@repalash) - Fix exports in `src/three.tsl.js`. #31109 (@ycw) - Add DeepWiki link. #31182, c4213",
+      "publishedAt": "2025-05-30T17:31:16Z",
+      "sourceId": "three",
+      "sourceName": "Three.js Releases",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Three.js Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-05-30T17:31:16Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#r176--r177 https://github.com/mrdoob/three.js/milestone/90?closed=1 - Global - Increase version of Object/Scene format. #31096 (@repalash) - Fix exports in `src/three.tsl.js`. #31109 (@ycw) - Add DeepWiki link. #31182, c4213",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "https://github.com/mrdoob/three.js/wiki/Migration-Guide#r176--r177 https://github.com/mrdoob/three.js/milestone/90?closed=1 - Global - Increase version of Object/Scene format. #31096 (@repalash) - Fix exports in `src/three.tsl.js`. #31109 (@ycw) - Add DeepWiki link. #31182, c4213"
+        ]
+      ],
+      "sources": [
+        [
+          "Three.js Releases",
+          "https://github.com/mrdoob/three.js/releases/tag/r177"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "6363d96ca3819c5b15e1",
+      "url": "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v25.05.01",
+      "title": "Version 25.05.01",
+      "excerpt": "Version 25.05.01",
+      "publishedAt": "2025-05-20T03:06:12Z",
+      "sourceId": "openusd",
+      "sourceName": "OpenUSD Releases",
+      "lane": "news",
+      "category": "行业动态",
+      "author": "OpenUSD Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-05-20T03:06:12Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Version 25.05.01",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Version 25.05.01"
+        ]
+      ],
+      "sources": [
+        [
+          "OpenUSD Releases",
+          "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v25.05.01"
+        ]
+      ],
+      "tags": [
+        "行业动态"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "f5d8bd63d73e3a3ef88d",
+      "url": "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v25.05",
+      "title": "Version 25.05",
+      "excerpt": "Version 25.05",
+      "publishedAt": "2025-04-28T23:21:49Z",
+      "sourceId": "openusd",
+      "sourceName": "OpenUSD Releases",
+      "lane": "news",
+      "category": "行业动态",
+      "author": "OpenUSD Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-04-28T23:21:49Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Version 25.05",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Version 25.05"
+        ]
+      ],
+      "sources": [
+        [
+          "OpenUSD Releases",
+          "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v25.05"
+        ]
+      ],
+      "tags": [
+        "行业动态"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "6cba580e6c1e79d934f4",
+      "url": "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v25.02a",
+      "title": "Version 25.02a",
+      "excerpt": "Version 25.02a",
+      "publishedAt": "2025-02-04T21:56:33Z",
+      "sourceId": "openusd",
+      "sourceName": "OpenUSD Releases",
+      "lane": "news",
+      "category": "行业动态",
+      "author": "OpenUSD Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-02-04T21:56:33Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Version 25.02a",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Version 25.02a"
+        ]
+      ],
+      "sources": [
+        [
+          "OpenUSD Releases",
+          "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v25.02a"
+        ]
+      ],
+      "tags": [
+        "行业动态"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "2cc0e9ff91e654019a78",
+      "url": "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v25.02",
+      "title": "Version 25.02",
+      "excerpt": "Version 25.02",
+      "publishedAt": "2025-01-21T22:23:49Z",
+      "sourceId": "openusd",
+      "sourceName": "OpenUSD Releases",
+      "lane": "news",
+      "category": "行业动态",
+      "author": "OpenUSD Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-01-21T22:23:49Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Version 25.02",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Version 25.02"
+        ]
+      ],
+      "sources": [
+        [
+          "OpenUSD Releases",
+          "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v25.02"
+        ]
+      ],
+      "tags": [
+        "行业动态"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "5a4bf5f5fdd23c0f0f1b",
+      "url": "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v24.11",
+      "title": "Version 24.11",
+      "excerpt": "Version 24.11",
+      "publishedAt": "2024-10-25T20:52:31Z",
+      "sourceId": "openusd",
+      "sourceName": "OpenUSD Releases",
+      "lane": "news",
+      "category": "行业动态",
+      "author": "OpenUSD Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2024-10-25T20:52:31Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Version 24.11",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Version 24.11"
+        ]
+      ],
+      "sources": [
+        [
+          "OpenUSD Releases",
+          "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v24.11"
+        ]
+      ],
+      "tags": [
+        "行业动态"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    }
+  ],
+  "caseCandidates": [
+    {
+      "id": "143d0040a196fe573687",
+      "url": "https://www.youtube.com/shorts/-9kkHWJgMs4",
+      "title": "Add creature swarms to any shot with the Spyderfy Add-on for After Effects and Blender 3D!",
+      "excerpt": "",
+      "publishedAt": "2026-08-31T01:29:52Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect https://www.youtube.com/channel/UCNlTpCS9gBS_bSXmn1B9Img",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "d715db7f0a63dd8cc312",
+      "url": "https://www.youtube.com/watch?v=A2OqsBPAnV8",
+      "title": "This After Effects Plugin Lets You Add 3D Swarms in Seconds: Spyderfy Add-on",
+      "excerpt": "",
+      "publishedAt": "2026-08-29T20:17:12Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect https://www.youtube.com/channel/UCNlTpCS9gBS_bSXmn1B9Img",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "01d63ccc33cabb2672bb",
+      "url": "https://www.youtube.com/shorts/0G004MFnpEM",
+      "title": "What Happens When You Use 209 Layers in an After Effects Project #aftereffects #animation #aivideo",
+      "excerpt": "",
+      "publishedAt": "2026-08-29T10:00:16Z",
+      "sourceId": "mdmz",
+      "sourceName": "MDMZ 原视频",
+      "lane": "cases",
+      "category": "AI 工作流",
+      "author": "MDMZ https://www.youtube.com/channel/UC8vOqCiMelDzID3_9lcUYXg",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "900574c44e3c0d76c9b5",
+      "url": "https://www.youtube.com/shorts/aMpi1Pn_Y9A",
+      "title": "New Spyderfy Plugin for After Effects!? (Available on Superhivemarket) #aftereffects #motiongraphics",
+      "excerpt": "",
+      "publishedAt": "2026-08-24T09:02:25Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect https://www.youtube.com/channel/UCNlTpCS9gBS_bSXmn1B9Img",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "d6cdca8b119b48aa0f54",
+      "url": "https://www.youtube.com/watch?v=d_wEd-fZcdg",
+      "title": "How To Use MiniMax H3 in ComfyUI: Best FREE AI Video Model of 2026!",
+      "excerpt": "",
+      "publishedAt": "2026-08-08T16:47:48Z",
+      "sourceId": "mdmz",
+      "sourceName": "MDMZ 原视频",
+      "lane": "cases",
+      "category": "AI 工作流",
+      "author": "MDMZ https://www.youtube.com/channel/UC8vOqCiMelDzID3_9lcUYXg",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "eac071e53fd5d678053d",
+      "url": "https://www.youtube.com/watch?v=bfIj71EblzE",
+      "title": "A 10-Year-Old VFX Breakdown | Rise Short Film (Blender + After Effects)",
+      "excerpt": "",
+      "publishedAt": "2026-08-02T21:31:19Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect https://www.youtube.com/channel/UCNlTpCS9gBS_bSXmn1B9Img",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "98f3cb9e7e8c3254d9f9",
+      "url": "https://www.youtube.com/watch?v=GpsS9YW2MQk",
+      "title": "LTX Director 2.0: FREE AI Videos With FULL Control | ComfyUI Tutorial",
+      "excerpt": "",
+      "publishedAt": "2026-07-30T11:01:39Z",
+      "sourceId": "mdmz",
+      "sourceName": "MDMZ 原视频",
+      "lane": "cases",
+      "category": "AI 工作流",
+      "author": "MDMZ https://www.youtube.com/channel/UC8vOqCiMelDzID3_9lcUYXg",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "f7ce7e20311c6b1b9eb2",
+      "url": "https://www.youtube.com/shorts/j5LHc0zUNjk",
+      "title": "Anatomy of a Hollywood Shootout: 180 Rule Explained #vfx #blender3d #filmmaking",
+      "excerpt": "",
+      "publishedAt": "2026-07-10T20:09:52Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect https://www.youtube.com/channel/UCNlTpCS9gBS_bSXmn1B9Img",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "e4829607e5a133db0f3b",
+      "url": "https://www.youtube.com/shorts/kLRC21uoAJw",
+      "title": "Drone footage → 3D fly-through #gaussiansplatting #360drone #antigravity",
+      "excerpt": "",
+      "publishedAt": "2026-06-26T10:49:22Z",
+      "sourceId": "mdmz",
+      "sourceName": "MDMZ 原视频",
+      "lane": "cases",
+      "category": "AI 工作流",
+      "author": "MDMZ https://www.youtube.com/channel/UC8vOqCiMelDzID3_9lcUYXg",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "edee686c70d9cf4a92d7",
+      "url": "https://www.youtube.com/shorts/HpBySUbl1P8",
+      "title": "CGI Burning House VFX: Blender 3d + After Effects #vfx #blender3d #filmmaker",
+      "excerpt": "",
+      "publishedAt": "2026-06-22T17:30:16Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect https://www.youtube.com/channel/UCNlTpCS9gBS_bSXmn1B9Img",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "2a3073b923d713c7c6bb",
+      "url": "https://www.youtube.com/shorts/ygMeWeptcMw",
+      "title": "How We Filmed This CGI Burning House Sequence YT #vfx #blender3d #filmmaking",
+      "excerpt": "",
+      "publishedAt": "2026-06-21T18:34:05Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect https://www.youtube.com/channel/UCNlTpCS9gBS_bSXmn1B9Img",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "04f5605e7bf0a3169cdf",
+      "url": "https://www.youtube.com/watch?v=vMKEN0oG3_0",
+      "title": "CGI Burning House: VFX Walkthrough in Blender 3d",
+      "excerpt": "",
+      "publishedAt": "2026-06-20T07:38:03Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect https://www.youtube.com/channel/UCNlTpCS9gBS_bSXmn1B9Img",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "cb8c15f0aa64cde222d8",
+      "url": "https://www.youtube.com/shorts/4jNYFLg83TM",
+      "title": "How we filmed this CGI train scene on no budget: Blender VFX Breakdown #vfx #cinematic #blender3d",
+      "excerpt": "",
+      "publishedAt": "2026-06-16T20:36:15Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect https://www.youtube.com/channel/UCNlTpCS9gBS_bSXmn1B9Img",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "cf8f846c41883635c14d",
+      "url": "https://www.youtube.com/watch?v=E5P821d3Z-E",
+      "title": "We Made a Hollywood Train Action Scene With No Budget!",
+      "excerpt": "",
+      "publishedAt": "2026-06-16T01:35:44Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect https://www.youtube.com/channel/UCNlTpCS9gBS_bSXmn1B9Img",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "eeaa59bd9cc551008246",
+      "url": "https://www.youtube.com/shorts/gmGT5RXjc7A",
+      "title": "Add CGI Soldiers to a Shootout with Blender 3d! #vfx #b3d #blender3d",
+      "excerpt": "",
+      "publishedAt": "2026-06-09T06:25:01Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect https://www.youtube.com/channel/UCNlTpCS9gBS_bSXmn1B9Img",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "04c19e98aee55ba13e64",
+      "url": "https://www.youtube.com/shorts/SRF7gvCNdgA",
+      "title": "CGI Helicopter System in Blender 3d #vfx #3dcompositing #blender3d",
+      "excerpt": "",
+      "publishedAt": "2026-06-06T19:59:33Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect https://www.youtube.com/channel/UCNlTpCS9gBS_bSXmn1B9Img",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "0dc839d02e7a74acee01",
+      "url": "https://www.youtube.com/shorts/zFwXJQGiM34",
+      "title": "Using a 360 Drone to Make 3D Scans #gaussiansplatting #drone #fpv",
+      "excerpt": "",
+      "publishedAt": "2026-06-06T13:00:39Z",
+      "sourceId": "mdmz",
+      "sourceName": "MDMZ 原视频",
+      "lane": "cases",
+      "category": "AI 工作流",
+      "author": "MDMZ https://www.youtube.com/channel/UC8vOqCiMelDzID3_9lcUYXg",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "cab73faeeaa2be523cb9",
+      "url": "https://www.youtube.com/watch?v=oQxD7sabZMk",
+      "title": "This Shootout Only Had One Actor (Here's How We Did It)",
+      "excerpt": "",
+      "publishedAt": "2026-06-05T18:50:02Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect https://www.youtube.com/channel/UCNlTpCS9gBS_bSXmn1B9Img",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "f85c5466fe9afd24efe1",
+      "url": "https://www.youtube.com/shorts/X4FMe21SWmo",
+      "title": "360° Drone to 3D Animation #gaussiansplatting #fpv #vfx",
+      "excerpt": "",
+      "publishedAt": "2026-06-05T13:00:15Z",
+      "sourceId": "mdmz",
+      "sourceName": "MDMZ 原视频",
+      "lane": "cases",
+      "category": "AI 工作流",
+      "author": "MDMZ https://www.youtube.com/channel/UC8vOqCiMelDzID3_9lcUYXg",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "b51b4fd7b47c6cddd93f",
+      "url": "https://www.youtube.com/shorts/NDnBl9JzSoU",
+      "title": "CGI Soldiers Breakdown | Blender VFX #vfx #blender3d #aftereffects",
+      "excerpt": "",
+      "publishedAt": "2026-06-04T17:57:59Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect https://www.youtube.com/channel/UCNlTpCS9gBS_bSXmn1B9Img",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "6a5660d90b26c82e3abd",
+      "url": "https://www.youtube.com/shorts/ZjMuZ1uZ99Y",
+      "title": "Use VFX to Extend Environments! #vfx #aftereffects #blender3d",
+      "excerpt": "",
+      "publishedAt": "2026-06-03T18:47:42Z",
+      "sourceId": "lightarchitect",
+      "sourceName": "LightArchitect 原视频",
+      "lane": "cases",
+      "category": "实拍与特效",
+      "author": "LightArchitect https://www.youtube.com/channel/UCNlTpCS9gBS_bSXmn1B9Img",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "878c2556c194db345511",
+      "url": "https://www.youtube.com/watch?v=IoR-HqD_ojg",
+      "title": "Convert Any Video to a 3D Model | Gaussian Splatting Tutorial",
+      "excerpt": "",
+      "publishedAt": "2026-05-09T12:53:28Z",
+      "sourceId": "mdmz",
+      "sourceName": "MDMZ 原视频",
+      "lane": "cases",
+      "category": "AI 工作流",
+      "author": "MDMZ https://www.youtube.com/channel/UC8vOqCiMelDzID3_9lcUYXg",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "7136062c3ce1fc71eb1c",
+      "url": "https://www.youtube.com/watch?v=_V92NZdP4y0",
+      "title": "Seedance 2.0 Can Do This And More... (Real Projects Tested)",
+      "excerpt": "",
+      "publishedAt": "2026-04-09T17:00:06Z",
+      "sourceId": "mdmz",
+      "sourceName": "MDMZ 原视频",
+      "lane": "cases",
+      "category": "AI 工作流",
+      "author": "MDMZ https://www.youtube.com/channel/UC8vOqCiMelDzID3_9lcUYXg",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "be8f973ff4ce58d5febe",
+      "url": "https://www.youtube.com/watch?v=9kEux1X_I-U",
+      "title": "SeedVR 2.5 ComfyUI Tutorial | FREE AI Video Upscaler to 4K",
+      "excerpt": "",
+      "publishedAt": "2026-03-27T13:40:44Z",
+      "sourceId": "mdmz",
+      "sourceName": "MDMZ 原视频",
+      "lane": "cases",
+      "category": "AI 工作流",
+      "author": "MDMZ https://www.youtube.com/channel/UC8vOqCiMelDzID3_9lcUYXg",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "228109f44f151492cd39",
+      "url": "https://www.youtube.com/shorts/SHrtsq58x64",
+      "title": "AI Animation 2022 vs 2026 #ai #comfyUI #wan22",
+      "excerpt": "",
+      "publishedAt": "2026-03-18T04:40:04Z",
+      "sourceId": "mdmz",
+      "sourceName": "MDMZ 原视频",
+      "lane": "cases",
+      "category": "AI 工作流",
+      "author": "MDMZ https://www.youtube.com/channel/UC8vOqCiMelDzID3_9lcUYXg",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "42fa29d0e4429e4fdd07",
+      "url": "https://www.youtube.com/watch?v=W-PIgkRWJOc",
+      "title": "How To Use LTX-2.3 in ComfyUI | Best FREE AI Video Model?",
+      "excerpt": "",
+      "publishedAt": "2026-03-14T11:00:47Z",
+      "sourceId": "mdmz",
+      "sourceName": "MDMZ 原视频",
+      "lane": "cases",
+      "category": "AI 工作流",
+      "author": "MDMZ https://www.youtube.com/channel/UC8vOqCiMelDzID3_9lcUYXg",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "8e706fc2ba999f33e1a2",
+      "url": "https://www.youtube.com/shorts/ZdmgxIpX-5Q",
+      "title": "AI vs After EFFECTS #VFX #Tutorial #editing",
+      "excerpt": "",
+      "publishedAt": "2026-02-26T06:46:13Z",
+      "sourceId": "mdmz",
+      "sourceName": "MDMZ 原视频",
+      "lane": "cases",
+      "category": "AI 工作流",
+      "author": "MDMZ https://www.youtube.com/channel/UC8vOqCiMelDzID3_9lcUYXg",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "a6635deb7bc7bb68554b",
+      "url": "https://www.youtube.com/shorts/gTwEhcg_-z4",
+      "title": "Seedance 2.0 is Mind-Blowing! 🤯 #aivideo #seedance2 #ai",
+      "excerpt": "",
+      "publishedAt": "2026-02-17T10:26:09Z",
+      "sourceId": "mdmz",
+      "sourceName": "MDMZ 原视频",
+      "lane": "cases",
+      "category": "AI 工作流",
+      "author": "MDMZ https://www.youtube.com/channel/UC8vOqCiMelDzID3_9lcUYXg",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "b0de6048f84ff3b96e83",
+      "url": "https://www.youtube.com/shorts/naoVmKw211o",
+      "title": "How To Make Money With AI Influencers #HiggsfieldAI #AIVideo #freeaivideogenerator",
+      "excerpt": "",
+      "publishedAt": "2026-02-05T08:39:17Z",
+      "sourceId": "mdmz",
+      "sourceName": "MDMZ 原视频",
+      "lane": "cases",
+      "category": "AI 工作流",
+      "author": "MDMZ https://www.youtube.com/channel/UC8vOqCiMelDzID3_9lcUYXg",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "28cf3e8aa507eda33453",
+      "url": "https://www.youtube.com/watch?v=ZxlREohpsxc",
+      "title": "Wan SCAIL: Swap Multiple Characters Using AI | FREE ComfyUI Tutorial",
+      "excerpt": "",
+      "publishedAt": "2026-01-26T11:31:42Z",
+      "sourceId": "mdmz",
+      "sourceName": "MDMZ 原视频",
+      "lane": "cases",
+      "category": "AI 工作流",
+      "author": "MDMZ https://www.youtube.com/channel/UC8vOqCiMelDzID3_9lcUYXg",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    }
+  ],
+  "notice": "来源订阅采集；未启用 LLM 整理，不代表完整行业覆盖或爆款排名。"
+}
