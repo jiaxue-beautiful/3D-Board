@@ -1,13 +1,16 @@
 name: 3D Radar daily update
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '17 0 * * *'
+
+concurrency:
+  group: radar-daily-update
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
