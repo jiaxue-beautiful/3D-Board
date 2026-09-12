@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "checkedAt": "2026-09-11T07:14:52.712650Z",
-  "windowStart": "2026-09-10T07:14:52.712650Z",
-  "windowEnd": "2026-09-11T07:14:52.712650Z",
+  "checkedAt": "2026-09-12T00:31:57.611900Z",
+  "windowStart": "2026-09-11T00:31:57.611900Z",
+  "windowEnd": "2026-09-12T00:31:57.611900Z",
   "news": [
     {
       "id": "a7c1e5fcf9af05021743",
@@ -105,10 +105,7 @@
       "verificationNote": "仅核对订阅原文中的引文与发布时间；未完成全文语义审核、未观看视频，不代表热度排名。"
     }
   ],
-  "todayIds": [
-    "a7c1e5fcf9af05021743",
-    "cca8d225a3520ac4af7c"
-  ],
+  "todayIds": [],
   "cases": [
     {
       "id": "143d0040a196fe573687",
@@ -352,8 +349,9 @@
       "id": "arxiv-3d",
       "name": "arXiv 3D 研究",
       "lane": "news",
-      "ok": true,
-      "count": 20
+      "ok": false,
+      "count": 0,
+      "error": "来源不可用或内容格式不符；未绕过访问限制"
     },
     {
       "id": "lightarchitect",
@@ -372,28 +370,20 @@
   ],
   "outcomes": [
     {
-      "id": "a7c1e5fcf9af05021743",
-      "status": "accepted"
-    },
-    {
-      "id": "cca8d225a3520ac4af7c",
-      "status": "accepted"
-    },
-    {
       "id": "143d0040a196fe573687",
-      "status": "accepted"
+      "status": "unchanged"
     },
     {
       "id": "d715db7f0a63dd8cc312",
-      "status": "accepted"
+      "status": "unchanged"
     },
     {
       "id": "01d63ccc33cabb2672bb",
-      "status": "accepted"
+      "status": "unchanged"
     },
     {
       "id": "900574c44e3c0d76c9b5",
-      "status": "accepted"
+      "status": "unchanged"
     },
     {
       "id": "0dc839d02e7a74acee01",

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-11T07:14:52.712650Z",
-  "windowStart": "2026-09-10T07:14:52.712650Z",
-  "windowEnd": "2026-09-11T07:14:52.712650Z",
+  "checkedAt": "2026-09-12T00:31:57.611900Z",
+  "windowStart": "2026-09-11T00:31:57.611900Z",
+  "windowEnd": "2026-09-12T00:31:57.611900Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -45,8 +45,9 @@
       "id": "arxiv-3d",
       "name": "arXiv 3D 研究",
       "lane": "news",
-      "ok": true,
-      "count": 20
+      "ok": false,
+      "count": 0,
+      "error": "来源不可用或内容格式不符；未绕过访问限制"
     },
     {
       "id": "lightarchitect",
@@ -63,78 +64,7 @@
       "count": 15
     }
   ],
-  "events": [
-    {
-      "id": "a7c1e5fcf9af05021743",
-      "url": "https://arxiv.org/abs/2609.11894v1",
-      "title": "3D Point Splatting for mmWave Radar Novel View Synthesis",
-      "excerpt": "Solving novel view synthesis (NVS) for millimeter-wave (mmWave) radar requires a renderer that is physically faithful, complex-valued, and multi-viewpoint-tractable. No prior method achieves these three properties simultaneously. Differentiable Monte Carlo (MC) ray tracers implem",
-      "publishedAt": "2026-09-10T17:52:17Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Rajalakshmi Nandakumar",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-10T17:52:17Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Solving novel view synthesis (NVS) for millimeter-wave (mmWave) radar requires a renderer that is physically faithful, complex-valued, and multi-viewpoint-tractable. No prior method achieves these three properties simultaneously. Differentiable Monte Carlo (MC) ray tracers implem",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Solving novel view synthesis (NVS) for millimeter-wave (mmWave) radar requires a renderer that is physically faithful, complex-valued, and multi-viewpoint-tractable. No prior method achieves these three properties simultaneously. Differentiable Monte Carlo (MC) ray tracers implem"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.11894v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-11T07:14:52.712650Z"
-    },
-    {
-      "id": "cca8d225a3520ac4af7c",
-      "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-5/",
-      "title": "Dev snapshot: Godot 4.8 dev 5",
-      "excerpt": "As we’re hoping to enter feature freeze later in the month, you can expect this to be one of the last development snapshot highlights of the 4.8 cycle. Relatedly, many of our contributors are currently hard at work to help get their features across the finish line in time, so the",
-      "publishedAt": "2026-09-10T12:00:00Z",
-      "sourceId": "godot",
-      "sourceName": "Godot 官方新闻",
-      "lane": "news",
-      "category": "引擎与交互",
-      "author": "Thaddeus Crews",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-10T12:00:00Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "As we’re hoping to enter feature freeze later in the month, you can expect this to be one of the last development snapshot highlights of the 4.8 cycle. Relatedly, many of our contributors are currently hard at work to help get their features across the finish line in time, so the",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "As we’re hoping to enter feature freeze later in the month, you can expect this to be one of the last development snapshot highlights of the 4.8 cycle. Relatedly, many of our contributors are currently hard at work to help get their features across the finish line in time, so the"
-        ]
-      ],
-      "sources": [
-        [
-          "Godot 官方新闻",
-          "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-5/"
-        ]
-      ],
-      "tags": [
-        "引擎与交互"
-      ],
-      "firstSeenAt": "2026-09-11T07:14:52.712650Z"
-    }
-  ],
+  "events": [],
   "archive": [
     {
       "id": "a7c1e5fcf9af05021743",
