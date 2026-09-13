@@ -1,4 +1,4 @@
-const events = [
+let events = [
  {id:'blender',category:'传统建模',type:'软件更新',status:'升温',date:'2024-07-16',title:'Blender 4.2 LTS：实时渲染迎来一次大更新',summary:'EEVEE 重写，带来新的全局光照、位移与景深表现。',background:'EEVEE 是 Blender 的实时渲染引擎，适合快速预览、动画和风格化创作。4.2 LTS 重写了引擎，让艺术家可以在更接近最终效果的画面里工作。LTS 表示长期支持版本。',signal:'正式发布与长期支持机制，是观察专业用户迁移和工作流测试的切入点。当前“升温”标签仅用于界面演示。',meaning:'一句话：Blender 把实时预览的画质和稳定性整体往前推了一步，让更多创作者可以在接近最终效果的画面里直接制作。',difference:'以前：EEVEE 更偏快速预览，复杂光照和置换效果常需要切到 Cycles 或离线渲染；现在：EEVEE Next 重写了光照、阴影、置换和景深等核心能力，并以 4.2 LTS 形式长期维护。',industryImpact:'对 3D 行业：建模、材质和动画的迭代反馈更快，实时风格化、虚拟制作和资产展示的成本下降，但不同硬件上的效果仍需实测。',tripoImpact:'对 Tripo：生成模型进入 Blender 后，可以更快完成材质、灯光和镜头预览；导出资产的真实生产价值会更依赖 Blender 4.2 的兼容性与渲染表现。',images:[['EEVEE Next 官方示意','https://developer.blender.org/docs/release_notes/4.2/'],['Blender 4.2 发布页','https://www.blender.org/download/releases/4-2/']],evidence:[['官方发布页 · 4.2 LTS','页面中的“Blender 4.2 LTS”与版本定位，确认这是长期支持版本。'],['开发者文档 · EEVEE Next','在文档内查找 “EEVEE Next” 小节，重点看 Global Illumination、Shadow、Light Linking、Depth of Field。'],['开发者文档 · Geometry Nodes','在页面内查找 “Repeat Zone” 或 “Geometry Nodes”，核对程序化建模相关变化。']],sources:[['Blender 官方','https://www.blender.org/download/releases/4-2/'],['开发者文档（EEVEE Next）','https://developer.blender.org/docs/release_notes/4.2/']],tags:['Blender','EEVEE','实时渲染']},
  {id:'gaussian',category:'学术研究',type:'论文 / 代码',status:'专业关注',date:'2023-08-08',title:'3D Gaussian Splatting，让实景重建实时可看',summary:'用三维高斯表示场景，在新视角画质与渲染速度之间找到新路径。',background:'这项 SIGGRAPH 2023 研究以一组可优化的三维高斯表示场景。相较传统网格，它更侧重从照片重建可观看的场景；可编辑资产、几何精度与动态场景仍是需要分别评估的问题。',signal:'论文、官方实现与后续工具是不同的证据层。技术价值可以从方法和实验理解，实际关注增长仍需持续采样。',sources:[['论文原文','https://arxiv.org/abs/2308.04079'],['GitHub','https://github.com/graphdeco-inria/gaussian-splatting']],tags:['Gaussian Splatting','场景重建','实时渲染']},
  {id:'trellis',category:'AI 3D',type:'研究 / 开源',status:'升温',date:'2024-12-05',title:'TRELLIS：一张图，生成多种形式的 3D 资产',summary:'结构化潜在表示，让同一生成流程输出网格、辐射场或三维高斯。',background:'TRELLIS 是微软公开的3D生成研究。其核心是结构化潜在表示（SLAT），将形状与外观信息编码在统一表示中，再解码为不同3D格式。生成结果仍需按目标生产流程检查。',signal:'可阅读的论文、公开代码和可运行示例让研究能被开发者测试。演示排序不代表当前 GitHub 热度。',sources:[['GitHub','https://github.com/microsoft/TRELLIS'],['论文原文','https://arxiv.org/abs/2412.01506']],tags:['图生3D','开源','TRELLIS']},
@@ -19,7 +19,8 @@ const historicalCases = [
  {id:'case-web3d',use:'交互体验',title:'把 3D 资产放进可交互的网页体验',desc:'模型不止用于展示，也可以成为网页、小游戏或产品配置器中的可操作对象。',tools:'Three.js · WebGPU · glTF',source:['Three.js','https://threejs.org/docs/'],image:null},
  {id:'case-modular',use:'游戏生产',title:'把一栋房子拆成可复用的游戏资产套件',desc:'从单个建筑概念出发，拆分模块、批量生成，再放入引擎验证复用效果。',tools:'Blender · Unity · Modular Kit',source:['案例参考','https://www.youtube.com/results?search_query=AI+3D+modular+game+assets'],image:null}
 ];
-const cases = socialCases;
+let cases = socialCases;
+const baseEvents=events,baseCases=cases;
 const categories=['全部','传统建模','AI 3D','学术研究','引擎与交互','图形与渲染','行业应用','行业动态'];
 const $=s=>document.querySelector(s);
 let category='全部',query='',sort='rank',view='today',saved=new Set(),activeId=null,toastTimer,caseUse='全部',caseFormat='全部',caseQuery='';
@@ -36,7 +37,7 @@ function render(){
  const uses=['全部',...new Set(cases.map(c=>c.use))]; $('#case-filters').innerHTML=uses.map(u=>`<button data-case-use="${u}" class="${caseUse===u?'active':''}">${u}</button>`).join('');
  const formats=['全部',...new Set(cases.map(c=>c.format))]; $('#case-formats').innerHTML=formats.map(f=>`<button data-case-format="${f}" class="${caseFormat===f?'active':''}">${f}</button>`).join('');
  const shownCases=CaseUI.filterCases(cases,{use:caseUse,format:caseFormat,query:caseQuery});
- $('#case-count').textContent=`${shownCases.length} 条真实作品 · 2026-09-10 收录`;
+ $('#case-count').textContent=`${shownCases.length} 条作品参考`;
  $('#case-empty').hidden=shownCases.length>0;
  $('#case-grid').innerHTML=shownCases.map(CaseUI.caseCard).join('');
  $('#featured').innerHTML=events.slice(0,3).map((e,i)=>`<article class="feature"><div class="feature-top"><span class="feature-num">0${i+1}</span>${badge(e)}</div><div class="feature-category">${e.category} / ${e.type}</div><h3><button class="title-button" data-event="${e.id}">${e.title}</button></h3><p>${e.summary}</p><div class="source-links">${sources(e)}</div></article>`).join('');
@@ -60,4 +61,14 @@ $('#about').onclick=()=>$('#info').showModal();$('#close-case').onclick=()=>$('#
 for(const dialog of document.querySelectorAll('dialog')){dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});dialog.addEventListener('close',()=>document.body.style.overflow='');dialog.addEventListener('toggle',()=>{if(dialog.open)document.body.style.overflow='hidden';});}
 function route(){const target=location.hash.slice(1);view=['today','explore','saved','cases'].includes(target)?target:'today';reset();window.scrollTo(0,0);}window.addEventListener('hashchange',route);
 document.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!document.querySelector('dialog[open]')){e.preventDefault();$('#search').focus();}});
-$('#topic-links').innerHTML=['Blender','Gaussian Splatting','程序化建模','OpenUSD','WebGPU','图生3D'].map(t=>`<button data-topic="${t}">${t}<span>↗</span></button>`).join('');route();
+$('#topic-links').innerHTML=['Blender','Gaussian Splatting','程序化建模','OpenUSD','WebGPU','图生3D'].map(t=>`<button data-topic="${t}">${t}<span>↗</span></button>`).join('');
+async function loadDailyData(){
+ try{
+  const response=await fetch('data/digest.json?ts='+Date.now(),{cache:'no-store'});
+  if(!response.ok)throw Error('data unavailable');
+  const report=await response.json();
+  const merged=RadarData.merge(report,baseEvents,baseCases);
+  events=merged.events;cases=merged.cases;route();
+ }catch{}
+}
+route();loadDailyData();
