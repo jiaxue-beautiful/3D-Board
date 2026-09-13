@@ -30,13 +30,9 @@ jobs:
           LLM_DAILY_BUDGET_USD: ${{ secrets.LLM_DAILY_BUDGET_USD }}
         run: python scripts/digest.py --now "$(python -c 'from pathlib import Path; import json; print(json.loads(Path(".work/source-records.json").read_text())["checkedAt"])')" --confirm-model-usage --cloud-budget
       - name: Publish independent data branch
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          RADAR_DATA_BRANCH: radar-state
         run: |
-          git config user.name "3D Radar updater"
-          git config user.email "3d-radar-noreply@users.noreply.github.com"
-          git add data/report.json data/digest.json
-          if git diff --cached --quiet; then
-            echo "No data changes to publish"
-            exit 0
-          fi
-          git commit -m "chore: update independent radar data"
-          git push origin HEAD:radar-state
+          python scripts/publish_data.py
