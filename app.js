@@ -69,6 +69,10 @@ async function loadDailyData(){
   const report=await response.json();
   const merged=RadarData.merge(report,baseEvents,baseCases);
   events=merged.events;cases=merged.cases;route();
+  const parts=new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit',weekday:'long'}).formatToParts(new Date(report.checkedAt));
+  const part=type=>parts.find(item=>item.type===type)?.value||'';
+  $('.date strong').innerHTML=part('month')+'<span>/</span>'+part('day');
+  $('.date > span').textContent=part('year')+' · '+part('weekday');
  }catch{}
 }
 route();loadDailyData();
