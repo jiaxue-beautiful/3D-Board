@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-16T00:30:10.417820Z",
-  "windowStart": "2026-09-15T00:30:10.417820Z",
-  "windowEnd": "2026-09-16T00:30:10.417820Z",
+  "checkedAt": "2026-09-17T00:30:45.985328Z",
+  "windowStart": "2026-09-16T00:30:45.985328Z",
+  "windowEnd": "2026-09-17T00:30:45.985328Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -45,8 +45,9 @@
       "id": "arxiv-3d",
       "name": "arXiv 3D 研究",
       "lane": "news",
-      "ok": true,
-      "count": 20
+      "ok": false,
+      "count": 0,
+      "error": "来源不可用或内容格式不符；未绕过访问限制"
     },
     {
       "id": "lightarchitect",
@@ -63,78 +64,7 @@
       "count": 15
     }
   ],
-  "events": [
-    {
-      "id": "a17b4f755f455444c2f4",
-      "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-6/",
-      "title": "Dev snapshot: Godot 4.8 dev 6",
-      "excerpt": "“Another development snapshot already? Didn’t they just release one last Friday ?” Indeed, this is much sooner than usual. Even when taking into consideration how development snapshots become more frequent at their tail-end in preparation of feature freeze, less than a week means",
-      "publishedAt": "2026-09-15T20:00:00Z",
-      "sourceId": "godot",
-      "sourceName": "Godot 官方新闻",
-      "lane": "news",
-      "category": "引擎与交互",
-      "author": "Thaddeus Crews",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-15T20:00:00Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "“Another development snapshot already? Didn’t they just release one last Friday ?” Indeed, this is much sooner than usual. Even when taking into consideration how development snapshots become more frequent at their tail-end in preparation of feature freeze, less than a week means",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "“Another development snapshot already? Didn’t they just release one last Friday ?” Indeed, this is much sooner than usual. Even when taking into consideration how development snapshots become more frequent at their tail-end in preparation of feature freeze, less than a week means"
-        ]
-      ],
-      "sources": [
-        [
-          "Godot 官方新闻",
-          "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-6/"
-        ]
-      ],
-      "tags": [
-        "引擎与交互"
-      ],
-      "firstSeenAt": "2026-09-16T00:30:10.417820Z"
-    },
-    {
-      "id": "105f64196834384c6a04",
-      "url": "https://godotengine.org/article/rendering-cpu-optimizations/",
-      "title": "Optimizing CPU-side Rendering Code",
-      "excerpt": "I want to give people a little bit of insight into what the optimization process looks like for Godot’s renderer. From the outside, rendering optimization can look a little bit like black magic. I want to show a few examples of some optimizations that we did this year to highligh",
-      "publishedAt": "2026-09-15T17:00:00Z",
-      "sourceId": "godot",
-      "sourceName": "Godot 官方新闻",
-      "lane": "news",
-      "category": "引擎与交互",
-      "author": "Clay John",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-15T17:00:00Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "I want to give people a little bit of insight into what the optimization process looks like for Godot’s renderer. From the outside, rendering optimization can look a little bit like black magic. I want to show a few examples of some optimizations that we did this year to highligh",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "I want to give people a little bit of insight into what the optimization process looks like for Godot’s renderer. From the outside, rendering optimization can look a little bit like black magic. I want to show a few examples of some optimizations that we did this year to highligh"
-        ]
-      ],
-      "sources": [
-        [
-          "Godot 官方新闻",
-          "https://godotengine.org/article/rendering-cpu-optimizations/"
-        ]
-      ],
-      "tags": [
-        "引擎与交互"
-      ],
-      "firstSeenAt": "2026-09-16T00:30:10.417820Z"
-    }
-  ],
+  "events": [],
   "archive": [
     {
       "id": "a17b4f755f455444c2f4",
@@ -169,7 +99,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-16T00:30:10.417820Z"
+      "firstSeenAt": "2026-09-17T00:30:45.985328Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -204,287 +134,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-16T00:30:10.417820Z"
-    },
-    {
-      "id": "b200b91cfb25fd69b027",
-      "url": "https://arxiv.org/abs/2609.15735v1",
-      "title": "Transforming harmonic coefficients for 3D splat compression",
-      "excerpt": "We address the problem of color attribute compression for 3D splats. We show that all images generated by 3D splats are linear in the coefficients for each color channel, each spherical harmonic, and each splat, and we identify a basis for the space of all such images. We identif",
-      "publishedAt": "2026-09-14T15:28:29Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Gene Cheung",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-14T15:28:29Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We address the problem of color attribute compression for 3D splats. We show that all images generated by 3D splats are linear in the coefficients for each color channel, each spherical harmonic, and each splat, and we identify a basis for the space of all such images. We identif",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We address the problem of color attribute compression for 3D splats. We show that all images generated by 3D splats are linear in the coefficients for each color channel, each spherical harmonic, and each splat, and we identify a basis for the space of all such images. We identif"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.15735v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-16T00:30:10.417820Z"
-    },
-    {
-      "id": "f7072cab43423bfc66b6",
-      "url": "https://arxiv.org/abs/2609.15659v1",
-      "title": "Kaininja: Extending Native 3D Generators to the Part Level",
-      "excerpt": "Native 3D generators turn one image into a single mesh. TRELLIS.2 and its peers deliver high-fidelity non-watertight geometry with materials, but the output is one fused object, while downstream work such as editing, rigging and simulation operates on part-level assets. A naive i",
-      "publishedAt": "2026-09-14T14:40:52Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Zhixiang Wang",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-14T14:40:52Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Native 3D generators turn one image into a single mesh. TRELLIS.2 and its peers deliver high-fidelity non-watertight geometry with materials, but the output is one fused object, while downstream work such as editing, rigging and simulation operates on part-level assets. A naive i",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Native 3D generators turn one image into a single mesh. TRELLIS.2 and its peers deliver high-fidelity non-watertight geometry with materials, but the output is one fused object, while downstream work such as editing, rigging and simulation operates on part-level assets. A naive i"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.15659v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-16T00:30:10.417820Z"
-    },
-    {
-      "id": "be76a71a0b54a322a563",
-      "url": "https://arxiv.org/abs/2609.15392v1",
-      "title": "ESG: Generating Physically Consistent Dynamic 3D Scenes from Text Descriptions",
-      "excerpt": "Recent progress in image and 3D scene generation has enabled increasingly realistic static environments, yet most methods remain confined to such static configurations. Generating dynamic scenes from natural language is fundamentally challenging: it requires joint reasoning over ",
-      "publishedAt": "2026-09-14T11:19:25Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yuchi Huo",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-14T11:19:25Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Recent progress in image and 3D scene generation has enabled increasingly realistic static environments, yet most methods remain confined to such static configurations. Generating dynamic scenes from natural language is fundamentally challenging: it requires joint reasoning over ",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Recent progress in image and 3D scene generation has enabled increasingly realistic static environments, yet most methods remain confined to such static configurations. Generating dynamic scenes from natural language is fundamentally challenging: it requires joint reasoning over "
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.15392v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-16T00:30:10.417820Z"
-    },
-    {
-      "id": "de7a306b64644b7d33d4",
-      "url": "https://arxiv.org/abs/2609.13903v1",
-      "title": "SkyAnchor: Updating Metric-scale Aerial 3D Gaussian Scenes from Unposed Ground-View Sequences",
-      "excerpt": "We study how to update a pre-built aerial scene with a newly captured, unposed ground-view sequence. The aerial scene already contains a reliable metric Structure-from-Motion (SfM) reconstruction and a pre-trained 3D Gaussian Splatting (3DGS) model, whereas the ground-view sequen",
-      "publishedAt": "2026-09-12T12:20:25Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Wufan Zhao",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-12T12:20:25Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We study how to update a pre-built aerial scene with a newly captured, unposed ground-view sequence. The aerial scene already contains a reliable metric Structure-from-Motion (SfM) reconstruction and a pre-trained 3D Gaussian Splatting (3DGS) model, whereas the ground-view sequen",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We study how to update a pre-built aerial scene with a newly captured, unposed ground-view sequence. The aerial scene already contains a reliable metric Structure-from-Motion (SfM) reconstruction and a pre-trained 3D Gaussian Splatting (3DGS) model, whereas the ground-view sequen"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.13903v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-16T00:30:10.417820Z"
-    },
-    {
-      "id": "41fc893673c13f9de987",
-      "url": "https://arxiv.org/abs/2609.13859v1",
-      "title": "GaussAnything: Semantic Intent-Driven Refinement of Evolving Gaussian Scenes for Standalone VR",
-      "excerpt": "Deploying reconstructed 3D environments on standalone VR headsets are constrained by limited compute and memory, and conventional level-of-detail policies optimize for visibility without accounting for the user's explicit inspection intent. We present GaussAnything, a native Open",
-      "publishedAt": "2026-09-12T10:22:09Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Dzmitry Tsetserukou",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-12T10:22:09Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Deploying reconstructed 3D environments on standalone VR headsets are constrained by limited compute and memory, and conventional level-of-detail policies optimize for visibility without accounting for the user's explicit inspection intent. We present GaussAnything, a native Open",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Deploying reconstructed 3D environments on standalone VR headsets are constrained by limited compute and memory, and conventional level-of-detail policies optimize for visibility without accounting for the user's explicit inspection intent. We present GaussAnything, a native Open"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.13859v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-16T00:30:10.417820Z"
-    },
-    {
-      "id": "9eb5b2fc4e22eadf50d1",
-      "url": "https://arxiv.org/abs/2609.13729v1",
-      "title": "A Variational Optimal Transport Operator on Incompressible Flow",
-      "excerpt": "We present the Variational Incompressible Optimal Transport (VIOT) operator, a generative neural operator for amortized incompressible density transport. Given a new source-target density pair, VIOT predicts a divergence-free velocity field and generates the full transport trajec",
-      "publishedAt": "2026-09-12T05:43:44Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Bo Zhu",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-12T05:43:44Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We present the Variational Incompressible Optimal Transport (VIOT) operator, a generative neural operator for amortized incompressible density transport. Given a new source-target density pair, VIOT predicts a divergence-free velocity field and generates the full transport trajec",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We present the Variational Incompressible Optimal Transport (VIOT) operator, a generative neural operator for amortized incompressible density transport. Given a new source-target density pair, VIOT predicts a divergence-free velocity field and generates the full transport trajec"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.13729v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-16T00:30:10.417820Z"
-    },
-    {
-      "id": "6ff3df6db8aeb47cca84",
-      "url": "https://arxiv.org/abs/2609.13146v1",
-      "title": "SNAP3D: Physically Grounded 3D Parts for Assembly from a Single Image",
-      "excerpt": "Part-aware 3D asset generation enables applications such as editing, articulation, simulation, and fabrication, yet existing methods can generate visually complete individual parts without ensuring that they form a valid physical assembly. Consequently, generated neighboring part",
-      "publishedAt": "2026-09-11T17:59:31Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Xiaoxuan Ma",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-11T17:59:31Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Part-aware 3D asset generation enables applications such as editing, articulation, simulation, and fabrication, yet existing methods can generate visually complete individual parts without ensuring that they form a valid physical assembly. Consequently, generated neighboring part",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Part-aware 3D asset generation enables applications such as editing, articulation, simulation, and fabrication, yet existing methods can generate visually complete individual parts without ensuring that they form a valid physical assembly. Consequently, generated neighboring part"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.13146v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-16T00:30:10.417820Z"
-    },
-    {
-      "id": "9792db10b965758f83a5",
-      "url": "https://arxiv.org/abs/2609.12342v1",
-      "title": "UniMo: Unifying Human and Animal Motion Generation",
-      "excerpt": "The conditional generation of 3D motion has emerged as a key research topic due to its wide applicability across robotics, AR/VR, gaming, and content creation. However, extending recent advances in text-driven human motion generation to the animal domain remains challenging due t",
-      "publishedAt": "2026-09-11T02:08:54Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Richard Hartley",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-11T02:08:54Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "The conditional generation of 3D motion has emerged as a key research topic due to its wide applicability across robotics, AR/VR, gaming, and content creation. However, extending recent advances in text-driven human motion generation to the animal domain remains challenging due t",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "The conditional generation of 3D motion has emerged as a key research topic due to its wide applicability across robotics, AR/VR, gaming, and content creation. However, extending recent advances in text-driven human motion generation to the animal domain remains challenging due t"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.12342v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-16T00:30:10.417820Z"
+      "firstSeenAt": "2026-09-17T00:30:45.985328Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -625,41 +275,6 @@
         "学术研究"
       ],
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
-    },
-    {
-      "id": "4f134ec251c86ede9476",
-      "url": "https://arxiv.org/abs/2609.09828v2",
-      "title": "RealSimLoop: Online Real-to-Sim Adaptation via Differentiable Reduced-Order Simulation with Vision Feedback",
-      "excerpt": "Real-world observations of deformable objects are often sparse or surface-level, while downstream tasks require hidden physical quantities such as internal deformation, stress fields, and interaction forces. Physics-based simulation can recover these quantities, but online real-t",
-      "publishedAt": "2026-09-09T07:33:40Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Guoxin Fang",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-09T07:33:40Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Real-world observations of deformable objects are often sparse or surface-level, while downstream tasks require hidden physical quantities such as internal deformation, stress fields, and interaction forces. Physics-based simulation can recover these quantities, but online real-t",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Real-world observations of deformable objects are often sparse or surface-level, while downstream tasks require hidden physical quantities such as internal deformation, stress fields, and interaction forces. Physics-based simulation can recover these quantities, but online real-t"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.09828v2"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-16T00:30:10.417820Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -2530,7 +2145,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-09-16T00:30:10.417820Z"
+      "firstSeenAt": "2026-09-17T00:30:45.985328Z"
     },
     {
       "id": "143d0040a196fe573687",
