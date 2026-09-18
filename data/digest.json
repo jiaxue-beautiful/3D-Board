@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "checkedAt": "2026-09-17T00:30:45.985328Z",
-  "windowStart": "2026-09-16T00:30:45.985328Z",
-  "windowEnd": "2026-09-17T00:30:45.985328Z",
+  "checkedAt": "2026-09-18T00:30:13.010754Z",
+  "windowStart": "2026-09-17T00:30:13.010754Z",
+  "windowEnd": "2026-09-18T00:30:13.010754Z",
   "news": [
     {
       "id": "a7c1e5fcf9af05021743",
@@ -117,54 +117,30 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "title": "作者用200多张平面图，在After Effects中搭建具有3D纵深错觉的城市场景",
-      "summary": "作者披露了一个以平面素材制造3D错觉的动画制作过程：用Envato生成200多张图，经Photoshop去背景和拆分，再导入After Effects，以3D图层布置空间。作者通过相机移动、独立物体动画、逐层调色及音效组合完成场景，并非将所有素材制作成实体3D模型。",
-      "background": "作者表示，有人一直说这个作品是AI制作的，因此发布文字拆解，说明自己的实际制作步骤。",
-      "difference": "作者描述了从零散图片到统一场景观感的变化：逐层匹配颜色和曝光，并给霓虹招牌添加少量辉光，使画面看起来像是在同一个地方拍摄。",
-      "method": "作者把编辑后的图片导入After Effects，将各图层转成3D图层并摆放在空间中，用平面素材的位置关系模拟深度；制作中继续从Envato补充空缺。作者称，穿过城市的一次相机移动承担了大部分3D错觉，其他物体则分别制作动画。",
-      "meaning": "编辑分析：这个案例可能适合说明“使用AI生成素材”与“自动生成完整动画”的区别。建议把重点放在作者披露的素材处理、空间布置和逐项动画劳动上，同时明确这里的3D观感主要来自平面图层构建的深度错觉。",
-      "industryImpact": "编辑分析：该流程可能为以图片素材制作空间动画提供参考，但不宜据此推断它能替代完整3D制作。作者提到大量素材及电脑负担，建议评估时同时关注素材管理、动画组织和性能，而非只关注图像生成环节。",
-      "tripoImpact": "编辑分析：对Tripo相关选题，建议把此案例作为平面分层与3D资产制作路径的对照背景。可另行测试哪些元素适合保留为平面图层、哪些可能需要3D几何；原文没有使用Tripo的证据，不应描述为Tripo案例或声称已有工具互通能力。",
-      "videoIdea": "编辑建议：建议制作一条流程解释短视频，按“平面素材—去背景与拆分—空间摆放—相机与物体动画—调色音效”组织。若制作示意动画，应明确标注为编辑演示，不冒充作者原片；重点解释3D图层不等于把图片变成实体3D模型。",
-      "postIdea": "编辑建议：建议发布“200多张平面图如何组织成空间动画”的流程图文，列出原文披露的工具和步骤，并单独说明2.5D深度错觉与实体3D模型的区别。可用问题引导讨论：哪些场景可能适合平面分层，哪些需要进一步测试3D资产方案？",
+      "title": "暂无中文标题",
+      "summary": "暂无中文整理；请打开原始来源查看英文原文。",
+      "background": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "difference": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "method": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
+      "meaning": "编辑分析：编辑分析：原始资料不足，暂不下结论。",
+      "industryImpact": "编辑分析：编辑分析：需要进一步核对原文与实际效果。",
+      "tripoImpact": "编辑分析：编辑分析：建议结合Tripo工作流做独立测试。",
+      "videoIdea": "编辑建议：保留原始来源，制作“发生了什么 / 尚未核实什么”的说明卡。",
+      "postIdea": "编辑建议：用原文引句和来源链接制作资料型Post，不添加未经证实的效果。",
       "evidence": [
         {
           "field": "title",
-          "quote": "I turned each layer into a 3D layer so I could actually move things around in space — basically building a set, except every piece is just a flat image positioned to fake the depth.",
-          "start": 425,
-          "end": 606,
+          "quote": "People keep saying this is AI 😂 Here's exactly how I made it 👇 1️⃣ The assets I used over 200 flat images, all generated in @envato so I could keep the same style across every building, car and character. Then I brought every single one into Photoshop to remove backgrounds, and cut some of them apart into pieces I could animate separately. 2️⃣ Building the scene After that, I brought the edited images into After Effects. I turned each layer into a 3D layer so I could actually move things around in space — basically building a set, except every piece is just a flat image positioned to fake the ",
+          "start": 0,
+          "end": 600,
           "url": "https://www.youtube.com/shorts/aHAhGhhxBcg",
           "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
         },
         {
           "field": "summary",
-          "quote": "I used over 200 flat images, all generated in @envato so I could keep the same style across every building, car and character. Then I brought every single one into Photoshop to remove backgrounds, and cut some of them apart into pieces I could animate separately.",
-          "start": 78,
-          "end": 341,
-          "url": "https://www.youtube.com/shorts/aHAhGhhxBcg",
-          "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
-        },
-        {
-          "field": "background",
-          "quote": "People keep saying this is AI 😂 Here's exactly how I made it",
+          "quote": "People keep saying this is AI 😂 Here's exactly how I made it 👇 1️⃣ The assets I used over 200 flat images, all generated in @envato so I could keep the same style across every building, car and character. Then I brought every single one into Photoshop to remove backgrounds, and cut some of them apart into pieces I could animate separately. 2️⃣ Building the scene After that, I brought the edited images into After Effects. I turned each layer into a 3D layer so I could actually move things around in space — basically building a set, except every piece is just a flat image positioned to fake the ",
           "start": 0,
-          "end": 60,
-          "url": "https://www.youtube.com/shorts/aHAhGhhxBcg",
-          "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
-        },
-        {
-          "field": "change",
-          "quote": "I went layer by layer matching the color and exposure until nothing looked out of place, then added a bit of glow on the neon signs. This step is what actually turns a pile of random images into something that looks like it was shot in one place.",
-          "start": 1136,
-          "end": 1382,
-          "url": "https://www.youtube.com/shorts/aHAhGhhxBcg",
-          "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
-        },
-        {
-          "field": "method",
-          "quote": "After that, I brought the edited images into After Effects. I turned each layer into a 3D layer so I could actually move things around in space — basically building a set, except every piece is just a flat image positioned to fake the depth. I kept going back to Envato to fill in empty spots, until my computer almost gave up on me haha!",
-          "start": 365,
-          "end": 703,
+          "end": 600,
           "url": "https://www.youtube.com/shorts/aHAhGhhxBcg",
           "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
         }
@@ -176,7 +152,7 @@
         ]
       ],
       "status": "来源更新",
-      "checkedAt": "2026-09-17T00:30:45.985328Z",
+      "checkedAt": "2026-09-18T00:30:13.010754Z",
       "analysisVersion": 1,
       "sourceDigest": "f3d1c83b8a878b150e36df032251722be129a7b47f2dde352315eed0bc4cf930",
       "verificationNote": "仅核对订阅原文中的引文与发布时间；未完成全文语义审核、未观看视频，不代表热度排名。"
