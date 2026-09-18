@@ -1,17 +1,16 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-18T00:30:13.010754Z",
-  "windowStart": "2026-09-17T00:30:13.010754Z",
-  "windowEnd": "2026-09-18T00:30:13.010754Z",
+  "checkedAt": "2026-09-18T07:04:52.989291Z",
+  "windowStart": "2026-09-17T07:04:52.989291Z",
+  "windowEnd": "2026-09-18T07:04:52.989291Z",
   "mode": "source_metadata",
   "checks": [
     {
       "id": "blender-dev",
       "name": "Blender 开发者博客",
       "lane": "news",
-      "ok": false,
-      "count": 0,
-      "error": "来源不可用或内容格式不符；未绕过访问限制"
+      "ok": true,
+      "count": 10
     },
     {
       "id": "godot",
@@ -47,7 +46,7 @@
       "lane": "news",
       "ok": false,
       "count": 0,
-      "error": "来源不可用或内容格式不符；未绕过访问限制"
+      "error": "来源请求失败（HTTP 406）；未绕过访问限制"
     },
     {
       "id": "lightarchitect",
@@ -99,7 +98,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-18T00:30:13.010754Z"
+      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -134,7 +133,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-18T00:30:13.010754Z"
+      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -170,6 +169,41 @@
         "学术研究"
       ],
       "firstSeenAt": "2026-09-11T07:14:52.712650Z"
+    },
+    {
+      "id": "b36261991ac019531767",
+      "url": "https://code.blender.org/2026/09/small-teams-ambitious-projects/",
+      "title": "Small Teams, Ambitious Projects",
+      "excerpt": "Enabling individuals and small teams to create with free and open source technology has always been at the core of Blender’s mission. As the software has evolved, generalist users have been able to single-handedly complete incredible projects. When it comes to teamwork, however, ",
+      "publishedAt": "2026-09-10T15:56:53Z",
+      "sourceId": "blender-dev",
+      "sourceName": "Blender 开发者博客",
+      "lane": "news",
+      "category": "传统建模",
+      "author": "Dalai Felinto",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-10T15:56:53Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Enabling individuals and small teams to create with free and open source technology has always been at the core of Blender’s mission. As the software has evolved, generalist users have been able to single-handedly complete incredible projects. When it comes to teamwork, however, ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Enabling individuals and small teams to create with free and open source technology has always been at the core of Blender’s mission. As the software has evolved, generalist users have been able to single-handedly complete incredible projects. When it comes to teamwork, however, "
+        ]
+      ],
+      "sources": [
+        [
+          "Blender 开发者博客",
+          "https://code.blender.org/2026/09/small-teams-ambitious-projects/"
+        ]
+      ],
+      "tags": [
+        "传统建模"
+      ],
+      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1222,6 +1256,76 @@
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
     },
     {
+      "id": "ba8fbad82a9b229283d3",
+      "url": "https://code.blender.org/2026/07/geometry-nodes-physics/",
+      "title": "Geometry Nodes Physics",
+      "excerpt": "In Blender 5.2 LTS we released the first version of a new hair and cloth dynamics system powered by Geometry Nodes. This post describes what we have so far and what our plans for the future are. State in Blender 5.2 LTS The new physics systems are implemented as built-in node gro",
+      "publishedAt": "2026-07-30T14:52:49Z",
+      "sourceId": "blender-dev",
+      "sourceName": "Blender 开发者博客",
+      "lane": "news",
+      "category": "传统建模",
+      "author": "Jacques Lucke",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-07-30T14:52:49Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "In Blender 5.2 LTS we released the first version of a new hair and cloth dynamics system powered by Geometry Nodes. This post describes what we have so far and what our plans for the future are. State in Blender 5.2 LTS The new physics systems are implemented as built-in node gro",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "In Blender 5.2 LTS we released the first version of a new hair and cloth dynamics system powered by Geometry Nodes. This post describes what we have so far and what our plans for the future are. State in Blender 5.2 LTS The new physics systems are implemented as built-in node gro"
+        ]
+      ],
+      "sources": [
+        [
+          "Blender 开发者博客",
+          "https://code.blender.org/2026/07/geometry-nodes-physics/"
+        ]
+      ],
+      "tags": [
+        "传统建模"
+      ],
+      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+    },
+    {
+      "id": "20b38d1afef290b604a0",
+      "url": "https://code.blender.org/2026/07/remote-asset-libraries/",
+      "title": "Remote Asset Libraries",
+      "excerpt": "Remote Asset Libraries let Blender discover assets stored on remote servers and download them only when needed. This enables integrated support for online asset services, better sharing of libraries, and an extended Essentials library while keeping Blender fully usable offline. T",
+      "publishedAt": "2026-07-22T12:26:48Z",
+      "sourceId": "blender-dev",
+      "sourceName": "Blender 开发者博客",
+      "lane": "news",
+      "category": "传统建模",
+      "author": "Julian Eisel",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-07-22T12:26:48Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Remote Asset Libraries let Blender discover assets stored on remote servers and download them only when needed. This enables integrated support for online asset services, better sharing of libraries, and an extended Essentials library while keeping Blender fully usable offline. T",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Remote Asset Libraries let Blender discover assets stored on remote servers and download them only when needed. This enables integrated support for online asset services, better sharing of libraries, and an extended Essentials library while keeping Blender fully usable offline. T"
+        ]
+      ],
+      "sources": [
+        [
+          "Blender 开发者博客",
+          "https://code.blender.org/2026/07/remote-asset-libraries/"
+        ]
+      ],
+      "tags": [
+        "传统建模"
+      ],
+      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+    },
+    {
       "id": "e4486c8d915c1568bf3a",
       "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-2/",
       "title": "Dev snapshot: Godot 4.8 dev 2",
@@ -1537,6 +1641,41 @@
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
     },
     {
+      "id": "6b7a6627d8d3f965b455",
+      "url": "https://code.blender.org/2026/05/cycles-texture-cache/",
+      "title": "Cycles Texture Cache",
+      "excerpt": "In Blender 5.2 LTS, rendering scenes with many image textures will become much more memory efficient. The new Cycles texture cache loads only the image tiles and resolutions needed. How to Use Enable Performance > Texture Cache and Auto Generate in the Render properties. New Text",
+      "publishedAt": "2026-05-01T11:50:44Z",
+      "sourceId": "blender-dev",
+      "sourceName": "Blender 开发者博客",
+      "lane": "news",
+      "category": "传统建模",
+      "author": "Brecht Van Lommel",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-05-01T11:50:44Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "In Blender 5.2 LTS, rendering scenes with many image textures will become much more memory efficient. The new Cycles texture cache loads only the image tiles and resolutions needed. How to Use Enable Performance > Texture Cache and Auto Generate in the Render properties. New Text",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "In Blender 5.2 LTS, rendering scenes with many image textures will become much more memory efficient. The new Cycles texture cache loads only the image tiles and resolutions needed. How to Use Enable Performance > Texture Cache and Auto Generate in the Render properties. New Text"
+        ]
+      ],
+      "sources": [
+        [
+          "Blender 开发者博客",
+          "https://code.blender.org/2026/05/cycles-texture-cache/"
+        ]
+      ],
+      "tags": [
+        "传统建模"
+      ],
+      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+    },
+    {
       "id": "ec0ee9eea2fe028cc001",
       "url": "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v26.05",
       "title": "Version 26.05",
@@ -1677,6 +1816,41 @@
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
     },
     {
+      "id": "e4dadb1d749eeb0da074",
+      "url": "https://code.blender.org/2026/02/winter-of-quality-2026/",
+      "title": "Winter of Quality 2026",
+      "excerpt": "During the 2025–2026 winter (northern hemisphere), Blender developers focused on quality and stability. This blog post offers an overview of the work accomplished. Bugfixes Between December 1, 2025 and January 31, 2026, more than 350 reported issues were fixed . Here is a per-mod",
+      "publishedAt": "2026-02-16T12:11:43Z",
+      "sourceId": "blender-dev",
+      "sourceName": "Blender 开发者博客",
+      "lane": "news",
+      "category": "传统建模",
+      "author": "Thomas Dinges",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-02-16T12:11:43Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "During the 2025–2026 winter (northern hemisphere), Blender developers focused on quality and stability. This blog post offers an overview of the work accomplished. Bugfixes Between December 1, 2025 and January 31, 2026, more than 350 reported issues were fixed . Here is a per-mod",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "During the 2025–2026 winter (northern hemisphere), Blender developers focused on quality and stability. This blog post offers an overview of the work accomplished. Bugfixes Between December 1, 2025 and January 31, 2026, more than 350 reported issues were fixed . Here is a per-mod"
+        ]
+      ],
+      "sources": [
+        [
+          "Blender 开发者博客",
+          "https://code.blender.org/2026/02/winter-of-quality-2026/"
+        ]
+      ],
+      "tags": [
+        "传统建模"
+      ],
+      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+    },
+    {
       "id": "b288b4a17cb64e3e9174",
       "url": "https://github.com/mrdoob/three.js/releases/tag/r182",
       "title": "r182",
@@ -1782,6 +1956,111 @@
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
     },
     {
+      "id": "ef6dc3d4c72dc33c278b",
+      "url": "https://code.blender.org/2025/10/geometry-nodes-workshop-september-2025/",
+      "title": "Geometry Nodes Workshop: September 2025",
+      "excerpt": "Once again, we met for a Geometry Nodes workshop after the Blender Conference to discuss many design topics. This post gives a general overview of the topics that were discussed. You can also read all the notes we took during the meetings. Workshop Setup This time we invited two ",
+      "publishedAt": "2025-10-22T15:03:32Z",
+      "sourceId": "blender-dev",
+      "sourceName": "Blender 开发者博客",
+      "lane": "news",
+      "category": "传统建模",
+      "author": "Jacques Lucke",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-10-22T15:03:32Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Once again, we met for a Geometry Nodes workshop after the Blender Conference to discuss many design topics. This post gives a general overview of the topics that were discussed. You can also read all the notes we took during the meetings. Workshop Setup This time we invited two ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Once again, we met for a Geometry Nodes workshop after the Blender Conference to discuss many design topics. This post gives a general overview of the topics that were discussed. You can also read all the notes we took during the meetings. Workshop Setup This time we invited two "
+        ]
+      ],
+      "sources": [
+        [
+          "Blender 开发者博客",
+          "https://code.blender.org/2025/10/geometry-nodes-workshop-september-2025/"
+        ]
+      ],
+      "tags": [
+        "传统建模"
+      ],
+      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+    },
+    {
+      "id": "2f51d211a5c45cce7632",
+      "url": "https://code.blender.org/2025/10/google-summer-of-code-2025-results/",
+      "title": "Google Summer of Code 2025 Results",
+      "excerpt": "This summer, Blender had the privilege of welcoming eight talented contributors as part of the Google Summer of Code program. They worked on exciting projects, enhancing Blender’s compositor, Video Sequence editor, edit mesh, sculpting as well as improving regression test coverag",
+      "publishedAt": "2025-10-21T09:37:52Z",
+      "sourceId": "blender-dev",
+      "sourceName": "Blender 开发者博客",
+      "lane": "news",
+      "category": "传统建模",
+      "author": "Thomas Dinges",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-10-21T09:37:52Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "This summer, Blender had the privilege of welcoming eight talented contributors as part of the Google Summer of Code program. They worked on exciting projects, enhancing Blender’s compositor, Video Sequence editor, edit mesh, sculpting as well as improving regression test coverag",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "This summer, Blender had the privilege of welcoming eight talented contributors as part of the Google Summer of Code program. They worked on exciting projects, enhancing Blender’s compositor, Video Sequence editor, edit mesh, sculpting as well as improving regression test coverag"
+        ]
+      ],
+      "sources": [
+        [
+          "Blender 开发者博客",
+          "https://code.blender.org/2025/10/google-summer-of-code-2025-results/"
+        ]
+      ],
+      "tags": [
+        "传统建模"
+      ],
+      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+    },
+    {
+      "id": "bb317b438ebbd204eee3",
+      "url": "https://code.blender.org/2025/10/volume-grids-in-geometry-nodes/",
+      "title": "Volume Grids in Geometry Nodes",
+      "excerpt": "Volumetric data is one of the core geometry types next to meshes, point clouds and curves. While there are already many ways to process the last three, the Geometry Nodes feature set for using volumes was very limited and mainly involved converting between volumes and other types",
+      "publishedAt": "2025-10-07T20:29:49Z",
+      "sourceId": "blender-dev",
+      "sourceName": "Blender 开发者博客",
+      "lane": "news",
+      "category": "传统建模",
+      "author": "Hans Goudey",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-10-07T20:29:49Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Volumetric data is one of the core geometry types next to meshes, point clouds and curves. While there are already many ways to process the last three, the Geometry Nodes feature set for using volumes was very limited and mainly involved converting between volumes and other types",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Volumetric data is one of the core geometry types next to meshes, point clouds and curves. While there are already many ways to process the last three, the Geometry Nodes feature set for using volumes was very limited and mainly involved converting between volumes and other types"
+        ]
+      ],
+      "sources": [
+        [
+          "Blender 开发者博客",
+          "https://code.blender.org/2025/10/volume-grids-in-geometry-nodes/"
+        ]
+      ],
+      "tags": [
+        "传统建模"
+      ],
+      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+    },
+    {
       "id": "7e2238449fe00d72b061",
       "url": "https://github.com/mrdoob/three.js/releases/tag/r180",
       "title": "r180",
@@ -1815,6 +2094,76 @@
         "引擎与交互"
       ],
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "fe76b712ab6fc6c5ab54",
+      "url": "https://code.blender.org/2025/08/bundles-and-closures/",
+      "title": "Bundles and Closures",
+      "excerpt": "Blender 5.0 will come with new socket types for bundles and closures. This post will explain what they are, why they are important, and what we want to do with them going forward. Overarching Goal These two new concepts help us get closer to one of our primary objectives: allow b",
+      "publishedAt": "2025-08-08T11:48:32Z",
+      "sourceId": "blender-dev",
+      "sourceName": "Blender 开发者博客",
+      "lane": "news",
+      "category": "传统建模",
+      "author": "Jacques Lucke",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-08-08T11:48:32Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Blender 5.0 will come with new socket types for bundles and closures. This post will explain what they are, why they are important, and what we want to do with them going forward. Overarching Goal These two new concepts help us get closer to one of our primary objectives: allow b",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Blender 5.0 will come with new socket types for bundles and closures. This post will explain what they are, why they are important, and what we want to do with them going forward. Overarching Goal These two new concepts help us get closer to one of our primary objectives: allow b"
+        ]
+      ],
+      "sources": [
+        [
+          "Blender 开发者博客",
+          "https://code.blender.org/2025/08/bundles-and-closures/"
+        ]
+      ],
+      "tags": [
+        "传统建模"
+      ],
+      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+    },
+    {
+      "id": "f4adf5e6a13a55d8322d",
+      "url": "https://code.blender.org/2025/08/new-socket-shapes/",
+      "title": "New Socket Shapes",
+      "excerpt": "Blender 5.0 changes the meaning of existing node socket shapes and introduces new ones. The redesign is necessary to further expand what Geometry Nodes is able to do. This post explains the problem we were facing, what the new shapes mean, and how we are going to use them. The de",
+      "publishedAt": "2025-08-08T07:41:15Z",
+      "sourceId": "blender-dev",
+      "sourceName": "Blender 开发者博客",
+      "lane": "news",
+      "category": "传统建模",
+      "author": "Jacques Lucke",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-08-08T07:41:15Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Blender 5.0 changes the meaning of existing node socket shapes and introduces new ones. The redesign is necessary to further expand what Geometry Nodes is able to do. This post explains the problem we were facing, what the new shapes mean, and how we are going to use them. The de",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Blender 5.0 changes the meaning of existing node socket shapes and introduces new ones. The redesign is necessary to further expand what Geometry Nodes is able to do. This post explains the problem we were facing, what the new shapes mean, and how we are going to use them. The de"
+        ]
+      ],
+      "sources": [
+        [
+          "Blender 开发者博客",
+          "https://code.blender.org/2025/08/new-socket-shapes/"
+        ]
+      ],
+      "tags": [
+        "传统建模"
+      ],
+      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -2145,7 +2494,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-09-18T00:30:13.010754Z"
+      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
     },
     {
       "id": "143d0040a196fe573687",
