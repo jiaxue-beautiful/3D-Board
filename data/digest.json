@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "checkedAt": "2026-09-18T00:30:13.010754Z",
-  "windowStart": "2026-09-17T00:30:13.010754Z",
-  "windowEnd": "2026-09-18T00:30:13.010754Z",
+  "checkedAt": "2026-09-18T07:04:52.989291Z",
+  "windowStart": "2026-09-17T07:04:52.989291Z",
+  "windowEnd": "2026-09-18T07:04:52.989291Z",
   "news": [
     {
       "id": "a7c1e5fcf9af05021743",
@@ -107,56 +107,6 @@
   ],
   "todayIds": [],
   "cases": [
-    {
-      "id": "80f6a584e0073c8bef3b",
-      "url": "https://www.youtube.com/shorts/aHAhGhhxBcg",
-      "publishedAt": "2026-09-14T11:04:29Z",
-      "sourceId": "mdmz",
-      "sourceName": "MDMZ 原视频",
-      "lane": "cases",
-      "category": "AI 工作流",
-      "author": "MDMZ",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "title": "暂无中文标题",
-      "summary": "暂无中文整理；请打开原始来源查看英文原文。",
-      "background": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
-      "difference": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
-      "method": "来源资料不足，尚未核实；请阅读原文，不补造结论。",
-      "meaning": "编辑分析：编辑分析：原始资料不足，暂不下结论。",
-      "industryImpact": "编辑分析：编辑分析：需要进一步核对原文与实际效果。",
-      "tripoImpact": "编辑分析：编辑分析：建议结合Tripo工作流做独立测试。",
-      "videoIdea": "编辑建议：保留原始来源，制作“发生了什么 / 尚未核实什么”的说明卡。",
-      "postIdea": "编辑建议：用原文引句和来源链接制作资料型Post，不添加未经证实的效果。",
-      "evidence": [
-        {
-          "field": "title",
-          "quote": "People keep saying this is AI 😂 Here's exactly how I made it 👇 1️⃣ The assets I used over 200 flat images, all generated in @envato so I could keep the same style across every building, car and character. Then I brought every single one into Photoshop to remove backgrounds, and cut some of them apart into pieces I could animate separately. 2️⃣ Building the scene After that, I brought the edited images into After Effects. I turned each layer into a 3D layer so I could actually move things around in space — basically building a set, except every piece is just a flat image positioned to fake the ",
-          "start": 0,
-          "end": 600,
-          "url": "https://www.youtube.com/shorts/aHAhGhhxBcg",
-          "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
-        },
-        {
-          "field": "summary",
-          "quote": "People keep saying this is AI 😂 Here's exactly how I made it 👇 1️⃣ The assets I used over 200 flat images, all generated in @envato so I could keep the same style across every building, car and character. Then I brought every single one into Photoshop to remove backgrounds, and cut some of them apart into pieces I could animate separately. 2️⃣ Building the scene After that, I brought the edited images into After Effects. I turned each layer into a 3D layer so I could actually move things around in space — basically building a set, except every piece is just a flat image positioned to fake the ",
-          "start": 0,
-          "end": 600,
-          "url": "https://www.youtube.com/shorts/aHAhGhhxBcg",
-          "locator": "在原始订阅正文中搜索此引文；未确认网页段落锚点"
-        }
-      ],
-      "sources": [
-        [
-          "MDMZ 原视频",
-          "https://www.youtube.com/shorts/aHAhGhhxBcg"
-        ]
-      ],
-      "status": "来源更新",
-      "checkedAt": "2026-09-18T00:30:13.010754Z",
-      "analysisVersion": 1,
-      "sourceDigest": "f3d1c83b8a878b150e36df032251722be129a7b47f2dde352315eed0bc4cf930",
-      "verificationNote": "仅核对订阅原文中的引文与发布时间；未完成全文语义审核、未观看视频，不代表热度排名。"
-    },
     {
       "id": "143d0040a196fe573687",
       "url": "https://www.youtube.com/shorts/-9kkHWJgMs4",
@@ -363,9 +313,8 @@
       "id": "blender-dev",
       "name": "Blender 开发者博客",
       "lane": "news",
-      "ok": false,
-      "count": 0,
-      "error": "来源不可用或内容格式不符；未绕过访问限制"
+      "ok": true,
+      "count": 10
     },
     {
       "id": "godot",
@@ -401,7 +350,7 @@
       "lane": "news",
       "ok": false,
       "count": 0,
-      "error": "来源不可用或内容格式不符；未绕过访问限制"
+      "error": "来源请求失败（HTTP 406）；未绕过访问限制"
     },
     {
       "id": "lightarchitect",
@@ -420,15 +369,15 @@
   ],
   "outcomes": [
     {
-      "id": "80f6a584e0073c8bef3b",
-      "status": "accepted"
+      "id": "8e706fc2ba999f33e1a2",
+      "status": "insufficient_source"
     },
     {
-      "id": "143d0040a196fe573687",
-      "status": "unchanged"
+      "id": "0dc839d02e7a74acee01",
+      "status": "insufficient_source"
     },
     {
-      "id": "d715db7f0a63dd8cc312",
+      "id": "900574c44e3c0d76c9b5",
       "status": "unchanged"
     },
     {
@@ -436,17 +385,32 @@
       "status": "unchanged"
     },
     {
-      "id": "900574c44e3c0d76c9b5",
+      "id": "d715db7f0a63dd8cc312",
       "status": "unchanged"
     },
     {
-      "id": "0dc839d02e7a74acee01",
-      "status": "insufficient_source"
+      "id": "143d0040a196fe573687",
+      "status": "unchanged"
     },
     {
-      "id": "8e706fc2ba999f33e1a2",
-      "status": "insufficient_source"
+      "id": "80f6a584e0073c8bef3b",
+      "status": "generation_failed"
     }
   ],
+  "pending": [
+    {
+      "id": "80f6a584e0073c8bef3b",
+      "url": "https://www.youtube.com/shorts/aHAhGhhxBcg",
+      "firstSeenAt": "2026-09-18T07:04:52.989291Z",
+      "attempts": 1,
+      "status": "generation_failed"
+    }
+  ],
+  "rejected": {},
+  "processing": {
+    "status": "partial",
+    "pendingCount": 1,
+    "attempted": 1
+  },
   "notice": "AI辅助整理；引用来自原始订阅，不等于全文或视觉验证。新闻与社媒作品分别收录；没有互动采样，不判断爆款。"
 }
