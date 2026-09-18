@@ -8,8 +8,8 @@ from pathlib import Path
 import re
 
 from collect import atomic_json, instant, safe_url, stamp
-from llm import Budget, complete
-from cloud_budget import CloudBudget, GitHubStore
+from llm import Budget, BudgetError, complete
+from cloud_budget import CloudBudget, DailyLimitError, GitHubStore
 
 VERSION = 1
 UNKNOWN = '来源资料不足，尚未核实；请阅读原文，不补造结论。'
@@ -89,6 +89,8 @@ def validate(row, draft, now):
         facts[name] = text(value['text'], 100 if name == 'title' else 600)
         if name in ('title', 'summary') and not has_chinese(facts[name]):
             raise EvidenceError('Chinese title and summary are required for publication')
+        if facts[name].startswith(('暂无中文', '待整理')):
+            raise EvidenceError('Placeholder is not a completed draft')
         quote = value['quote']
         if not isinstance(quote, str) or not 12 <= len(quote) <= 600 or quote not in row['sourceText']:
             raise EvidenceError('Fact quote does not occur in the collected source description')
@@ -129,7 +131,7 @@ def local_fallback(row):
             'postIdea': '用原文引句和来源链接制作资料型Post，不添加未经证实的效果。'}
 
 
-def update(root, now, generate, max_items=40, replay=False):
+def update(root, now, generate, max_items=2, replay=False):
     root = Path(root)
     end = instant(now)
     if end is None or type(max_items) is not int or not 1 <= max_items <= 100:
@@ -143,10 +145,24 @@ def update(root, now, generate, max_items=40, replay=False):
     previous = json.loads(path.read_text()) if path.exists() else {'version': VERSION, 'news': [], 'cases': []}
     if previous.get('version') != VERSION:
         raise EvidenceError('Unsupported previous digest; do not overwrite')
-    news = {r['url']: r for r in previous['news']}
-    cases = {r['url']: r for r in previous['cases']}
+    def ready(row):
+        return not any(row.get(k, '').startswith(('暂无中文', '待整理')) for k in ('title', 'summary'))
+    news = {r['url']: r for r in previous['news'] if ready(r)}
+    cases = {r['url']: r for r in previous['cases'] if ready(r)}
+    queue = {r['url']: r for r in previous.get('pending', [])}
+    for row in previous['news'] + previous['cases']:
+        if not ready(row):
+            queue.setdefault(row['url'], {'id': row['id'], 'url': row['url'],
+                                         'firstSeenAt': now, 'attempts': 0})
+    decisions = dict(previous.get('rejected', {}))
+    blocked = False
     outcomes, processed, seen = [], 0, set()
-    for row in sorted(original['records'], key=lambda r: r.get('publishedAt') or '', reverse=True):
+    # Oldest queued items first; failed attempts go behind unattempted items.
+    def priority(row):
+        pending = queue.get(row.get('url'), {})
+        return (pending.get('attempts', 0), pending.get('firstSeenAt', now),
+                row.get('publishedAt') or '', row.get('id', ''))
+    for row in sorted(original['records'], key=priority):
         if row['url'] in seen:
             continue
         seen.add(row['url'])
@@ -158,46 +174,77 @@ def update(root, now, generate, max_items=40, replay=False):
         # Social references may be useful after their publication day. Existing
         # curated cases remain untouched; automated intake looks back 30 days.
         days = 30 if row['lane'] == 'cases' else 1
-        if not end - timedelta(days=days) < instant(row['publishedAt']) <= end:
+        if row['url'] not in queue and not end - timedelta(days=days) < instant(row['publishedAt']) <= end:
             continue
         target = cases if row['lane'] == 'cases' else news
         digest = fingerprint(row)
         existing = target.get(row['url'])
         if existing and existing.get('sourceDigest') == digest:
+            queue.pop(row['url'], None)
             outcomes.append({'id': row['id'], 'status': 'unchanged'})
             continue
+        if decisions.get(row['url']) == digest:
+            queue.pop(row['url'], None)
+            continue
+        pending = queue.setdefault(row['url'], {'id': row['id'], 'url': row['url'],
+                                                'firstSeenAt': now, 'attempts': 0})
         cache = root / '.work/digest-cache' / (digest + '.json')
-        if cache.exists():
+        if replay and cache.exists():
             draft = json.loads(cache.read_text())['draft']
         else:
             if replay:
                 raise EvidenceError('Replay cache missing; model calls are forbidden')
-            if processed >= max_items:
-                raise EvidenceError('Batch limit reached; prior public report retained, cached progress can resume')
-            draft = generate(row)
+            if blocked or processed >= max_items:
+                pending['status'] = 'pending_budget'
+                outcomes.append({'id': row['id'], 'status': pending['status']})
+                continue
             processed += 1
+            try:
+                draft = generate(row)
+            except DailyLimitError:
+                blocked = True
+                pending['status'] = 'pending_budget'
+                outcomes.append({'id': row['id'], 'status': pending['status']})
+                continue
+            except BudgetError:
+                blocked = True
+                pending['status'] = 'budget_blocked'
+                outcomes.append({'id': row['id'], 'status': pending['status']})
+                continue
+            except Exception:
+                pending['attempts'] += 1
+                pending['status'] = 'generation_failed'
+                outcomes.append({'id': row['id'], 'status': pending['status']})
+                continue
+            pending['attempts'] += 1
             # Persist paid output before validation so rejected drafts are not
             # repeatedly billed. Cache and raw evidence are never deployed.
             atomic_json(cache, {'draft': draft})
         try:
             accepted = validate(row, draft, now)
         except EvidenceError:
+            pending['status'] = 'invalid_draft'
             outcomes.append({'id': row['id'], 'status': 'invalid_draft'})
             continue
         if accepted is not None:
             target[row['url']] = accepted
         else:
             target.pop(row['url'], None)
+            decisions[row['url']] = digest
+        queue.pop(row['url'], None)
         outcomes.append({'id': row['id'], 'status': 'accepted' if accepted else 'not_relevant'})
-    if any(x['status'] == 'invalid_draft' for x in outcomes):
-        atomic_json(root / '.work/digest-status.json', {'checkedAt': now, 'outcomes': outcomes})
-        raise EvidenceError('Invalid drafts require review; previous public report retained')
+    for url, pending in queue.items():
+        if url not in seen:
+            pending['status'] = 'awaiting_source'
     ordered_news = sorted(news.values(), key=lambda r: r['publishedAt'], reverse=True)
     result = {'version': VERSION, 'checkedAt': now, 'windowStart': stamp(end - timedelta(days=1)),
               'windowEnd': now, 'news': ordered_news,
               'todayIds': [r['id'] for r in ordered_news if end - timedelta(days=1) < instant(r['publishedAt']) <= end],
               'cases': sorted(cases.values(), key=lambda r: r['publishedAt'], reverse=True),
               'checks': report['checks'], 'outcomes': outcomes,
+              'pending': list(queue.values()), 'rejected': decisions,
+              'processing': {'status': 'partial' if queue else 'complete',
+                             'pendingCount': len(queue), 'attempted': processed},
               'notice': 'AI辅助整理；引用来自原始订阅，不等于全文或视觉验证。新闻与社媒作品分别收录；没有互动采样，不判断爆款。'}
     atomic_json(path, result)
     return result
@@ -230,20 +277,11 @@ if __name__ == '__main__':
         else:
             parser.error('Explicit budget ledger required')
         def generate(row):
-            try:
-                content = complete(config, budget, messages(row), max_output=3000)['content']
-            except Exception:
-                # A gateway error is not evidence; preserve a source-only card
-                # while keeping the charged/blocked ledger state visible.
-                return local_fallback(row)
-            # The gateway may return a free-form object despite JSON mode. Keep
-            # the paid response private and publish only source-bound fallback.
-            if not isinstance(content, dict) or not isinstance(content.get('relevant'), bool) or not all(k in content for k in FACTS + IDEAS):
-                return local_fallback(row)
-            return content
+            return complete(config, budget, messages(row), max_output=3000)['content']
     try:
         result = update(args.root, args.now, generate, replay=args.replay)
         print(json.dumps({'checkedAt': result['checkedAt'], 'today': len(result['todayIds']),
-                          'newsArchive': len(result['news']), 'cases': len(result['cases'])}))
+                          'newsArchive': len(result['news']), 'cases': len(result['cases']),
+                          'processing': result['processing']}))
     except Exception:
         raise SystemExit('Digest failed; previous content retained. Inspect private status/cache and budget before retrying.') from None

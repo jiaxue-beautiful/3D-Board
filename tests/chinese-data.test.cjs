@@ -14,6 +14,13 @@ const row = {
   evidence: [{quote: 'English source text', locator: '原文段落', url: 'https://example.com/news'}]
 };
 
+test('pending queue is visible without publishing placeholder cards', () => {
+  const report = {version:1, checkedAt:'2026-09-18T01:00:00Z', news:[], cases:[], checks:[], pending:[{id:'queued'}]};
+  const result = RadarData.merge(report, [], [], '2026-09-18T02:00:00Z');
+  assert.equal(result.pendingCount, 1);
+  assert.equal(result.events.length, 0);
+});
+
 test('event display prefers Chinese title and summary fields', () => {
   const report = {version: 1, checkedAt: '2026-09-14T01:00:00Z', news: [row], cases: [], checks: []};
   const result = RadarData.merge(report, [], [], '2026-09-14T02:00:00Z');

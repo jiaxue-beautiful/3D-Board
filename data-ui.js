@@ -39,7 +39,7 @@ const RadarData=(()=>{
   if(report?.version!==1||!Number.isFinite(cutoff)||!Number.isFinite(current)||!Array.isArray(report.news)||!Array.isArray(report.cases)||!Array.isArray(report.checks))throw Error('Invalid report');
   const ids=new Set();
   for(const [items,lane] of [[report.news,'news'],[report.cases,'cases']])for(const r of items){checkRow(r,lane,cutoff);if(ids.has(r.id))throw Error('Duplicate ID');ids.add(r.id);}
-  const pendingCount=[...report.news,...report.cases].filter(r=>!ready(r)).length;
+  const pendingCount=new Set([...[...report.news,...report.cases].filter(r=>!ready(r)).map(r=>r.id),...(report.pending||[]).map(r=>r.id)]).size;
   const generated=report.news.filter(ready).map(event),known=new Set(generated.map(e=>e.url)),caseUrls=new Set(curated.map(c=>c.url));
   const events=[...generated,...historical.filter(e=>!(e.sources||[]).some(([,u])=>known.has(u))).map(e=>({...e,status:'历史参考'}))];
   const cases=[...report.cases.filter(r=>ready(r)&&!caseUrls.has(r.url)).map(social),...curated];

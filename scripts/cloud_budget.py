@@ -63,6 +63,10 @@ def valid_day(value):
         raise BudgetError('Invalid budget day') from None
 
 
+class DailyLimitError(BudgetError):
+    """Expected deferral, distinct from a corrupt or uncertain ledger."""
+
+
 class CloudBudget:
     def __init__(self, store, daily_limit, request_limit=2):
         self.store = store
@@ -97,7 +101,7 @@ class CloudBudget:
         total = sum(row['amount'] for row in data['charges'] if row['day'] == day)
         calls = sum(1 for row in data['charges'] if row['day'] == day)
         if calls >= self.request_limit:
-            raise BudgetError('Daily request limit exhausted; request not sent')
+            raise DailyLimitError('Daily request limit exhausted; request not sent')
         if total + amount > self.limit:
             raise BudgetError('Daily budget exhausted; request not sent')
         ident = uuid.uuid4().hex
