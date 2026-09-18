@@ -14,6 +14,9 @@ const RadarData=(()=>{
  const chinese=(value,fallback)=>typeof value==='string'&&/[\u3400-\u9fff]/.test(value)?value:fallback;
  const title=r=>translations[r.id]?.title||chinese(r.titleZh||r.title,'暂无中文标题');
  const summary=r=>translations[r.id]?.summary||chinese(r.summaryZh||r.summary,'暂无中文整理');
+ const ready=r=>!title(r).startsWith('暂无中文')&&!summary(r).startsWith('暂无中文');
+ const analysis=value=>chinese(value,'').replace(/^(?:(?:编辑分析|编辑建议)[：:]\s*)+/,'').trim();
+ const useful=value=>{const s=analysis(value);return /原始资料不足|暂不下结论|尚未核实|需要进一步核对/.test(s)?'':s;};
  function checkRow(r,lane,cutoff){
   if(!r||r.lane!==lane||!/^[a-f0-9]{20}$/.test(r.id)||!Number.isFinite(Date.parse(r.publishedAt))||Date.parse(r.publishedAt)>cutoff)throw Error('Invalid source record');
   url(r.url);
@@ -26,8 +29,8 @@ const RadarData=(()=>{
   const host=new URL(r.url).hostname;
   const platform=host.endsWith('youtube.com')?'YouTube':host.endsWith('instagram.com')?'Instagram':host.endsWith('behance.net')?'Behance':host;
   return {id:r.id,url:url(r.url),title:title(r),author:r.author,platform,format:r.url.includes('/shorts/')?'短视频':'作品 / 演示',use:r.category,
-   desc:summary(r),combination:r.meaning,method:r.method,tools:'仅以作者方法中的明确披露为准；未推断工具链。',unknown:r.verificationNote+' 未观看视频，未复现方法。',
-   hook:r.meaning,videoIdea:r.videoIdea,postIdea:r.postIdea,adaptation:r.meaning,nature:'作者公开内容 · AI辅助整理',publishedLabel:dateLabel(r.publishedAt),
+   desc:summary(r),combination:r.category,method:r.method,tools:'仅以作者方法中的明确披露为准；未推断工具链。',unknown:r.verificationNote+' 未观看视频，未复现方法。',
+   hook:useful(r.meaning),videoIdea:useful(r.videoIdea),postIdea:useful(r.postIdea),adaptation:useful(r.meaning),nature:'作者公开内容 · AI辅助整理',publishedLabel:dateLabel(r.publishedAt),
    collectedAt:dateLabel(r.checkedAt),checkedAt:r.checkedAt,checkLabel:'订阅说明已核对，视觉待核实',image:null,chapters:[],
    evidence:r.evidence.map(e=>e.quote+'（'+e.locator+'）').join('\n')};
  }
@@ -36,11 +39,13 @@ const RadarData=(()=>{
   if(report?.version!==1||!Number.isFinite(cutoff)||!Number.isFinite(current)||!Array.isArray(report.news)||!Array.isArray(report.cases)||!Array.isArray(report.checks))throw Error('Invalid report');
   const ids=new Set();
   for(const [items,lane] of [[report.news,'news'],[report.cases,'cases']])for(const r of items){checkRow(r,lane,cutoff);if(ids.has(r.id))throw Error('Duplicate ID');ids.add(r.id);}
-  const generated=report.news.map(event),known=new Set(generated.map(e=>e.url)),caseUrls=new Set(curated.map(c=>c.url));
-  const events=[...generated,...historical.filter(e=>!(e.sources||[]).some(([,u])=>known.has(u)))];
-  const cases=[...report.cases.filter(r=>!caseUrls.has(r.url)).map(social),...curated];
+  const pendingCount=[...report.news,...report.cases].filter(r=>!ready(r)).length;
+  const generated=report.news.filter(ready).map(event),known=new Set(generated.map(e=>e.url)),caseUrls=new Set(curated.map(c=>c.url));
+  const events=[...generated,...historical.filter(e=>!(e.sources||[]).some(([,u])=>known.has(u))).map(e=>({...e,status:'历史参考'}))];
+  const cases=[...report.cases.filter(r=>ready(r)&&!caseUrls.has(r.url)).map(social),...curated];
   const todayIds=generated.filter(e=>Date.parse(e.publishedAt)>current-86400000&&Date.parse(e.publishedAt)<=Math.min(current,cutoff)).map(e=>e.id);
-  return {events,cases,todayIds,checkedAt:report.checkedAt,checks:report.checks,trialOnly:report.trialOnly===true};
+  for(const e of generated)e.status=todayIds.includes(e.id)?'近24小时发布':'历史保留';
+  return {events,cases,todayIds,pendingCount,checkedAt:report.checkedAt,checks:report.checks,trialOnly:report.trialOnly===true};
  }
  return {merge,escape,dateLabel};
 })();

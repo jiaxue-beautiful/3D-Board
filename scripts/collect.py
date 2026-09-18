@@ -7,11 +7,13 @@ from html import unescape
 from html.parser import HTMLParser
 import json
 import os
+import re
 from pathlib import Path
 import tempfile
 import time
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 import xml.etree.ElementTree as ET
 
 
@@ -82,7 +84,8 @@ def record(source, title, url, published, text, author='', include_text=False):
 
 
 def parse_feed(text, source, include_text=False):
-    if '<!DOCTYPE' in text.upper() or '<!ENTITY' in text.upper():
+    declarations = re.sub(r'<!\[CDATA\[.*?\]\]>|<!--.*?-->', '', text, flags=re.S).upper()
+    if '<!DOCTYPE' in declarations or '<!ENTITY' in declarations:
         raise CollectionError('XML declarations not accepted')
     root = ET.fromstring(text)
     local = lambda e: e.tag.rsplit('}', 1)[-1]
@@ -177,11 +180,20 @@ def download(url):
     if not safe_url(url):
         raise CollectionError('Invalid source URL')
     req = Request(url, headers={'User-Agent': '3D-Radar/1.0 (public feed reader)', 'Accept': 'application/atom+xml, application/rss+xml, application/json, text/xml'})
-    with urlopen(req, timeout=25) as response:
-        data = response.read(2_000_001)
-        if len(data) > 2_000_000:
-            raise CollectionError('Source too large')
-        return data.decode('utf-8')
+    for attempt in range(3):
+        try:
+            with urlopen(req, timeout=25) as response:
+                data = response.read(2_000_001)
+                if len(data) > 2_000_000:
+                    raise CollectionError('Source too large')
+                return data.decode('utf-8')
+        except HTTPError as error:
+            if error.code not in (429, 500, 502, 503, 504) or attempt == 2:
+                raise
+        except (URLError, TimeoutError):
+            if attempt == 2:
+                raise
+        time.sleep(3 * (attempt + 1))
 
 
 def update(root, now, transport=download, replay=False):
@@ -206,6 +218,12 @@ def update(root, now, transport=download, replay=False):
             batch = parser(text, source, include_text=True)
             rows.extend(batch)
             check.update(ok=True, count=len(batch))
+        except HTTPError as error:
+            check['error'] = f'来源请求失败（HTTP {error.code}）；未绕过访问限制'
+        except (URLError, TimeoutError):
+            check['error'] = '来源连接失败或超时；有限重试后仍不可用'
+        except (ET.ParseError, CollectionError):
+            check['error'] = '来源内容格式不符；未作为有效订阅收录'
         except Exception:
             check['error'] = '来源不可用或内容格式不符；未绕过访问限制'
         checks.append(check)
