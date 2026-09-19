@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-18T07:04:52.989291Z",
-  "windowStart": "2026-09-17T07:04:52.989291Z",
-  "windowEnd": "2026-09-18T07:04:52.989291Z",
+  "checkedAt": "2026-09-19T00:29:55.361090Z",
+  "windowStart": "2026-09-18T00:29:55.361090Z",
+  "windowEnd": "2026-09-19T00:29:55.361090Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -52,15 +52,17 @@
       "id": "lightarchitect",
       "name": "LightArchitect 原视频",
       "lane": "cases",
-      "ok": true,
-      "count": 15
+      "ok": false,
+      "count": 0,
+      "error": "来源请求失败（HTTP 404）；未绕过访问限制"
     },
     {
       "id": "mdmz",
       "name": "MDMZ 原视频",
       "lane": "cases",
-      "ok": true,
-      "count": 15
+      "ok": false,
+      "count": 0,
+      "error": "来源请求失败（HTTP 404）；未绕过访问限制"
     }
   ],
   "events": [],
@@ -98,7 +100,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+      "firstSeenAt": "2026-09-19T00:29:55.361090Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -133,7 +135,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+      "firstSeenAt": "2026-09-19T00:29:55.361090Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -203,7 +205,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+      "firstSeenAt": "2026-09-19T00:29:55.361090Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1288,7 +1290,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+      "firstSeenAt": "2026-09-19T00:29:55.361090Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -1323,7 +1325,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+      "firstSeenAt": "2026-09-19T00:29:55.361090Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -1673,7 +1675,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+      "firstSeenAt": "2026-09-19T00:29:55.361090Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -1848,7 +1850,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+      "firstSeenAt": "2026-09-19T00:29:55.361090Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -1988,7 +1990,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+      "firstSeenAt": "2026-09-19T00:29:55.361090Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -2023,7 +2025,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+      "firstSeenAt": "2026-09-19T00:29:55.361090Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -2058,7 +2060,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+      "firstSeenAt": "2026-09-19T00:29:55.361090Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -2128,7 +2130,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+      "firstSeenAt": "2026-09-19T00:29:55.361090Z"
     },
     {
       "id": "f4adf5e6a13a55d8322d",
@@ -2163,7 +2165,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
+      "firstSeenAt": "2026-09-19T00:29:55.361090Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -2482,20 +2484,6 @@
     }
   ],
   "caseCandidates": [
-    {
-      "id": "80f6a584e0073c8bef3b",
-      "url": "https://www.youtube.com/shorts/aHAhGhhxBcg",
-      "title": "How to Turn Images Into A 3D Scene In After Effects #aftereffects #2.5D #animation",
-      "excerpt": "People keep saying this is AI 😂 Here's exactly how I made it 👇 1️⃣ The assets I used over 200 flat images, all generated in @envato so I could keep the same style across every building, car and character. Then I brought every single one into Photoshop to remove backgrounds, and c",
-      "publishedAt": "2026-09-14T11:04:29Z",
-      "sourceId": "mdmz",
-      "sourceName": "MDMZ 原视频",
-      "lane": "cases",
-      "category": "AI 工作流",
-      "author": "MDMZ",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-09-18T07:04:52.989291Z"
-    },
     {
       "id": "143d0040a196fe573687",
       "url": "https://www.youtube.com/shorts/-9kkHWJgMs4",
