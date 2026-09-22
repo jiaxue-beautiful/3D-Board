@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-22T00:30:00.406922Z",
-  "windowStart": "2026-09-21T00:30:00.406922Z",
-  "windowEnd": "2026-09-22T00:30:00.406922Z",
+  "checkedAt": "2026-09-22T07:09:50.006793Z",
+  "windowStart": "2026-09-21T07:09:50.006793Z",
+  "windowEnd": "2026-09-22T07:09:50.006793Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -11,6 +11,13 @@
       "lane": "news",
       "ok": true,
       "count": 10
+    },
+    {
+      "id": "playcanvas",
+      "name": "PlayCanvas 官方博客",
+      "lane": "news",
+      "ok": true,
+      "count": 20
     },
     {
       "id": "godot",
@@ -44,9 +51,8 @@
       "id": "arxiv-3d",
       "name": "arXiv 3D 研究",
       "lane": "news",
-      "ok": false,
-      "count": 0,
-      "error": "来源请求失败（HTTP 406）；未绕过访问限制"
+      "ok": true,
+      "count": 20
     },
     {
       "id": "lightarchitect",
@@ -63,8 +69,464 @@
       "count": 15
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "bd7078fa44d88cd93102",
+      "url": "https://arxiv.org/abs/2609.24984v1",
+      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+      "excerpt": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T",
+      "publishedAt": "2026-09-21T17:57:06Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Ying Shan",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-21T17:57:06Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.24984v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "ea1e3f446dbed302d6a1",
+      "url": "https://arxiv.org/abs/2609.24457v1",
+      "title": "Constrained Program Generation for 3D Reaction Animation with a 0.8B Model",
+      "excerpt": "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp",
+      "publishedAt": "2026-09-21T12:02:46Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Andrew McDonagh",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-21T12:02:46Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.24457v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    }
+  ],
   "archive": [
+    {
+      "id": "bd7078fa44d88cd93102",
+      "url": "https://arxiv.org/abs/2609.24984v1",
+      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+      "excerpt": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T",
+      "publishedAt": "2026-09-21T17:57:06Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Ying Shan",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-21T17:57:06Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.24984v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "ea1e3f446dbed302d6a1",
+      "url": "https://arxiv.org/abs/2609.24457v1",
+      "title": "Constrained Program Generation for 3D Reaction Animation with a 0.8B Model",
+      "excerpt": "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp",
+      "publishedAt": "2026-09-21T12:02:46Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Andrew McDonagh",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-21T12:02:46Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.24457v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "18ea4e5b72d4a60ce671",
+      "url": "https://arxiv.org/abs/2609.23817v1",
+      "title": "VISTA: Video-Injected Stylized Text-to-Animation",
+      "excerpt": "We present VISTA, a two-stage framework for generating stylized 3D human motion by fusing structural content from text prompts with expressive style from reference videos, without requiring jointly paired (text, video, stylized motion) triplets. A Dual-channel Autoencoder first m",
+      "publishedAt": "2026-09-20T19:11:53Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Philipp Slusallek",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-20T19:11:53Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We present VISTA, a two-stage framework for generating stylized 3D human motion by fusing structural content from text prompts with expressive style from reference videos, without requiring jointly paired (text, video, stylized motion) triplets. A Dual-channel Autoencoder first m",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We present VISTA, a two-stage framework for generating stylized 3D human motion by fusing structural content from text prompts with expressive style from reference videos, without requiring jointly paired (text, video, stylized motion) triplets. A Dual-channel Autoencoder first m"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.23817v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "ddb5f4d6e465136129d6",
+      "url": "https://arxiv.org/abs/2609.23796v1",
+      "title": "Mira-Scene: Pixel-Aligned Layouts for Generative 3D Scene",
+      "excerpt": "Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge. A central difficulty lies in how object layout is represented. Holistic methods absorb placement into a scene-level generati",
+      "publishedAt": "2026-09-20T18:36:29Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Xiaojuan Qi",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-20T18:36:29Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge. A central difficulty lies in how object layout is represented. Holistic methods absorb placement into a scene-level generati",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge. A central difficulty lies in how object layout is represented. Holistic methods absorb placement into a scene-level generati"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.23796v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "267caf9e43edf8fb4886",
+      "url": "https://arxiv.org/abs/2609.23386v1",
+      "title": "ProxyBuild: Text-Guided Structured 3D Building Generation with Mesh-Anchored Procedural Proxies",
+      "excerpt": "Text-guided 3D building generation holds tremendous application potential, yet existing generative models typically output inseparable single meshes or non-interactive rendered representations. While procedural modeling can generate editable buildings with hierarchical structures",
+      "publishedAt": "2026-09-20T06:11:13Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Xiaopeng Fan",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-20T06:11:13Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Text-guided 3D building generation holds tremendous application potential, yet existing generative models typically output inseparable single meshes or non-interactive rendered representations. While procedural modeling can generate editable buildings with hierarchical structures",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Text-guided 3D building generation holds tremendous application potential, yet existing generative models typically output inseparable single meshes or non-interactive rendered representations. While procedural modeling can generate editable buildings with hierarchical structures"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.23386v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "567373948eb811f100eb",
+      "url": "https://arxiv.org/abs/2609.22849v1",
+      "title": "LINGO: Latent Initialization and Gradient Optimization for Sparse-view X-ray Novel View Synthesis and CT Reconstruction with 3D Gaussian Splatting",
+      "excerpt": "In novel view synthesis and Computed Tomography (CT) reconstruction with sparse-view X-ray imaging, insufficient angular coverage leads to structural ambiguity and accumulated noise. Integrating 3D Gaussian Splatting (3DGS) with X-ray absorption physics can achieve promising resu",
+      "publishedAt": "2026-09-19T07:45:41Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Shihui Ying",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-19T07:45:41Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "In novel view synthesis and Computed Tomography (CT) reconstruction with sparse-view X-ray imaging, insufficient angular coverage leads to structural ambiguity and accumulated noise. Integrating 3D Gaussian Splatting (3DGS) with X-ray absorption physics can achieve promising resu",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "In novel view synthesis and Computed Tomography (CT) reconstruction with sparse-view X-ray imaging, insufficient angular coverage leads to structural ambiguity and accumulated noise. Integrating 3D Gaussian Splatting (3DGS) with X-ray absorption physics can achieve promising resu"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.22849v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "9f2018374c807f56ecd7",
+      "url": "https://arxiv.org/abs/2609.19907v1",
+      "title": "GS-PI: An Optimization-Decoupled Appearance Decomposition Approach for Generating PBR Gaussian Assets",
+      "excerpt": "Gaussian Splatting (GS) excels at novel-view synthesis but encodes baked-in radiance, tightly entangling illumination with geometry and preventing seamless integration into physically based rendering (PBR) pipelines. Existing inverse-rendering methods attempt to disentangle mater",
+      "publishedAt": "2026-09-17T08:51:18Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Yuchi Huo",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-17T08:51:18Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Gaussian Splatting (GS) excels at novel-view synthesis but encodes baked-in radiance, tightly entangling illumination with geometry and preventing seamless integration into physically based rendering (PBR) pipelines. Existing inverse-rendering methods attempt to disentangle mater",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Gaussian Splatting (GS) excels at novel-view synthesis but encodes baked-in radiance, tightly entangling illumination with geometry and preventing seamless integration into physically based rendering (PBR) pipelines. Existing inverse-rendering methods attempt to disentangle mater"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.19907v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "8dd21bacfc82eee9acfb",
+      "url": "https://arxiv.org/abs/2609.19872v1",
+      "title": "PART: Learning 3D Part Assembly and Retrieval with Transformers",
+      "excerpt": "3D assembly is fundamental to modern manufacturing and digital content creation. In this paper, we present PART, a unified transformer-based framework for 3D part retrieval and assembly: given a target shape and a part library, PART automatically selects the appropriate parts and",
+      "publishedAt": "2026-09-17T08:23:25Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Ziqi Wang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-17T08:23:25Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D assembly is fundamental to modern manufacturing and digital content creation. In this paper, we present PART, a unified transformer-based framework for 3D part retrieval and assembly: given a target shape and a part library, PART automatically selects the appropriate parts and",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D assembly is fundamental to modern manufacturing and digital content creation. In this paper, we present PART, a unified transformer-based framework for 3D part retrieval and assembly: given a target shape and a part library, PART automatically selects the appropriate parts and"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.19872v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "394339062b7efc7b9038",
+      "url": "https://arxiv.org/abs/2609.19782v1",
+      "title": "Printing the Underdetermined: Materializing Multi-solutionness in Figurative Paintings",
+      "excerpt": "Figurative paintings are often approached as if they depict a single recoverable 3D scene: viewers infer depth and occlusion, and reconstruction pipelines attempt to converge to one stable model. We instead foreground multi-solutionness, the non-uniqueness of 3D configurations co",
+      "publishedAt": "2026-09-17T06:50:54Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Yanjun Zhou",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-17T06:50:54Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Figurative paintings are often approached as if they depict a single recoverable 3D scene: viewers infer depth and occlusion, and reconstruction pipelines attempt to converge to one stable model. We instead foreground multi-solutionness, the non-uniqueness of 3D configurations co",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Figurative paintings are often approached as if they depict a single recoverable 3D scene: viewers infer depth and occlusion, and reconstruction pipelines attempt to converge to one stable model. We instead foreground multi-solutionness, the non-uniqueness of 3D configurations co"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.19782v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "84229f4532737c8aead4",
+      "url": "https://arxiv.org/abs/2609.18624v1",
+      "title": "MoQSplat: Adaptive Progressive Streaming of 3D Gaussian Splatting via MoQ",
+      "excerpt": "3D Gaussian Splatting (3DGS) enables photorealistic novel view synthesis, but transmitting gigabyte-scale scene data remains challenging for immersive applications. Traditional HTTP Adaptive Streaming over TCP introduces Head-of-Line (HOL) blocking and coarse segmenting ill-suite",
+      "publishedAt": "2026-09-16T13:14:01Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Christian Timmerer",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-16T13:14:01Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D Gaussian Splatting (3DGS) enables photorealistic novel view synthesis, but transmitting gigabyte-scale scene data remains challenging for immersive applications. Traditional HTTP Adaptive Streaming over TCP introduces Head-of-Line (HOL) blocking and coarse segmenting ill-suite",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D Gaussian Splatting (3DGS) enables photorealistic novel view synthesis, but transmitting gigabyte-scale scene data remains challenging for immersive applications. Traditional HTTP Adaptive Streaming over TCP introduces Head-of-Line (HOL) blocking and coarse segmenting ill-suite"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.18624v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "80ac7bbb6136a1d66b53",
+      "url": "https://arxiv.org/abs/2609.18473v1",
+      "title": "CADSplat: Sparse-View 3D Gaussian Splatting Aided by CAD Models for Robust, Photorealistic Digital-Twin Reconstruction",
+      "excerpt": "We present CADSplat, a framework that reconstructs photorealistic, geometrically accurate digital twins from sparse ($ < 15$ views), wide-baseline posed images of an object by regularizing 3D Gaussian Splatting (3DGS) with an explicit CAD shape prior. Using such a prior requires ",
+      "publishedAt": "2026-09-16T11:07:21Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Nick Michiels",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-16T11:07:21Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We present CADSplat, a framework that reconstructs photorealistic, geometrically accurate digital twins from sparse ($ < 15$ views), wide-baseline posed images of an object by regularizing 3D Gaussian Splatting (3DGS) with an explicit CAD shape prior. Using such a prior requires ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We present CADSplat, a framework that reconstructs photorealistic, geometrically accurate digital twins from sparse ($ < 15$ views), wide-baseline posed images of an object by regularizing 3D Gaussian Splatting (3DGS) with an explicit CAD shape prior. Using such a prior requires "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.18473v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
     {
       "id": "a17b4f755f455444c2f4",
       "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-6/",
@@ -98,7 +560,77 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-22T00:30:00.406922Z"
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "0df1c6ab353e7f7b3e85",
+      "url": "https://arxiv.org/abs/2609.17770v1",
+      "title": "PointGrade: Geometric Priors for Grading MoonBoard Problems",
+      "excerpt": "A MoonBoard is a standardized bouldering wall used in gyms around the world. Climbs up the wall limited to only a subset of holds are known as problems. We introduce PointGrade, a novel machine learning approach to predicting the difficulty of a MoonBoard problem. By sampling a p",
+      "publishedAt": "2026-09-15T19:21:44Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Silvia Sellán",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-15T19:21:44Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "A MoonBoard is a standardized bouldering wall used in gyms around the world. Climbs up the wall limited to only a subset of holds are known as problems. We introduce PointGrade, a novel machine learning approach to predicting the difficulty of a MoonBoard problem. By sampling a p",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "A MoonBoard is a standardized bouldering wall used in gyms around the world. Climbs up the wall limited to only a subset of holds are known as problems. We introduce PointGrade, a novel machine learning approach to predicting the difficulty of a MoonBoard problem. By sampling a p"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.17770v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "86a1d42ec54fd2bc7e00",
+      "url": "https://arxiv.org/abs/2609.17689v1",
+      "title": "Human-aware Design Generation: Adding 3D Humans into Graphic Designs",
+      "excerpt": "Graphic designs nowadays predominantly contain human images, where people are posed and framed in a delicate way to guide viewers' visual exploration and evoke desired feelings. Despite recent progress in automatic graphic design generation, there has been no work on investigatin",
+      "publishedAt": "2026-09-15T18:03:18Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Ying Cao",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-15T18:03:18Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Graphic designs nowadays predominantly contain human images, where people are posed and framed in a delicate way to guide viewers' visual exploration and evoke desired feelings. Despite recent progress in automatic graphic design generation, there has been no work on investigatin",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Graphic designs nowadays predominantly contain human images, where people are posed and framed in a delicate way to guide viewers' visual exploration and evoke desired feelings. Despite recent progress in automatic graphic design generation, there has been no work on investigatin"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.17689v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -133,7 +665,252 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-22T00:30:00.406922Z"
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "15a123ef24ed69e38502",
+      "url": "https://arxiv.org/abs/2609.16180v1",
+      "title": "Delayed-Light Rendering for Superluminal Objects",
+      "excerpt": "We present a real-time rendering method for scenes perceived through signals of finite speed $c$ in a non-relativistic setting: $c$ is a property of the imaging signal, not the causal speed limit, so bodies may move faster than $c$. A superluminal body presents several simultaneo",
+      "publishedAt": "2026-09-14T18:14:33Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "David Bizzozero",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-14T18:14:33Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We present a real-time rendering method for scenes perceived through signals of finite speed $c$ in a non-relativistic setting: $c$ is a property of the imaging signal, not the causal speed limit, so bodies may move faster than $c$. A superluminal body presents several simultaneo",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We present a real-time rendering method for scenes perceived through signals of finite speed $c$ in a non-relativistic setting: $c$ is a property of the imaging signal, not the causal speed limit, so bodies may move faster than $c$. A superluminal body presents several simultaneo"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.16180v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "b200b91cfb25fd69b027",
+      "url": "https://arxiv.org/abs/2609.15735v1",
+      "title": "Transforming harmonic coefficients for 3D splat compression",
+      "excerpt": "We address the problem of color attribute compression for 3D splats. We show that all images generated by 3D splats are linear in the coefficients for each color channel, each spherical harmonic, and each splat, and we identify a basis for the space of all such images. We identif",
+      "publishedAt": "2026-09-14T15:28:29Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Gene Cheung",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-14T15:28:29Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We address the problem of color attribute compression for 3D splats. We show that all images generated by 3D splats are linear in the coefficients for each color channel, each spherical harmonic, and each splat, and we identify a basis for the space of all such images. We identif",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We address the problem of color attribute compression for 3D splats. We show that all images generated by 3D splats are linear in the coefficients for each color channel, each spherical harmonic, and each splat, and we identify a basis for the space of all such images. We identif"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.15735v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "477aa6007144b83c5b8d",
+      "url": "https://arxiv.org/abs/2609.15659v2",
+      "title": "KaiNinja: Extending Native 3D Generators to the Part Level",
+      "excerpt": "Native 3D generators turn one image into a single mesh. TRELLIS.2 and its peers deliver high-fidelity non-watertight geometry with materials, but the output is one fused object, while downstream work such as editing, rigging and simulation operates on part-level assets. A naive i",
+      "publishedAt": "2026-09-14T14:40:52Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Zhixiang Wang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-14T14:40:52Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Native 3D generators turn one image into a single mesh. TRELLIS.2 and its peers deliver high-fidelity non-watertight geometry with materials, but the output is one fused object, while downstream work such as editing, rigging and simulation operates on part-level assets. A naive i",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Native 3D generators turn one image into a single mesh. TRELLIS.2 and its peers deliver high-fidelity non-watertight geometry with materials, but the output is one fused object, while downstream work such as editing, rigging and simulation operates on part-level assets. A naive i"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.15659v2"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "be76a71a0b54a322a563",
+      "url": "https://arxiv.org/abs/2609.15392v1",
+      "title": "ESG: Generating Physically Consistent Dynamic 3D Scenes from Text Descriptions",
+      "excerpt": "Recent progress in image and 3D scene generation has enabled increasingly realistic static environments, yet most methods remain confined to such static configurations. Generating dynamic scenes from natural language is fundamentally challenging: it requires joint reasoning over ",
+      "publishedAt": "2026-09-14T11:19:25Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Yuchi Huo",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-14T11:19:25Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Recent progress in image and 3D scene generation has enabled increasingly realistic static environments, yet most methods remain confined to such static configurations. Generating dynamic scenes from natural language is fundamentally challenging: it requires joint reasoning over ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Recent progress in image and 3D scene generation has enabled increasingly realistic static environments, yet most methods remain confined to such static configurations. Generating dynamic scenes from natural language is fundamentally challenging: it requires joint reasoning over "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.15392v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "de7a306b64644b7d33d4",
+      "url": "https://arxiv.org/abs/2609.13903v1",
+      "title": "SkyAnchor: Updating Metric-scale Aerial 3D Gaussian Scenes from Unposed Ground-View Sequences",
+      "excerpt": "We study how to update a pre-built aerial scene with a newly captured, unposed ground-view sequence. The aerial scene already contains a reliable metric Structure-from-Motion (SfM) reconstruction and a pre-trained 3D Gaussian Splatting (3DGS) model, whereas the ground-view sequen",
+      "publishedAt": "2026-09-12T12:20:25Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Wufan Zhao",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-12T12:20:25Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We study how to update a pre-built aerial scene with a newly captured, unposed ground-view sequence. The aerial scene already contains a reliable metric Structure-from-Motion (SfM) reconstruction and a pre-trained 3D Gaussian Splatting (3DGS) model, whereas the ground-view sequen",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We study how to update a pre-built aerial scene with a newly captured, unposed ground-view sequence. The aerial scene already contains a reliable metric Structure-from-Motion (SfM) reconstruction and a pre-trained 3D Gaussian Splatting (3DGS) model, whereas the ground-view sequen"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.13903v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "41fc893673c13f9de987",
+      "url": "https://arxiv.org/abs/2609.13859v1",
+      "title": "GaussAnything: Semantic Intent-Driven Refinement of Evolving Gaussian Scenes for Standalone VR",
+      "excerpt": "Deploying reconstructed 3D environments on standalone VR headsets are constrained by limited compute and memory, and conventional level-of-detail policies optimize for visibility without accounting for the user's explicit inspection intent. We present GaussAnything, a native Open",
+      "publishedAt": "2026-09-12T10:22:09Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Dzmitry Tsetserukou",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-12T10:22:09Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Deploying reconstructed 3D environments on standalone VR headsets are constrained by limited compute and memory, and conventional level-of-detail policies optimize for visibility without accounting for the user's explicit inspection intent. We present GaussAnything, a native Open",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Deploying reconstructed 3D environments on standalone VR headsets are constrained by limited compute and memory, and conventional level-of-detail policies optimize for visibility without accounting for the user's explicit inspection intent. We present GaussAnything, a native Open"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.13859v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "9eb5b2fc4e22eadf50d1",
+      "url": "https://arxiv.org/abs/2609.13729v1",
+      "title": "A Variational Optimal Transport Operator on Incompressible Flow",
+      "excerpt": "We present the Variational Incompressible Optimal Transport (VIOT) operator, a generative neural operator for amortized incompressible density transport. Given a new source-target density pair, VIOT predicts a divergence-free velocity field and generates the full transport trajec",
+      "publishedAt": "2026-09-12T05:43:44Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Bo Zhu",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-12T05:43:44Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We present the Variational Incompressible Optimal Transport (VIOT) operator, a generative neural operator for amortized incompressible density transport. Given a new source-target density pair, VIOT predicts a divergence-free velocity field and generates the full transport trajec",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We present the Variational Incompressible Optimal Transport (VIOT) operator, a generative neural operator for amortized incompressible density transport. Given a new source-target density pair, VIOT predicts a divergence-free velocity field and generates the full transport trajec"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.13729v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -203,7 +980,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T00:30:00.406922Z"
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -309,6 +1086,41 @@
         "学术研究"
       ],
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "3e40310c282a7d41fbad",
+      "url": "https://blog.playcanvas.com/new-in-supersplat-editor-3-0-rebuilt-on-webgpu",
+      "title": "New in SuperSplat: Editor 3.0 Rebuilt on WebGPU",
+      "excerpt": "Last month we shipped the Publishing API , opening superspl.at up to the wider splat ecosystem. Today is a bigger day. SuperSplat Editor 3.0 is here — the biggest release since 2.0 — and the headline is the editor itself, rebuilt from the ground up on WebGPU . It loads far larger",
+      "publishedAt": "2026-09-09T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-09T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Last month we shipped the Publishing API , opening superspl.at up to the wider splat ecosystem. Today is a bigger day. SuperSplat Editor 3.0 is here — the biggest release since 2.0 — and the headline is the editor itself, rebuilt from the ground up on WebGPU . It loads far larger",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Last month we shipped the Publishing API , opening superspl.at up to the wider splat ecosystem. Today is a bigger day. SuperSplat Editor 3.0 is here — the biggest release since 2.0 — and the headline is the editor itself, rebuilt from the ground up on WebGPU . It loads far larger"
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/new-in-supersplat-editor-3-0-rebuilt-on-webgpu"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1116,6 +1928,41 @@
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
     },
     {
+      "id": "5706a14c2f2632cbfe57",
+      "url": "https://blog.playcanvas.com/new-in-supersplat-introducing-the-new-publishing-api",
+      "title": "New in SuperSplat: Introducing the New Publishing API",
+      "excerpt": "Last month we shipped Vibe Code Splat Apps, 360° Video and splat-transform 3.0 — everything you need to turn a splat into a real, shippable app. Today we're opening SuperSplat up to the rest of the ecosystem. A new publishing API lets any capture app, scanner or training pipeline",
+      "publishedAt": "2026-08-17T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-08-17T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Last month we shipped Vibe Code Splat Apps, 360° Video and splat-transform 3.0 — everything you need to turn a splat into a real, shippable app. Today we're opening SuperSplat up to the rest of the ecosystem. A new publishing API lets any capture app, scanner or training pipeline",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Last month we shipped Vibe Code Splat Apps, 360° Video and splat-transform 3.0 — everything you need to turn a splat into a real, shippable app. Today we're opening SuperSplat up to the rest of the ecosystem. A new publishing API lets any capture app, scanner or training pipeline"
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/new-in-supersplat-introducing-the-new-publishing-api"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
       "id": "1fb98e79b8bb63e33ac0",
       "url": "https://godotengine.org/article/submissions-open-godot-2026-showreel/",
       "title": "Submissions open for Godot 2026 showreel",
@@ -1288,7 +2135,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T00:30:00.406922Z"
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -1323,7 +2170,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T00:30:00.406922Z"
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -1394,6 +2241,41 @@
         "行业动态"
       ],
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "92d82d3879dce4ed566e",
+      "url": "https://blog.playcanvas.com/building-the-grace-cathedral-experience",
+      "title": "Building the Grace Cathedral Experience",
+      "excerpt": "Grace Cathedral is a San Francisco landmark on Nob Hill. After seeing Vincent Woo's high-quality capture of the cathedral and its surrounding streets as 3D Gaussian splats, we jumped at the chance to collaborate with him. Together, we turned his splats into a browser-based, inter",
+      "publishedAt": "2026-07-20T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-07-20T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Grace Cathedral is a San Francisco landmark on Nob Hill. After seeing Vincent Woo's high-quality capture of the cathedral and its surrounding streets as 3D Gaussian splats, we jumped at the chance to collaborate with him. Together, we turned his splats into a browser-based, inter",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Grace Cathedral is a San Francisco landmark on Nob Hill. After seeing Vincent Woo's high-quality capture of the cathedral and its surrounding streets as 3D Gaussian splats, we jumped at the chance to collaborate with him. Together, we turned his splats into a browser-based, inter"
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/building-the-grace-cathedral-experience"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -1536,6 +2418,41 @@
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
     },
     {
+      "id": "723624e8080ec844f370",
+      "url": "https://blog.playcanvas.com/new-in-supersplat-vibe-code-splat-apps",
+      "title": "New in SuperSplat: Vibe Code Splat Apps, 360° Video and splat-transform 3.0",
+      "excerpt": "Last month we shipped a new WebGPU renderer and automatic streaming — a huge leap in how fast splats load and render. Today's update is all about what you can do with your splats. We're rolling out a way to vibe code an entire app around any splat , plus 360° video rendering and ",
+      "publishedAt": "2026-07-09T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-07-09T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Last month we shipped a new WebGPU renderer and automatic streaming — a huge leap in how fast splats load and render. Today's update is all about what you can do with your splats. We're rolling out a way to vibe code an entire app around any splat , plus 360° video rendering and ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Last month we shipped a new WebGPU renderer and automatic streaming — a huge leap in how fast splats load and render. Today's update is all about what you can do with your splats. We're rolling out a way to vibe code an entire app around any splat , plus 360° video rendering and "
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/new-in-supersplat-vibe-code-splat-apps"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
       "id": "a62d06c67d0e081e82c0",
       "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-1/",
       "title": "Dev snapshot: Godot 4.8 dev 1",
@@ -1641,6 +2558,76 @@
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
     },
     {
+      "id": "14d8d676f2d6219e1bb6",
+      "url": "https://blog.playcanvas.com/new-in-supersplat-webgpu-and-streaming-bring-huge-performance-wins",
+      "title": "New in SuperSplat: WebGPU and Streaming Bring Huge Performance Wins",
+      "excerpt": "Last month we shipped Software Attribution, Collision Generation and GPU-Powered Histogram . Today we're announcing some of the most significant upgrades to the SuperSplat platform yet — a brand new high-performance WebGPU renderer and automatic, high-quality levels of detail for",
+      "publishedAt": "2026-06-03T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-06-03T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Last month we shipped Software Attribution, Collision Generation and GPU-Powered Histogram . Today we're announcing some of the most significant upgrades to the SuperSplat platform yet — a brand new high-performance WebGPU renderer and automatic, high-quality levels of detail for",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Last month we shipped Software Attribution, Collision Generation and GPU-Powered Histogram . Today we're announcing some of the most significant upgrades to the SuperSplat platform yet — a brand new high-performance WebGPU renderer and automatic, high-quality levels of detail for"
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/new-in-supersplat-webgpu-and-streaming-bring-huge-performance-wins"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "c89ec1085ebf9c82ad43",
+      "url": "https://blog.playcanvas.com/new-in-supersplat-software-attribution-collision-generation-and-histogram",
+      "title": "New in SuperSplat: Software Attribution, Collision Generation and GPU-Powered Histogram",
+      "excerpt": "Last month we shipped Downloadable Splats, Licenses and Social Links — giving creators more control over how their work is shared and credited. Today we're back with three more upgrades that span the whole SuperSplat experience: from how splats are tagged and discovered, to how t",
+      "publishedAt": "2026-05-14T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-05-14T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Last month we shipped Downloadable Splats, Licenses and Social Links — giving creators more control over how their work is shared and credited. Today we're back with three more upgrades that span the whole SuperSplat experience: from how splats are tagged and discovered, to how t",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Last month we shipped Downloadable Splats, Licenses and Social Links — giving creators more control over how their work is shared and credited. Today we're back with three more upgrades that span the whole SuperSplat experience: from how splats are tagged and discovered, to how t"
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/new-in-supersplat-software-attribution-collision-generation-and-histogram"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
       "id": "6b7a6627d8d3f965b455",
       "url": "https://code.blender.org/2026/05/cycles-texture-cache/",
       "title": "Cycles Texture Cache",
@@ -1673,7 +2660,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T00:30:00.406922Z"
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -1711,6 +2698,41 @@
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
     },
     {
+      "id": "8380ac46976288e484e4",
+      "url": "https://blog.playcanvas.com/turning-a-gaussian-splat-into-a-videogame",
+      "title": "Turning a Gaussian Splat Into a Videogame",
+      "excerpt": "Gaussian Splatting gives you photorealistic environments for free. The catch: a splat is just a cloud of oriented blobs - no triangles, no colliders, no navmesh, no lights. Drop a character in and they'll float through walls looking like they belong in a different universe. This ",
+      "publishedAt": "2026-04-22T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-04-22T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Gaussian Splatting gives you photorealistic environments for free. The catch: a splat is just a cloud of oriented blobs - no triangles, no colliders, no navmesh, no lights. Drop a character in and they'll float through walls looking like they belong in a different universe. This ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Gaussian Splatting gives you photorealistic environments for free. The catch: a splat is just a cloud of oriented blobs - no triangles, no colliders, no navmesh, no lights. Drop a character in and they'll float through walls looking like they belong in a different universe. This "
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/turning-a-gaussian-splat-into-a-videogame"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
       "id": "5b552c73bf5a9f75f2ce",
       "url": "https://github.com/mrdoob/three.js/releases/tag/r184",
       "title": "r184",
@@ -1744,6 +2766,76 @@
         "引擎与交互"
       ],
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "7b60f32330c83f6d2ecc",
+      "url": "https://blog.playcanvas.com/new-in-supersplat-downloadable-splats-licenses-and-social-links",
+      "title": "New in SuperSplat: Downloadable Splats, Licenses and Social Links",
+      "excerpt": "Last month we shipped Walk Mode, Streamed LOD and Easy Upload — three huge upgrades for exploring and publishing splats. Today we're rolling out another set of features that make SuperSplat an even better home for the 3D Gaussian Splatting community. 📥 Downloadable Splats ​ Splat",
+      "publishedAt": "2026-04-16T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-04-16T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Last month we shipped Walk Mode, Streamed LOD and Easy Upload — three huge upgrades for exploring and publishing splats. Today we're rolling out another set of features that make SuperSplat an even better home for the 3D Gaussian Splatting community. 📥 Downloadable Splats ​ Splat",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Last month we shipped Walk Mode, Streamed LOD and Easy Upload — three huge upgrades for exploring and publishing splats. Today we're rolling out another set of features that make SuperSplat an even better home for the 3D Gaussian Splatting community. 📥 Downloadable Splats ​ Splat"
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/new-in-supersplat-downloadable-splats-licenses-and-social-links"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "30cc3adc5e376cd0afa4",
+      "url": "https://blog.playcanvas.com/new-in-supersplat-walk-mode-streamed-lod-and-easy-upload",
+      "title": "New in SuperSplat: Walk Mode, Streamed LOD and Easy Upload",
+      "excerpt": "Last month we launched SuperSplat Studio , giving creators the power to add annotations and cinematic post effects to their published splats. Today, we're back with the next wave of improvements - and this one's a big one. 🚶 Walk Mode ​ You can now explore splats from a first-per",
+      "publishedAt": "2026-03-11T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-03-11T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Last month we launched SuperSplat Studio , giving creators the power to add annotations and cinematic post effects to their published splats. Today, we're back with the next wave of improvements - and this one's a big one. 🚶 Walk Mode ​ You can now explore splats from a first-per",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Last month we launched SuperSplat Studio , giving creators the power to add annotations and cinematic post effects to their published splats. Today, we're back with the next wave of improvements - and this one's a big one. 🚶 Walk Mode ​ You can now explore splats from a first-per"
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/new-in-supersplat-walk-mode-streamed-lod-and-easy-upload"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -1848,7 +2940,77 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T00:30:00.406922Z"
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "b3d1e4ce434d25124890",
+      "url": "https://blog.playcanvas.com/build-gaussian-splat-experiences-with-supersplat-studio",
+      "title": "Build Gaussian Splat Experiences with SuperSplat Studio",
+      "excerpt": "Today, we are thrilled to announce the launch of SuperSplat Studio — a brand new application for authoring interactive Gaussian splat-based experiences. Built on the SuperSplat platform, Studio takes your published splats to the next level, letting you craft rich, engaging presen",
+      "publishedAt": "2026-02-11T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-02-11T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Today, we are thrilled to announce the launch of SuperSplat Studio — a brand new application for authoring interactive Gaussian splat-based experiences. Built on the SuperSplat platform, Studio takes your published splats to the next level, letting you craft rich, engaging presen",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Today, we are thrilled to announce the launch of SuperSplat Studio — a brand new application for authoring interactive Gaussian splat-based experiences. Built on the SuperSplat platform, Studio takes your published splats to the next level, letting you craft rich, engaging presen"
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/build-gaussian-splat-experiences-with-supersplat-studio"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "db45556b6fc865e939c5",
+      "url": "https://blog.playcanvas.com/ai-powered-3dgs-product-visualization-developer-spotlight-on-voxelo",
+      "title": "AI-Powered 3DGS Product Visualization - Developer Spotlight on Voxelo",
+      "excerpt": "Welcome to the sixth edition of Developer Spotlight, a series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web. Today, we are excited to be joined by Vladimir, Roman and Ben from Voxelo as they ce",
+      "publishedAt": "2026-01-22T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-01-22T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Welcome to the sixth edition of Developer Spotlight, a series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web. Today, we are excited to be joined by Vladimir, Roman and Ben from Voxelo as they ce",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Welcome to the sixth edition of Developer Spotlight, a series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web. Today, we are excited to be joined by Vladimir, Roman and Ben from Voxelo as they ce"
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/ai-powered-3dgs-product-visualization-developer-spotlight-on-voxelo"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -1884,6 +3046,41 @@
         "引擎与交互"
       ],
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "eaffaaa892c3554521c8",
+      "url": "https://blog.playcanvas.com/new-playcanvas-visual-studio-code-extension",
+      "title": "New PlayCanvas Visual Studio Extension",
+      "excerpt": "Today we are unveiling our new PlayCanvas VSCode Extension ! The PlayCanvas VS Code Extension is a realtime editing environment for text-based assets from the PlayCanvas Editor platform. Open Source The PlayCanvas VS Code Extension is open-sourced under an MIT license on GitHub 🚀",
+      "publishedAt": "2025-11-25T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-11-25T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Today we are unveiling our new PlayCanvas VSCode Extension ! The PlayCanvas VS Code Extension is a realtime editing environment for text-based assets from the PlayCanvas Editor platform. Open Source The PlayCanvas VS Code Extension is open-sourced under an MIT license on GitHub 🚀",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Today we are unveiling our new PlayCanvas VSCode Extension ! The PlayCanvas VS Code Extension is a realtime editing environment for text-based assets from the PlayCanvas Editor platform. Open Source The PlayCanvas VS Code Extension is open-sourced under an MIT license on GitHub 🚀"
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/new-playcanvas-visual-studio-code-extension"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -1988,7 +3185,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T00:30:00.406922Z"
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -2023,7 +3220,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T00:30:00.406922Z"
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -2058,7 +3255,42 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T00:30:00.406922Z"
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "c2bc9289bacb57df292c",
+      "url": "https://blog.playcanvas.com/playcanvas-open-sources-sog-format-for-gaussian-splatting",
+      "title": "PlayCanvas Open Sources SOG: The WebP of Gaussian Splatting",
+      "excerpt": "Goodbye SOGS. Hello SOG! 👋 Back in May, PlayCanvas announced support for SOGS , a revolutionary super-compressed format for 3D Gaussian splats. While SOGS was a huge leap beyond other compression techniques, we were still not satisfied! So we set about designing a new and improve",
+      "publishedAt": "2025-09-17T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-09-17T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Goodbye SOGS. Hello SOG! 👋 Back in May, PlayCanvas announced support for SOGS , a revolutionary super-compressed format for 3D Gaussian splats. While SOGS was a huge leap beyond other compression techniques, we were still not satisfied! So we set about designing a new and improve",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Goodbye SOGS. Hello SOG! 👋 Back in May, PlayCanvas announced support for SOGS , a revolutionary super-compressed format for 3D Gaussian splats. While SOGS was a huge leap beyond other compression techniques, we were still not satisfied! So we set about designing a new and improve"
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/playcanvas-open-sources-sog-format-for-gaussian-splatting"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -2096,6 +3328,41 @@
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
     },
     {
+      "id": "eefe4701ecc51cc70b82",
+      "url": "https://blog.playcanvas.com/gaussian-splatting-for-e-commerce-developer-spotlight-on-reflct",
+      "title": "Gaussian Splatting for E-Commerce - Developer Spotlight on Reflct",
+      "excerpt": "Welcome to the fifth edition of Developer Spotlight, a series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web. Today, we are excited to be joined by In Ha and Willie from Reflct . Welcome to our ",
+      "publishedAt": "2025-08-21T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-08-21T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Welcome to the fifth edition of Developer Spotlight, a series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web. Today, we are excited to be joined by In Ha and Willie from Reflct . Welcome to our ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Welcome to the fifth edition of Developer Spotlight, a series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web. Today, we are excited to be joined by In Ha and Willie from Reflct . Welcome to our "
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/gaussian-splatting-for-e-commerce-developer-spotlight-on-reflct"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
       "id": "fe76b712ab6fc6c5ab54",
       "url": "https://code.blender.org/2025/08/bundles-and-closures/",
       "title": "Bundles and Closures",
@@ -2128,7 +3395,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T00:30:00.406922Z"
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "f4adf5e6a13a55d8322d",
@@ -2163,7 +3430,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T00:30:00.406922Z"
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -2236,6 +3503,76 @@
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
     },
     {
+      "id": "2d7e07697bdc6e891597",
+      "url": "https://blog.playcanvas.com/playcanvas-editor-frontend-is-now-open-source",
+      "title": "PlayCanvas Editor Frontend is now Open Source",
+      "excerpt": "Today, we are thrilled to announce the open sourcing of the PlayCanvas Editor Frontend ! The PlayCanvas Editor is a powerful visual editing environment for building WebGL, WebGPU, and WebXR applications. It has been the cornerstone of countless incredible projects, many of which ",
+      "publishedAt": "2025-07-30T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-07-30T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Today, we are thrilled to announce the open sourcing of the PlayCanvas Editor Frontend ! The PlayCanvas Editor is a powerful visual editing environment for building WebGL, WebGPU, and WebXR applications. It has been the cornerstone of countless incredible projects, many of which ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Today, we are thrilled to announce the open sourcing of the PlayCanvas Editor Frontend ! The PlayCanvas Editor is a powerful visual editing environment for building WebGL, WebGPU, and WebXR applications. It has been the cornerstone of countless incredible projects, many of which "
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/playcanvas-editor-frontend-is-now-open-source"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "d70ada50b79e832e6208",
+      "url": "https://blog.playcanvas.com/introducing-splat-transform-cli-tool",
+      "title": "Introducing SplatTransform: The Ultimate CLI Tool for 3D Gaussian Splats",
+      "excerpt": "We're thrilled to announce the release of SplatTransform — a powerful CLI tool that makes working with 3D Gaussian Splats a breeze! Open Source SplatTransform is open-sourced under an MIT license on GitHub When 3D Gaussian Splats began to revolutionize real-time rendering and pho",
+      "publishedAt": "2025-07-15T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-07-15T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We're thrilled to announce the release of SplatTransform — a powerful CLI tool that makes working with 3D Gaussian Splats a breeze! Open Source SplatTransform is open-sourced under an MIT license on GitHub When 3D Gaussian Splats began to revolutionize real-time rendering and pho",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We're thrilled to announce the release of SplatTransform — a powerful CLI tool that makes working with 3D Gaussian Splats a breeze! Open Source SplatTransform is open-sourced under an MIT license on GitHub When 3D Gaussian Splats began to revolutionize real-time rendering and pho"
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/introducing-splat-transform-cli-tool"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
       "id": "f4ac3447021c4e984042",
       "url": "https://github.com/mrdoob/three.js/releases/tag/r178",
       "title": "r178",
@@ -2269,6 +3606,41 @@
         "引擎与交互"
       ],
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "61f51d08c1e5af90cf1c",
+      "url": "https://blog.playcanvas.com/introducing-esm-scripts-in-playcanvas",
+      "title": "Introducing ESM Scripts in PlayCanvas",
+      "excerpt": "We’re excited to announce a major step forward for PlayCanvas: ESM Scripts are now supported — and officially the recommended way to write scripts in your PlayCanvas projects. Back in 2016, we introduced what we now call Classic Scripts . At the time, this represented the state o",
+      "publishedAt": "2025-06-10T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-06-10T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We’re excited to announce a major step forward for PlayCanvas: ESM Scripts are now supported — and officially the recommended way to write scripts in your PlayCanvas projects. Back in 2016, we introduced what we now call Classic Scripts . At the time, this represented the state o",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We’re excited to announce a major step forward for PlayCanvas: ESM Scripts are now supported — and officially the recommended way to write scripts in your PlayCanvas projects. Back in 2016, we introduced what we now call Classic Scripts . At the time, this represented the state o"
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/introducing-esm-scripts-in-playcanvas"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "fbead8a3501ce5438f41",
@@ -2341,6 +3713,41 @@
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
     },
     {
+      "id": "b0121918c2b92478f2ec",
+      "url": "https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression",
+      "title": "PlayCanvas Adopts SOGS for 20x 3DGS Compression",
+      "excerpt": "Today, we are releasing PlayCanvas Engine 2.7.5 that introduces a new and advanced compression format for 3D Gaussian Splatting (3DGS) called Self-Organizing Gaussians (SOGS). SOGS can reduce 3DGS data by over 20x. To showcase PlayCanvas' support for SOGS, we have collaborated wi",
+      "publishedAt": "2025-05-15T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-05-15T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Today, we are releasing PlayCanvas Engine 2.7.5 that introduces a new and advanced compression format for 3D Gaussian Splatting (3DGS) called Self-Organizing Gaussians (SOGS). SOGS can reduce 3DGS data by over 20x. To showcase PlayCanvas' support for SOGS, we have collaborated wi",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Today, we are releasing PlayCanvas Engine 2.7.5 that introduces a new and advanced compression format for 3D Gaussian Splatting (3DGS) called Self-Organizing Gaussians (SOGS). SOGS can reduce 3DGS data by over 20x. To showcase PlayCanvas' support for SOGS, we have collaborated wi"
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
       "id": "f5d8bd63d73e3a3ef88d",
       "url": "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v25.05",
       "title": "Version 25.05",
@@ -2374,6 +3781,76 @@
         "行业动态"
       ],
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
+    {
+      "id": "b74dc35c27e2f19ae880",
+      "url": "https://blog.playcanvas.com/supersplat-3dgs-viewer-is-now-open-source",
+      "title": "SuperSplat 3DGS Viewer is now Open Source",
+      "excerpt": "Today, we are announcing the open sourcing of the SuperSplat Viewer . Try it out for yourself: Since its initial release back in November 2023, SuperSplat has grown to be the most popular platform for editing and publishing 3D Gaussian Splats. It allows you to publish your splats",
+      "publishedAt": "2025-04-09T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-04-09T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Today, we are announcing the open sourcing of the SuperSplat Viewer . Try it out for yourself: Since its initial release back in November 2023, SuperSplat has grown to be the most popular platform for editing and publishing 3D Gaussian Splats. It allows you to publish your splats",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Today, we are announcing the open sourcing of the SuperSplat Viewer . Try it out for yourself: Since its initial release back in November 2023, SuperSplat has grown to be the most popular platform for editing and publishing 3D Gaussian Splats. It allows you to publish your splats"
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/supersplat-3dgs-viewer-is-now-open-source"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+    },
+    {
+      "id": "ef91fcfa65c40c7a0b40",
+      "url": "https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat",
+      "title": "Render Your Gaussian Splats to Video with SuperSplat 2.2",
+      "excerpt": "Today, we are announcing the release of SuperSplat 2.2. 🚀 SuperSplat is your open source platform for editing and publishing 3D Gaussian Splats. This update introduces video rendering for your splats, alongside numerous other improvements. Let's dive in! 🎞️ Video Rendering ​ The ",
+      "publishedAt": "2025-03-13T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2025-03-13T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Today, we are announcing the release of SuperSplat 2.2. 🚀 SuperSplat is your open source platform for editing and publishing 3D Gaussian Splats. This update introduces video rendering for your splats, alongside numerous other improvements. Let's dive in! 🎞️ Video Rendering ​ The ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Today, we are announcing the release of SuperSplat 2.2. 🚀 SuperSplat is your open source platform for editing and publishing 3D Gaussian Splats. This update introduces video rendering for your splats, alongside numerous other improvements. Let's dive in! 🎞️ Video Rendering ​ The "
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "6cba580e6c1e79d934f4",
@@ -2494,7 +3971,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-09-22T00:30:00.406922Z"
+      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
     },
     {
       "id": "143d0040a196fe573687",
