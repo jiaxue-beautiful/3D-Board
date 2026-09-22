@@ -21,7 +21,7 @@ const historicalCases = [
 ];
 let cases = socialCases;
 const baseEvents=events,baseCases=cases;
-let todayIds=[],dataReady=false;
+let todayIds=[],recentIds=[],dataReady=false;
 events=events.map(e=>({...e,status:"历史参考"}));
 const categories=['全部','传统建模','AI 3D','学术研究','引擎与交互','图形与渲染','行业应用','行业动态'];
 const $=s=>document.querySelector(s);
@@ -42,7 +42,8 @@ function render(){
  $('#case-count').textContent=`${shownCases.length} 条作品参考`;
  $('#case-empty').hidden=shownCases.length>0;
  $('#case-grid').innerHTML=shownCases.map(CaseUI.caseCard).join('');
- $('#featured').innerHTML=events.filter(e=>todayIds.includes(e.id)).slice(0,3).map((e,i)=>`<article class="feature"><div class="feature-top"><span class="feature-num">0${i+1}</span>${badge(e)}</div><div class="feature-category">${e.category} / ${e.type}</div><h3><button class="title-button" data-event="${e.id}">${e.title}</button></h3><p>${e.summary}</p><div class="source-links">${sources(e)}</div></article>`).join('')||(dataReady?'<p>今日暂无新增（近24小时内暂无已核实并完成整理的事件）。下方可阅读历史保留资料。</p>':'<p>正在读取最新数据，暂不展示今日精选。</p>');
+ const featuredIds=todayIds.length?todayIds:recentIds;
+ $('#featured').innerHTML=(!todayIds.length&&recentIds.length?'<p>近24小时暂无已收录的新发布，以下为近7天来源动态，不代表今日新增或热度排名。</p>':'')+(events.filter(e=>featuredIds.includes(e.id)).slice(0,3).map((e,i)=>`<article class="feature"><div class="feature-top"><span class="feature-num">0${i+1}</span>${badge(e)}</div><div class="feature-category">${e.category} / ${e.type}</div><h3><button class="title-button" data-event="${e.id}">${e.title}</button></h3><p>${e.summary}</p><div class="source-links">${sources(e)}</div></article>`).join('')||(dataReady?'<p>当前暂无近7天已收录的来源动态；不代表行业没有更新。请查看上方采集时间与失败来源，下方保留历史资料。</p>':'<p>正在读取最新数据，暂不展示来源动态。</p>'));
  let list=events.filter(e=>(category==='全部'||e.category===category)&&(view!=='saved'||saved.has(e.id))&&(!query||[e.title,e.summary,...e.tags,e.category,e.type].join(' ').toLowerCase().includes(query.toLowerCase())));
  if(sort==='recent')list.sort((a,b)=>(b.date||'').localeCompare(a.date||''));if(sort==='sources')list.sort((a,b)=>b.sources.length-a.sources.length);
  $('#feed-title').innerHTML=`${view==='saved'?'我的收藏':view==='explore'?'全部事件':'事件资料 · 含历史保留'} <span id="result-count">${list.length} 条事件</span>`;
@@ -70,9 +71,9 @@ async function loadDailyData(){
   if(!response.ok)throw Error('data unavailable');
   const report=await response.json();
   const merged=RadarData.merge(report,baseEvents,baseCases);
-  events=merged.events;cases=merged.cases;todayIds=merged.todayIds;dataReady=true;route();
+  events=merged.events;cases=merged.cases;todayIds=merged.todayIds;recentIds=merged.recentIds;dataReady=true;route();
   const failed=merged.checks.filter(c=>!c.ok);
-  $('#update-note').textContent='最近检查：'+RadarData.dateLabel(merged.checkedAt)+' · 来源 '+(merged.checks.length-failed.length)+'/'+merged.checks.length+' 成功'+(failed.length?' · 暂未取得：'+failed.map(c=>c.name).join('、'):'')+(merged.pendingCount?' · '+merged.pendingCount+' 条待完成中文整理，暂未展示':'');
+  $('#update-note').textContent=(merged.stale?'⚠ 数据超过36小时未更新 · ':'')+'最近检查：'+RadarData.dateLabel(merged.checkedAt)+' · 来源 '+(merged.checks.length-failed.length)+'/'+merged.checks.length+' 成功'+(failed.length?' · 暂未取得：'+failed.map(c=>c.name).join('、'):'')+' · 近24小时 '+merged.todayIds.length+' 条，近7天 '+merged.recentIds.length+' 条'+(merged.sourceCount?' · 来源快讯已展示，未经独立事实审核':'')+(merged.pendingCount?' · '+merged.pendingCount+' 条AI整理待完成，不影响已校验快讯展示':'')+(report.processing?.status==='failed'?' · AI整理执行失败，来源快讯保留':'');
   const parts=new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit',weekday:'long'}).formatToParts(new Date(report.checkedAt));
   const part=type=>parts.find(item=>item.type===type)?.value||'';
   $('.date strong').innerHTML=part('month')+'<span>/</span>'+part('day');

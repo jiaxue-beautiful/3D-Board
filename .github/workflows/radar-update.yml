@@ -25,7 +25,11 @@ jobs:
         run: python scripts/publish_data.py --restore
       - name: Collect source updates
         run: python scripts/collect.py
+      - name: Prepare source news without model dependency
+        run: python scripts/briefs.py
       - name: Prepare digest
+        id: analysis
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -40,6 +44,17 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_PAGES_PROJECT: ${{ secrets.CLOUDFLARE_PAGES_PROJECT }}
         run: |
+          if [ "${{ steps.analysis.outcome }}" != "success" ]; then
+            python - <<'PY'
+          from pathlib import Path
+          import json
+          from scripts.collect import atomic_json
+          path = Path('data/digest.json')
+          data = json.loads(path.read_text())
+          data['processing'] = {'status': 'failed', 'pendingCount': len(data.get('pending', []))}
+          atomic_json(path, data)
+          PY
+          fi
           python scripts/build.py --root . --out dist
           npx --yes wrangler@4.130.0 pages deploy dist --project-name "$CLOUDFLARE_PAGES_PROJECT" --branch main --commit-hash "$GITHUB_SHA"
       - name: Publish independent data branch
@@ -49,15 +64,18 @@ jobs:
           RADAR_DATA_BRANCH: radar-state
         run: |
           python scripts/publish_data.py
-      - name: Report incomplete processing
+      - name: Report source publication and optional analysis separately
+        env:
+          ANALYSIS_STEP: ${{ steps.analysis.outcome }}
         run: |
           python - <<'PY'
           import json, os
           from pathlib import Path
           data = json.loads(Path('data/digest.json').read_text())
           with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
-              summary.write('## Digest processing\n' + json.dumps(data['processing']) + '\n')
+              summary.write('## Source publication\n' + json.dumps(data['sourceProcessing']) + '\n')
+              summary.write('## Optional AI analysis\n' + json.dumps(data.get('processing', {})) + '\n')
           failures = {'generation_failed', 'invalid_draft', 'budget_blocked'}
-          if any(row['status'] in failures for row in data['outcomes']):
-              raise SystemExit('Processing incomplete: valid content and pending queue saved; inspect budget/errors before retrying.')
+          if os.environ['ANALYSIS_STEP'] != 'success' or any(row['status'] in failures for row in data.get('outcomes', [])):
+              print('::warning::Source news published. AI analysis remains incomplete; budget protection is unchanged.')
           PY

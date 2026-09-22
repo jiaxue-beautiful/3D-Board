@@ -48,8 +48,31 @@ test('old news stays in the archive and never becomes a current feature', () => 
   const report = {version:1, checkedAt:'2026-09-18T01:00:00Z', news:[row], cases:[], checks:[]};
   const result = RadarData.merge(report, [{id:'old', status:'升温', sources:[]}], [], '2026-09-18T02:00:00Z');
   assert.deepEqual(result.todayIds, []);
-  assert.equal(result.events[0].status, '历史保留');
+  assert.equal(result.events[0].status, '近7天发布');
   assert.equal(result.events[1].status, '历史参考');
+});
+
+test('source news remains visible without AI and escapes source HTML', () => {
+  const brief = {...row, firstSeenAt:'2026-09-14T01:00:00Z', contentStatus:'source_only',
+    title:'<img src=x onerror=alert(1)>', excerpt:'Original & attributed excerpt'};
+  delete brief.titleZh; delete brief.summaryZh;
+  const report = {version:1, checkedAt:'2026-09-14T01:00:00Z', news:[], cases:[], checks:[], sourceNews:[brief], pending:[{id:row.id}]};
+  const result = RadarData.merge(report, [], [], '2026-09-14T02:00:00Z');
+  assert.equal(result.events.length, 1);
+  assert.equal(result.events[0].type, '来源快讯 · 原文');
+  assert.ok(!result.events[0].title.includes('<img'));
+  assert.deepEqual(result.todayIds,[row.id]);
+  assert.equal(result.pendingCount,1);
+  const later=RadarData.merge(report, [], [], '2026-09-16T02:00:00Z');
+  assert.deepEqual(later.todayIds,[]);
+  assert.deepEqual(later.recentIds,[row.id]);
+  assert.equal(later.stale,true);
+});
+
+test('AI and source versions share one card', () => {
+  const report={version:1, checkedAt:'2026-09-14T01:00:00Z', news:[row], cases:[], checks:[],
+    sourceNews:[{...row,firstSeenAt:'2026-09-14T01:00:00Z',excerpt:'Original excerpt'}]};
+  assert.equal(RadarData.merge(report, [], [], '2026-09-14T02:00:00Z').events.length,1);
 });
 
 test('fresh news expires after 24 hours even if the report is unchanged', () => {

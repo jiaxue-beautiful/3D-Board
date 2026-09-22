@@ -243,6 +243,8 @@ def update(root, now, generate, max_items=2, replay=False):
               'cases': sorted(cases.values(), key=lambda r: r['publishedAt'], reverse=True),
               'checks': report['checks'], 'outcomes': outcomes,
               'pending': list(queue.values()), 'rejected': decisions,
+              'sourceNews': previous.get('sourceNews', []),
+              'sourceProcessing': previous.get('sourceProcessing'),
               'processing': {'status': 'partial' if queue else 'complete',
                              'pendingCount': len(queue), 'attempted': processed},
               'notice': 'AI辅助整理；引用来自原始订阅，不等于全文或视觉验证。新闻与社媒作品分别收录；没有互动采样，不判断爆款。'}

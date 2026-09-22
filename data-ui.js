@@ -25,6 +25,18 @@ const RadarData=(()=>{
  }
  function event(r){return {...r,title:title(r),summary:summary(r),date:dateLabel(r.publishedAt),status:'来源更新',type:r.category==='学术研究'?'研究动态':'来源动态',tags:[r.category],signal:r.verificationNote,
   sources:[[r.sourceName,url(r.url)]],evidence:r.evidence.map(e=>[(fields[e.field]||'资料')+' · 原文引文',e.quote+'\n'+e.locator]),live:true};}
+ function sourceEvent(r,cutoff){
+  if(r.lane!=='news'||!/^[a-f0-9]{20}$/.test(r.id)||!Number.isFinite(Date.parse(r.publishedAt))||Date.parse(r.publishedAt)>cutoff||!Number.isFinite(Date.parse(r.firstSeenAt)))throw Error('Invalid source brief');
+  for(const key of ['title','excerpt','sourceName','category'])if(typeof r[key]!=='string'||!r[key].trim())throw Error('Invalid source text');
+  const link=escape(url(r.url)),note='来源快讯：已校验来源域名和发布时间字段；原文主张未经独立复现，不代表热点排名。';
+  return {id:r.id,url:r.url,publishedAt:r.publishedAt,date:dateLabel(r.publishedAt),
+   title:escape(r.titleZh||r.title),summary:escape(r.summaryZh||r.excerpt),
+   type:r.contentStatus==='editor_summary'?'来源快讯 · 中文概述':'来源快讯 · 原文',
+   category:escape(r.category),tags:[escape(r.category)],live:true,sourceOnly:true,
+   background:note,meaning:'尚未完成独立分析，不推断效果或商业价值。',
+   difference:'未进行版本对比。',industryImpact:'待进一步核对，不自动推断。',tripoImpact:'未评估。',signal:note,
+   sources:[[escape(r.sourceName),link]],evidence:[['来源原标题',escape(r.title)],['原文摘录 · 非全文',escape(r.excerpt)],['首次收录时间',dateLabel(r.firstSeenAt)]]};
+ }
  function social(r){
   const host=new URL(r.url).hostname;
   const platform=host.endsWith('youtube.com')?'YouTube':host.endsWith('instagram.com')?'Instagram':host.endsWith('behance.net')?'Behance':host;
@@ -40,12 +52,15 @@ const RadarData=(()=>{
   const ids=new Set();
   for(const [items,lane] of [[report.news,'news'],[report.cases,'cases']])for(const r of items){checkRow(r,lane,cutoff);if(ids.has(r.id))throw Error('Duplicate ID');ids.add(r.id);}
   const pendingCount=new Set([...[...report.news,...report.cases].filter(r=>!ready(r)).map(r=>r.id),...(report.pending||[]).map(r=>r.id)]).size;
-  const generated=report.news.filter(ready).map(event),known=new Set(generated.map(e=>e.url)),caseUrls=new Set(curated.map(c=>c.url));
+  const analyzed=report.news.filter(ready).map(event),analyzedUrls=new Set(analyzed.map(e=>e.url));
+  const briefs=(report.sourceNews||[]).map(r=>sourceEvent(r,cutoff)).filter(e=>!analyzedUrls.has(e.url));
+  const generated=[...analyzed,...briefs].sort((a,b)=>Date.parse(b.publishedAt)-Date.parse(a.publishedAt)),known=new Set(generated.map(e=>e.url)),caseUrls=new Set(curated.map(c=>c.url));
   const events=[...generated,...historical.filter(e=>!(e.sources||[]).some(([,u])=>known.has(u))).map(e=>({...e,status:'历史参考'}))];
   const cases=[...report.cases.filter(r=>ready(r)&&!caseUrls.has(r.url)).map(social),...curated];
   const todayIds=generated.filter(e=>Date.parse(e.publishedAt)>current-86400000&&Date.parse(e.publishedAt)<=Math.min(current,cutoff)).map(e=>e.id);
-  for(const e of generated)e.status=todayIds.includes(e.id)?'近24小时发布':'历史保留';
-  return {events,cases,todayIds,pendingCount,checkedAt:report.checkedAt,checks:report.checks,trialOnly:report.trialOnly===true};
+  const recentIds=generated.filter(e=>Date.parse(e.publishedAt)>current-7*86400000&&Date.parse(e.publishedAt)<=Math.min(current,cutoff)).map(e=>e.id);
+  for(const e of generated)e.status=todayIds.includes(e.id)?'近24小时发布':recentIds.includes(e.id)?'近7天发布':'历史保留';
+  return {events,cases,todayIds,recentIds,pendingCount,sourceCount:briefs.length,stale:current-cutoff>36*3600000,checkedAt:report.checkedAt,checks:report.checks,trialOnly:report.trialOnly===true};
  }
  return {merge,escape,dateLabel};
 })();

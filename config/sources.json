@@ -1,5 +1,6 @@
 [
   {"id":"blender-dev","name":"Blender 开发者博客","url":"https://code.blender.org/feed/","kind":"feed","lane":"news","category":"传统建模","hosts":["code.blender.org"]},
+  {"id":"playcanvas","name":"PlayCanvas 官方博客","url":"https://blog.playcanvas.com/rss.xml","kind":"feed","lane":"news","category":"图形与渲染","hosts":["blog.playcanvas.com"]},
   {"id":"godot","name":"Godot 官方新闻","url":"https://godotengine.org/rss.xml","kind":"feed","lane":"news","category":"引擎与交互","hosts":["godotengine.org"]},
   {"id":"three","name":"Three.js Releases","url":"https://api.github.com/repos/mrdoob/three.js/releases?per_page=10","kind":"github","lane":"news","category":"引擎与交互","hosts":["github.com"]},
   {"id":"openusd","name":"OpenUSD Releases","url":"https://api.github.com/repos/PixarAnimationStudios/OpenUSD/releases?per_page=10","kind":"github","lane":"news","category":"行业动态","hosts":["github.com"]},
