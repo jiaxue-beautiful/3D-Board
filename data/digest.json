@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "checkedAt": "2026-09-21T00:31:06.704348Z",
-  "windowStart": "2026-09-20T00:31:06.704348Z",
-  "windowEnd": "2026-09-21T00:31:06.704348Z",
+  "checkedAt": "2026-09-22T00:30:00.406922Z",
+  "windowStart": "2026-09-21T00:30:00.406922Z",
+  "windowEnd": "2026-09-22T00:30:00.406922Z",
   "news": [
     {
       "id": "a7c1e5fcf9af05021743",
@@ -327,25 +327,22 @@
       "id": "three",
       "name": "Three.js Releases",
       "lane": "news",
-      "ok": false,
-      "count": 0,
-      "error": "来源请求失败（HTTP 403）；未绕过访问限制"
+      "ok": true,
+      "count": 10
     },
     {
       "id": "openusd",
       "name": "OpenUSD Releases",
       "lane": "news",
-      "ok": false,
-      "count": 0,
-      "error": "来源请求失败（HTTP 403）；未绕过访问限制"
+      "ok": true,
+      "count": 10
     },
     {
       "id": "trellis",
       "name": "TRELLIS Releases",
       "lane": "news",
-      "ok": false,
-      "count": 0,
-      "error": "来源请求失败（HTTP 403）；未绕过访问限制"
+      "ok": true,
+      "count": 0
     },
     {
       "id": "arxiv-3d",
