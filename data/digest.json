@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "checkedAt": "2026-09-22T07:09:50.006793Z",
-  "windowStart": "2026-09-21T07:09:50.006793Z",
-  "windowEnd": "2026-09-22T07:09:50.006793Z",
+  "checkedAt": "2026-09-23T00:28:55.358694Z",
+  "windowStart": "2026-09-22T00:28:55.358694Z",
+  "windowEnd": "2026-09-23T00:28:55.358694Z",
   "news": [
     {
       "id": "a7c1e5fcf9af05021743",
@@ -355,8 +355,9 @@
       "id": "arxiv-3d",
       "name": "arXiv 3D 研究",
       "lane": "news",
-      "ok": true,
-      "count": 20
+      "ok": false,
+      "count": 0,
+      "error": "来源请求失败（HTTP 406）；未绕过访问限制"
     },
     {
       "id": "lightarchitect",
@@ -399,16 +400,8 @@
       "status": "unchanged"
     },
     {
-      "id": "ea1e3f446dbed302d6a1",
-      "status": "budget_blocked"
-    },
-    {
-      "id": "bd7078fa44d88cd93102",
-      "status": "pending_budget"
-    },
-    {
       "id": "80f6a584e0073c8bef3b",
-      "status": "pending_budget"
+      "status": "budget_blocked"
     }
   ],
   "pending": [
@@ -417,25 +410,42 @@
       "url": "https://www.youtube.com/shorts/aHAhGhhxBcg",
       "firstSeenAt": "2026-09-18T07:04:52.989291Z",
       "attempts": 1,
-      "status": "pending_budget"
+      "status": "budget_blocked"
     },
     {
       "id": "ea1e3f446dbed302d6a1",
       "url": "https://arxiv.org/abs/2609.24457v1",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
       "attempts": 0,
-      "status": "budget_blocked"
+      "status": "awaiting_source"
     },
     {
       "id": "bd7078fa44d88cd93102",
       "url": "https://arxiv.org/abs/2609.24984v1",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
       "attempts": 0,
-      "status": "pending_budget"
+      "status": "awaiting_source"
     }
   ],
   "rejected": {},
   "sourceNews": [
+    {
+      "id": "64376f643be3cdb699f4",
+      "url": "https://blog.playcanvas.com/new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod",
+      "title": "New in PlayCanvas Editor: Joints, Parallax Occlusion and Splat LOD",
+      "publishedAt": "2026-09-22T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "excerpt": "Editor 2.32 is out, and it leads with something that has been a long time coming: the Joint component . Hinges, sliders, ball joints, springs and breakable welds are now things you configure in the inspector rather than assemble from a script. There is more to it than that. Mater",
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z",
+      "checkedAt": "2026-09-23T00:28:55.358694Z",
+      "sourceDigest": "ec8a33127453e4b78a270357cf6fc8a155d943b1fd23abd932231f61e5325af7",
+      "contentStatus": "source_only"
+    },
     {
       "id": "bd7078fa44d88cd93102",
       "url": "https://arxiv.org/abs/2609.24984v1",
@@ -642,7 +652,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "“Another development snapshot already? Didn’t they just release one last Friday ?” Indeed, this is much sooner than usual. Even when taking into consideration how development snapshots become more frequent at their tail-end in preparation of feature freeze, less than a week means",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
-      "checkedAt": "2026-09-22T07:09:50.006793Z",
+      "checkedAt": "2026-09-23T00:28:55.358694Z",
       "sourceDigest": "15020795fdf84ef41bd5a60b72550fb6c7a63f04e72a28e890a08aa0aac69159",
       "contentStatus": "source_only"
     },
@@ -693,34 +703,20 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "I want to give people a little bit of insight into what the optimization process looks like for Godot’s renderer. From the outside, rendering optimization can look a little bit like black magic. I want to show a few examples of some optimizations that we did this year to highligh",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
-      "checkedAt": "2026-09-22T07:09:50.006793Z",
+      "checkedAt": "2026-09-23T00:28:55.358694Z",
       "sourceDigest": "316626d3c1e3b430204c3c8b094924b6703525cb96efa3786544f1b3e104e8bc",
       "contentStatus": "source_only"
     }
   ],
   "sourceProcessing": {
-    "checkedAt": "2026-09-22T07:09:50.006793Z",
+    "checkedAt": "2026-09-23T00:28:55.358694Z",
     "status": "updated",
-    "newCount": 15,
+    "newCount": 1,
     "newIds": [
-      "a17b4f755f455444c2f4",
-      "105f64196834384c6a04",
-      "bd7078fa44d88cd93102",
-      "ea1e3f446dbed302d6a1",
-      "18ea4e5b72d4a60ce671",
-      "ddb5f4d6e465136129d6",
-      "267caf9e43edf8fb4886",
-      "567373948eb811f100eb",
-      "9f2018374c807f56ecd7",
-      "8dd21bacfc82eee9acfb",
-      "394339062b7efc7b9038",
-      "84229f4532737c8aead4",
-      "80ac7bbb6136a1d66b53",
-      "0df1c6ab353e7f7b3e85",
-      "86a1d42ec54fd2bc7e00"
+      "64376f643be3cdb699f4"
     ],
     "invalidCount": 0,
-    "successfulSources": 7
+    "successfulSources": 6
   },
   "processing": {
     "status": "partial",
