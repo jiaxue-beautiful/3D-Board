@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-22T07:09:50.006793Z",
-  "windowStart": "2026-09-21T07:09:50.006793Z",
-  "windowEnd": "2026-09-22T07:09:50.006793Z",
+  "checkedAt": "2026-09-23T00:28:55.358694Z",
+  "windowStart": "2026-09-22T00:28:55.358694Z",
+  "windowEnd": "2026-09-23T00:28:55.358694Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -51,8 +51,9 @@
       "id": "arxiv-3d",
       "name": "arXiv 3D 研究",
       "lane": "news",
-      "ok": true,
-      "count": 20
+      "ok": false,
+      "count": 0,
+      "error": "来源请求失败（HTTP 406）；未绕过访问限制"
     },
     {
       "id": "lightarchitect",
@@ -69,463 +70,42 @@
       "count": 15
     }
   ],
-  "events": [
-    {
-      "id": "bd7078fa44d88cd93102",
-      "url": "https://arxiv.org/abs/2609.24984v1",
-      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
-      "excerpt": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T",
-      "publishedAt": "2026-09-21T17:57:06Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Ying Shan",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-21T17:57:06Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.24984v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "ea1e3f446dbed302d6a1",
-      "url": "https://arxiv.org/abs/2609.24457v1",
-      "title": "Constrained Program Generation for 3D Reaction Animation with a 0.8B Model",
-      "excerpt": "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp",
-      "publishedAt": "2026-09-21T12:02:46Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Andrew McDonagh",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-21T12:02:46Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.24457v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    }
-  ],
+  "events": [],
   "archive": [
     {
-      "id": "bd7078fa44d88cd93102",
-      "url": "https://arxiv.org/abs/2609.24984v1",
-      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
-      "excerpt": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T",
-      "publishedAt": "2026-09-21T17:57:06Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
+      "id": "64376f643be3cdb699f4",
+      "url": "https://blog.playcanvas.com/new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod",
+      "title": "New in PlayCanvas Editor: Joints, Parallax Occlusion and Splat LOD",
+      "excerpt": "Editor 2.32 is out, and it leads with something that has been a long time coming: the Joint component . Hinges, sliders, ball joints, springs and breakable welds are now things you configure in the inspector rather than assemble from a script. There is more to it than that. Mater",
+      "publishedAt": "2026-09-22T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
       "lane": "news",
-      "category": "学术研究",
-      "author": "Ying Shan",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-21T17:57:06Z",
+      "date": "2026-09-22T00:00:00Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T",
+      "summary": "Editor 2.32 is out, and it leads with something that has been a long time coming: the Joint component . Hinges, sliders, ball joints, springs and breakable welds are now things you configure in the inspector rather than assemble from a script. There is more to it than that. Mater",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T"
+          "Editor 2.32 is out, and it leads with something that has been a long time coming: the Joint component . Hinges, sliders, ball joints, springs and breakable welds are now things you configure in the inspector rather than assemble from a script. There is more to it than that. Mater"
         ]
       ],
       "sources": [
         [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.24984v1"
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod"
         ]
       ],
       "tags": [
-        "学术研究"
+        "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "ea1e3f446dbed302d6a1",
-      "url": "https://arxiv.org/abs/2609.24457v1",
-      "title": "Constrained Program Generation for 3D Reaction Animation with a 0.8B Model",
-      "excerpt": "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp",
-      "publishedAt": "2026-09-21T12:02:46Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Andrew McDonagh",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-21T12:02:46Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.24457v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "18ea4e5b72d4a60ce671",
-      "url": "https://arxiv.org/abs/2609.23817v1",
-      "title": "VISTA: Video-Injected Stylized Text-to-Animation",
-      "excerpt": "We present VISTA, a two-stage framework for generating stylized 3D human motion by fusing structural content from text prompts with expressive style from reference videos, without requiring jointly paired (text, video, stylized motion) triplets. A Dual-channel Autoencoder first m",
-      "publishedAt": "2026-09-20T19:11:53Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Philipp Slusallek",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-20T19:11:53Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We present VISTA, a two-stage framework for generating stylized 3D human motion by fusing structural content from text prompts with expressive style from reference videos, without requiring jointly paired (text, video, stylized motion) triplets. A Dual-channel Autoencoder first m",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We present VISTA, a two-stage framework for generating stylized 3D human motion by fusing structural content from text prompts with expressive style from reference videos, without requiring jointly paired (text, video, stylized motion) triplets. A Dual-channel Autoencoder first m"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.23817v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "ddb5f4d6e465136129d6",
-      "url": "https://arxiv.org/abs/2609.23796v1",
-      "title": "Mira-Scene: Pixel-Aligned Layouts for Generative 3D Scene",
-      "excerpt": "Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge. A central difficulty lies in how object layout is represented. Holistic methods absorb placement into a scene-level generati",
-      "publishedAt": "2026-09-20T18:36:29Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Xiaojuan Qi",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-20T18:36:29Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge. A central difficulty lies in how object layout is represented. Holistic methods absorb placement into a scene-level generati",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge. A central difficulty lies in how object layout is represented. Holistic methods absorb placement into a scene-level generati"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.23796v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "267caf9e43edf8fb4886",
-      "url": "https://arxiv.org/abs/2609.23386v1",
-      "title": "ProxyBuild: Text-Guided Structured 3D Building Generation with Mesh-Anchored Procedural Proxies",
-      "excerpt": "Text-guided 3D building generation holds tremendous application potential, yet existing generative models typically output inseparable single meshes or non-interactive rendered representations. While procedural modeling can generate editable buildings with hierarchical structures",
-      "publishedAt": "2026-09-20T06:11:13Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Xiaopeng Fan",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-20T06:11:13Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Text-guided 3D building generation holds tremendous application potential, yet existing generative models typically output inseparable single meshes or non-interactive rendered representations. While procedural modeling can generate editable buildings with hierarchical structures",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Text-guided 3D building generation holds tremendous application potential, yet existing generative models typically output inseparable single meshes or non-interactive rendered representations. While procedural modeling can generate editable buildings with hierarchical structures"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.23386v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "567373948eb811f100eb",
-      "url": "https://arxiv.org/abs/2609.22849v1",
-      "title": "LINGO: Latent Initialization and Gradient Optimization for Sparse-view X-ray Novel View Synthesis and CT Reconstruction with 3D Gaussian Splatting",
-      "excerpt": "In novel view synthesis and Computed Tomography (CT) reconstruction with sparse-view X-ray imaging, insufficient angular coverage leads to structural ambiguity and accumulated noise. Integrating 3D Gaussian Splatting (3DGS) with X-ray absorption physics can achieve promising resu",
-      "publishedAt": "2026-09-19T07:45:41Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Shihui Ying",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-19T07:45:41Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "In novel view synthesis and Computed Tomography (CT) reconstruction with sparse-view X-ray imaging, insufficient angular coverage leads to structural ambiguity and accumulated noise. Integrating 3D Gaussian Splatting (3DGS) with X-ray absorption physics can achieve promising resu",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "In novel view synthesis and Computed Tomography (CT) reconstruction with sparse-view X-ray imaging, insufficient angular coverage leads to structural ambiguity and accumulated noise. Integrating 3D Gaussian Splatting (3DGS) with X-ray absorption physics can achieve promising resu"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.22849v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "9f2018374c807f56ecd7",
-      "url": "https://arxiv.org/abs/2609.19907v1",
-      "title": "GS-PI: An Optimization-Decoupled Appearance Decomposition Approach for Generating PBR Gaussian Assets",
-      "excerpt": "Gaussian Splatting (GS) excels at novel-view synthesis but encodes baked-in radiance, tightly entangling illumination with geometry and preventing seamless integration into physically based rendering (PBR) pipelines. Existing inverse-rendering methods attempt to disentangle mater",
-      "publishedAt": "2026-09-17T08:51:18Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yuchi Huo",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-17T08:51:18Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Gaussian Splatting (GS) excels at novel-view synthesis but encodes baked-in radiance, tightly entangling illumination with geometry and preventing seamless integration into physically based rendering (PBR) pipelines. Existing inverse-rendering methods attempt to disentangle mater",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Gaussian Splatting (GS) excels at novel-view synthesis but encodes baked-in radiance, tightly entangling illumination with geometry and preventing seamless integration into physically based rendering (PBR) pipelines. Existing inverse-rendering methods attempt to disentangle mater"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.19907v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "8dd21bacfc82eee9acfb",
-      "url": "https://arxiv.org/abs/2609.19872v1",
-      "title": "PART: Learning 3D Part Assembly and Retrieval with Transformers",
-      "excerpt": "3D assembly is fundamental to modern manufacturing and digital content creation. In this paper, we present PART, a unified transformer-based framework for 3D part retrieval and assembly: given a target shape and a part library, PART automatically selects the appropriate parts and",
-      "publishedAt": "2026-09-17T08:23:25Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Ziqi Wang",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-17T08:23:25Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "3D assembly is fundamental to modern manufacturing and digital content creation. In this paper, we present PART, a unified transformer-based framework for 3D part retrieval and assembly: given a target shape and a part library, PART automatically selects the appropriate parts and",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "3D assembly is fundamental to modern manufacturing and digital content creation. In this paper, we present PART, a unified transformer-based framework for 3D part retrieval and assembly: given a target shape and a part library, PART automatically selects the appropriate parts and"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.19872v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "394339062b7efc7b9038",
-      "url": "https://arxiv.org/abs/2609.19782v1",
-      "title": "Printing the Underdetermined: Materializing Multi-solutionness in Figurative Paintings",
-      "excerpt": "Figurative paintings are often approached as if they depict a single recoverable 3D scene: viewers infer depth and occlusion, and reconstruction pipelines attempt to converge to one stable model. We instead foreground multi-solutionness, the non-uniqueness of 3D configurations co",
-      "publishedAt": "2026-09-17T06:50:54Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yanjun Zhou",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-17T06:50:54Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Figurative paintings are often approached as if they depict a single recoverable 3D scene: viewers infer depth and occlusion, and reconstruction pipelines attempt to converge to one stable model. We instead foreground multi-solutionness, the non-uniqueness of 3D configurations co",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Figurative paintings are often approached as if they depict a single recoverable 3D scene: viewers infer depth and occlusion, and reconstruction pipelines attempt to converge to one stable model. We instead foreground multi-solutionness, the non-uniqueness of 3D configurations co"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.19782v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "84229f4532737c8aead4",
-      "url": "https://arxiv.org/abs/2609.18624v1",
-      "title": "MoQSplat: Adaptive Progressive Streaming of 3D Gaussian Splatting via MoQ",
-      "excerpt": "3D Gaussian Splatting (3DGS) enables photorealistic novel view synthesis, but transmitting gigabyte-scale scene data remains challenging for immersive applications. Traditional HTTP Adaptive Streaming over TCP introduces Head-of-Line (HOL) blocking and coarse segmenting ill-suite",
-      "publishedAt": "2026-09-16T13:14:01Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Christian Timmerer",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-16T13:14:01Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "3D Gaussian Splatting (3DGS) enables photorealistic novel view synthesis, but transmitting gigabyte-scale scene data remains challenging for immersive applications. Traditional HTTP Adaptive Streaming over TCP introduces Head-of-Line (HOL) blocking and coarse segmenting ill-suite",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "3D Gaussian Splatting (3DGS) enables photorealistic novel view synthesis, but transmitting gigabyte-scale scene data remains challenging for immersive applications. Traditional HTTP Adaptive Streaming over TCP introduces Head-of-Line (HOL) blocking and coarse segmenting ill-suite"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.18624v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "80ac7bbb6136a1d66b53",
-      "url": "https://arxiv.org/abs/2609.18473v1",
-      "title": "CADSplat: Sparse-View 3D Gaussian Splatting Aided by CAD Models for Robust, Photorealistic Digital-Twin Reconstruction",
-      "excerpt": "We present CADSplat, a framework that reconstructs photorealistic, geometrically accurate digital twins from sparse ($ < 15$ views), wide-baseline posed images of an object by regularizing 3D Gaussian Splatting (3DGS) with an explicit CAD shape prior. Using such a prior requires ",
-      "publishedAt": "2026-09-16T11:07:21Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Nick Michiels",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-16T11:07:21Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We present CADSplat, a framework that reconstructs photorealistic, geometrically accurate digital twins from sparse ($ < 15$ views), wide-baseline posed images of an object by regularizing 3D Gaussian Splatting (3DGS) with an explicit CAD shape prior. Using such a prior requires ",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We present CADSplat, a framework that reconstructs photorealistic, geometrically accurate digital twins from sparse ($ < 15$ views), wide-baseline posed images of an object by regularizing 3D Gaussian Splatting (3DGS) with an explicit CAD shape prior. Using such a prior requires "
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.18473v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -560,77 +140,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "0df1c6ab353e7f7b3e85",
-      "url": "https://arxiv.org/abs/2609.17770v1",
-      "title": "PointGrade: Geometric Priors for Grading MoonBoard Problems",
-      "excerpt": "A MoonBoard is a standardized bouldering wall used in gyms around the world. Climbs up the wall limited to only a subset of holds are known as problems. We introduce PointGrade, a novel machine learning approach to predicting the difficulty of a MoonBoard problem. By sampling a p",
-      "publishedAt": "2026-09-15T19:21:44Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Silvia Sellán",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-15T19:21:44Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "A MoonBoard is a standardized bouldering wall used in gyms around the world. Climbs up the wall limited to only a subset of holds are known as problems. We introduce PointGrade, a novel machine learning approach to predicting the difficulty of a MoonBoard problem. By sampling a p",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "A MoonBoard is a standardized bouldering wall used in gyms around the world. Climbs up the wall limited to only a subset of holds are known as problems. We introduce PointGrade, a novel machine learning approach to predicting the difficulty of a MoonBoard problem. By sampling a p"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.17770v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "86a1d42ec54fd2bc7e00",
-      "url": "https://arxiv.org/abs/2609.17689v1",
-      "title": "Human-aware Design Generation: Adding 3D Humans into Graphic Designs",
-      "excerpt": "Graphic designs nowadays predominantly contain human images, where people are posed and framed in a delicate way to guide viewers' visual exploration and evoke desired feelings. Despite recent progress in automatic graphic design generation, there has been no work on investigatin",
-      "publishedAt": "2026-09-15T18:03:18Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Ying Cao",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-15T18:03:18Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Graphic designs nowadays predominantly contain human images, where people are posed and framed in a delicate way to guide viewers' visual exploration and evoke desired feelings. Despite recent progress in automatic graphic design generation, there has been no work on investigatin",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Graphic designs nowadays predominantly contain human images, where people are posed and framed in a delicate way to guide viewers' visual exploration and evoke desired feelings. Despite recent progress in automatic graphic design generation, there has been no work on investigatin"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.17689v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -665,252 +175,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "15a123ef24ed69e38502",
-      "url": "https://arxiv.org/abs/2609.16180v1",
-      "title": "Delayed-Light Rendering for Superluminal Objects",
-      "excerpt": "We present a real-time rendering method for scenes perceived through signals of finite speed $c$ in a non-relativistic setting: $c$ is a property of the imaging signal, not the causal speed limit, so bodies may move faster than $c$. A superluminal body presents several simultaneo",
-      "publishedAt": "2026-09-14T18:14:33Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "David Bizzozero",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-14T18:14:33Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We present a real-time rendering method for scenes perceived through signals of finite speed $c$ in a non-relativistic setting: $c$ is a property of the imaging signal, not the causal speed limit, so bodies may move faster than $c$. A superluminal body presents several simultaneo",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We present a real-time rendering method for scenes perceived through signals of finite speed $c$ in a non-relativistic setting: $c$ is a property of the imaging signal, not the causal speed limit, so bodies may move faster than $c$. A superluminal body presents several simultaneo"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.16180v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "b200b91cfb25fd69b027",
-      "url": "https://arxiv.org/abs/2609.15735v1",
-      "title": "Transforming harmonic coefficients for 3D splat compression",
-      "excerpt": "We address the problem of color attribute compression for 3D splats. We show that all images generated by 3D splats are linear in the coefficients for each color channel, each spherical harmonic, and each splat, and we identify a basis for the space of all such images. We identif",
-      "publishedAt": "2026-09-14T15:28:29Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Gene Cheung",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-14T15:28:29Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We address the problem of color attribute compression for 3D splats. We show that all images generated by 3D splats are linear in the coefficients for each color channel, each spherical harmonic, and each splat, and we identify a basis for the space of all such images. We identif",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We address the problem of color attribute compression for 3D splats. We show that all images generated by 3D splats are linear in the coefficients for each color channel, each spherical harmonic, and each splat, and we identify a basis for the space of all such images. We identif"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.15735v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "477aa6007144b83c5b8d",
-      "url": "https://arxiv.org/abs/2609.15659v2",
-      "title": "KaiNinja: Extending Native 3D Generators to the Part Level",
-      "excerpt": "Native 3D generators turn one image into a single mesh. TRELLIS.2 and its peers deliver high-fidelity non-watertight geometry with materials, but the output is one fused object, while downstream work such as editing, rigging and simulation operates on part-level assets. A naive i",
-      "publishedAt": "2026-09-14T14:40:52Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Zhixiang Wang",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-14T14:40:52Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Native 3D generators turn one image into a single mesh. TRELLIS.2 and its peers deliver high-fidelity non-watertight geometry with materials, but the output is one fused object, while downstream work such as editing, rigging and simulation operates on part-level assets. A naive i",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Native 3D generators turn one image into a single mesh. TRELLIS.2 and its peers deliver high-fidelity non-watertight geometry with materials, but the output is one fused object, while downstream work such as editing, rigging and simulation operates on part-level assets. A naive i"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.15659v2"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "be76a71a0b54a322a563",
-      "url": "https://arxiv.org/abs/2609.15392v1",
-      "title": "ESG: Generating Physically Consistent Dynamic 3D Scenes from Text Descriptions",
-      "excerpt": "Recent progress in image and 3D scene generation has enabled increasingly realistic static environments, yet most methods remain confined to such static configurations. Generating dynamic scenes from natural language is fundamentally challenging: it requires joint reasoning over ",
-      "publishedAt": "2026-09-14T11:19:25Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yuchi Huo",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-14T11:19:25Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Recent progress in image and 3D scene generation has enabled increasingly realistic static environments, yet most methods remain confined to such static configurations. Generating dynamic scenes from natural language is fundamentally challenging: it requires joint reasoning over ",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Recent progress in image and 3D scene generation has enabled increasingly realistic static environments, yet most methods remain confined to such static configurations. Generating dynamic scenes from natural language is fundamentally challenging: it requires joint reasoning over "
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.15392v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "de7a306b64644b7d33d4",
-      "url": "https://arxiv.org/abs/2609.13903v1",
-      "title": "SkyAnchor: Updating Metric-scale Aerial 3D Gaussian Scenes from Unposed Ground-View Sequences",
-      "excerpt": "We study how to update a pre-built aerial scene with a newly captured, unposed ground-view sequence. The aerial scene already contains a reliable metric Structure-from-Motion (SfM) reconstruction and a pre-trained 3D Gaussian Splatting (3DGS) model, whereas the ground-view sequen",
-      "publishedAt": "2026-09-12T12:20:25Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Wufan Zhao",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-12T12:20:25Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We study how to update a pre-built aerial scene with a newly captured, unposed ground-view sequence. The aerial scene already contains a reliable metric Structure-from-Motion (SfM) reconstruction and a pre-trained 3D Gaussian Splatting (3DGS) model, whereas the ground-view sequen",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We study how to update a pre-built aerial scene with a newly captured, unposed ground-view sequence. The aerial scene already contains a reliable metric Structure-from-Motion (SfM) reconstruction and a pre-trained 3D Gaussian Splatting (3DGS) model, whereas the ground-view sequen"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.13903v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "41fc893673c13f9de987",
-      "url": "https://arxiv.org/abs/2609.13859v1",
-      "title": "GaussAnything: Semantic Intent-Driven Refinement of Evolving Gaussian Scenes for Standalone VR",
-      "excerpt": "Deploying reconstructed 3D environments on standalone VR headsets are constrained by limited compute and memory, and conventional level-of-detail policies optimize for visibility without accounting for the user's explicit inspection intent. We present GaussAnything, a native Open",
-      "publishedAt": "2026-09-12T10:22:09Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Dzmitry Tsetserukou",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-12T10:22:09Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Deploying reconstructed 3D environments on standalone VR headsets are constrained by limited compute and memory, and conventional level-of-detail policies optimize for visibility without accounting for the user's explicit inspection intent. We present GaussAnything, a native Open",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Deploying reconstructed 3D environments on standalone VR headsets are constrained by limited compute and memory, and conventional level-of-detail policies optimize for visibility without accounting for the user's explicit inspection intent. We present GaussAnything, a native Open"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.13859v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "9eb5b2fc4e22eadf50d1",
-      "url": "https://arxiv.org/abs/2609.13729v1",
-      "title": "A Variational Optimal Transport Operator on Incompressible Flow",
-      "excerpt": "We present the Variational Incompressible Optimal Transport (VIOT) operator, a generative neural operator for amortized incompressible density transport. Given a new source-target density pair, VIOT predicts a divergence-free velocity field and generates the full transport trajec",
-      "publishedAt": "2026-09-12T05:43:44Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Bo Zhu",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-12T05:43:44Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We present the Variational Incompressible Optimal Transport (VIOT) operator, a generative neural operator for amortized incompressible density transport. Given a new source-target density pair, VIOT predicts a divergence-free velocity field and generates the full transport trajec",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We present the Variational Incompressible Optimal Transport (VIOT) operator, a generative neural operator for amortized incompressible density transport. Given a new source-target density pair, VIOT predicts a divergence-free velocity field and generates the full transport trajec"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.13729v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -980,7 +245,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1120,7 +385,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1960,7 +1225,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2135,7 +1400,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2170,7 +1435,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2275,7 +1540,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2450,7 +1715,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -2590,7 +1855,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -2625,7 +1890,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -2660,7 +1925,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -2730,7 +1995,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -2800,7 +2065,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -2835,7 +2100,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -2940,7 +2205,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -2975,7 +2240,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3010,7 +2275,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3080,7 +2345,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3185,7 +2450,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3220,7 +2485,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -3255,7 +2520,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3290,7 +2555,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3360,7 +2625,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "fe76b712ab6fc6c5ab54",
@@ -3395,7 +2660,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "f4adf5e6a13a55d8322d",
@@ -3430,7 +2695,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3535,7 +2800,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "d70ada50b79e832e6208",
@@ -3570,7 +2835,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "f4ac3447021c4e984042",
@@ -3640,7 +2905,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "fbead8a3501ce5438f41",
@@ -3745,7 +3010,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "f5d8bd63d73e3a3ef88d",
@@ -3815,42 +3080,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
-    },
-    {
-      "id": "ef91fcfa65c40c7a0b40",
-      "url": "https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat",
-      "title": "Render Your Gaussian Splats to Video with SuperSplat 2.2",
-      "excerpt": "Today, we are announcing the release of SuperSplat 2.2. 🚀 SuperSplat is your open source platform for editing and publishing 3D Gaussian Splats. This update introduces video rendering for your splats, alongside numerous other improvements. Let's dive in! 🎞️ Video Rendering ​ The ",
-      "publishedAt": "2025-03-13T00:00:00Z",
-      "sourceId": "playcanvas",
-      "sourceName": "PlayCanvas 官方博客",
-      "lane": "news",
-      "category": "图形与渲染",
-      "author": "PlayCanvas 官方博客",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2025-03-13T00:00:00Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Today, we are announcing the release of SuperSplat 2.2. 🚀 SuperSplat is your open source platform for editing and publishing 3D Gaussian Splats. This update introduces video rendering for your splats, alongside numerous other improvements. Let's dive in! 🎞️ Video Rendering ​ The ",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Today, we are announcing the release of SuperSplat 2.2. 🚀 SuperSplat is your open source platform for editing and publishing 3D Gaussian Splats. This update introduces video rendering for your splats, alongside numerous other improvements. Let's dive in! 🎞️ Video Rendering ​ The "
-        ]
-      ],
-      "sources": [
-        [
-          "PlayCanvas 官方博客",
-          "https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat"
-        ]
-      ],
-      "tags": [
-        "图形与渲染"
-      ],
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "6cba580e6c1e79d934f4",
@@ -3971,7 +3201,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-09-22T07:09:50.006793Z"
+      "firstSeenAt": "2026-09-23T00:28:55.358694Z"
     },
     {
       "id": "143d0040a196fe573687",
