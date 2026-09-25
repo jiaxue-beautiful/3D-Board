@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-24T00:31:07.822680Z",
-  "windowStart": "2026-09-23T00:31:07.822680Z",
-  "windowEnd": "2026-09-24T00:31:07.822680Z",
+  "checkedAt": "2026-09-25T00:32:20.317079Z",
+  "windowStart": "2026-09-24T00:32:20.317079Z",
+  "windowEnd": "2026-09-25T00:32:20.317079Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -70,8 +70,79 @@
       "count": 15
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "06efcedcb2a9131cd463",
+      "url": "https://github.com/mrdoob/three.js/releases/tag/r186",
+      "title": "r186",
+      "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe",
+      "publishedAt": "2026-09-24T14:35:44Z",
+      "sourceId": "three",
+      "sourceName": "Three.js Releases",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Three.js Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-24T14:35:44Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe"
+        ]
+      ],
+      "sources": [
+        [
+          "Three.js Releases",
+          "https://github.com/mrdoob/three.js/releases/tag/r186"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    }
+  ],
   "archive": [
+    {
+      "id": "06efcedcb2a9131cd463",
+      "url": "https://github.com/mrdoob/three.js/releases/tag/r186",
+      "title": "r186",
+      "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe",
+      "publishedAt": "2026-09-24T14:35:44Z",
+      "sourceId": "three",
+      "sourceName": "Three.js Releases",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Three.js Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-24T14:35:44Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe"
+        ]
+      ],
+      "sources": [
+        [
+          "Three.js Releases",
+          "https://github.com/mrdoob/three.js/releases/tag/r186"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+    },
     {
       "id": "64376f643be3cdb699f4",
       "url": "https://blog.playcanvas.com/new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod",
@@ -105,7 +176,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -140,7 +211,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -175,7 +246,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -245,7 +316,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -385,42 +456,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
-    },
-    {
-      "id": "06efcedcb2a9131cd463",
-      "url": "https://github.com/mrdoob/three.js/releases/tag/r186",
-      "title": "r186",
-      "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe",
-      "publishedAt": "2026-09-08T19:16:16Z",
-      "sourceId": "three",
-      "sourceName": "Three.js Releases",
-      "lane": "news",
-      "category": "引擎与交互",
-      "author": "Three.js Releases",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-08T19:16:16Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe"
-        ]
-      ],
-      "sources": [
-        [
-          "Three.js Releases",
-          "https://github.com/mrdoob/three.js/releases/tag/r186"
-        ]
-      ],
-      "tags": [
-        "引擎与交互"
-      ],
-      "firstSeenAt": "2026-09-10T12:53:15.811892Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -1225,7 +1261,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -1400,7 +1436,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -1435,7 +1471,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -1540,7 +1576,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -1715,7 +1751,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -1855,7 +1891,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -1890,7 +1926,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -1925,7 +1961,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -1995,7 +2031,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -2065,7 +2101,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -2100,7 +2136,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -2205,7 +2241,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -2240,7 +2276,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -2275,7 +2311,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -2345,7 +2381,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -2450,7 +2486,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -2485,7 +2521,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -2520,7 +2556,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -2555,7 +2591,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -2625,7 +2661,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "fe76b712ab6fc6c5ab54",
@@ -2660,7 +2696,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "f4adf5e6a13a55d8322d",
@@ -2695,7 +2731,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -2800,7 +2836,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "d70ada50b79e832e6208",
@@ -2835,7 +2871,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "f4ac3447021c4e984042",
@@ -2905,7 +2941,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "fbead8a3501ce5438f41",
@@ -3010,7 +3046,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "f5d8bd63d73e3a3ef88d",
@@ -3080,7 +3116,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "6cba580e6c1e79d934f4",
@@ -3201,7 +3237,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-09-24T00:31:07.822680Z"
+      "firstSeenAt": "2026-09-25T00:32:20.317079Z"
     },
     {
       "id": "143d0040a196fe573687",
