@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "checkedAt": "2026-09-25T00:32:20.317079Z",
-  "windowStart": "2026-09-24T00:32:20.317079Z",
-  "windowEnd": "2026-09-25T00:32:20.317079Z",
+  "checkedAt": "2026-09-26T04:53:05.146607Z",
+  "windowStart": "2026-09-25T04:53:05.146607Z",
+  "windowEnd": "2026-09-26T04:53:05.146607Z",
   "news": [
     {
       "id": "a7c1e5fcf9af05021743",
@@ -363,45 +363,23 @@
       "id": "lightarchitect",
       "name": "LightArchitect 原视频",
       "lane": "cases",
-      "ok": true,
-      "count": 15
+      "ok": false,
+      "count": 0,
+      "error": "来源请求失败（HTTP 404）；未绕过访问限制"
     },
     {
       "id": "mdmz",
       "name": "MDMZ 原视频",
       "lane": "cases",
-      "ok": true,
-      "count": 15
+      "ok": false,
+      "count": 0,
+      "error": "来源请求失败（HTTP 404）；未绕过访问限制"
     }
   ],
   "outcomes": [
     {
-      "id": "8e706fc2ba999f33e1a2",
-      "status": "insufficient_source"
-    },
-    {
-      "id": "0dc839d02e7a74acee01",
-      "status": "insufficient_source"
-    },
-    {
-      "id": "01d63ccc33cabb2672bb",
-      "status": "unchanged"
-    },
-    {
-      "id": "d715db7f0a63dd8cc312",
-      "status": "unchanged"
-    },
-    {
-      "id": "143d0040a196fe573687",
-      "status": "unchanged"
-    },
-    {
       "id": "06efcedcb2a9131cd463",
       "status": "budget_blocked"
-    },
-    {
-      "id": "80f6a584e0073c8bef3b",
-      "status": "pending_budget"
     }
   ],
   "pending": [
@@ -410,7 +388,7 @@
       "url": "https://www.youtube.com/shorts/aHAhGhhxBcg",
       "firstSeenAt": "2026-09-18T07:04:52.989291Z",
       "attempts": 1,
-      "status": "pending_budget"
+      "status": "awaiting_source"
     },
     {
       "id": "ea1e3f446dbed302d6a1",
@@ -449,7 +427,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe",
       "firstSeenAt": "2026-09-25T00:32:20.317079Z",
-      "checkedAt": "2026-09-25T00:32:20.317079Z",
+      "checkedAt": "2026-09-26T04:53:05.146607Z",
       "sourceDigest": "c6723f0eed847078ce11c48fe05a93a60347b999e0bba3e83fd14e4f1db2f9f5",
       "contentStatus": "source_only"
     },
@@ -466,7 +444,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Editor 2.32 is out, and it leads with something that has been a long time coming: the Joint component . Hinges, sliders, ball joints, springs and breakable welds are now things you configure in the inspector rather than assemble from a script. There is more to it than that. Mater",
       "firstSeenAt": "2026-09-23T00:28:55.358694Z",
-      "checkedAt": "2026-09-25T00:32:20.317079Z",
+      "checkedAt": "2026-09-26T04:53:05.146607Z",
       "sourceDigest": "ec8a33127453e4b78a270357cf6fc8a155d943b1fd23abd932231f61e5325af7",
       "contentStatus": "source_only"
     },
@@ -676,7 +654,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "“Another development snapshot already? Didn’t they just release one last Friday ?” Indeed, this is much sooner than usual. Even when taking into consideration how development snapshots become more frequent at their tail-end in preparation of feature freeze, less than a week means",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
-      "checkedAt": "2026-09-25T00:32:20.317079Z",
+      "checkedAt": "2026-09-26T04:53:05.146607Z",
       "sourceDigest": "15020795fdf84ef41bd5a60b72550fb6c7a63f04e72a28e890a08aa0aac69159",
       "contentStatus": "source_only"
     },
@@ -727,18 +705,16 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "I want to give people a little bit of insight into what the optimization process looks like for Godot’s renderer. From the outside, rendering optimization can look a little bit like black magic. I want to show a few examples of some optimizations that we did this year to highligh",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
-      "checkedAt": "2026-09-25T00:32:20.317079Z",
+      "checkedAt": "2026-09-26T04:53:05.146607Z",
       "sourceDigest": "316626d3c1e3b430204c3c8b094924b6703525cb96efa3786544f1b3e104e8bc",
       "contentStatus": "source_only"
     }
   ],
   "sourceProcessing": {
-    "checkedAt": "2026-09-25T00:32:20.317079Z",
+    "checkedAt": "2026-09-26T04:53:05.146607Z",
     "status": "updated",
-    "newCount": 1,
-    "newIds": [
-      "06efcedcb2a9131cd463"
-    ],
+    "newCount": 0,
+    "newIds": [],
     "invalidCount": 0,
     "successfulSources": 6
   },
