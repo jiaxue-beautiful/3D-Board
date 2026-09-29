@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-28T05:18:50.668950Z",
-  "windowStart": "2026-09-27T05:18:50.668950Z",
-  "windowEnd": "2026-09-28T05:18:50.668950Z",
+  "checkedAt": "2026-09-29T05:39:59.027142Z",
+  "windowStart": "2026-09-28T05:39:59.027142Z",
+  "windowEnd": "2026-09-29T05:39:59.027142Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -51,9 +51,8 @@
       "id": "arxiv-3d",
       "name": "arXiv 3D 研究",
       "lane": "news",
-      "ok": false,
-      "count": 0,
-      "error": "来源请求失败（HTTP 406）；未绕过访问限制"
+      "ok": true,
+      "count": 20
     },
     {
       "id": "lightarchitect",
@@ -72,8 +71,289 @@
       "error": "来源请求失败（HTTP 404）；未绕过访问限制"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "7033ec2c6ca8629e089e",
+      "url": "https://arxiv.org/abs/2609.35770v1",
+      "title": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
+      "excerpt": "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intr",
+      "publishedAt": "2026-09-28T17:59:58Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Alan Yuille",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-28T17:59:58Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intr",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intr"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.35770v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "d19ff1b392fe359f8586",
+      "url": "https://arxiv.org/abs/2609.35463v1",
+      "title": "A.D.A.M.O. (Agent for language-Driven Actions with Multimodal Observations): A Visual-Symbolic Framework for Virtual Humans",
+      "excerpt": "Creating believable vh requires the coherent integration of perception, reasoning, and action mediated by language. A central challenge is to combine these components into a control loop grounded in interactive 3D environments. To this end, we present A.D.A.M.O. (Agent for langua",
+      "publishedAt": "2026-09-28T15:51:25Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Andrea Bottino",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-28T15:51:25Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Creating believable vh requires the coherent integration of perception, reasoning, and action mediated by language. A central challenge is to combine these components into a control loop grounded in interactive 3D environments. To this end, we present A.D.A.M.O. (Agent for langua",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Creating believable vh requires the coherent integration of perception, reasoning, and action mediated by language. A central challenge is to combine these components into a control loop grounded in interactive 3D environments. To this end, we present A.D.A.M.O. (Agent for langua"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.35463v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    }
+  ],
   "archive": [
+    {
+      "id": "7033ec2c6ca8629e089e",
+      "url": "https://arxiv.org/abs/2609.35770v1",
+      "title": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
+      "excerpt": "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intr",
+      "publishedAt": "2026-09-28T17:59:58Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Alan Yuille",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-28T17:59:58Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intr",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intr"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.35770v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "d19ff1b392fe359f8586",
+      "url": "https://arxiv.org/abs/2609.35463v1",
+      "title": "A.D.A.M.O. (Agent for language-Driven Actions with Multimodal Observations): A Visual-Symbolic Framework for Virtual Humans",
+      "excerpt": "Creating believable vh requires the coherent integration of perception, reasoning, and action mediated by language. A central challenge is to combine these components into a control loop grounded in interactive 3D environments. To this end, we present A.D.A.M.O. (Agent for langua",
+      "publishedAt": "2026-09-28T15:51:25Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Andrea Bottino",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-28T15:51:25Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Creating believable vh requires the coherent integration of perception, reasoning, and action mediated by language. A central challenge is to combine these components into a control loop grounded in interactive 3D environments. To this end, we present A.D.A.M.O. (Agent for langua",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Creating believable vh requires the coherent integration of perception, reasoning, and action mediated by language. A central challenge is to combine these components into a control loop grounded in interactive 3D environments. To this end, we present A.D.A.M.O. (Agent for langua"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.35463v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "254bf656e4bdfab0e42a",
+      "url": "https://arxiv.org/abs/2609.33598v1",
+      "title": "Lattice Structure Optimization for Additive Manufacturing: Manufacturability-Driven Design and Pareto Front Construction",
+      "excerpt": "Lattice metamaterials support lightweight, multifunctional structures, while additive manufacturing (AM) enables complex geometries. Yet multiphysics lattice design faces two challenges: efficiently constructing well-covered multi-objective Pareto fronts under limited budgets, an",
+      "publishedAt": "2026-09-27T14:16:04Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Lin Lu",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-27T14:16:04Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Lattice metamaterials support lightweight, multifunctional structures, while additive manufacturing (AM) enables complex geometries. Yet multiphysics lattice design faces two challenges: efficiently constructing well-covered multi-objective Pareto fronts under limited budgets, an",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Lattice metamaterials support lightweight, multifunctional structures, while additive manufacturing (AM) enables complex geometries. Yet multiphysics lattice design faces two challenges: efficiently constructing well-covered multi-objective Pareto fronts under limited budgets, an"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.33598v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "490455323d7da37f7d3b",
+      "url": "https://arxiv.org/abs/2609.32027v1",
+      "title": "Depth Any Seen: Which Surfaces and How Far?",
+      "excerpt": "When several surfaces are visible along a ray, recovering visible 3D structure from one image requires jointly estimating their presence and metric depth. Depth Any Seen represents these surfaces as image-conditioned multi-Bernoulli depth sets, whose components each contribute on",
+      "publishedAt": "2026-09-25T21:46:25Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Xiaonan Huang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-25T21:46:25Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "When several surfaces are visible along a ray, recovering visible 3D structure from one image requires jointly estimating their presence and metric depth. Depth Any Seen represents these surfaces as image-conditioned multi-Bernoulli depth sets, whose components each contribute on",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "When several surfaces are visible along a ray, recovering visible 3D structure from one image requires jointly estimating their presence and metric depth. Depth Any Seen represents these surfaces as image-conditioned multi-Bernoulli depth sets, whose components each contribute on"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.32027v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "9a678ba525282730d578",
+      "url": "https://arxiv.org/abs/2609.31339v1",
+      "title": "ChronoFuseGS: Multi-Temporal Gaussian Fusion with Per-Splat Persistence and Change Visualization",
+      "excerpt": "Reconstructing environments where parts of the scene change between captured image sets poses a challenge for 3D scene reconstruction. We present ChronoFuseGS, a multi-temporal Gaussian Splatting approach that addresses this issue by taking multiple separately trained Gaussian Sp",
+      "publishedAt": "2026-09-25T14:43:04Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Hannes Kaufmann",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-25T14:43:04Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Reconstructing environments where parts of the scene change between captured image sets poses a challenge for 3D scene reconstruction. We present ChronoFuseGS, a multi-temporal Gaussian Splatting approach that addresses this issue by taking multiple separately trained Gaussian Sp",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Reconstructing environments where parts of the scene change between captured image sets poses a challenge for 3D scene reconstruction. We present ChronoFuseGS, a multi-temporal Gaussian Splatting approach that addresses this issue by taking multiple separately trained Gaussian Sp"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.31339v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "79c9c635af5b92e5029a",
+      "url": "https://arxiv.org/abs/2609.30517v1",
+      "title": "Seeing Speech: Learning Visible Articulatory Dynamics for Speech-Driven 3D Facial Animation",
+      "excerpt": "Recent progress in speech-driven 3D facial animation has improved vertex-level reconstruction quality, but speech-consistent visible articulation remains difficult. This is because speech production follows structured and constrained articulators' coordination and the mapping fro",
+      "publishedAt": "2026-09-24T20:12:36Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Hak Gu Kim",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-24T20:12:36Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Recent progress in speech-driven 3D facial animation has improved vertex-level reconstruction quality, but speech-consistent visible articulation remains difficult. This is because speech production follows structured and constrained articulators' coordination and the mapping fro",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Recent progress in speech-driven 3D facial animation has improved vertex-level reconstruction quality, but speech-consistent visible articulation remains difficult. This is because speech production follows structured and constrained articulators' coordination and the mapping fro"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.30517v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
     {
       "id": "06efcedcb2a9131cd463",
       "url": "https://github.com/mrdoob/three.js/releases/tag/r186",
@@ -110,6 +390,146 @@
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
     },
     {
+      "id": "e7d6f961d9547c7115b4",
+      "url": "https://arxiv.org/abs/2609.29788v1",
+      "title": "OREO: Fidelity Alignment in 3D Generation via On-the-fly Rendering-Editing Optimization",
+      "excerpt": "Despite recent advancements in 3D generation, models often struggle to produce assets with high visual fidelity. To bridge this gap, we propose OREO, an alignment framework that enhances the realism of 3D generators by leveraging rich 2D diffusion priors. Instead of relying on st",
+      "publishedAt": "2026-09-24T13:28:13Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Lei Zhang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-24T13:28:13Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Despite recent advancements in 3D generation, models often struggle to produce assets with high visual fidelity. To bridge this gap, we propose OREO, an alignment framework that enhances the realism of 3D generators by leveraging rich 2D diffusion priors. Instead of relying on st",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Despite recent advancements in 3D generation, models often struggle to produce assets with high visual fidelity. To bridge this gap, we propose OREO, an alignment framework that enhances the realism of 3D generators by leveraging rich 2D diffusion priors. Instead of relying on st"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.29788v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "9ad58c7f74ee0a5da7ff",
+      "url": "https://arxiv.org/abs/2609.27602v1",
+      "title": "Efficient Geometry Representation Strategies for the Shape Optimization of Profile Extrusion Dies",
+      "excerpt": "The design of profile extrusion dies remains a challenging task due to the complex rheological behavior of polymer melts and the geometric intricacies of flow channels. Traditional manual optimization approaches, which rely heavily on human experience, are inefficient and often e",
+      "publishedAt": "2026-09-23T09:19:41Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Stefan Turek",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-23T09:19:41Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "The design of profile extrusion dies remains a challenging task due to the complex rheological behavior of polymer melts and the geometric intricacies of flow channels. Traditional manual optimization approaches, which rely heavily on human experience, are inefficient and often e",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "The design of profile extrusion dies remains a challenging task due to the complex rheological behavior of polymer melts and the geometric intricacies of flow channels. Traditional manual optimization approaches, which rely heavily on human experience, are inefficient and often e"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.27602v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "0b8230863c675eed4fee",
+      "url": "https://arxiv.org/abs/2609.26795v1",
+      "title": "φ-RIE: From Photorealistic Reconstruction to Interactive Environments",
+      "excerpt": "3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \\textit{i.e.}, objects must move independently, make contact,",
+      "publishedAt": "2026-09-22T17:59:52Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Danda Pani Paudel",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-22T17:59:52Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \\textit{i.e.}, objects must move independently, make contact,",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \\textit{i.e.}, objects must move independently, make contact,"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.26795v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "dfdb3865955f9952b895",
+      "url": "https://arxiv.org/abs/2609.25832v1",
+      "title": "PartLLM: A Unified Multimodal Foundation for 3D Part Segmentation",
+      "excerpt": "Part segmentation is a fundamental problem in computer graphics and 3D vision. Recent works have expanded 3D part segmentation beyond fixed taxonomies, but existing approaches typically only address a specific setting, such as text-guided part segmentation or point-based interact",
+      "publishedAt": "2026-09-22T07:58:27Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Wenping Wang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-22T07:58:27Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Part segmentation is a fundamental problem in computer graphics and 3D vision. Recent works have expanded 3D part segmentation beyond fixed taxonomies, but existing approaches typically only address a specific setting, such as text-guided part segmentation or point-based interact",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Part segmentation is a fundamental problem in computer graphics and 3D vision. Recent works have expanded 3D part segmentation beyond fixed taxonomies, but existing approaches typically only address a specific setting, such as text-guided part segmentation or point-based interact"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.25832v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
       "id": "64376f643be3cdb699f4",
       "url": "https://blog.playcanvas.com/new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod",
       "title": "New in PlayCanvas Editor: Joints, Parallax Occlusion and Splat LOD",
@@ -142,7 +562,357 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "bd7078fa44d88cd93102",
+      "url": "https://arxiv.org/abs/2609.24984v1",
+      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+      "excerpt": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T",
+      "publishedAt": "2026-09-21T17:57:06Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Ying Shan",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-21T17:57:06Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.24984v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "ea1e3f446dbed302d6a1",
+      "url": "https://arxiv.org/abs/2609.24457v1",
+      "title": "Constrained Program Generation for 3D Reaction Animation with a 0.8B Model",
+      "excerpt": "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp",
+      "publishedAt": "2026-09-21T12:02:46Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Andrew McDonagh",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-21T12:02:46Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.24457v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "22d6397ef57dfc943413",
+      "url": "https://arxiv.org/abs/2609.23817v2",
+      "title": "VISTA: Video-Injected Stylized Text-to-Animation",
+      "excerpt": "We present VISTA, a two-stage framework for generating stylized 3D human motion by fusing structural content from text prompts with expressive style from reference videos, without requiring jointly paired (text, video, stylized motion) triplets. A Dual-channel Autoencoder first m",
+      "publishedAt": "2026-09-20T19:11:53Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Philipp Slusallek",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-20T19:11:53Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We present VISTA, a two-stage framework for generating stylized 3D human motion by fusing structural content from text prompts with expressive style from reference videos, without requiring jointly paired (text, video, stylized motion) triplets. A Dual-channel Autoencoder first m",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We present VISTA, a two-stage framework for generating stylized 3D human motion by fusing structural content from text prompts with expressive style from reference videos, without requiring jointly paired (text, video, stylized motion) triplets. A Dual-channel Autoencoder first m"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.23817v2"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "01d7a5e596b12294f8a2",
+      "url": "https://arxiv.org/abs/2609.23796v2",
+      "title": "Mira-Scene: Pixel-Aligned Layouts for Generative 3D Scene Reconstruction",
+      "excerpt": "Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge. A central difficulty lies in how object layout is represented. Holistic methods absorb placement into a scene-level generati",
+      "publishedAt": "2026-09-20T18:36:29Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Xiaojuan Qi",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-20T18:36:29Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge. A central difficulty lies in how object layout is represented. Holistic methods absorb placement into a scene-level generati",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge. A central difficulty lies in how object layout is represented. Holistic methods absorb placement into a scene-level generati"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.23796v2"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "267caf9e43edf8fb4886",
+      "url": "https://arxiv.org/abs/2609.23386v1",
+      "title": "ProxyBuild: Text-Guided Structured 3D Building Generation with Mesh-Anchored Procedural Proxies",
+      "excerpt": "Text-guided 3D building generation holds tremendous application potential, yet existing generative models typically output inseparable single meshes or non-interactive rendered representations. While procedural modeling can generate editable buildings with hierarchical structures",
+      "publishedAt": "2026-09-20T06:11:13Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Xiaopeng Fan",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-20T06:11:13Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Text-guided 3D building generation holds tremendous application potential, yet existing generative models typically output inseparable single meshes or non-interactive rendered representations. While procedural modeling can generate editable buildings with hierarchical structures",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Text-guided 3D building generation holds tremendous application potential, yet existing generative models typically output inseparable single meshes or non-interactive rendered representations. While procedural modeling can generate editable buildings with hierarchical structures"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.23386v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "567373948eb811f100eb",
+      "url": "https://arxiv.org/abs/2609.22849v1",
+      "title": "LINGO: Latent Initialization and Gradient Optimization for Sparse-view X-ray Novel View Synthesis and CT Reconstruction with 3D Gaussian Splatting",
+      "excerpt": "In novel view synthesis and Computed Tomography (CT) reconstruction with sparse-view X-ray imaging, insufficient angular coverage leads to structural ambiguity and accumulated noise. Integrating 3D Gaussian Splatting (3DGS) with X-ray absorption physics can achieve promising resu",
+      "publishedAt": "2026-09-19T07:45:41Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Shihui Ying",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-19T07:45:41Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "In novel view synthesis and Computed Tomography (CT) reconstruction with sparse-view X-ray imaging, insufficient angular coverage leads to structural ambiguity and accumulated noise. Integrating 3D Gaussian Splatting (3DGS) with X-ray absorption physics can achieve promising resu",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "In novel view synthesis and Computed Tomography (CT) reconstruction with sparse-view X-ray imaging, insufficient angular coverage leads to structural ambiguity and accumulated noise. Integrating 3D Gaussian Splatting (3DGS) with X-ray absorption physics can achieve promising resu"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.22849v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "9f2018374c807f56ecd7",
+      "url": "https://arxiv.org/abs/2609.19907v1",
+      "title": "GS-PI: An Optimization-Decoupled Appearance Decomposition Approach for Generating PBR Gaussian Assets",
+      "excerpt": "Gaussian Splatting (GS) excels at novel-view synthesis but encodes baked-in radiance, tightly entangling illumination with geometry and preventing seamless integration into physically based rendering (PBR) pipelines. Existing inverse-rendering methods attempt to disentangle mater",
+      "publishedAt": "2026-09-17T08:51:18Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Yuchi Huo",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-17T08:51:18Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Gaussian Splatting (GS) excels at novel-view synthesis but encodes baked-in radiance, tightly entangling illumination with geometry and preventing seamless integration into physically based rendering (PBR) pipelines. Existing inverse-rendering methods attempt to disentangle mater",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Gaussian Splatting (GS) excels at novel-view synthesis but encodes baked-in radiance, tightly entangling illumination with geometry and preventing seamless integration into physically based rendering (PBR) pipelines. Existing inverse-rendering methods attempt to disentangle mater"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.19907v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "8dd21bacfc82eee9acfb",
+      "url": "https://arxiv.org/abs/2609.19872v1",
+      "title": "PART: Learning 3D Part Assembly and Retrieval with Transformers",
+      "excerpt": "3D assembly is fundamental to modern manufacturing and digital content creation. In this paper, we present PART, a unified transformer-based framework for 3D part retrieval and assembly: given a target shape and a part library, PART automatically selects the appropriate parts and",
+      "publishedAt": "2026-09-17T08:23:25Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Ziqi Wang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-17T08:23:25Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D assembly is fundamental to modern manufacturing and digital content creation. In this paper, we present PART, a unified transformer-based framework for 3D part retrieval and assembly: given a target shape and a part library, PART automatically selects the appropriate parts and",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D assembly is fundamental to modern manufacturing and digital content creation. In this paper, we present PART, a unified transformer-based framework for 3D part retrieval and assembly: given a target shape and a part library, PART automatically selects the appropriate parts and"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.19872v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "e72ee4484871456074c3",
+      "url": "https://arxiv.org/abs/2609.19782v2",
+      "title": "Printing the Underdetermined: Materializing Multi-solutionness in Figurative Paintings",
+      "excerpt": "Figurative paintings are often approached as if they depict a single recoverable 3D scene: viewers infer depth and occlusion, and reconstruction pipelines attempt to converge to one stable model. We instead foreground multi-solutionness, the non-uniqueness of 3D configurations co",
+      "publishedAt": "2026-09-17T06:50:54Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Yanjun Zhou",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-17T06:50:54Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Figurative paintings are often approached as if they depict a single recoverable 3D scene: viewers infer depth and occlusion, and reconstruction pipelines attempt to converge to one stable model. We instead foreground multi-solutionness, the non-uniqueness of 3D configurations co",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Figurative paintings are often approached as if they depict a single recoverable 3D scene: viewers infer depth and occlusion, and reconstruction pipelines attempt to converge to one stable model. We instead foreground multi-solutionness, the non-uniqueness of 3D configurations co"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.19782v2"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+    },
+    {
+      "id": "84229f4532737c8aead4",
+      "url": "https://arxiv.org/abs/2609.18624v1",
+      "title": "MoQSplat: Adaptive Progressive Streaming of 3D Gaussian Splatting via MoQ",
+      "excerpt": "3D Gaussian Splatting (3DGS) enables photorealistic novel view synthesis, but transmitting gigabyte-scale scene data remains challenging for immersive applications. Traditional HTTP Adaptive Streaming over TCP introduces Head-of-Line (HOL) blocking and coarse segmenting ill-suite",
+      "publishedAt": "2026-09-16T13:14:01Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Christian Timmerer",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-16T13:14:01Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D Gaussian Splatting (3DGS) enables photorealistic novel view synthesis, but transmitting gigabyte-scale scene data remains challenging for immersive applications. Traditional HTTP Adaptive Streaming over TCP introduces Head-of-Line (HOL) blocking and coarse segmenting ill-suite",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D Gaussian Splatting (3DGS) enables photorealistic novel view synthesis, but transmitting gigabyte-scale scene data remains challenging for immersive applications. Traditional HTTP Adaptive Streaming over TCP introduces Head-of-Line (HOL) blocking and coarse segmenting ill-suite"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.18624v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -177,7 +947,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -212,7 +982,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -282,7 +1052,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -422,7 +1192,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -1227,7 +1997,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -1402,7 +2172,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -1437,7 +2207,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -1542,7 +2312,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -1717,7 +2487,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -1857,7 +2627,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -1892,7 +2662,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -1927,7 +2697,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -1997,7 +2767,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -2067,7 +2837,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -2102,7 +2872,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -2207,7 +2977,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -2242,7 +3012,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -2277,7 +3047,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -2347,7 +3117,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -2452,7 +3222,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -2487,7 +3257,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -2522,7 +3292,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -2557,7 +3327,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -2627,7 +3397,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "fe76b712ab6fc6c5ab54",
@@ -2662,7 +3432,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "f4adf5e6a13a55d8322d",
@@ -2697,7 +3467,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -2802,7 +3572,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "d70ada50b79e832e6208",
@@ -2837,7 +3607,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "f4ac3447021c4e984042",
@@ -2907,7 +3677,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "fbead8a3501ce5438f41",
@@ -3012,7 +3782,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "f5d8bd63d73e3a3ef88d",
@@ -3082,7 +3852,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-28T05:18:50.668950Z"
+      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
     },
     {
       "id": "6cba580e6c1e79d934f4",
