@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-29T05:39:59.027142Z",
-  "windowStart": "2026-09-28T05:39:59.027142Z",
-  "windowEnd": "2026-09-29T05:39:59.027142Z",
+  "checkedAt": "2026-09-30T05:19:58.753836Z",
+  "windowStart": "2026-09-29T05:19:58.753836Z",
+  "windowEnd": "2026-09-30T05:19:58.753836Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -73,78 +73,288 @@
   ],
   "events": [
     {
-      "id": "7033ec2c6ca8629e089e",
-      "url": "https://arxiv.org/abs/2609.35770v1",
-      "title": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
-      "excerpt": "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intr",
-      "publishedAt": "2026-09-28T17:59:58Z",
+      "id": "331e96b2cec49e1f3b88",
+      "url": "https://arxiv.org/abs/2609.37654v1",
+      "title": "Texture Space Material Diffusion",
+      "excerpt": "We present a method for generating high quality materials for 3D objects entirely in texture space. We finetune a video diffusion transformer for text-guided material generation, multi-view material generation, and material upscaling. Our key insight is to use the known projectio",
+      "publishedAt": "2026-09-29T14:17:34Z",
       "sourceId": "arxiv-3d",
       "sourceName": "arXiv 3D 研究",
       "lane": "news",
       "category": "学术研究",
-      "author": "Alan Yuille",
+      "author": "Jon Hasselgren",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-28T17:59:58Z",
+      "date": "2026-09-29T14:17:34Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intr",
+      "summary": "We present a method for generating high quality materials for 3D objects entirely in texture space. We finetune a video diffusion transformer for text-guided material generation, multi-view material generation, and material upscaling. Our key insight is to use the known projectio",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intr"
+          "We present a method for generating high quality materials for 3D objects entirely in texture space. We finetune a video diffusion transformer for text-guided material generation, multi-view material generation, and material upscaling. Our key insight is to use the known projectio"
         ]
       ],
       "sources": [
         [
           "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.35770v1"
+          "https://arxiv.org/abs/2609.37654v1"
         ]
       ],
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
-      "id": "d19ff1b392fe359f8586",
-      "url": "https://arxiv.org/abs/2609.35463v1",
-      "title": "A.D.A.M.O. (Agent for language-Driven Actions with Multimodal Observations): A Visual-Symbolic Framework for Virtual Humans",
-      "excerpt": "Creating believable vh requires the coherent integration of perception, reasoning, and action mediated by language. A central challenge is to combine these components into a control loop grounded in interactive 3D environments. To this end, we present A.D.A.M.O. (Agent for langua",
-      "publishedAt": "2026-09-28T15:51:25Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
+      "id": "246ba51c6aaac42ae7f2",
+      "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-7/",
+      "title": "Dev snapshot: Godot 4.8 dev 7",
+      "excerpt": "It’s that time once again: feature freeze! With this, no new features will be integrated for Godot 4.8 moving forward, and priorities will be shifting exclusively towards bugfixes and addressing regressions to ensure a functional baseline as soon as possible. So join us for one l",
+      "publishedAt": "2026-09-29T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
       "lane": "news",
-      "category": "学术研究",
-      "author": "Andrea Bottino",
+      "category": "引擎与交互",
+      "author": "Thaddeus Crews",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-28T15:51:25Z",
+      "date": "2026-09-29T12:00:00Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "Creating believable vh requires the coherent integration of perception, reasoning, and action mediated by language. A central challenge is to combine these components into a control loop grounded in interactive 3D environments. To this end, we present A.D.A.M.O. (Agent for langua",
+      "summary": "It’s that time once again: feature freeze! With this, no new features will be integrated for Godot 4.8 moving forward, and priorities will be shifting exclusively towards bugfixes and addressing regressions to ensure a functional baseline as soon as possible. So join us for one l",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "Creating believable vh requires the coherent integration of perception, reasoning, and action mediated by language. A central challenge is to combine these components into a control loop grounded in interactive 3D environments. To this end, we present A.D.A.M.O. (Agent for langua"
+          "It’s that time once again: feature freeze! With this, no new features will be integrated for Godot 4.8 moving forward, and priorities will be shifting exclusively towards bugfixes and addressing regressions to ensure a functional baseline as soon as possible. So join us for one l"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-7/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
+    },
+    {
+      "id": "6a1f88d4d22a5301f18b",
+      "url": "https://arxiv.org/abs/2609.37115v1",
+      "title": "NRF-GS: Neural Residual Fields for Expressive and Compact Gaussian Splatting",
+      "excerpt": "We revisit the role of appearance modeling in 3D Gaussian Splatting (3DGS) and show that limited expressiveness in view-dependent reflectance is a key driver of representation redundancy. In standard 3DGS, low-order spherical harmonics (SH) are used, restricting the splats' abili",
+      "publishedAt": "2026-09-29T09:27:44Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Andreas Kolb",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-29T09:27:44Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We revisit the role of appearance modeling in 3D Gaussian Splatting (3DGS) and show that limited expressiveness in view-dependent reflectance is a key driver of representation redundancy. In standard 3DGS, low-order spherical harmonics (SH) are used, restricting the splats' abili",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We revisit the role of appearance modeling in 3D Gaussian Splatting (3DGS) and show that limited expressiveness in view-dependent reflectance is a key driver of representation redundancy. In standard 3DGS, low-order spherical harmonics (SH) are used, restricting the splats' abili"
         ]
       ],
       "sources": [
         [
           "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.35463v1"
+          "https://arxiv.org/abs/2609.37115v1"
         ]
       ],
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     }
   ],
   "archive": [
     {
+      "id": "331e96b2cec49e1f3b88",
+      "url": "https://arxiv.org/abs/2609.37654v1",
+      "title": "Texture Space Material Diffusion",
+      "excerpt": "We present a method for generating high quality materials for 3D objects entirely in texture space. We finetune a video diffusion transformer for text-guided material generation, multi-view material generation, and material upscaling. Our key insight is to use the known projectio",
+      "publishedAt": "2026-09-29T14:17:34Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Jon Hasselgren",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-29T14:17:34Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We present a method for generating high quality materials for 3D objects entirely in texture space. We finetune a video diffusion transformer for text-guided material generation, multi-view material generation, and material upscaling. Our key insight is to use the known projectio",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We present a method for generating high quality materials for 3D objects entirely in texture space. We finetune a video diffusion transformer for text-guided material generation, multi-view material generation, and material upscaling. Our key insight is to use the known projectio"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.37654v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
+    },
+    {
+      "id": "246ba51c6aaac42ae7f2",
+      "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-7/",
+      "title": "Dev snapshot: Godot 4.8 dev 7",
+      "excerpt": "It’s that time once again: feature freeze! With this, no new features will be integrated for Godot 4.8 moving forward, and priorities will be shifting exclusively towards bugfixes and addressing regressions to ensure a functional baseline as soon as possible. So join us for one l",
+      "publishedAt": "2026-09-29T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Thaddeus Crews",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-29T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "It’s that time once again: feature freeze! With this, no new features will be integrated for Godot 4.8 moving forward, and priorities will be shifting exclusively towards bugfixes and addressing regressions to ensure a functional baseline as soon as possible. So join us for one l",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "It’s that time once again: feature freeze! With this, no new features will be integrated for Godot 4.8 moving forward, and priorities will be shifting exclusively towards bugfixes and addressing regressions to ensure a functional baseline as soon as possible. So join us for one l"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-7/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
+    },
+    {
+      "id": "6a1f88d4d22a5301f18b",
+      "url": "https://arxiv.org/abs/2609.37115v1",
+      "title": "NRF-GS: Neural Residual Fields for Expressive and Compact Gaussian Splatting",
+      "excerpt": "We revisit the role of appearance modeling in 3D Gaussian Splatting (3DGS) and show that limited expressiveness in view-dependent reflectance is a key driver of representation redundancy. In standard 3DGS, low-order spherical harmonics (SH) are used, restricting the splats' abili",
+      "publishedAt": "2026-09-29T09:27:44Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Andreas Kolb",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-29T09:27:44Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We revisit the role of appearance modeling in 3D Gaussian Splatting (3DGS) and show that limited expressiveness in view-dependent reflectance is a key driver of representation redundancy. In standard 3DGS, low-order spherical harmonics (SH) are used, restricting the splats' abili",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We revisit the role of appearance modeling in 3D Gaussian Splatting (3DGS) and show that limited expressiveness in view-dependent reflectance is a key driver of representation redundancy. In standard 3DGS, low-order spherical harmonics (SH) are used, restricting the splats' abili"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.37115v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
+    },
+    {
+      "id": "30e43fb24e1c64c6fff2",
+      "url": "https://arxiv.org/abs/2609.36225v1",
+      "title": "Providing Rapid Design Feedback for 3D Obstacle Course Games Using Constrained Solvability Queries",
+      "excerpt": "We present a system that aids the design of 3D obstacle course games by providing designers with rapid feedback on how obstacles can be solved. Our core contribution is a system for querying for solutions (sequences of player actions) to an obstacle that adhere to designer-specif",
+      "publishedAt": "2026-09-28T20:23:42Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Kayvon Fatahalian",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-28T20:23:42Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We present a system that aids the design of 3D obstacle course games by providing designers with rapid feedback on how obstacles can be solved. Our core contribution is a system for querying for solutions (sequences of player actions) to an obstacle that adhere to designer-specif",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We present a system that aids the design of 3D obstacle course games by providing designers with rapid feedback on how obstacles can be solved. Our core contribution is a system for querying for solutions (sequences of player actions) to an obstacle that adhere to designer-specif"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.36225v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
+    },
+    {
+      "id": "d285cce994d3780f3298",
+      "url": "https://arxiv.org/abs/2609.36024v1",
+      "title": "CoDimRecon: Agentic Reconstruction of Sim-Ready 3D Scenes with Deformable Curves, Surfaces, and Volumes",
+      "excerpt": "Reconstructing simulation-ready 3D scenes from real-world observations enables robotics, gaming, and immersive applications, yet existing methods largely assume rigid objects. This leaves an important gap for deformables, whose simulation-ready geometry depends on dimensionality ",
+      "publishedAt": "2026-09-28T18:01:23Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Minchen Li",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-28T18:01:23Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Reconstructing simulation-ready 3D scenes from real-world observations enables robotics, gaming, and immersive applications, yet existing methods largely assume rigid objects. This leaves an important gap for deformables, whose simulation-ready geometry depends on dimensionality ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Reconstructing simulation-ready 3D scenes from real-world observations enables robotics, gaming, and immersive applications, yet existing methods largely assume rigid objects. This leaves an important gap for deformables, whose simulation-ready geometry depends on dimensionality "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.36024v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
+    },
+    {
       "id": "7033ec2c6ca8629e089e",
       "url": "https://arxiv.org/abs/2609.35770v1",
       "title": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
@@ -177,7 +387,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "d19ff1b392fe359f8586",
@@ -212,7 +422,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "254bf656e4bdfab0e42a",
@@ -247,7 +457,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "490455323d7da37f7d3b",
@@ -282,7 +492,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "9a678ba525282730d578",
@@ -317,7 +527,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "79c9c635af5b92e5029a",
@@ -352,7 +562,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -422,7 +632,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "9ad58c7f74ee0a5da7ff",
@@ -457,7 +667,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "0b8230863c675eed4fee",
@@ -492,7 +702,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "dfdb3865955f9952b895",
@@ -527,7 +737,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "64376f643be3cdb699f4",
@@ -562,7 +772,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "bd7078fa44d88cd93102",
@@ -597,7 +807,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "ea1e3f446dbed302d6a1",
@@ -632,7 +842,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "22d6397ef57dfc943413",
@@ -667,7 +877,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "01d7a5e596b12294f8a2",
@@ -702,7 +912,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "267caf9e43edf8fb4886",
@@ -737,7 +947,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "567373948eb811f100eb",
@@ -772,147 +982,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
-    },
-    {
-      "id": "9f2018374c807f56ecd7",
-      "url": "https://arxiv.org/abs/2609.19907v1",
-      "title": "GS-PI: An Optimization-Decoupled Appearance Decomposition Approach for Generating PBR Gaussian Assets",
-      "excerpt": "Gaussian Splatting (GS) excels at novel-view synthesis but encodes baked-in radiance, tightly entangling illumination with geometry and preventing seamless integration into physically based rendering (PBR) pipelines. Existing inverse-rendering methods attempt to disentangle mater",
-      "publishedAt": "2026-09-17T08:51:18Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yuchi Huo",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-17T08:51:18Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Gaussian Splatting (GS) excels at novel-view synthesis but encodes baked-in radiance, tightly entangling illumination with geometry and preventing seamless integration into physically based rendering (PBR) pipelines. Existing inverse-rendering methods attempt to disentangle mater",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Gaussian Splatting (GS) excels at novel-view synthesis but encodes baked-in radiance, tightly entangling illumination with geometry and preventing seamless integration into physically based rendering (PBR) pipelines. Existing inverse-rendering methods attempt to disentangle mater"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.19907v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
-    },
-    {
-      "id": "8dd21bacfc82eee9acfb",
-      "url": "https://arxiv.org/abs/2609.19872v1",
-      "title": "PART: Learning 3D Part Assembly and Retrieval with Transformers",
-      "excerpt": "3D assembly is fundamental to modern manufacturing and digital content creation. In this paper, we present PART, a unified transformer-based framework for 3D part retrieval and assembly: given a target shape and a part library, PART automatically selects the appropriate parts and",
-      "publishedAt": "2026-09-17T08:23:25Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Ziqi Wang",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-17T08:23:25Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "3D assembly is fundamental to modern manufacturing and digital content creation. In this paper, we present PART, a unified transformer-based framework for 3D part retrieval and assembly: given a target shape and a part library, PART automatically selects the appropriate parts and",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "3D assembly is fundamental to modern manufacturing and digital content creation. In this paper, we present PART, a unified transformer-based framework for 3D part retrieval and assembly: given a target shape and a part library, PART automatically selects the appropriate parts and"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.19872v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
-    },
-    {
-      "id": "e72ee4484871456074c3",
-      "url": "https://arxiv.org/abs/2609.19782v2",
-      "title": "Printing the Underdetermined: Materializing Multi-solutionness in Figurative Paintings",
-      "excerpt": "Figurative paintings are often approached as if they depict a single recoverable 3D scene: viewers infer depth and occlusion, and reconstruction pipelines attempt to converge to one stable model. We instead foreground multi-solutionness, the non-uniqueness of 3D configurations co",
-      "publishedAt": "2026-09-17T06:50:54Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yanjun Zhou",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-17T06:50:54Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Figurative paintings are often approached as if they depict a single recoverable 3D scene: viewers infer depth and occlusion, and reconstruction pipelines attempt to converge to one stable model. We instead foreground multi-solutionness, the non-uniqueness of 3D configurations co",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Figurative paintings are often approached as if they depict a single recoverable 3D scene: viewers infer depth and occlusion, and reconstruction pipelines attempt to converge to one stable model. We instead foreground multi-solutionness, the non-uniqueness of 3D configurations co"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.19782v2"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
-    },
-    {
-      "id": "84229f4532737c8aead4",
-      "url": "https://arxiv.org/abs/2609.18624v1",
-      "title": "MoQSplat: Adaptive Progressive Streaming of 3D Gaussian Splatting via MoQ",
-      "excerpt": "3D Gaussian Splatting (3DGS) enables photorealistic novel view synthesis, but transmitting gigabyte-scale scene data remains challenging for immersive applications. Traditional HTTP Adaptive Streaming over TCP introduces Head-of-Line (HOL) blocking and coarse segmenting ill-suite",
-      "publishedAt": "2026-09-16T13:14:01Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Christian Timmerer",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-16T13:14:01Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "3D Gaussian Splatting (3DGS) enables photorealistic novel view synthesis, but transmitting gigabyte-scale scene data remains challenging for immersive applications. Traditional HTTP Adaptive Streaming over TCP introduces Head-of-Line (HOL) blocking and coarse segmenting ill-suite",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "3D Gaussian Splatting (3DGS) enables photorealistic novel view synthesis, but transmitting gigabyte-scale scene data remains challenging for immersive applications. Traditional HTTP Adaptive Streaming over TCP introduces Head-of-Line (HOL) blocking and coarse segmenting ill-suite"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.18624v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -947,7 +1017,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -982,7 +1052,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1052,7 +1122,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1192,7 +1262,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -1997,7 +2067,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2172,7 +2242,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2207,7 +2277,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2312,7 +2382,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2487,7 +2557,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -2627,7 +2697,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -2662,7 +2732,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -2697,7 +2767,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -2767,7 +2837,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -2837,7 +2907,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -2872,7 +2942,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -2977,7 +3047,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3012,7 +3082,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3047,7 +3117,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3117,7 +3187,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3222,7 +3292,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3257,7 +3327,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -3292,7 +3362,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3327,7 +3397,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3397,7 +3467,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "fe76b712ab6fc6c5ab54",
@@ -3432,7 +3502,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "f4adf5e6a13a55d8322d",
@@ -3467,7 +3537,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3572,7 +3642,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "d70ada50b79e832e6208",
@@ -3607,7 +3677,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "f4ac3447021c4e984042",
@@ -3677,7 +3747,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "fbead8a3501ce5438f41",
@@ -3782,7 +3852,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "f5d8bd63d73e3a3ef88d",
@@ -3852,7 +3922,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-29T05:39:59.027142Z"
+      "firstSeenAt": "2026-09-30T05:19:58.753836Z"
     },
     {
       "id": "6cba580e6c1e79d934f4",
