@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "checkedAt": "2026-09-30T05:19:58.753836Z",
-  "windowStart": "2026-09-29T05:19:58.753836Z",
-  "windowEnd": "2026-09-30T05:19:58.753836Z",
+  "checkedAt": "2026-09-30T05:28:18.059576Z",
+  "windowStart": "2026-09-29T05:28:18.059576Z",
+  "windowEnd": "2026-09-30T05:28:18.059576Z",
   "news": [
     {
       "id": "a7c1e5fcf9af05021743",
@@ -489,7 +489,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "We present a method for generating high quality materials for 3D objects entirely in texture space. We finetune a video diffusion transformer for text-guided material generation, multi-view material generation, and material upscaling. Our key insight is to use the known projectio",
       "firstSeenAt": "2026-09-30T05:19:58.753836Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "0b40a401f2414d29d3a2450d7f9f9b4715d8db42fd6e6e5633992a5c0b09bac8",
       "contentStatus": "source_only"
     },
@@ -506,7 +506,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "It’s that time once again: feature freeze! With this, no new features will be integrated for Godot 4.8 moving forward, and priorities will be shifting exclusively towards bugfixes and addressing regressions to ensure a functional baseline as soon as possible. So join us for one l",
       "firstSeenAt": "2026-09-30T05:19:58.753836Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "e42b65499ef446bc73a65afcf18c1c67836b582ceee4b86e8517840d4b965b5e",
       "contentStatus": "source_only"
     },
@@ -523,7 +523,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "We revisit the role of appearance modeling in 3D Gaussian Splatting (3DGS) and show that limited expressiveness in view-dependent reflectance is a key driver of representation redundancy. In standard 3DGS, low-order spherical harmonics (SH) are used, restricting the splats' abili",
       "firstSeenAt": "2026-09-30T05:19:58.753836Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "b701eccc715922e695850504b1a1a3887d13f3c960ab49fe4e9ba3e8da96dba9",
       "contentStatus": "source_only"
     },
@@ -540,7 +540,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "We present a system that aids the design of 3D obstacle course games by providing designers with rapid feedback on how obstacles can be solved. Our core contribution is a system for querying for solutions (sequences of player actions) to an obstacle that adhere to designer-specif",
       "firstSeenAt": "2026-09-30T05:19:58.753836Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "0e2dc04e84855cfcb702d66f0539a83bb83f05dc4c04f58538b38820c1118f2a",
       "contentStatus": "source_only"
     },
@@ -557,7 +557,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Reconstructing simulation-ready 3D scenes from real-world observations enables robotics, gaming, and immersive applications, yet existing methods largely assume rigid objects. This leaves an important gap for deformables, whose simulation-ready geometry depends on dimensionality ",
       "firstSeenAt": "2026-09-30T05:19:58.753836Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "09821fd3ee74a412e3272434dce9a421828875d72903f95f65e34d8e70810937",
       "contentStatus": "source_only"
     },
@@ -574,7 +574,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intr",
       "firstSeenAt": "2026-09-29T05:39:59.027142Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "58523752dd8a3b17d13b6e386e2aa055822f2cf09f7710fd11fbfafd9c55adbe",
       "contentStatus": "source_only"
     },
@@ -591,7 +591,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Creating believable vh requires the coherent integration of perception, reasoning, and action mediated by language. A central challenge is to combine these components into a control loop grounded in interactive 3D environments. To this end, we present A.D.A.M.O. (Agent for langua",
       "firstSeenAt": "2026-09-29T05:39:59.027142Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "b66f6914cbace7e3e67ef5f6a2209f65999a60ac6ae21c5bc84aa96e3b958638",
       "contentStatus": "source_only"
     },
@@ -608,7 +608,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Lattice metamaterials support lightweight, multifunctional structures, while additive manufacturing (AM) enables complex geometries. Yet multiphysics lattice design faces two challenges: efficiently constructing well-covered multi-objective Pareto fronts under limited budgets, an",
       "firstSeenAt": "2026-09-29T05:39:59.027142Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "a93c87c326fe3368587bba88b42eb37a1497dc7de59553bced8aac39d807b65a",
       "contentStatus": "source_only"
     },
@@ -625,7 +625,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "When several surfaces are visible along a ray, recovering visible 3D structure from one image requires jointly estimating their presence and metric depth. Depth Any Seen represents these surfaces as image-conditioned multi-Bernoulli depth sets, whose components each contribute on",
       "firstSeenAt": "2026-09-29T05:39:59.027142Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "67e3dc0f861d09893997384a3aa0b186ef49aff79b64ef3e5d094abfd4363b7c",
       "contentStatus": "source_only"
     },
@@ -642,7 +642,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Reconstructing environments where parts of the scene change between captured image sets poses a challenge for 3D scene reconstruction. We present ChronoFuseGS, a multi-temporal Gaussian Splatting approach that addresses this issue by taking multiple separately trained Gaussian Sp",
       "firstSeenAt": "2026-09-29T05:39:59.027142Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "a97125fdad7ce7c31ef620ccc1d080de9570088b00f6aec17a61184370d60c5f",
       "contentStatus": "source_only"
     },
@@ -659,7 +659,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Recent progress in speech-driven 3D facial animation has improved vertex-level reconstruction quality, but speech-consistent visible articulation remains difficult. This is because speech production follows structured and constrained articulators' coordination and the mapping fro",
       "firstSeenAt": "2026-09-29T05:39:59.027142Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "4bf5e660954b1bc5cd0a40a0dcbe73ed4f4748fac89a1b219c7a4ba414aeb8e4",
       "contentStatus": "source_only"
     },
@@ -676,7 +676,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe",
       "firstSeenAt": "2026-09-25T00:32:20.317079Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "c6723f0eed847078ce11c48fe05a93a60347b999e0bba3e83fd14e4f1db2f9f5",
       "contentStatus": "source_only"
     },
@@ -693,7 +693,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Despite recent advancements in 3D generation, models often struggle to produce assets with high visual fidelity. To bridge this gap, we propose OREO, an alignment framework that enhances the realism of 3D generators by leveraging rich 2D diffusion priors. Instead of relying on st",
       "firstSeenAt": "2026-09-29T05:39:59.027142Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "2c210eff7c7b30f8b0eef9002c8c0cc93a7b9dfddab3acb1590b4a5faadd5961",
       "contentStatus": "source_only"
     },
@@ -710,7 +710,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "The design of profile extrusion dies remains a challenging task due to the complex rheological behavior of polymer melts and the geometric intricacies of flow channels. Traditional manual optimization approaches, which rely heavily on human experience, are inefficient and often e",
       "firstSeenAt": "2026-09-29T05:39:59.027142Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "3b30aeaaaa8056ffe925392ca694c769519b60e2acc82ee1d2420b1f67b46fb1",
       "contentStatus": "source_only"
     },
@@ -727,7 +727,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \\textit{i.e.}, objects must move independently, make contact,",
       "firstSeenAt": "2026-09-29T05:39:59.027142Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "87f62e3a388b879e73bf00f47e95257160461bfbcc92f3a8c97fe866b2aa4fac",
       "contentStatus": "source_only"
     },
@@ -744,7 +744,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Part segmentation is a fundamental problem in computer graphics and 3D vision. Recent works have expanded 3D part segmentation beyond fixed taxonomies, but existing approaches typically only address a specific setting, such as text-guided part segmentation or point-based interact",
       "firstSeenAt": "2026-09-29T05:39:59.027142Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "4ec7d2f82a5773ee25f99dbacca94d0099bc1d7e68a8935b2bfe8fcd3dcc329c",
       "contentStatus": "source_only"
     },
@@ -761,7 +761,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Editor 2.32 is out, and it leads with something that has been a long time coming: the Joint component . Hinges, sliders, ball joints, springs and breakable welds are now things you configure in the inspector rather than assemble from a script. There is more to it than that. Mater",
       "firstSeenAt": "2026-09-23T00:28:55.358694Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "ec8a33127453e4b78a270357cf6fc8a155d943b1fd23abd932231f61e5325af7",
       "contentStatus": "source_only"
     },
@@ -778,7 +778,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "4bde6b80b16536b1225a9f50c4b31d0f59ecbe9238b150ba9f38e06e77f84856",
       "contentStatus": "editor_summary",
       "titleZh": "WorldCrafter：用三维感知记忆保持视频世界的一致性",
@@ -797,7 +797,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "8ae9dd94ee9f9c9b73f07fa8ea24aff5400421570ba86109c815b504545955ec",
       "contentStatus": "editor_summary",
       "titleZh": "ChemXRG：用小模型生成可检查的三维化学反应动画程序",
@@ -852,7 +852,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Text-guided 3D building generation holds tremendous application potential, yet existing generative models typically output inseparable single meshes or non-interactive rendered representations. While procedural modeling can generate editable buildings with hierarchical structures",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "efc1844a2c7f7b535109e4f10b432cdc97d94dfead597b4c2d3a873241c46fc0",
       "contentStatus": "source_only"
     },
@@ -869,7 +869,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "In novel view synthesis and Computed Tomography (CT) reconstruction with sparse-view X-ray imaging, insufficient angular coverage leads to structural ambiguity and accumulated noise. Integrating 3D Gaussian Splatting (3DGS) with X-ray absorption physics can achieve promising resu",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "617acaeb19e4e4444251ca80d4c1d1df18fb7a4e3efa1394f956ad863a9e7f6c",
       "contentStatus": "source_only"
     },
@@ -971,7 +971,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "“Another development snapshot already? Didn’t they just release one last Friday ?” Indeed, this is much sooner than usual. Even when taking into consideration how development snapshots become more frequent at their tail-end in preparation of feature freeze, less than a week means",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "15020795fdf84ef41bd5a60b72550fb6c7a63f04e72a28e890a08aa0aac69159",
       "contentStatus": "source_only"
     },
@@ -1022,22 +1022,16 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "I want to give people a little bit of insight into what the optimization process looks like for Godot’s renderer. From the outside, rendering optimization can look a little bit like black magic. I want to show a few examples of some optimizations that we did this year to highligh",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
-      "checkedAt": "2026-09-30T05:19:58.753836Z",
+      "checkedAt": "2026-09-30T05:28:18.059576Z",
       "sourceDigest": "316626d3c1e3b430204c3c8b094924b6703525cb96efa3786544f1b3e104e8bc",
       "contentStatus": "source_only"
     }
   ],
   "sourceProcessing": {
-    "checkedAt": "2026-09-30T05:19:58.753836Z",
+    "checkedAt": "2026-09-30T05:28:18.059576Z",
     "status": "updated",
-    "newCount": 5,
-    "newIds": [
-      "246ba51c6aaac42ae7f2",
-      "331e96b2cec49e1f3b88",
-      "6a1f88d4d22a5301f18b",
-      "30e43fb24e1c64c6fff2",
-      "d285cce994d3780f3298"
-    ],
+    "newCount": 0,
+    "newIds": [],
     "invalidCount": 0,
     "successfulSources": 7
   },
