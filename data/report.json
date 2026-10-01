@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-30T05:28:18.059576Z",
-  "windowStart": "2026-09-29T05:28:18.059576Z",
-  "windowEnd": "2026-09-30T05:28:18.059576Z",
+  "checkedAt": "2026-10-01T05:46:49.881132Z",
+  "windowStart": "2026-09-30T05:46:49.881132Z",
+  "windowEnd": "2026-10-01T05:46:49.881132Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -73,113 +73,113 @@
   ],
   "events": [
     {
-      "id": "331e96b2cec49e1f3b88",
-      "url": "https://arxiv.org/abs/2609.37654v1",
-      "title": "Texture Space Material Diffusion",
-      "excerpt": "We present a method for generating high quality materials for 3D objects entirely in texture space. We finetune a video diffusion transformer for text-guided material generation, multi-view material generation, and material upscaling. Our key insight is to use the known projectio",
-      "publishedAt": "2026-09-29T14:17:34Z",
+      "id": "b7373229dd97d83d837a",
+      "url": "https://arxiv.org/abs/2609.39527v1",
+      "title": "Lens Flare Removal and Reconstruction",
+      "excerpt": "The presence of lens flares in images can significantly reduce the quality of downstream application results for tasks such as 3D scene reconstruction. This is because lens flares are a property of the camera imaging system, and not a part of the underlying scene being modeled. T",
+      "publishedAt": "2026-09-30T11:27:28Z",
       "sourceId": "arxiv-3d",
       "sourceName": "arXiv 3D 研究",
       "lane": "news",
       "category": "学术研究",
-      "author": "Jon Hasselgren",
+      "author": "Nathan Matsuda",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-29T14:17:34Z",
+      "date": "2026-09-30T11:27:28Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "We present a method for generating high quality materials for 3D objects entirely in texture space. We finetune a video diffusion transformer for text-guided material generation, multi-view material generation, and material upscaling. Our key insight is to use the known projectio",
+      "summary": "The presence of lens flares in images can significantly reduce the quality of downstream application results for tasks such as 3D scene reconstruction. This is because lens flares are a property of the camera imaging system, and not a part of the underlying scene being modeled. T",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "We present a method for generating high quality materials for 3D objects entirely in texture space. We finetune a video diffusion transformer for text-guided material generation, multi-view material generation, and material upscaling. Our key insight is to use the known projectio"
+          "The presence of lens flares in images can significantly reduce the quality of downstream application results for tasks such as 3D scene reconstruction. This is because lens flares are a property of the camera imaging system, and not a part of the underlying scene being modeled. T"
         ]
       ],
       "sources": [
         [
           "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.37654v1"
+          "https://arxiv.org/abs/2609.39527v1"
         ]
       ],
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
-    },
-    {
-      "id": "246ba51c6aaac42ae7f2",
-      "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-7/",
-      "title": "Dev snapshot: Godot 4.8 dev 7",
-      "excerpt": "It’s that time once again: feature freeze! With this, no new features will be integrated for Godot 4.8 moving forward, and priorities will be shifting exclusively towards bugfixes and addressing regressions to ensure a functional baseline as soon as possible. So join us for one l",
-      "publishedAt": "2026-09-29T12:00:00Z",
-      "sourceId": "godot",
-      "sourceName": "Godot 官方新闻",
-      "lane": "news",
-      "category": "引擎与交互",
-      "author": "Thaddeus Crews",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-29T12:00:00Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "It’s that time once again: feature freeze! With this, no new features will be integrated for Godot 4.8 moving forward, and priorities will be shifting exclusively towards bugfixes and addressing regressions to ensure a functional baseline as soon as possible. So join us for one l",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "It’s that time once again: feature freeze! With this, no new features will be integrated for Godot 4.8 moving forward, and priorities will be shifting exclusively towards bugfixes and addressing regressions to ensure a functional baseline as soon as possible. So join us for one l"
-        ]
-      ],
-      "sources": [
-        [
-          "Godot 官方新闻",
-          "https://godotengine.org/article/dev-snapshot-godot-4-8-dev-7/"
-        ]
-      ],
-      "tags": [
-        "引擎与交互"
-      ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
-    },
-    {
-      "id": "6a1f88d4d22a5301f18b",
-      "url": "https://arxiv.org/abs/2609.37115v1",
-      "title": "NRF-GS: Neural Residual Fields for Expressive and Compact Gaussian Splatting",
-      "excerpt": "We revisit the role of appearance modeling in 3D Gaussian Splatting (3DGS) and show that limited expressiveness in view-dependent reflectance is a key driver of representation redundancy. In standard 3DGS, low-order spherical harmonics (SH) are used, restricting the splats' abili",
-      "publishedAt": "2026-09-29T09:27:44Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Andreas Kolb",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-29T09:27:44Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We revisit the role of appearance modeling in 3D Gaussian Splatting (3DGS) and show that limited expressiveness in view-dependent reflectance is a key driver of representation redundancy. In standard 3DGS, low-order spherical harmonics (SH) are used, restricting the splats' abili",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We revisit the role of appearance modeling in 3D Gaussian Splatting (3DGS) and show that limited expressiveness in view-dependent reflectance is a key driver of representation redundancy. In standard 3DGS, low-order spherical harmonics (SH) are used, restricting the splats' abili"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.37115v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     }
   ],
   "archive": [
     {
+      "id": "b7373229dd97d83d837a",
+      "url": "https://arxiv.org/abs/2609.39527v1",
+      "title": "Lens Flare Removal and Reconstruction",
+      "excerpt": "The presence of lens flares in images can significantly reduce the quality of downstream application results for tasks such as 3D scene reconstruction. This is because lens flares are a property of the camera imaging system, and not a part of the underlying scene being modeled. T",
+      "publishedAt": "2026-09-30T11:27:28Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Nathan Matsuda",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-30T11:27:28Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "The presence of lens flares in images can significantly reduce the quality of downstream application results for tasks such as 3D scene reconstruction. This is because lens flares are a property of the camera imaging system, and not a part of the underlying scene being modeled. T",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "The presence of lens flares in images can significantly reduce the quality of downstream application results for tasks such as 3D scene reconstruction. This is because lens flares are a property of the camera imaging system, and not a part of the underlying scene being modeled. T"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.39527v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+    },
+    {
+      "id": "178b2973d909f1389d87",
+      "url": "https://arxiv.org/abs/2609.38488v1",
+      "title": "Gaussian Stippling: Efficient Sorting-Free 3D Gaussian Rendering through Hybrid Sampling and Spatiotemporal Reconstruction",
+      "excerpt": "Conventional 3D Gaussian Splatting (3DGS) requires depth sorting and ordered alpha blending to correctly render overlapping Gaussian primitives. Stochastic transparency enables sorting-free rendering by replacing fractional alpha contributions with discrete stochastic visibility ",
+      "publishedAt": "2026-09-29T20:15:59Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Yuchi Huo",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-29T20:15:59Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Conventional 3D Gaussian Splatting (3DGS) requires depth sorting and ordered alpha blending to correctly render overlapping Gaussian primitives. Stochastic transparency enables sorting-free rendering by replacing fractional alpha contributions with discrete stochastic visibility ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Conventional 3D Gaussian Splatting (3DGS) requires depth sorting and ordered alpha blending to correctly render overlapping Gaussian primitives. Stochastic transparency enables sorting-free rendering by replacing fractional alpha contributions with discrete stochastic visibility "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2609.38488v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+    },
+    {
       "id": "331e96b2cec49e1f3b88",
       "url": "https://arxiv.org/abs/2609.37654v1",
       "title": "Texture Space Material Diffusion",
@@ -212,7 +212,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -247,7 +247,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "6a1f88d4d22a5301f18b",
@@ -282,7 +282,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "30e43fb24e1c64c6fff2",
@@ -317,11 +317,11 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
-      "id": "d285cce994d3780f3298",
-      "url": "https://arxiv.org/abs/2609.36024v1",
+      "id": "2afbc3bba4a1d9278bbd",
+      "url": "https://arxiv.org/abs/2609.36024v2",
       "title": "CoDimRecon: Agentic Reconstruction of Sim-Ready 3D Scenes with Deformable Curves, Surfaces, and Volumes",
       "excerpt": "Reconstructing simulation-ready 3D scenes from real-world observations enables robotics, gaming, and immersive applications, yet existing methods largely assume rigid objects. This leaves an important gap for deformables, whose simulation-ready geometry depends on dimensionality ",
       "publishedAt": "2026-09-28T18:01:23Z",
@@ -346,13 +346,13 @@
       "sources": [
         [
           "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.36024v1"
+          "https://arxiv.org/abs/2609.36024v2"
         ]
       ],
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "7033ec2c6ca8629e089e",
@@ -387,7 +387,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "d19ff1b392fe359f8586",
@@ -422,7 +422,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "254bf656e4bdfab0e42a",
@@ -457,7 +457,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "490455323d7da37f7d3b",
@@ -492,7 +492,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "9a678ba525282730d578",
@@ -527,7 +527,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "79c9c635af5b92e5029a",
@@ -562,7 +562,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -632,7 +632,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "9ad58c7f74ee0a5da7ff",
@@ -667,7 +667,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "0b8230863c675eed4fee",
@@ -702,7 +702,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "dfdb3865955f9952b895",
@@ -737,7 +737,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "64376f643be3cdb699f4",
@@ -772,7 +772,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "bd7078fa44d88cd93102",
@@ -807,7 +807,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "ea1e3f446dbed302d6a1",
@@ -842,7 +842,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "22d6397ef57dfc943413",
@@ -877,7 +877,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "01d7a5e596b12294f8a2",
@@ -912,77 +912,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
-    },
-    {
-      "id": "267caf9e43edf8fb4886",
-      "url": "https://arxiv.org/abs/2609.23386v1",
-      "title": "ProxyBuild: Text-Guided Structured 3D Building Generation with Mesh-Anchored Procedural Proxies",
-      "excerpt": "Text-guided 3D building generation holds tremendous application potential, yet existing generative models typically output inseparable single meshes or non-interactive rendered representations. While procedural modeling can generate editable buildings with hierarchical structures",
-      "publishedAt": "2026-09-20T06:11:13Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Xiaopeng Fan",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-20T06:11:13Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Text-guided 3D building generation holds tremendous application potential, yet existing generative models typically output inseparable single meshes or non-interactive rendered representations. While procedural modeling can generate editable buildings with hierarchical structures",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Text-guided 3D building generation holds tremendous application potential, yet existing generative models typically output inseparable single meshes or non-interactive rendered representations. While procedural modeling can generate editable buildings with hierarchical structures"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.23386v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
-    },
-    {
-      "id": "567373948eb811f100eb",
-      "url": "https://arxiv.org/abs/2609.22849v1",
-      "title": "LINGO: Latent Initialization and Gradient Optimization for Sparse-view X-ray Novel View Synthesis and CT Reconstruction with 3D Gaussian Splatting",
-      "excerpt": "In novel view synthesis and Computed Tomography (CT) reconstruction with sparse-view X-ray imaging, insufficient angular coverage leads to structural ambiguity and accumulated noise. Integrating 3D Gaussian Splatting (3DGS) with X-ray absorption physics can achieve promising resu",
-      "publishedAt": "2026-09-19T07:45:41Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Shihui Ying",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-19T07:45:41Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "In novel view synthesis and Computed Tomography (CT) reconstruction with sparse-view X-ray imaging, insufficient angular coverage leads to structural ambiguity and accumulated noise. Integrating 3D Gaussian Splatting (3DGS) with X-ray absorption physics can achieve promising resu",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "In novel view synthesis and Computed Tomography (CT) reconstruction with sparse-view X-ray imaging, insufficient angular coverage leads to structural ambiguity and accumulated noise. Integrating 3D Gaussian Splatting (3DGS) with X-ray absorption physics can achieve promising resu"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.22849v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1017,7 +947,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1052,7 +982,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1122,7 +1052,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1262,7 +1192,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2067,7 +1997,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2242,7 +2172,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2277,7 +2207,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2382,7 +2312,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2557,7 +2487,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -2697,7 +2627,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -2732,7 +2662,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -2767,7 +2697,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -2837,7 +2767,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -2907,7 +2837,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -2942,7 +2872,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3047,7 +2977,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3082,7 +3012,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3117,7 +3047,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3187,7 +3117,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3292,7 +3222,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3327,7 +3257,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -3362,7 +3292,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3397,7 +3327,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3467,7 +3397,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "fe76b712ab6fc6c5ab54",
@@ -3502,7 +3432,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "f4adf5e6a13a55d8322d",
@@ -3537,7 +3467,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3642,7 +3572,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "d70ada50b79e832e6208",
@@ -3677,7 +3607,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "f4ac3447021c4e984042",
@@ -3747,7 +3677,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "fbead8a3501ce5438f41",
@@ -3852,7 +3782,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "f5d8bd63d73e3a3ef88d",
@@ -3922,7 +3852,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-09-30T05:28:18.059576Z"
+      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
     },
     {
       "id": "6cba580e6c1e79d934f4",
