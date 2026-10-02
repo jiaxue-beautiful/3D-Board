@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-01T05:46:49.881132Z",
-  "windowStart": "2026-09-30T05:46:49.881132Z",
-  "windowEnd": "2026-10-01T05:46:49.881132Z",
+  "checkedAt": "2026-10-02T05:31:38.504798Z",
+  "windowStart": "2026-10-01T05:31:38.504798Z",
+  "windowEnd": "2026-10-02T05:31:38.504798Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -73,42 +73,182 @@
   ],
   "events": [
     {
-      "id": "b7373229dd97d83d837a",
-      "url": "https://arxiv.org/abs/2609.39527v1",
-      "title": "Lens Flare Removal and Reconstruction",
-      "excerpt": "The presence of lens flares in images can significantly reduce the quality of downstream application results for tasks such as 3D scene reconstruction. This is because lens flares are a property of the camera imaging system, and not a part of the underlying scene being modeled. T",
-      "publishedAt": "2026-09-30T11:27:28Z",
+      "id": "c77d6f668aff877171d1",
+      "url": "https://arxiv.org/abs/2610.01863v1",
+      "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
+      "excerpt": "We present LiteReality-Agent, an agentic system for reconstructing real indoor environments as realistic, articulated, and simulation-ready 3D scenes from RGB-D scans. At its core, LiteReality-Agent formulates 3D reconstruction as a coding problem, in which a coding agent gathers",
+      "publishedAt": "2026-10-01T15:25:35Z",
       "sourceId": "arxiv-3d",
       "sourceName": "arXiv 3D 研究",
       "lane": "news",
       "category": "学术研究",
-      "author": "Nathan Matsuda",
+      "author": "Shangzhe Wu",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-30T11:27:28Z",
+      "date": "2026-10-01T15:25:35Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "The presence of lens flares in images can significantly reduce the quality of downstream application results for tasks such as 3D scene reconstruction. This is because lens flares are a property of the camera imaging system, and not a part of the underlying scene being modeled. T",
+      "summary": "We present LiteReality-Agent, an agentic system for reconstructing real indoor environments as realistic, articulated, and simulation-ready 3D scenes from RGB-D scans. At its core, LiteReality-Agent formulates 3D reconstruction as a coding problem, in which a coding agent gathers",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "The presence of lens flares in images can significantly reduce the quality of downstream application results for tasks such as 3D scene reconstruction. This is because lens flares are a property of the camera imaging system, and not a part of the underlying scene being modeled. T"
+          "We present LiteReality-Agent, an agentic system for reconstructing real indoor environments as realistic, articulated, and simulation-ready 3D scenes from RGB-D scans. At its core, LiteReality-Agent formulates 3D reconstruction as a coding problem, in which a coding agent gathers"
         ]
       ],
       "sources": [
         [
           "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.39527v1"
+          "https://arxiv.org/abs/2610.01863v1"
         ]
       ],
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     }
   ],
   "archive": [
+    {
+      "id": "c77d6f668aff877171d1",
+      "url": "https://arxiv.org/abs/2610.01863v1",
+      "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
+      "excerpt": "We present LiteReality-Agent, an agentic system for reconstructing real indoor environments as realistic, articulated, and simulation-ready 3D scenes from RGB-D scans. At its core, LiteReality-Agent formulates 3D reconstruction as a coding problem, in which a coding agent gathers",
+      "publishedAt": "2026-10-01T15:25:35Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Shangzhe Wu",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-01T15:25:35Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We present LiteReality-Agent, an agentic system for reconstructing real indoor environments as realistic, articulated, and simulation-ready 3D scenes from RGB-D scans. At its core, LiteReality-Agent formulates 3D reconstruction as a coding problem, in which a coding agent gathers",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We present LiteReality-Agent, an agentic system for reconstructing real indoor environments as realistic, articulated, and simulation-ready 3D scenes from RGB-D scans. At its core, LiteReality-Agent formulates 3D reconstruction as a coding problem, in which a coding agent gathers"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.01863v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+    },
+    {
+      "id": "d4a83cad772b52f21e86",
+      "url": "https://arxiv.org/abs/2610.00749v1",
+      "title": "What Builds the Scene? Luminance Dominates Geometry Formation in 3D Gaussian Splatting",
+      "excerpt": "Standard 3D Gaussian Splatting (3DGS) learns geometry and appearance jointly from RGB supervision, making it difficult to isolate how luminance and chroma contribute to the learned representation. We study this by training models under different channel supervision, freezing thei",
+      "publishedAt": "2026-09-30T21:41:52Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Steven Cutchin",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-30T21:41:52Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Standard 3D Gaussian Splatting (3DGS) learns geometry and appearance jointly from RGB supervision, making it difficult to isolate how luminance and chroma contribute to the learned representation. We study this by training models under different channel supervision, freezing thei",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Standard 3D Gaussian Splatting (3DGS) learns geometry and appearance jointly from RGB supervision, making it difficult to isolate how luminance and chroma contribute to the learned representation. We study this by training models under different channel supervision, freezing thei"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.00749v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+    },
+    {
+      "id": "34cbd4134a8bdbc5592a",
+      "url": "https://arxiv.org/abs/2610.00618v1",
+      "title": "Dirichlet Splatting: Differentiable Rendering for Wave-Based Inverse Problems",
+      "excerpt": "Wave-based coherent imaging, including terahertz tomography, synthetic-aperture acoustics, and millimeter-wave radar, forms images by Fourier-processing finite-length signals, with an exact point spread function that is not Gaussian but a Dirichlet kernel: complex-valued, oscilla",
+      "publishedAt": "2026-09-30T19:19:34Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Tzu-Mao Li",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-30T19:19:34Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Wave-based coherent imaging, including terahertz tomography, synthetic-aperture acoustics, and millimeter-wave radar, forms images by Fourier-processing finite-length signals, with an exact point spread function that is not Gaussian but a Dirichlet kernel: complex-valued, oscilla",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Wave-based coherent imaging, including terahertz tomography, synthetic-aperture acoustics, and millimeter-wave radar, forms images by Fourier-processing finite-length signals, with an exact point spread function that is not Gaussian but a Dirichlet kernel: complex-valued, oscilla"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.00618v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+    },
+    {
+      "id": "bd5989a54e877e68f00c",
+      "url": "https://arxiv.org/abs/2610.00447v1",
+      "title": "Frozen Scenes, Shifting Winners: Configuration Fragility in Text-to-3D Evaluation",
+      "excerpt": "Can a text-to-3D leaderboard change when every generated scene stays fixed? We audit this question for rendered-image evaluation, where camera settings and caption wording become part of the measurement protocol. Across 300 frozen scenes from six generators, we vary eight render ",
+      "publishedAt": "2026-09-30T17:55:01Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Michael R. Lyu",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-09-30T17:55:01Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Can a text-to-3D leaderboard change when every generated scene stays fixed? We audit this question for rendered-image evaluation, where camera settings and caption wording become part of the measurement protocol. Across 300 frozen scenes from six generators, we vary eight render ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Can a text-to-3D leaderboard change when every generated scene stays fixed? We audit this question for rendered-image evaluation, where camera settings and caption wording become part of the measurement protocol. Across 300 frozen scenes from six generators, we vary eight render "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.00447v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+    },
     {
       "id": "b7373229dd97d83d837a",
       "url": "https://arxiv.org/abs/2609.39527v1",
@@ -142,7 +282,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "178b2973d909f1389d87",
@@ -177,11 +317,11 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
-      "id": "331e96b2cec49e1f3b88",
-      "url": "https://arxiv.org/abs/2609.37654v1",
+      "id": "5ac17cd8f17dabe758f4",
+      "url": "https://arxiv.org/abs/2609.37654v2",
       "title": "Texture Space Material Diffusion",
       "excerpt": "We present a method for generating high quality materials for 3D objects entirely in texture space. We finetune a video diffusion transformer for text-guided material generation, multi-view material generation, and material upscaling. Our key insight is to use the known projectio",
       "publishedAt": "2026-09-29T14:17:34Z",
@@ -206,13 +346,13 @@
       "sources": [
         [
           "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.37654v1"
+          "https://arxiv.org/abs/2609.37654v2"
         ]
       ],
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -247,7 +387,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "6a1f88d4d22a5301f18b",
@@ -282,7 +422,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "30e43fb24e1c64c6fff2",
@@ -317,7 +457,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "2afbc3bba4a1d9278bbd",
@@ -352,7 +492,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "7033ec2c6ca8629e089e",
@@ -387,7 +527,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "d19ff1b392fe359f8586",
@@ -422,7 +562,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "254bf656e4bdfab0e42a",
@@ -457,7 +597,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "490455323d7da37f7d3b",
@@ -492,7 +632,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "9a678ba525282730d578",
@@ -527,7 +667,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "79c9c635af5b92e5029a",
@@ -562,7 +702,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -632,7 +772,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "9ad58c7f74ee0a5da7ff",
@@ -667,7 +807,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "0b8230863c675eed4fee",
@@ -702,7 +842,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "dfdb3865955f9952b895",
@@ -737,7 +877,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "64376f643be3cdb699f4",
@@ -772,147 +912,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
-    },
-    {
-      "id": "bd7078fa44d88cd93102",
-      "url": "https://arxiv.org/abs/2609.24984v1",
-      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
-      "excerpt": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T",
-      "publishedAt": "2026-09-21T17:57:06Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Ying Shan",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-21T17:57:06Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. T"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.24984v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
-    },
-    {
-      "id": "ea1e3f446dbed302d6a1",
-      "url": "https://arxiv.org/abs/2609.24457v1",
-      "title": "Constrained Program Generation for 3D Reaction Animation with a 0.8B Model",
-      "excerpt": "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp",
-      "publishedAt": "2026-09-21T12:02:46Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Andrew McDonagh",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-21T12:02:46Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Visualizing a chemical reaction requires making its molecular changes visible while keeping the animation faithful to the stated chemistry. Equations, structural diagrams and molecular viewers provide complementary descriptions, but assembling an interactive three-dimensional exp"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.24457v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
-    },
-    {
-      "id": "22d6397ef57dfc943413",
-      "url": "https://arxiv.org/abs/2609.23817v2",
-      "title": "VISTA: Video-Injected Stylized Text-to-Animation",
-      "excerpt": "We present VISTA, a two-stage framework for generating stylized 3D human motion by fusing structural content from text prompts with expressive style from reference videos, without requiring jointly paired (text, video, stylized motion) triplets. A Dual-channel Autoencoder first m",
-      "publishedAt": "2026-09-20T19:11:53Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Philipp Slusallek",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-20T19:11:53Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We present VISTA, a two-stage framework for generating stylized 3D human motion by fusing structural content from text prompts with expressive style from reference videos, without requiring jointly paired (text, video, stylized motion) triplets. A Dual-channel Autoencoder first m",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We present VISTA, a two-stage framework for generating stylized 3D human motion by fusing structural content from text prompts with expressive style from reference videos, without requiring jointly paired (text, video, stylized motion) triplets. A Dual-channel Autoencoder first m"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.23817v2"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
-    },
-    {
-      "id": "01d7a5e596b12294f8a2",
-      "url": "https://arxiv.org/abs/2609.23796v2",
-      "title": "Mira-Scene: Pixel-Aligned Layouts for Generative 3D Scene Reconstruction",
-      "excerpt": "Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge. A central difficulty lies in how object layout is represented. Holistic methods absorb placement into a scene-level generati",
-      "publishedAt": "2026-09-20T18:36:29Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Xiaojuan Qi",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-20T18:36:29Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge. A central difficulty lies in how object layout is represented. Holistic methods absorb placement into a scene-level generati",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge. A central difficulty lies in how object layout is represented. Holistic methods absorb placement into a scene-level generati"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.23796v2"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -947,7 +947,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -982,7 +982,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1052,7 +1052,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1192,7 +1192,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -1997,7 +1997,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2172,7 +2172,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2207,7 +2207,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2312,7 +2312,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2487,7 +2487,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -2627,7 +2627,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -2662,7 +2662,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -2697,7 +2697,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -2767,7 +2767,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -2837,7 +2837,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -2872,7 +2872,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -2977,7 +2977,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3012,7 +3012,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3047,7 +3047,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3117,7 +3117,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3222,7 +3222,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3257,7 +3257,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -3292,7 +3292,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3327,7 +3327,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3397,7 +3397,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "fe76b712ab6fc6c5ab54",
@@ -3432,7 +3432,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "f4adf5e6a13a55d8322d",
@@ -3467,7 +3467,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3572,7 +3572,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "d70ada50b79e832e6208",
@@ -3607,7 +3607,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "f4ac3447021c4e984042",
@@ -3677,7 +3677,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "fbead8a3501ce5438f41",
@@ -3782,7 +3782,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "f5d8bd63d73e3a3ef88d",
@@ -3852,7 +3852,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-01T05:46:49.881132Z"
+      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
     },
     {
       "id": "6cba580e6c1e79d934f4",
