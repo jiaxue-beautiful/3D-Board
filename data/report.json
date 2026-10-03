@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-02T05:31:38.504798Z",
-  "windowStart": "2026-10-01T05:31:38.504798Z",
-  "windowEnd": "2026-10-02T05:31:38.504798Z",
+  "checkedAt": "2026-10-03T05:13:48.810616Z",
+  "windowStart": "2026-10-02T05:13:48.810616Z",
+  "windowEnd": "2026-10-03T05:13:48.810616Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -71,43 +71,7 @@
       "error": "来源请求失败（HTTP 404）；未绕过访问限制"
     }
   ],
-  "events": [
-    {
-      "id": "c77d6f668aff877171d1",
-      "url": "https://arxiv.org/abs/2610.01863v1",
-      "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
-      "excerpt": "We present LiteReality-Agent, an agentic system for reconstructing real indoor environments as realistic, articulated, and simulation-ready 3D scenes from RGB-D scans. At its core, LiteReality-Agent formulates 3D reconstruction as a coding problem, in which a coding agent gathers",
-      "publishedAt": "2026-10-01T15:25:35Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Shangzhe Wu",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-01T15:25:35Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We present LiteReality-Agent, an agentic system for reconstructing real indoor environments as realistic, articulated, and simulation-ready 3D scenes from RGB-D scans. At its core, LiteReality-Agent formulates 3D reconstruction as a coding problem, in which a coding agent gathers",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We present LiteReality-Agent, an agentic system for reconstructing real indoor environments as realistic, articulated, and simulation-ready 3D scenes from RGB-D scans. At its core, LiteReality-Agent formulates 3D reconstruction as a coding problem, in which a coding agent gathers"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.01863v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
-    }
-  ],
+  "events": [],
   "archive": [
     {
       "id": "c77d6f668aff877171d1",
@@ -142,7 +106,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "d4a83cad772b52f21e86",
@@ -177,7 +141,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "34cbd4134a8bdbc5592a",
@@ -212,7 +176,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "bd5989a54e877e68f00c",
@@ -247,7 +211,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "b7373229dd97d83d837a",
@@ -282,7 +246,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "178b2973d909f1389d87",
@@ -317,7 +281,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "5ac17cd8f17dabe758f4",
@@ -352,7 +316,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -387,7 +351,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "6a1f88d4d22a5301f18b",
@@ -422,7 +386,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "30e43fb24e1c64c6fff2",
@@ -457,7 +421,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "2afbc3bba4a1d9278bbd",
@@ -492,7 +456,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "7033ec2c6ca8629e089e",
@@ -527,7 +491,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "d19ff1b392fe359f8586",
@@ -562,7 +526,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "254bf656e4bdfab0e42a",
@@ -597,7 +561,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "490455323d7da37f7d3b",
@@ -632,7 +596,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "9a678ba525282730d578",
@@ -667,7 +631,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "79c9c635af5b92e5029a",
@@ -702,7 +666,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -772,7 +736,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "9ad58c7f74ee0a5da7ff",
@@ -807,7 +771,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "0b8230863c675eed4fee",
@@ -842,7 +806,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "dfdb3865955f9952b895",
@@ -877,7 +841,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "64376f643be3cdb699f4",
@@ -912,7 +876,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -947,7 +911,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -982,7 +946,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1052,7 +1016,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1192,7 +1156,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -1997,7 +1961,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2172,7 +2136,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2207,7 +2171,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2312,7 +2276,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2487,7 +2451,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -2627,7 +2591,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -2662,7 +2626,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -2697,7 +2661,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -2767,7 +2731,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -2837,7 +2801,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -2872,7 +2836,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -2977,7 +2941,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3012,7 +2976,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3047,7 +3011,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3117,7 +3081,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3222,7 +3186,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3257,7 +3221,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -3292,7 +3256,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3327,7 +3291,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3397,7 +3361,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "fe76b712ab6fc6c5ab54",
@@ -3432,7 +3396,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "f4adf5e6a13a55d8322d",
@@ -3467,7 +3431,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3572,7 +3536,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "d70ada50b79e832e6208",
@@ -3607,7 +3571,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "f4ac3447021c4e984042",
@@ -3677,7 +3641,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "fbead8a3501ce5438f41",
@@ -3782,7 +3746,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "f5d8bd63d73e3a3ef88d",
@@ -3852,7 +3816,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-02T05:31:38.504798Z"
+      "firstSeenAt": "2026-10-03T05:13:48.810616Z"
     },
     {
       "id": "6cba580e6c1e79d934f4",
