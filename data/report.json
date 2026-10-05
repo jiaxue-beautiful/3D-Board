@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-04T05:47:28.847294Z",
-  "windowStart": "2026-10-03T05:47:28.847294Z",
-  "windowEnd": "2026-10-04T05:47:28.847294Z",
+  "checkedAt": "2026-10-05T05:33:30.368698Z",
+  "windowStart": "2026-10-04T05:33:30.368698Z",
+  "windowEnd": "2026-10-05T05:33:30.368698Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -74,6 +74,181 @@
   "events": [],
   "archive": [
     {
+      "id": "54ad413df6257d2ffd68",
+      "url": "https://arxiv.org/abs/2610.03436v1",
+      "title": "The Shape of Speech: A Geometric Measure of Coarticulation for Speech-Driven 3D Facial Animation",
+      "excerpt": "Speech-driven 3D facial animation can reproduce recognizable mouth poses. However, it can simplify the motion between them, and that motion carries coarticulation, the way the sounds around each sound shape its articulation. We introduce a geometric measure of this trajectory sha",
+      "publishedAt": "2026-10-02T15:16:49Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Przemyslaw Musialski",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-02T15:16:49Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Speech-driven 3D facial animation can reproduce recognizable mouth poses. However, it can simplify the motion between them, and that motion carries coarticulation, the way the sounds around each sound shape its articulation. We introduce a geometric measure of this trajectory sha",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Speech-driven 3D facial animation can reproduce recognizable mouth poses. However, it can simplify the motion between them, and that motion carries coarticulation, the way the sounds around each sound shape its articulation. We introduce a geometric measure of this trajectory sha"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.03436v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+    },
+    {
+      "id": "ed886f067d4f2cf8a5ca",
+      "url": "https://arxiv.org/abs/2610.03162v1",
+      "title": "Budgeted-GS: Real-Time Large-Scale Gaussian Splatting via Factoring LOD",
+      "excerpt": "3D Gaussian Splatting achieves excellent visual quality with real-time rendering, but at the scale of entire cities it does not fit: a trained model carries millions of primitives and gigabytes of memory, and real-time rendering at high quality on a consumer GPU remains out of re",
+      "publishedAt": "2026-10-02T11:42:49Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Haipeng Wang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-02T11:42:49Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D Gaussian Splatting achieves excellent visual quality with real-time rendering, but at the scale of entire cities it does not fit: a trained model carries millions of primitives and gigabytes of memory, and real-time rendering at high quality on a consumer GPU remains out of re",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D Gaussian Splatting achieves excellent visual quality with real-time rendering, but at the scale of entire cities it does not fit: a trained model carries millions of primitives and gigabytes of memory, and real-time rendering at high quality on a consumer GPU remains out of re"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.03162v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+    },
+    {
+      "id": "52b5ce3a279d931ea079",
+      "url": "https://arxiv.org/abs/2610.03105v1",
+      "title": "A Benchmark for Spatially Grounded Gesture Generation",
+      "excerpt": "Communication in shared space interweaves verbal and non-verbal signals, and pointing gestures anchor language to the environment: \"put the cup on that one\" is uninterpretable without the gesture that fixes the referent. Yet no common framework exists for evaluating whether gener",
+      "publishedAt": "2026-10-02T10:26:05Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Jonas Beskow",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-02T10:26:05Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Communication in shared space interweaves verbal and non-verbal signals, and pointing gestures anchor language to the environment: \"put the cup on that one\" is uninterpretable without the gesture that fixes the referent. Yet no common framework exists for evaluating whether gener",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Communication in shared space interweaves verbal and non-verbal signals, and pointing gestures anchor language to the environment: \"put the cup on that one\" is uninterpretable without the gesture that fixes the referent. Yet no common framework exists for evaluating whether gener"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.03105v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+    },
+    {
+      "id": "4c9a8a383450695b65dc",
+      "url": "https://arxiv.org/abs/2610.02451v1",
+      "title": "A Simulation-Grounded Agentic VLM Framework for Wildfire Monitoring and Reporting",
+      "excerpt": "Effective wildfire monitoring requires relating visual evidence to physical fire dynamics, yet real videos with synchronized physical annotations are scarce and high-fidelity 3D simulation is costly. We present a simulation-grounded vision-language model (VLM) framework that auto",
+      "publishedAt": "2026-10-01T20:22:10Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Bo Zhu",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-01T20:22:10Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Effective wildfire monitoring requires relating visual evidence to physical fire dynamics, yet real videos with synchronized physical annotations are scarce and high-fidelity 3D simulation is costly. We present a simulation-grounded vision-language model (VLM) framework that auto",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Effective wildfire monitoring requires relating visual evidence to physical fire dynamics, yet real videos with synchronized physical annotations are scarce and high-fidelity 3D simulation is costly. We present a simulation-grounded vision-language model (VLM) framework that auto"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.02451v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+    },
+    {
+      "id": "927275fe7dcaec73fe7b",
+      "url": "https://arxiv.org/abs/2610.02298v1",
+      "title": "EditHero: A Benchmark for Long-Horizon Part-Level 3D Editing and Vibe Modeling",
+      "excerpt": "3D editing methods are usually tested on a single edit, yet an asset is built through a long sequence of revisions, each of which must implement the requested change while leaving everything else unchanged. We introduce EditHero, to our knowledge the first benchmark for long-hori",
+      "publishedAt": "2026-10-01T17:50:53Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Zhixiang Wang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-01T17:50:53Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D editing methods are usually tested on a single edit, yet an asset is built through a long sequence of revisions, each of which must implement the requested change while leaving everything else unchanged. We introduce EditHero, to our knowledge the first benchmark for long-hori",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D editing methods are usually tested on a single edit, yet an asset is built through a long sequence of revisions, each of which must implement the requested change while leaving everything else unchanged. We introduce EditHero, to our knowledge the first benchmark for long-hori"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.02298v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+    },
+    {
       "id": "c77d6f668aff877171d1",
       "url": "https://arxiv.org/abs/2610.01863v1",
       "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
@@ -106,7 +281,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "d4a83cad772b52f21e86",
@@ -141,7 +316,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "34cbd4134a8bdbc5592a",
@@ -176,7 +351,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "bd5989a54e877e68f00c",
@@ -211,7 +386,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "b7373229dd97d83d837a",
@@ -246,7 +421,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "178b2973d909f1389d87",
@@ -281,7 +456,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "5ac17cd8f17dabe758f4",
@@ -316,7 +491,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -351,7 +526,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "6a1f88d4d22a5301f18b",
@@ -386,7 +561,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "30e43fb24e1c64c6fff2",
@@ -421,7 +596,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "2afbc3bba4a1d9278bbd",
@@ -456,7 +631,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "7033ec2c6ca8629e089e",
@@ -491,7 +666,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "d19ff1b392fe359f8586",
@@ -526,7 +701,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "254bf656e4bdfab0e42a",
@@ -561,7 +736,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "490455323d7da37f7d3b",
@@ -596,7 +771,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "9a678ba525282730d578",
@@ -631,42 +806,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
-    },
-    {
-      "id": "79c9c635af5b92e5029a",
-      "url": "https://arxiv.org/abs/2609.30517v1",
-      "title": "Seeing Speech: Learning Visible Articulatory Dynamics for Speech-Driven 3D Facial Animation",
-      "excerpt": "Recent progress in speech-driven 3D facial animation has improved vertex-level reconstruction quality, but speech-consistent visible articulation remains difficult. This is because speech production follows structured and constrained articulators' coordination and the mapping fro",
-      "publishedAt": "2026-09-24T20:12:36Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Hak Gu Kim",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-24T20:12:36Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Recent progress in speech-driven 3D facial animation has improved vertex-level reconstruction quality, but speech-consistent visible articulation remains difficult. This is because speech production follows structured and constrained articulators' coordination and the mapping fro",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Recent progress in speech-driven 3D facial animation has improved vertex-level reconstruction quality, but speech-consistent visible articulation remains difficult. This is because speech production follows structured and constrained articulators' coordination and the mapping fro"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.30517v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -704,146 +844,6 @@
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
     },
     {
-      "id": "e7d6f961d9547c7115b4",
-      "url": "https://arxiv.org/abs/2609.29788v1",
-      "title": "OREO: Fidelity Alignment in 3D Generation via On-the-fly Rendering-Editing Optimization",
-      "excerpt": "Despite recent advancements in 3D generation, models often struggle to produce assets with high visual fidelity. To bridge this gap, we propose OREO, an alignment framework that enhances the realism of 3D generators by leveraging rich 2D diffusion priors. Instead of relying on st",
-      "publishedAt": "2026-09-24T13:28:13Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Lei Zhang",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-24T13:28:13Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Despite recent advancements in 3D generation, models often struggle to produce assets with high visual fidelity. To bridge this gap, we propose OREO, an alignment framework that enhances the realism of 3D generators by leveraging rich 2D diffusion priors. Instead of relying on st",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Despite recent advancements in 3D generation, models often struggle to produce assets with high visual fidelity. To bridge this gap, we propose OREO, an alignment framework that enhances the realism of 3D generators by leveraging rich 2D diffusion priors. Instead of relying on st"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.29788v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
-    },
-    {
-      "id": "9ad58c7f74ee0a5da7ff",
-      "url": "https://arxiv.org/abs/2609.27602v1",
-      "title": "Efficient Geometry Representation Strategies for the Shape Optimization of Profile Extrusion Dies",
-      "excerpt": "The design of profile extrusion dies remains a challenging task due to the complex rheological behavior of polymer melts and the geometric intricacies of flow channels. Traditional manual optimization approaches, which rely heavily on human experience, are inefficient and often e",
-      "publishedAt": "2026-09-23T09:19:41Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Stefan Turek",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-23T09:19:41Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "The design of profile extrusion dies remains a challenging task due to the complex rheological behavior of polymer melts and the geometric intricacies of flow channels. Traditional manual optimization approaches, which rely heavily on human experience, are inefficient and often e",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "The design of profile extrusion dies remains a challenging task due to the complex rheological behavior of polymer melts and the geometric intricacies of flow channels. Traditional manual optimization approaches, which rely heavily on human experience, are inefficient and often e"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.27602v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
-    },
-    {
-      "id": "0b8230863c675eed4fee",
-      "url": "https://arxiv.org/abs/2609.26795v1",
-      "title": "φ-RIE: From Photorealistic Reconstruction to Interactive Environments",
-      "excerpt": "3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \\textit{i.e.}, objects must move independently, make contact,",
-      "publishedAt": "2026-09-22T17:59:52Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Danda Pani Paudel",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-22T17:59:52Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \\textit{i.e.}, objects must move independently, make contact,",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \\textit{i.e.}, objects must move independently, make contact,"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.26795v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
-    },
-    {
-      "id": "dfdb3865955f9952b895",
-      "url": "https://arxiv.org/abs/2609.25832v1",
-      "title": "PartLLM: A Unified Multimodal Foundation for 3D Part Segmentation",
-      "excerpt": "Part segmentation is a fundamental problem in computer graphics and 3D vision. Recent works have expanded 3D part segmentation beyond fixed taxonomies, but existing approaches typically only address a specific setting, such as text-guided part segmentation or point-based interact",
-      "publishedAt": "2026-09-22T07:58:27Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Wenping Wang",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-22T07:58:27Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Part segmentation is a fundamental problem in computer graphics and 3D vision. Recent works have expanded 3D part segmentation beyond fixed taxonomies, but existing approaches typically only address a specific setting, such as text-guided part segmentation or point-based interact",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Part segmentation is a fundamental problem in computer graphics and 3D vision. Recent works have expanded 3D part segmentation beyond fixed taxonomies, but existing approaches typically only address a specific setting, such as text-guided part segmentation or point-based interact"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.25832v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
-    },
-    {
       "id": "64376f643be3cdb699f4",
       "url": "https://blog.playcanvas.com/new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod",
       "title": "New in PlayCanvas Editor: Joints, Parallax Occlusion and Splat LOD",
@@ -876,7 +876,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -911,7 +911,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -946,7 +946,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1016,7 +1016,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1156,7 +1156,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -1961,7 +1961,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2136,7 +2136,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2171,7 +2171,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2276,7 +2276,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2451,7 +2451,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -2591,7 +2591,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -2626,7 +2626,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -2661,7 +2661,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -2731,7 +2731,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -2801,7 +2801,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -2836,7 +2836,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -2941,7 +2941,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -2976,7 +2976,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3011,7 +3011,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3081,7 +3081,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3186,7 +3186,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3221,7 +3221,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -3256,7 +3256,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3291,7 +3291,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3361,7 +3361,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "fe76b712ab6fc6c5ab54",
@@ -3396,7 +3396,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "f4adf5e6a13a55d8322d",
@@ -3431,7 +3431,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3536,7 +3536,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "d70ada50b79e832e6208",
@@ -3571,7 +3571,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "f4ac3447021c4e984042",
@@ -3641,7 +3641,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "fbead8a3501ce5438f41",
@@ -3746,7 +3746,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "f5d8bd63d73e3a3ef88d",
@@ -3816,7 +3816,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-04T05:47:28.847294Z"
+      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
     },
     {
       "id": "6cba580e6c1e79d934f4",
