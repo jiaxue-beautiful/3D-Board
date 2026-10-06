@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-05T05:33:30.368698Z",
-  "windowStart": "2026-10-04T05:33:30.368698Z",
-  "windowEnd": "2026-10-05T05:33:30.368698Z",
+  "checkedAt": "2026-10-06T06:15:36.020525Z",
+  "windowStart": "2026-10-05T06:15:36.020525Z",
+  "windowEnd": "2026-10-06T06:15:36.020525Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -71,8 +71,254 @@
       "error": "来源请求失败（HTTP 404）；未绕过访问限制"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "8a085ef017581985d0e1",
+      "url": "https://code.blender.org/2026/10/geometry-nodes-workshop-september-2026/",
+      "title": "Geometry Nodes Workshop: September 2026",
+      "excerpt": "As in previous years, we had a Geometry Nodes workshop during the week after the Blender Conference. This post gives a general overview of the topics we discussed. You can also read all the notes we took during the meetings. Also check out the blog posts about previous workshops:",
+      "publishedAt": "2026-10-05T14:29:39Z",
+      "sourceId": "blender-dev",
+      "sourceName": "Blender 开发者博客",
+      "lane": "news",
+      "category": "传统建模",
+      "author": "Jacques Lucke",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-05T14:29:39Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "As in previous years, we had a Geometry Nodes workshop during the week after the Blender Conference. This post gives a general overview of the topics we discussed. You can also read all the notes we took during the meetings. Also check out the blog posts about previous workshops:",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "As in previous years, we had a Geometry Nodes workshop during the week after the Blender Conference. This post gives a general overview of the topics we discussed. You can also read all the notes we took during the meetings. Also check out the blog posts about previous workshops:"
+        ]
+      ],
+      "sources": [
+        [
+          "Blender 开发者博客",
+          "https://code.blender.org/2026/10/geometry-nodes-workshop-september-2026/"
+        ]
+      ],
+      "tags": [
+        "传统建模"
+      ],
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
+    }
+  ],
   "archive": [
+    {
+      "id": "8a085ef017581985d0e1",
+      "url": "https://code.blender.org/2026/10/geometry-nodes-workshop-september-2026/",
+      "title": "Geometry Nodes Workshop: September 2026",
+      "excerpt": "As in previous years, we had a Geometry Nodes workshop during the week after the Blender Conference. This post gives a general overview of the topics we discussed. You can also read all the notes we took during the meetings. Also check out the blog posts about previous workshops:",
+      "publishedAt": "2026-10-05T14:29:39Z",
+      "sourceId": "blender-dev",
+      "sourceName": "Blender 开发者博客",
+      "lane": "news",
+      "category": "传统建模",
+      "author": "Jacques Lucke",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-05T14:29:39Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "As in previous years, we had a Geometry Nodes workshop during the week after the Blender Conference. This post gives a general overview of the topics we discussed. You can also read all the notes we took during the meetings. Also check out the blog posts about previous workshops:",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "As in previous years, we had a Geometry Nodes workshop during the week after the Blender Conference. This post gives a general overview of the topics we discussed. You can also read all the notes we took during the meetings. Also check out the blog posts about previous workshops:"
+        ]
+      ],
+      "sources": [
+        [
+          "Blender 开发者博客",
+          "https://code.blender.org/2026/10/geometry-nodes-workshop-september-2026/"
+        ]
+      ],
+      "tags": [
+        "传统建模"
+      ],
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
+    },
+    {
+      "id": "d72060cac159586a6070",
+      "url": "https://arxiv.org/abs/2610.05770v1",
+      "title": "Computational Design of Free-Form Lampshades",
+      "excerpt": "Conventional lampshades are predominantly restricted to simple geometries, owing to the difficulty of controlling optical functions across complex shapes. We present a computational design method that enables 3D-printable lampshades with complex free-form shapes to achieve contro",
+      "publishedAt": "2026-10-05T04:15:22Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Yuki Koyama",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-05T04:15:22Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Conventional lampshades are predominantly restricted to simple geometries, owing to the difficulty of controlling optical functions across complex shapes. We present a computational design method that enables 3D-printable lampshades with complex free-form shapes to achieve contro",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Conventional lampshades are predominantly restricted to simple geometries, owing to the difficulty of controlling optical functions across complex shapes. We present a computational design method that enables 3D-printable lampshades with complex free-form shapes to achieve contro"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.05770v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
+    },
+    {
+      "id": "97499ab74c0d2b447225",
+      "url": "https://arxiv.org/abs/2610.05576v1",
+      "title": "SteadySplats: Resampling of Low-Variance Gaussians for High-Fidelity Stochastic Rendering",
+      "excerpt": "Stochastic order-independent transparency enables efficient and elegant rendering of primitive-based radiance fields like 3D Gaussian Splatting models, but remains impractical due to the inherent visible noise in the output. We propose a principled approach to minimize high-frequ",
+      "publishedAt": "2026-10-04T22:25:18Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Markus Steinberger",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-04T22:25:18Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Stochastic order-independent transparency enables efficient and elegant rendering of primitive-based radiance fields like 3D Gaussian Splatting models, but remains impractical due to the inherent visible noise in the output. We propose a principled approach to minimize high-frequ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Stochastic order-independent transparency enables efficient and elegant rendering of primitive-based radiance fields like 3D Gaussian Splatting models, but remains impractical due to the inherent visible noise in the output. We propose a principled approach to minimize high-frequ"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.05576v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
+    },
+    {
+      "id": "6fe77cf5e9b42132a2bb",
+      "url": "https://arxiv.org/abs/2610.05167v1",
+      "title": "CreativeFlow: A One-to-Many Analogical Relation Transfer Method for 3D Asset Generation",
+      "excerpt": "Inspired by cognitive science, we present CREATIVEFLOW, an analogical generation framework that explicitly models analogical divergent thinking to mitigate creative homogenization in text-to-3D pipelines. Our method derives a series of meaningful yet relationally similar source-t",
+      "publishedAt": "2026-10-04T12:24:36Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Qing Chen",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-04T12:24:36Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Inspired by cognitive science, we present CREATIVEFLOW, an analogical generation framework that explicitly models analogical divergent thinking to mitigate creative homogenization in text-to-3D pipelines. Our method derives a series of meaningful yet relationally similar source-t",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Inspired by cognitive science, we present CREATIVEFLOW, an analogical generation framework that explicitly models analogical divergent thinking to mitigate creative homogenization in text-to-3D pipelines. Our method derives a series of meaningful yet relationally similar source-t"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.05167v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
+    },
+    {
+      "id": "9debe5ebeb81186c9061",
+      "url": "https://arxiv.org/abs/2610.04351v1",
+      "title": "LoCoSplat: Real-Time Feed-Forward 3D Gaussian Splatting with Minimal 3D Reasoning",
+      "excerpt": "Feed-forward 3D Gaussian Splatting (3DGS) increasingly aggregates multi-view evidence with heavy learned 3D networks. We propose LoCoSplat (Local-Context Splatting), motivated by the observation that a Gaussian is a local primitive: once depth is predicted, what the 3D stage must",
+      "publishedAt": "2026-10-03T07:36:22Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Bo Zhu",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-03T07:36:22Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Feed-forward 3D Gaussian Splatting (3DGS) increasingly aggregates multi-view evidence with heavy learned 3D networks. We propose LoCoSplat (Local-Context Splatting), motivated by the observation that a Gaussian is a local primitive: once depth is predicted, what the 3D stage must",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Feed-forward 3D Gaussian Splatting (3DGS) increasingly aggregates multi-view evidence with heavy learned 3D networks. We propose LoCoSplat (Local-Context Splatting), motivated by the observation that a Gaussian is a local primitive: once depth is predicted, what the 3D stage must"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.04351v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
+    },
+    {
+      "id": "f9b2d230707cd79f13b4",
+      "url": "https://arxiv.org/abs/2610.04092v1",
+      "title": "UniBRep: Learning Unified Geometry and Topology for Image-conditioned B-Rep Generation",
+      "excerpt": "Generating a boundary representation (B-rep) conditioned on a single image requires faithful reconstruction of geometry, valid topology, and support for complex shapes. We present UniBRep, a geometry-first framework that adapts a pretrained image-to-3D model to generate a feature",
+      "publishedAt": "2026-10-02T21:59:29Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Matthias Zwicker",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-02T21:59:29Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Generating a boundary representation (B-rep) conditioned on a single image requires faithful reconstruction of geometry, valid topology, and support for complex shapes. We present UniBRep, a geometry-first framework that adapts a pretrained image-to-3D model to generate a feature",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Generating a boundary representation (B-rep) conditioned on a single image requires faithful reconstruction of geometry, valid topology, and support for complex shapes. We present UniBRep, a geometry-first framework that adapts a pretrained image-to-3D model to generate a feature"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.04092v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
+    },
     {
       "id": "54ad413df6257d2ffd68",
       "url": "https://arxiv.org/abs/2610.03436v1",
@@ -106,7 +352,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "ed886f067d4f2cf8a5ca",
@@ -141,7 +387,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "52b5ce3a279d931ea079",
@@ -176,7 +422,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "4c9a8a383450695b65dc",
@@ -211,7 +457,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "927275fe7dcaec73fe7b",
@@ -246,7 +492,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "c77d6f668aff877171d1",
@@ -281,7 +527,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "d4a83cad772b52f21e86",
@@ -316,7 +562,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "34cbd4134a8bdbc5592a",
@@ -351,7 +597,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "bd5989a54e877e68f00c",
@@ -386,7 +632,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "b7373229dd97d83d837a",
@@ -421,7 +667,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "178b2973d909f1389d87",
@@ -456,7 +702,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "5ac17cd8f17dabe758f4",
@@ -491,7 +737,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -526,7 +772,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "6a1f88d4d22a5301f18b",
@@ -561,7 +807,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "30e43fb24e1c64c6fff2",
@@ -596,11 +842,11 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
-      "id": "2afbc3bba4a1d9278bbd",
-      "url": "https://arxiv.org/abs/2609.36024v2",
+      "id": "3e6f04100b9eaae2adee",
+      "url": "https://arxiv.org/abs/2609.36024v3",
       "title": "CoDimRecon: Agentic Reconstruction of Sim-Ready 3D Scenes with Deformable Curves, Surfaces, and Volumes",
       "excerpt": "Reconstructing simulation-ready 3D scenes from real-world observations enables robotics, gaming, and immersive applications, yet existing methods largely assume rigid objects. This leaves an important gap for deformables, whose simulation-ready geometry depends on dimensionality ",
       "publishedAt": "2026-09-28T18:01:23Z",
@@ -625,188 +871,13 @@
       "sources": [
         [
           "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.36024v2"
+          "https://arxiv.org/abs/2609.36024v3"
         ]
       ],
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
-    },
-    {
-      "id": "7033ec2c6ca8629e089e",
-      "url": "https://arxiv.org/abs/2609.35770v1",
-      "title": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
-      "excerpt": "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intr",
-      "publishedAt": "2026-09-28T17:59:58Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Alan Yuille",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-28T17:59:58Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intr",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intr"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.35770v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
-    },
-    {
-      "id": "d19ff1b392fe359f8586",
-      "url": "https://arxiv.org/abs/2609.35463v1",
-      "title": "A.D.A.M.O. (Agent for language-Driven Actions with Multimodal Observations): A Visual-Symbolic Framework for Virtual Humans",
-      "excerpt": "Creating believable vh requires the coherent integration of perception, reasoning, and action mediated by language. A central challenge is to combine these components into a control loop grounded in interactive 3D environments. To this end, we present A.D.A.M.O. (Agent for langua",
-      "publishedAt": "2026-09-28T15:51:25Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Andrea Bottino",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-28T15:51:25Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Creating believable vh requires the coherent integration of perception, reasoning, and action mediated by language. A central challenge is to combine these components into a control loop grounded in interactive 3D environments. To this end, we present A.D.A.M.O. (Agent for langua",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Creating believable vh requires the coherent integration of perception, reasoning, and action mediated by language. A central challenge is to combine these components into a control loop grounded in interactive 3D environments. To this end, we present A.D.A.M.O. (Agent for langua"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.35463v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
-    },
-    {
-      "id": "254bf656e4bdfab0e42a",
-      "url": "https://arxiv.org/abs/2609.33598v1",
-      "title": "Lattice Structure Optimization for Additive Manufacturing: Manufacturability-Driven Design and Pareto Front Construction",
-      "excerpt": "Lattice metamaterials support lightweight, multifunctional structures, while additive manufacturing (AM) enables complex geometries. Yet multiphysics lattice design faces two challenges: efficiently constructing well-covered multi-objective Pareto fronts under limited budgets, an",
-      "publishedAt": "2026-09-27T14:16:04Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Lin Lu",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-27T14:16:04Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Lattice metamaterials support lightweight, multifunctional structures, while additive manufacturing (AM) enables complex geometries. Yet multiphysics lattice design faces two challenges: efficiently constructing well-covered multi-objective Pareto fronts under limited budgets, an",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Lattice metamaterials support lightweight, multifunctional structures, while additive manufacturing (AM) enables complex geometries. Yet multiphysics lattice design faces two challenges: efficiently constructing well-covered multi-objective Pareto fronts under limited budgets, an"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.33598v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
-    },
-    {
-      "id": "490455323d7da37f7d3b",
-      "url": "https://arxiv.org/abs/2609.32027v1",
-      "title": "Depth Any Seen: Which Surfaces and How Far?",
-      "excerpt": "When several surfaces are visible along a ray, recovering visible 3D structure from one image requires jointly estimating their presence and metric depth. Depth Any Seen represents these surfaces as image-conditioned multi-Bernoulli depth sets, whose components each contribute on",
-      "publishedAt": "2026-09-25T21:46:25Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Xiaonan Huang",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-25T21:46:25Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "When several surfaces are visible along a ray, recovering visible 3D structure from one image requires jointly estimating their presence and metric depth. Depth Any Seen represents these surfaces as image-conditioned multi-Bernoulli depth sets, whose components each contribute on",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "When several surfaces are visible along a ray, recovering visible 3D structure from one image requires jointly estimating their presence and metric depth. Depth Any Seen represents these surfaces as image-conditioned multi-Bernoulli depth sets, whose components each contribute on"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.32027v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
-    },
-    {
-      "id": "9a678ba525282730d578",
-      "url": "https://arxiv.org/abs/2609.31339v1",
-      "title": "ChronoFuseGS: Multi-Temporal Gaussian Fusion with Per-Splat Persistence and Change Visualization",
-      "excerpt": "Reconstructing environments where parts of the scene change between captured image sets poses a challenge for 3D scene reconstruction. We present ChronoFuseGS, a multi-temporal Gaussian Splatting approach that addresses this issue by taking multiple separately trained Gaussian Sp",
-      "publishedAt": "2026-09-25T14:43:04Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Hannes Kaufmann",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-25T14:43:04Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Reconstructing environments where parts of the scene change between captured image sets poses a challenge for 3D scene reconstruction. We present ChronoFuseGS, a multi-temporal Gaussian Splatting approach that addresses this issue by taking multiple separately trained Gaussian Sp",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Reconstructing environments where parts of the scene change between captured image sets poses a challenge for 3D scene reconstruction. We present ChronoFuseGS, a multi-temporal Gaussian Splatting approach that addresses this issue by taking multiple separately trained Gaussian Sp"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2609.31339v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -876,7 +947,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -911,7 +982,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -946,7 +1017,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1016,7 +1087,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1156,7 +1227,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -1961,7 +2032,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2136,7 +2207,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2171,7 +2242,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2276,7 +2347,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2451,7 +2522,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -2591,7 +2662,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -2626,7 +2697,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -2661,7 +2732,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -2731,7 +2802,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -2801,7 +2872,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -2836,7 +2907,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -2941,7 +3012,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -2976,7 +3047,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3011,7 +3082,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3081,7 +3152,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3186,7 +3257,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3221,7 +3292,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -3256,7 +3327,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3291,7 +3362,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3361,7 +3432,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "fe76b712ab6fc6c5ab54",
@@ -3396,42 +3467,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
-    },
-    {
-      "id": "f4adf5e6a13a55d8322d",
-      "url": "https://code.blender.org/2025/08/new-socket-shapes/",
-      "title": "New Socket Shapes",
-      "excerpt": "Blender 5.0 changes the meaning of existing node socket shapes and introduces new ones. The redesign is necessary to further expand what Geometry Nodes is able to do. This post explains the problem we were facing, what the new shapes mean, and how we are going to use them. The de",
-      "publishedAt": "2025-08-08T07:41:15Z",
-      "sourceId": "blender-dev",
-      "sourceName": "Blender 开发者博客",
-      "lane": "news",
-      "category": "传统建模",
-      "author": "Jacques Lucke",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2025-08-08T07:41:15Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Blender 5.0 changes the meaning of existing node socket shapes and introduces new ones. The redesign is necessary to further expand what Geometry Nodes is able to do. This post explains the problem we were facing, what the new shapes mean, and how we are going to use them. The de",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Blender 5.0 changes the meaning of existing node socket shapes and introduces new ones. The redesign is necessary to further expand what Geometry Nodes is able to do. This post explains the problem we were facing, what the new shapes mean, and how we are going to use them. The de"
-        ]
-      ],
-      "sources": [
-        [
-          "Blender 开发者博客",
-          "https://code.blender.org/2025/08/new-socket-shapes/"
-        ]
-      ],
-      "tags": [
-        "传统建模"
-      ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3536,7 +3572,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "d70ada50b79e832e6208",
@@ -3571,7 +3607,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "f4ac3447021c4e984042",
@@ -3641,7 +3677,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "fbead8a3501ce5438f41",
@@ -3746,7 +3782,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "f5d8bd63d73e3a3ef88d",
@@ -3816,7 +3852,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-05T05:33:30.368698Z"
+      "firstSeenAt": "2026-10-06T06:15:36.020525Z"
     },
     {
       "id": "6cba580e6c1e79d934f4",
