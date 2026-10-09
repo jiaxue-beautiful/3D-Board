@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-08T05:57:48.297425Z",
-  "windowStart": "2026-10-07T05:57:48.297425Z",
-  "windowEnd": "2026-10-08T05:57:48.297425Z",
+  "checkedAt": "2026-10-09T06:03:44.390433Z",
+  "windowStart": "2026-10-08T06:03:44.390433Z",
+  "windowEnd": "2026-10-09T06:03:44.390433Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -51,8 +51,9 @@
       "id": "arxiv-3d",
       "name": "arXiv 3D 研究",
       "lane": "news",
-      "ok": true,
-      "count": 20
+      "ok": false,
+      "count": 0,
+      "error": "来源请求失败（HTTP 429）；未绕过访问限制"
     },
     {
       "id": "lightarchitect",
@@ -71,359 +72,8 @@
       "error": "来源请求失败（HTTP 404）；未绕过访问限制"
     }
   ],
-  "events": [
-    {
-      "id": "3ebc430bae9ca33a0f0b",
-      "url": "https://arxiv.org/abs/2610.09846v1",
-      "title": "DynaConTalk: Wavelet-Constrained Diffusion for Long-Form and Controllable Holistic Co-Speech 3D Motion",
-      "excerpt": "Holistic co-speech animation is prone to averaging in both motion representation and speech conditioning. In coordinate-space diffusion, slow body posture, mid-frequency gesture strokes, and fast hand or facial details are entangled in one prediction target, often producing low-v",
-      "publishedAt": "2026-10-07T11:06:42Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yoshifumi Kitamura",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-07T11:06:42Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Holistic co-speech animation is prone to averaging in both motion representation and speech conditioning. In coordinate-space diffusion, slow body posture, mid-frequency gesture strokes, and fast hand or facial details are entangled in one prediction target, often producing low-v",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Holistic co-speech animation is prone to averaging in both motion representation and speech conditioning. In coordinate-space diffusion, slow body posture, mid-frequency gesture strokes, and fast hand or facial details are entangled in one prediction target, often producing low-v"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.09846v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "4c4095fb8953546ecc88",
-      "url": "https://arxiv.org/abs/2610.09534v1",
-      "title": "KASALv2: Fully Automatic 3D Rotational Symmetry Classification and Axis Localization",
-      "excerpt": "Rotational symmetry is an important prior in 6D pose estimation, improving pose accuracy and supporting symmetry-aware evaluation. However, current symmetry annotations for 3D objects remain largely manual or semi-automatic, often requiring predefined types or orders, which limit",
-      "publishedAt": "2026-10-07T06:37:29Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yijun Zhou",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-07T06:37:29Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Rotational symmetry is an important prior in 6D pose estimation, improving pose accuracy and supporting symmetry-aware evaluation. However, current symmetry annotations for 3D objects remain largely manual or semi-automatic, often requiring predefined types or orders, which limit",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Rotational symmetry is an important prior in 6D pose estimation, improving pose accuracy and supporting symmetry-aware evaluation. However, current symmetry annotations for 3D objects remain largely manual or semi-automatic, often requiring predefined types or orders, which limit"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.09534v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    }
-  ],
+  "events": [],
   "archive": [
-    {
-      "id": "3ebc430bae9ca33a0f0b",
-      "url": "https://arxiv.org/abs/2610.09846v1",
-      "title": "DynaConTalk: Wavelet-Constrained Diffusion for Long-Form and Controllable Holistic Co-Speech 3D Motion",
-      "excerpt": "Holistic co-speech animation is prone to averaging in both motion representation and speech conditioning. In coordinate-space diffusion, slow body posture, mid-frequency gesture strokes, and fast hand or facial details are entangled in one prediction target, often producing low-v",
-      "publishedAt": "2026-10-07T11:06:42Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yoshifumi Kitamura",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-07T11:06:42Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Holistic co-speech animation is prone to averaging in both motion representation and speech conditioning. In coordinate-space diffusion, slow body posture, mid-frequency gesture strokes, and fast hand or facial details are entangled in one prediction target, often producing low-v",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Holistic co-speech animation is prone to averaging in both motion representation and speech conditioning. In coordinate-space diffusion, slow body posture, mid-frequency gesture strokes, and fast hand or facial details are entangled in one prediction target, often producing low-v"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.09846v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "4c4095fb8953546ecc88",
-      "url": "https://arxiv.org/abs/2610.09534v1",
-      "title": "KASALv2: Fully Automatic 3D Rotational Symmetry Classification and Axis Localization",
-      "excerpt": "Rotational symmetry is an important prior in 6D pose estimation, improving pose accuracy and supporting symmetry-aware evaluation. However, current symmetry annotations for 3D objects remain largely manual or semi-automatic, often requiring predefined types or orders, which limit",
-      "publishedAt": "2026-10-07T06:37:29Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yijun Zhou",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-07T06:37:29Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Rotational symmetry is an important prior in 6D pose estimation, improving pose accuracy and supporting symmetry-aware evaluation. However, current symmetry annotations for 3D objects remain largely manual or semi-automatic, often requiring predefined types or orders, which limit",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Rotational symmetry is an important prior in 6D pose estimation, improving pose accuracy and supporting symmetry-aware evaluation. However, current symmetry annotations for 3D objects remain largely manual or semi-automatic, often requiring predefined types or orders, which limit"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.09534v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "f5ddafc70f5fb83a1ddb",
-      "url": "https://arxiv.org/abs/2610.09304v1",
-      "title": "emg2face: Expressive Facial Animation with High-Density Surface EMG",
-      "excerpt": "Facial movements convey subtle and important information that is critical for human social communication. Optical methods for face capture are difficult or impossible to use when the face is occluded by head-mounted devices (HMDs), such as VR headsets. Even with a clear line of s",
-      "publishedAt": "2026-10-07T02:03:05Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Dinesh K. Pai",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-07T02:03:05Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Facial movements convey subtle and important information that is critical for human social communication. Optical methods for face capture are difficult or impossible to use when the face is occluded by head-mounted devices (HMDs), such as VR headsets. Even with a clear line of s",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Facial movements convey subtle and important information that is critical for human social communication. Optical methods for face capture are difficult or impossible to use when the face is occluded by head-mounted devices (HMDs), such as VR headsets. Even with a clear line of s"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.09304v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "0eefdb1971320be65b69",
-      "url": "https://arxiv.org/abs/2610.09200v1",
-      "title": "StyleFields: Multi-Scale AdaIN-Modulated Implicit SDFs for Coarse-to-Fine 3D Shape Reconstruction and Editing",
-      "excerpt": "We introduce StyleFields, a DeepSDF-based architecture for high-fidelity 3D reconstruction that enables controllable geometric style mixing: the coarse structure of one object can be combined with the fine-scale details of another. The core idea is depth-aware modulation: instead",
-      "publishedAt": "2026-10-06T22:51:51Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Doruk Oner",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-06T22:51:51Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We introduce StyleFields, a DeepSDF-based architecture for high-fidelity 3D reconstruction that enables controllable geometric style mixing: the coarse structure of one object can be combined with the fine-scale details of another. The core idea is depth-aware modulation: instead",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We introduce StyleFields, a DeepSDF-based architecture for high-fidelity 3D reconstruction that enables controllable geometric style mixing: the coarse structure of one object can be combined with the fine-scale details of another. The core idea is depth-aware modulation: instead"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.09200v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "e121f4b65ac8bac278ba",
-      "url": "https://arxiv.org/abs/2610.09099v1",
-      "title": "\"Just Like This\": Manner Deixis at the Graphics Interface",
-      "excerpt": "People communicate how things should move by combining words with demonstrations: \"open it like this.\" We present an interaction technique that brings this expressive resource to conversational 3D authoring. Building on \"Put-That-There,\" our system combines speech, pointing, and ",
-      "publishedAt": "2026-10-06T20:52:34Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Jun Rekimoto",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-06T20:52:34Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "People communicate how things should move by combining words with demonstrations: \"open it like this.\" We present an interaction technique that brings this expressive resource to conversational 3D authoring. Building on \"Put-That-There,\" our system combines speech, pointing, and ",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "People communicate how things should move by combining words with demonstrations: \"open it like this.\" We present an interaction technique that brings this expressive resource to conversational 3D authoring. Building on \"Put-That-There,\" our system combines speech, pointing, and "
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.09099v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "c09ca5af06e7e2aea216",
-      "url": "https://arxiv.org/abs/2610.08698v1",
-      "title": "PrimitiveCAD: An LLM-Based Point-to-CAD Reconstruction with Primitive-Aware Tokenization and Operation Alignment",
-      "excerpt": "Large-model-based point-to-CAD generation holds immense potential for advancing industrial design and enhancing 3D modeling efficiency. However, most existing methods approach the problem as a general point-cloud encoding and token prediction task, neglecting the tokenization and",
-      "publishedAt": "2026-10-06T17:13:46Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Gang Xu",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-06T17:13:46Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Large-model-based point-to-CAD generation holds immense potential for advancing industrial design and enhancing 3D modeling efficiency. However, most existing methods approach the problem as a general point-cloud encoding and token prediction task, neglecting the tokenization and",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Large-model-based point-to-CAD generation holds immense potential for advancing industrial design and enhancing 3D modeling efficiency. However, most existing methods approach the problem as a general point-cloud encoding and token prediction task, neglecting the tokenization and"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.08698v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "3447354727d197008137",
-      "url": "https://arxiv.org/abs/2610.08179v1",
-      "title": "View Matters: Keyframe-Guided Text-Driven 3D Gaussian Editing",
-      "excerpt": "Text-driven 3D Gaussian editing commonly does not distinguish the editing reliability of rendered views, although different viewpoints provide supervision of substantially different quality. Views that clearly show the scene and match the edit instruction provide reliable guidanc",
-      "publishedAt": "2026-10-06T11:31:00Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Sha Gong",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-06T11:31:00Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Text-driven 3D Gaussian editing commonly does not distinguish the editing reliability of rendered views, although different viewpoints provide supervision of substantially different quality. Views that clearly show the scene and match the edit instruction provide reliable guidanc",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Text-driven 3D Gaussian editing commonly does not distinguish the editing reliability of rendered views, although different viewpoints provide supervision of substantially different quality. Views that clearly show the scene and match the edit instruction provide reliable guidanc"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.08179v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "469a5db0bdfb3d002e80",
-      "url": "https://arxiv.org/abs/2610.07609v1",
-      "title": "PhysLDM: Latent Diffusion for High-Fidelity Deformable Simulation",
-      "excerpt": "Neural simulation of high-fidelity deformable bodies is a foundational challenge in computer graphics and physical AI. Long-horizon prediction for high-resolution 3D volumetric meshes is hard: autoregressive methods are susceptible to error accumulation, while direct multi-frame ",
-      "publishedAt": "2026-10-06T01:53:56Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Xingang Pan",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-06T01:53:56Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Neural simulation of high-fidelity deformable bodies is a foundational challenge in computer graphics and physical AI. Long-horizon prediction for high-resolution 3D volumetric meshes is hard: autoregressive methods are susceptible to error accumulation, while direct multi-frame ",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Neural simulation of high-fidelity deformable bodies is a foundational challenge in computer graphics and physical AI. Long-horizon prediction for high-resolution 3D volumetric meshes is hard: autoregressive methods are susceptible to error accumulation, while direct multi-frame "
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.07609v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
     {
       "id": "3d154ac64b5c28b19b8b",
       "url": "https://blog.playcanvas.com/from-iphone-video-to-photorealistic-3d-digital-twin-developer-spotlight-on-solaya",
@@ -457,7 +107,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -492,427 +142,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "d72060cac159586a6070",
-      "url": "https://arxiv.org/abs/2610.05770v1",
-      "title": "Computational Design of Free-Form Lampshades",
-      "excerpt": "Conventional lampshades are predominantly restricted to simple geometries, owing to the difficulty of controlling optical functions across complex shapes. We present a computational design method that enables 3D-printable lampshades with complex free-form shapes to achieve contro",
-      "publishedAt": "2026-10-05T04:15:22Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yuki Koyama",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-05T04:15:22Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Conventional lampshades are predominantly restricted to simple geometries, owing to the difficulty of controlling optical functions across complex shapes. We present a computational design method that enables 3D-printable lampshades with complex free-form shapes to achieve contro",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Conventional lampshades are predominantly restricted to simple geometries, owing to the difficulty of controlling optical functions across complex shapes. We present a computational design method that enables 3D-printable lampshades with complex free-form shapes to achieve contro"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.05770v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "c46e0988f66970d7af4c",
-      "url": "https://arxiv.org/abs/2610.05576v2",
-      "title": "SteadySplats: Resampling of Low-Variance Gaussians for High-Fidelity Stochastic Rendering",
-      "excerpt": "Stochastic order-independent transparency enables efficient and elegant rendering of primitive-based radiance fields like 3D Gaussian Splatting models, but remains impractical due to the inherent visible noise in the output. We propose a principled approach to minimize high-frequ",
-      "publishedAt": "2026-10-04T22:25:18Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Markus Steinberger",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-04T22:25:18Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Stochastic order-independent transparency enables efficient and elegant rendering of primitive-based radiance fields like 3D Gaussian Splatting models, but remains impractical due to the inherent visible noise in the output. We propose a principled approach to minimize high-frequ",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Stochastic order-independent transparency enables efficient and elegant rendering of primitive-based radiance fields like 3D Gaussian Splatting models, but remains impractical due to the inherent visible noise in the output. We propose a principled approach to minimize high-frequ"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.05576v2"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "6fe77cf5e9b42132a2bb",
-      "url": "https://arxiv.org/abs/2610.05167v1",
-      "title": "CreativeFlow: A One-to-Many Analogical Relation Transfer Method for 3D Asset Generation",
-      "excerpt": "Inspired by cognitive science, we present CREATIVEFLOW, an analogical generation framework that explicitly models analogical divergent thinking to mitigate creative homogenization in text-to-3D pipelines. Our method derives a series of meaningful yet relationally similar source-t",
-      "publishedAt": "2026-10-04T12:24:36Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Qing Chen",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-04T12:24:36Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Inspired by cognitive science, we present CREATIVEFLOW, an analogical generation framework that explicitly models analogical divergent thinking to mitigate creative homogenization in text-to-3D pipelines. Our method derives a series of meaningful yet relationally similar source-t",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Inspired by cognitive science, we present CREATIVEFLOW, an analogical generation framework that explicitly models analogical divergent thinking to mitigate creative homogenization in text-to-3D pipelines. Our method derives a series of meaningful yet relationally similar source-t"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.05167v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "9debe5ebeb81186c9061",
-      "url": "https://arxiv.org/abs/2610.04351v1",
-      "title": "LoCoSplat: Real-Time Feed-Forward 3D Gaussian Splatting with Minimal 3D Reasoning",
-      "excerpt": "Feed-forward 3D Gaussian Splatting (3DGS) increasingly aggregates multi-view evidence with heavy learned 3D networks. We propose LoCoSplat (Local-Context Splatting), motivated by the observation that a Gaussian is a local primitive: once depth is predicted, what the 3D stage must",
-      "publishedAt": "2026-10-03T07:36:22Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Bo Zhu",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-03T07:36:22Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Feed-forward 3D Gaussian Splatting (3DGS) increasingly aggregates multi-view evidence with heavy learned 3D networks. We propose LoCoSplat (Local-Context Splatting), motivated by the observation that a Gaussian is a local primitive: once depth is predicted, what the 3D stage must",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Feed-forward 3D Gaussian Splatting (3DGS) increasingly aggregates multi-view evidence with heavy learned 3D networks. We propose LoCoSplat (Local-Context Splatting), motivated by the observation that a Gaussian is a local primitive: once depth is predicted, what the 3D stage must"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.04351v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "f9b2d230707cd79f13b4",
-      "url": "https://arxiv.org/abs/2610.04092v1",
-      "title": "UniBRep: Learning Unified Geometry and Topology for Image-conditioned B-Rep Generation",
-      "excerpt": "Generating a boundary representation (B-rep) conditioned on a single image requires faithful reconstruction of geometry, valid topology, and support for complex shapes. We present UniBRep, a geometry-first framework that adapts a pretrained image-to-3D model to generate a feature",
-      "publishedAt": "2026-10-02T21:59:29Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Matthias Zwicker",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-02T21:59:29Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Generating a boundary representation (B-rep) conditioned on a single image requires faithful reconstruction of geometry, valid topology, and support for complex shapes. We present UniBRep, a geometry-first framework that adapts a pretrained image-to-3D model to generate a feature",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Generating a boundary representation (B-rep) conditioned on a single image requires faithful reconstruction of geometry, valid topology, and support for complex shapes. We present UniBRep, a geometry-first framework that adapts a pretrained image-to-3D model to generate a feature"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.04092v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "54ad413df6257d2ffd68",
-      "url": "https://arxiv.org/abs/2610.03436v1",
-      "title": "The Shape of Speech: A Geometric Measure of Coarticulation for Speech-Driven 3D Facial Animation",
-      "excerpt": "Speech-driven 3D facial animation can reproduce recognizable mouth poses. However, it can simplify the motion between them, and that motion carries coarticulation, the way the sounds around each sound shape its articulation. We introduce a geometric measure of this trajectory sha",
-      "publishedAt": "2026-10-02T15:16:49Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Przemyslaw Musialski",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-02T15:16:49Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Speech-driven 3D facial animation can reproduce recognizable mouth poses. However, it can simplify the motion between them, and that motion carries coarticulation, the way the sounds around each sound shape its articulation. We introduce a geometric measure of this trajectory sha",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Speech-driven 3D facial animation can reproduce recognizable mouth poses. However, it can simplify the motion between them, and that motion carries coarticulation, the way the sounds around each sound shape its articulation. We introduce a geometric measure of this trajectory sha"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.03436v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "ed886f067d4f2cf8a5ca",
-      "url": "https://arxiv.org/abs/2610.03162v1",
-      "title": "Budgeted-GS: Real-Time Large-Scale Gaussian Splatting via Factoring LOD",
-      "excerpt": "3D Gaussian Splatting achieves excellent visual quality with real-time rendering, but at the scale of entire cities it does not fit: a trained model carries millions of primitives and gigabytes of memory, and real-time rendering at high quality on a consumer GPU remains out of re",
-      "publishedAt": "2026-10-02T11:42:49Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Haipeng Wang",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-02T11:42:49Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "3D Gaussian Splatting achieves excellent visual quality with real-time rendering, but at the scale of entire cities it does not fit: a trained model carries millions of primitives and gigabytes of memory, and real-time rendering at high quality on a consumer GPU remains out of re",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "3D Gaussian Splatting achieves excellent visual quality with real-time rendering, but at the scale of entire cities it does not fit: a trained model carries millions of primitives and gigabytes of memory, and real-time rendering at high quality on a consumer GPU remains out of re"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.03162v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "52b5ce3a279d931ea079",
-      "url": "https://arxiv.org/abs/2610.03105v1",
-      "title": "A Benchmark for Spatially Grounded Gesture Generation",
-      "excerpt": "Communication in shared space interweaves verbal and non-verbal signals, and pointing gestures anchor language to the environment: \"put the cup on that one\" is uninterpretable without the gesture that fixes the referent. Yet no common framework exists for evaluating whether gener",
-      "publishedAt": "2026-10-02T10:26:05Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Jonas Beskow",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-02T10:26:05Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Communication in shared space interweaves verbal and non-verbal signals, and pointing gestures anchor language to the environment: \"put the cup on that one\" is uninterpretable without the gesture that fixes the referent. Yet no common framework exists for evaluating whether gener",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Communication in shared space interweaves verbal and non-verbal signals, and pointing gestures anchor language to the environment: \"put the cup on that one\" is uninterpretable without the gesture that fixes the referent. Yet no common framework exists for evaluating whether gener"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.03105v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "4c9a8a383450695b65dc",
-      "url": "https://arxiv.org/abs/2610.02451v1",
-      "title": "A Simulation-Grounded Agentic VLM Framework for Wildfire Monitoring and Reporting",
-      "excerpt": "Effective wildfire monitoring requires relating visual evidence to physical fire dynamics, yet real videos with synchronized physical annotations are scarce and high-fidelity 3D simulation is costly. We present a simulation-grounded vision-language model (VLM) framework that auto",
-      "publishedAt": "2026-10-01T20:22:10Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Bo Zhu",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-01T20:22:10Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Effective wildfire monitoring requires relating visual evidence to physical fire dynamics, yet real videos with synchronized physical annotations are scarce and high-fidelity 3D simulation is costly. We present a simulation-grounded vision-language model (VLM) framework that auto",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Effective wildfire monitoring requires relating visual evidence to physical fire dynamics, yet real videos with synchronized physical annotations are scarce and high-fidelity 3D simulation is costly. We present a simulation-grounded vision-language model (VLM) framework that auto"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.02451v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "927275fe7dcaec73fe7b",
-      "url": "https://arxiv.org/abs/2610.02298v1",
-      "title": "EditHero: A Benchmark for Long-Horizon Part-Level 3D Editing and Vibe Modeling",
-      "excerpt": "3D editing methods are usually tested on a single edit, yet an asset is built through a long sequence of revisions, each of which must implement the requested change while leaving everything else unchanged. We introduce EditHero, to our knowledge the first benchmark for long-hori",
-      "publishedAt": "2026-10-01T17:50:53Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Zhixiang Wang",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-01T17:50:53Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "3D editing methods are usually tested on a single edit, yet an asset is built through a long sequence of revisions, each of which must implement the requested change while leaving everything else unchanged. We introduce EditHero, to our knowledge the first benchmark for long-hori",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "3D editing methods are usually tested on a single edit, yet an asset is built through a long sequence of revisions, each of which must implement the requested change while leaving everything else unchanged. We introduce EditHero, to our knowledge the first benchmark for long-hori"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.02298v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "c77d6f668aff877171d1",
-      "url": "https://arxiv.org/abs/2610.01863v1",
-      "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
-      "excerpt": "We present LiteReality-Agent, an agentic system for reconstructing real indoor environments as realistic, articulated, and simulation-ready 3D scenes from RGB-D scans. At its core, LiteReality-Agent formulates 3D reconstruction as a coding problem, in which a coding agent gathers",
-      "publishedAt": "2026-10-01T15:25:35Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Shangzhe Wu",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-01T15:25:35Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We present LiteReality-Agent, an agentic system for reconstructing real indoor environments as realistic, articulated, and simulation-ready 3D scenes from RGB-D scans. At its core, LiteReality-Agent formulates 3D reconstruction as a coding problem, in which a coding agent gathers",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We present LiteReality-Agent, an agentic system for reconstructing real indoor environments as realistic, articulated, and simulation-ready 3D scenes from RGB-D scans. At its core, LiteReality-Agent formulates 3D reconstruction as a coding problem, in which a coding agent gathers"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.01863v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
-    },
-    {
-      "id": "d4a83cad772b52f21e86",
-      "url": "https://arxiv.org/abs/2610.00749v1",
-      "title": "What Builds the Scene? Luminance Dominates Geometry Formation in 3D Gaussian Splatting",
-      "excerpt": "Standard 3D Gaussian Splatting (3DGS) learns geometry and appearance jointly from RGB supervision, making it difficult to isolate how luminance and chroma contribute to the learned representation. We study this by training models under different channel supervision, freezing thei",
-      "publishedAt": "2026-09-30T21:41:52Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Steven Cutchin",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-09-30T21:41:52Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Standard 3D Gaussian Splatting (3DGS) learns geometry and appearance jointly from RGB supervision, making it difficult to isolate how luminance and chroma contribute to the learned representation. We study this by training models under different channel supervision, freezing thei",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Standard 3D Gaussian Splatting (3DGS) learns geometry and appearance jointly from RGB supervision, making it difficult to isolate how luminance and chroma contribute to the learned representation. We study this by training models under different channel supervision, freezing thei"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.00749v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -947,7 +177,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1017,7 +247,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1052,7 +282,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1087,7 +317,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1157,7 +387,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1297,7 +527,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2102,7 +1332,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2277,7 +1507,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2312,7 +1542,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2417,7 +1647,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2592,7 +1822,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -2732,7 +1962,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -2767,7 +1997,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -2802,7 +2032,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -2872,7 +2102,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -2942,7 +2172,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -2977,7 +2207,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3082,7 +2312,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3117,7 +2347,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3152,7 +2382,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3222,7 +2452,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3327,7 +2557,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3362,7 +2592,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -3397,7 +2627,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3432,7 +2662,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3502,7 +2732,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "fe76b712ab6fc6c5ab54",
@@ -3537,7 +2767,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3642,7 +2872,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "d70ada50b79e832e6208",
@@ -3677,7 +2907,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "f4ac3447021c4e984042",
@@ -3747,7 +2977,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "fbead8a3501ce5438f41",
@@ -3852,7 +3082,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-08T05:57:48.297425Z"
+      "firstSeenAt": "2026-10-09T06:03:44.390433Z"
     },
     {
       "id": "f5d8bd63d73e3a3ef88d",
