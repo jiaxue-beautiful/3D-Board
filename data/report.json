@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-13T06:44:25.954133Z",
-  "windowStart": "2026-10-12T06:44:25.954133Z",
-  "windowEnd": "2026-10-13T06:44:25.954133Z",
+  "checkedAt": "2026-10-14T04:48:24.009584Z",
+  "windowStart": "2026-10-13T04:48:24.009584Z",
+  "windowEnd": "2026-10-14T04:48:24.009584Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -71,8 +71,184 @@
       "error": "来源请求失败（HTTP 404）；未绕过访问限制"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "7aff01e099d958f6cb01",
+      "url": "https://arxiv.org/abs/2610.17803v1",
+      "title": "Construction of Simple Quadrangulations of the Sphere at Skeletal Joints",
+      "excerpt": "We present a method for constructing a simple quadrangulation of the sphere from an unordered set of $n$ direction vectors, with application to parametric volumetric models of skeletal joints. We first select a quadrangulation encoding the joint topology by exhaustively enumerati",
+      "publishedAt": "2026-10-13T06:30:04Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Q Youn Hong",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-13T06:30:04Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We present a method for constructing a simple quadrangulation of the sphere from an unordered set of $n$ direction vectors, with application to parametric volumetric models of skeletal joints. We first select a quadrangulation encoding the joint topology by exhaustively enumerati",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We present a method for constructing a simple quadrangulation of the sphere from an unordered set of $n$ direction vectors, with application to parametric volumetric models of skeletal joints. We first select a quadrangulation encoding the joint topology by exhaustively enumerati"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.17803v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+    }
+  ],
   "archive": [
+    {
+      "id": "7aff01e099d958f6cb01",
+      "url": "https://arxiv.org/abs/2610.17803v1",
+      "title": "Construction of Simple Quadrangulations of the Sphere at Skeletal Joints",
+      "excerpt": "We present a method for constructing a simple quadrangulation of the sphere from an unordered set of $n$ direction vectors, with application to parametric volumetric models of skeletal joints. We first select a quadrangulation encoding the joint topology by exhaustively enumerati",
+      "publishedAt": "2026-10-13T06:30:04Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Q Youn Hong",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-13T06:30:04Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We present a method for constructing a simple quadrangulation of the sphere from an unordered set of $n$ direction vectors, with application to parametric volumetric models of skeletal joints. We first select a quadrangulation encoding the joint topology by exhaustively enumerati",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We present a method for constructing a simple quadrangulation of the sphere from an unordered set of $n$ direction vectors, with application to parametric volumetric models of skeletal joints. We first select a quadrangulation encoding the joint topology by exhaustively enumerati"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.17803v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+    },
+    {
+      "id": "69bd086957816f66746e",
+      "url": "https://arxiv.org/abs/2610.17671v1",
+      "title": "Integrating 3D Posture Neutralization with Statistical Shape Modeling for Head-Neck-Shoulder Ergonomic Design",
+      "excerpt": "The design of ergonomic products and workspaces requires a deep understanding of human anatomy and posture. In particular, the head-neck-shoulder region is critical for many applications such as cervical orthoses, helmets, and other head-worn or neck-worn devices. This paper pres",
+      "publishedAt": "2026-10-13T03:57:15Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Jie Zhang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-13T03:57:15Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "The design of ergonomic products and workspaces requires a deep understanding of human anatomy and posture. In particular, the head-neck-shoulder region is critical for many applications such as cervical orthoses, helmets, and other head-worn or neck-worn devices. This paper pres",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "The design of ergonomic products and workspaces requires a deep understanding of human anatomy and posture. In particular, the head-neck-shoulder region is critical for many applications such as cervical orthoses, helmets, and other head-worn or neck-worn devices. This paper pres"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.17671v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+    },
+    {
+      "id": "5779216911d1605ae954",
+      "url": "https://blog.playcanvas.com/new-in-playcanvas-editor-gravity-scale-inspector-and-splat-budget",
+      "title": "New in PlayCanvas Editor: Gravity Scale, the Inspector and Splat Budget Mode",
+      "excerpt": "Editor 2.34 is out, two weeks after 2.32, and it is built around Engine 2.23 . The headline is a new Inspector launch option: tick one box and your launched app comes up with a full debug panel docked beside it, where you can pause it, step it a frame at a time, pick entities str",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-13T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Editor 2.34 is out, two weeks after 2.32, and it is built around Engine 2.23 . The headline is a new Inspector launch option: tick one box and your launched app comes up with a full debug panel docked beside it, where you can pause it, step it a frame at a time, pick entities str",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Editor 2.34 is out, two weeks after 2.32, and it is built around Engine 2.23 . The headline is a new Inspector launch option: tick one box and your launched app comes up with a full debug panel docked beside it, where you can pause it, step it a frame at a time, pick entities str"
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/new-in-playcanvas-editor-gravity-scale-inspector-and-splat-budget"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+    },
+    {
+      "id": "12f2d9d79b4b562c71a5",
+      "url": "https://arxiv.org/abs/2610.15900v1",
+      "title": "Gen Through the Lens: Camera-Controllable Video Generation via Cross-Coordinate Conditioning Fusion",
+      "excerpt": "We present Gen Through the Lens, a camera-controllable image-to-video generation framework that synthesizes videos from a given reference image while enabling realistic and physically consistent camera operations. Unlike previous models that treat camera motion as abstract condit",
+      "publishedAt": "2026-10-11T20:27:58Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Ran Zhang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-11T20:27:58Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We present Gen Through the Lens, a camera-controllable image-to-video generation framework that synthesizes videos from a given reference image while enabling realistic and physically consistent camera operations. Unlike previous models that treat camera motion as abstract condit",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We present Gen Through the Lens, a camera-controllable image-to-video generation framework that synthesizes videos from a given reference image while enabling realistic and physically consistent camera operations. Unlike previous models that treat camera motion as abstract condit"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.15900v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+    },
     {
       "id": "4da286eb8426ac8ba124",
       "url": "https://arxiv.org/abs/2610.13860v1",
@@ -106,7 +282,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "3a4d649fb637130e2638",
@@ -141,7 +317,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "5d14702a092aa9d27c7d",
@@ -176,7 +352,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "eed7aed2d5375999032b",
@@ -211,7 +387,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "ed3767d9dd4de3bc2002",
@@ -246,7 +422,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "498b0cfd3e19de318172",
@@ -281,7 +457,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "e532b5d2466ecbcec617",
@@ -316,7 +492,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "50265c850a19fcfa3a95",
@@ -351,7 +527,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "f73a813f3d181209fbe3",
@@ -386,7 +562,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "3ebc430bae9ca33a0f0b",
@@ -421,7 +597,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "cb883d3039927816ef68",
@@ -456,7 +632,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "4c4095fb8953546ecc88",
@@ -491,7 +667,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "f5ddafc70f5fb83a1ddb",
@@ -526,7 +702,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "0eefdb1971320be65b69",
@@ -561,7 +737,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "e121f4b65ac8bac278ba",
@@ -596,7 +772,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "c09ca5af06e7e2aea216",
@@ -631,7 +807,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "3447354727d197008137",
@@ -666,42 +842,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
-    },
-    {
-      "id": "52841c3653217c7085a3",
-      "url": "https://arxiv.org/abs/2610.07609v2",
-      "title": "PhysLDM: Latent Diffusion for High-Fidelity Deformable Simulation",
-      "excerpt": "Neural simulation of high-fidelity deformable bodies is a foundational challenge in computer graphics and physical AI. Long-horizon prediction for high-resolution 3D volumetric meshes is difficult: autoregressive methods are susceptible to error accumulation, while direct multi-f",
-      "publishedAt": "2026-10-06T01:53:56Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Xingang Pan",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-06T01:53:56Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Neural simulation of high-fidelity deformable bodies is a foundational challenge in computer graphics and physical AI. Long-horizon prediction for high-resolution 3D volumetric meshes is difficult: autoregressive methods are susceptible to error accumulation, while direct multi-f",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Neural simulation of high-fidelity deformable bodies is a foundational challenge in computer graphics and physical AI. Long-horizon prediction for high-resolution 3D volumetric meshes is difficult: autoregressive methods are susceptible to error accumulation, while direct multi-f"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.07609v2"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -736,7 +877,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -771,77 +912,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
-    },
-    {
-      "id": "d72060cac159586a6070",
-      "url": "https://arxiv.org/abs/2610.05770v1",
-      "title": "Computational Design of Free-Form Lampshades",
-      "excerpt": "Conventional lampshades are predominantly restricted to simple geometries, owing to the difficulty of controlling optical functions across complex shapes. We present a computational design method that enables 3D-printable lampshades with complex free-form shapes to achieve contro",
-      "publishedAt": "2026-10-05T04:15:22Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yuki Koyama",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-05T04:15:22Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Conventional lampshades are predominantly restricted to simple geometries, owing to the difficulty of controlling optical functions across complex shapes. We present a computational design method that enables 3D-printable lampshades with complex free-form shapes to achieve contro",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Conventional lampshades are predominantly restricted to simple geometries, owing to the difficulty of controlling optical functions across complex shapes. We present a computational design method that enables 3D-printable lampshades with complex free-form shapes to achieve contro"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.05770v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
-    },
-    {
-      "id": "c46e0988f66970d7af4c",
-      "url": "https://arxiv.org/abs/2610.05576v2",
-      "title": "SteadySplats: Resampling of Low-Variance Gaussians for High-Fidelity Stochastic Rendering",
-      "excerpt": "Stochastic order-independent transparency enables efficient and elegant rendering of primitive-based radiance fields like 3D Gaussian Splatting models, but remains impractical due to the inherent visible noise in the output. We propose a principled approach to minimize high-frequ",
-      "publishedAt": "2026-10-04T22:25:18Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Markus Steinberger",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-04T22:25:18Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Stochastic order-independent transparency enables efficient and elegant rendering of primitive-based radiance fields like 3D Gaussian Splatting models, but remains impractical due to the inherent visible noise in the output. We propose a principled approach to minimize high-frequ",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Stochastic order-independent transparency enables efficient and elegant rendering of primitive-based radiance fields like 3D Gaussian Splatting models, but remains impractical due to the inherent visible noise in the output. We propose a principled approach to minimize high-frequ"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.05576v2"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -876,7 +947,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -946,7 +1017,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -981,7 +1052,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1016,7 +1087,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1086,7 +1157,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1226,7 +1297,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2031,7 +2102,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2206,7 +2277,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2241,7 +2312,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2346,7 +2417,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2521,7 +2592,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -2661,7 +2732,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -2696,7 +2767,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -2731,7 +2802,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -2801,7 +2872,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -2871,7 +2942,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -2906,7 +2977,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3011,7 +3082,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3046,7 +3117,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3081,7 +3152,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3151,7 +3222,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3256,7 +3327,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3291,7 +3362,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -3326,7 +3397,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3361,7 +3432,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3431,7 +3502,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "fe76b712ab6fc6c5ab54",
@@ -3466,7 +3537,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3571,7 +3642,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "d70ada50b79e832e6208",
@@ -3606,7 +3677,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "f4ac3447021c4e984042",
@@ -3676,7 +3747,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
+      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
     },
     {
       "id": "fbead8a3501ce5438f41",
@@ -3747,41 +3818,6 @@
         "行业动态"
       ],
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
-    },
-    {
-      "id": "b0121918c2b92478f2ec",
-      "url": "https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression",
-      "title": "PlayCanvas Adopts SOGS for 20x 3DGS Compression",
-      "excerpt": "Today, we are releasing PlayCanvas Engine 2.7.5 that introduces a new and advanced compression format for 3D Gaussian Splatting (3DGS) called Self-Organizing Gaussians (SOGS). SOGS can reduce 3DGS data by over 20x. To showcase PlayCanvas' support for SOGS, we have collaborated wi",
-      "publishedAt": "2025-05-15T00:00:00Z",
-      "sourceId": "playcanvas",
-      "sourceName": "PlayCanvas 官方博客",
-      "lane": "news",
-      "category": "图形与渲染",
-      "author": "PlayCanvas 官方博客",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2025-05-15T00:00:00Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Today, we are releasing PlayCanvas Engine 2.7.5 that introduces a new and advanced compression format for 3D Gaussian Splatting (3DGS) called Self-Organizing Gaussians (SOGS). SOGS can reduce 3DGS data by over 20x. To showcase PlayCanvas' support for SOGS, we have collaborated wi",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Today, we are releasing PlayCanvas Engine 2.7.5 that introduces a new and advanced compression format for 3D Gaussian Splatting (3DGS) called Self-Organizing Gaussians (SOGS). SOGS can reduce 3DGS data by over 20x. To showcase PlayCanvas' support for SOGS, we have collaborated wi"
-        ]
-      ],
-      "sources": [
-        [
-          "PlayCanvas 官方博客",
-          "https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression"
-        ]
-      ],
-      "tags": [
-        "图形与渲染"
-      ],
-      "firstSeenAt": "2026-10-13T06:44:25.954133Z"
     },
     {
       "id": "f5d8bd63d73e3a3ef88d",
