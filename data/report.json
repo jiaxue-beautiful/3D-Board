@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-14T04:48:24.009584Z",
-  "windowStart": "2026-10-13T04:48:24.009584Z",
-  "windowEnd": "2026-10-14T04:48:24.009584Z",
+  "checkedAt": "2026-10-15T04:32:45.408058Z",
+  "windowStart": "2026-10-14T04:32:45.408058Z",
+  "windowEnd": "2026-10-15T04:32:45.408058Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -73,42 +73,182 @@
   ],
   "events": [
     {
-      "id": "7aff01e099d958f6cb01",
-      "url": "https://arxiv.org/abs/2610.17803v1",
-      "title": "Construction of Simple Quadrangulations of the Sphere at Skeletal Joints",
-      "excerpt": "We present a method for constructing a simple quadrangulation of the sphere from an unordered set of $n$ direction vectors, with application to parametric volumetric models of skeletal joints. We first select a quadrangulation encoding the joint topology by exhaustively enumerati",
-      "publishedAt": "2026-10-13T06:30:04Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
+      "id": "a1f3db65653cf6585472",
+      "url": "https://code.blender.org/2026/10/bcon26-talks-by-blender-developers/",
+      "title": "BCON26 Talks by Blender Developers",
+      "excerpt": "What an eventful edition of the Blender Conference we had earlier this September! Over three days, 700+ attendees from more than 50 countries gathered at the Felix Meritis venue to share their passion for creating with Blender, connect and learn from each other. This year, the kn",
+      "publishedAt": "2026-10-14T12:26:59Z",
+      "sourceId": "blender-dev",
+      "sourceName": "Blender 开发者博客",
       "lane": "news",
-      "category": "学术研究",
-      "author": "Q Youn Hong",
+      "category": "传统建模",
+      "author": "Anastasia Rudina",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-13T06:30:04Z",
+      "date": "2026-10-14T12:26:59Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "We present a method for constructing a simple quadrangulation of the sphere from an unordered set of $n$ direction vectors, with application to parametric volumetric models of skeletal joints. We first select a quadrangulation encoding the joint topology by exhaustively enumerati",
+      "summary": "What an eventful edition of the Blender Conference we had earlier this September! Over three days, 700+ attendees from more than 50 countries gathered at the Felix Meritis venue to share their passion for creating with Blender, connect and learn from each other. This year, the kn",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "We present a method for constructing a simple quadrangulation of the sphere from an unordered set of $n$ direction vectors, with application to parametric volumetric models of skeletal joints. We first select a quadrangulation encoding the joint topology by exhaustively enumerati"
+          "What an eventful edition of the Blender Conference we had earlier this September! Over three days, 700+ attendees from more than 50 countries gathered at the Felix Meritis venue to share their passion for creating with Blender, connect and learn from each other. This year, the kn"
+        ]
+      ],
+      "sources": [
+        [
+          "Blender 开发者博客",
+          "https://code.blender.org/2026/10/bcon26-talks-by-blender-developers/"
+        ]
+      ],
+      "tags": [
+        "传统建模"
+      ],
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
+    },
+    {
+      "id": "d66aece3671cb348ed86",
+      "url": "https://arxiv.org/abs/2610.19847v1",
+      "title": "VisibilitySplat: Ray-Traced Occlusion for Relighting with 3D Gaussian Splatting",
+      "excerpt": "We address inverse rendering with 3D Gaussian Splatting (3DGS) by introducing explicit visibility modeling for relighting as well as material and light decomposition. Our approach augments the standard rasterized 3DGS pipeline with a sparse visibility oracle that estimates transm",
+      "publishedAt": "2026-10-14T09:17:40Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Oliver Staadt",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-14T09:17:40Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We address inverse rendering with 3D Gaussian Splatting (3DGS) by introducing explicit visibility modeling for relighting as well as material and light decomposition. Our approach augments the standard rasterized 3DGS pipeline with a sparse visibility oracle that estimates transm",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We address inverse rendering with 3D Gaussian Splatting (3DGS) by introducing explicit visibility modeling for relighting as well as material and light decomposition. Our approach augments the standard rasterized 3DGS pipeline with a sparse visibility oracle that estimates transm"
         ]
       ],
       "sources": [
         [
           "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.17803v1"
+          "https://arxiv.org/abs/2610.19847v1"
         ]
       ],
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     }
   ],
   "archive": [
+    {
+      "id": "a1f3db65653cf6585472",
+      "url": "https://code.blender.org/2026/10/bcon26-talks-by-blender-developers/",
+      "title": "BCON26 Talks by Blender Developers",
+      "excerpt": "What an eventful edition of the Blender Conference we had earlier this September! Over three days, 700+ attendees from more than 50 countries gathered at the Felix Meritis venue to share their passion for creating with Blender, connect and learn from each other. This year, the kn",
+      "publishedAt": "2026-10-14T12:26:59Z",
+      "sourceId": "blender-dev",
+      "sourceName": "Blender 开发者博客",
+      "lane": "news",
+      "category": "传统建模",
+      "author": "Anastasia Rudina",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-14T12:26:59Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "What an eventful edition of the Blender Conference we had earlier this September! Over three days, 700+ attendees from more than 50 countries gathered at the Felix Meritis venue to share their passion for creating with Blender, connect and learn from each other. This year, the kn",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "What an eventful edition of the Blender Conference we had earlier this September! Over three days, 700+ attendees from more than 50 countries gathered at the Felix Meritis venue to share their passion for creating with Blender, connect and learn from each other. This year, the kn"
+        ]
+      ],
+      "sources": [
+        [
+          "Blender 开发者博客",
+          "https://code.blender.org/2026/10/bcon26-talks-by-blender-developers/"
+        ]
+      ],
+      "tags": [
+        "传统建模"
+      ],
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
+    },
+    {
+      "id": "d66aece3671cb348ed86",
+      "url": "https://arxiv.org/abs/2610.19847v1",
+      "title": "VisibilitySplat: Ray-Traced Occlusion for Relighting with 3D Gaussian Splatting",
+      "excerpt": "We address inverse rendering with 3D Gaussian Splatting (3DGS) by introducing explicit visibility modeling for relighting as well as material and light decomposition. Our approach augments the standard rasterized 3DGS pipeline with a sparse visibility oracle that estimates transm",
+      "publishedAt": "2026-10-14T09:17:40Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Oliver Staadt",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-14T09:17:40Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We address inverse rendering with 3D Gaussian Splatting (3DGS) by introducing explicit visibility modeling for relighting as well as material and light decomposition. Our approach augments the standard rasterized 3DGS pipeline with a sparse visibility oracle that estimates transm",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We address inverse rendering with 3D Gaussian Splatting (3DGS) by introducing explicit visibility modeling for relighting as well as material and light decomposition. Our approach augments the standard rasterized 3DGS pipeline with a sparse visibility oracle that estimates transm"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.19847v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
+    },
+    {
+      "id": "da146bab390be895fde3",
+      "url": "https://arxiv.org/abs/2610.19520v1",
+      "title": "Spectral World Renderer: Unified 3D Hyperspectral Unmixing",
+      "excerpt": "Cameras and the foundation models built on them recognize what a 3D scene contains, but not what it is made of: surfaces of the same colour can be different materials. Hyperspectral unmixing explains each spectrum as a mixture of material signatures, yet in 3D it is applied to re",
+      "publishedAt": "2026-10-14T03:40:05Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Chih-Chung Hsu",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-14T03:40:05Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Cameras and the foundation models built on them recognize what a 3D scene contains, but not what it is made of: surfaces of the same colour can be different materials. Hyperspectral unmixing explains each spectrum as a mixture of material signatures, yet in 3D it is applied to re",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Cameras and the foundation models built on them recognize what a 3D scene contains, but not what it is made of: surfaces of the same colour can be different materials. Hyperspectral unmixing explains each spectrum as a mixture of material signatures, yet in 3D it is applied to re"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.19520v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
+    },
     {
       "id": "7aff01e099d958f6cb01",
       "url": "https://arxiv.org/abs/2610.17803v1",
@@ -142,7 +282,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "69bd086957816f66746e",
@@ -177,7 +317,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "5779216911d1605ae954",
@@ -212,7 +352,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "12f2d9d79b4b562c71a5",
@@ -247,7 +387,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "4da286eb8426ac8ba124",
@@ -282,7 +422,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "3a4d649fb637130e2638",
@@ -317,7 +457,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "5d14702a092aa9d27c7d",
@@ -352,7 +492,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "eed7aed2d5375999032b",
@@ -387,7 +527,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "ed3767d9dd4de3bc2002",
@@ -422,7 +562,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "498b0cfd3e19de318172",
@@ -457,7 +597,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "e532b5d2466ecbcec617",
@@ -492,7 +632,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "50265c850a19fcfa3a95",
@@ -527,7 +667,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "f73a813f3d181209fbe3",
@@ -562,7 +702,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "3ebc430bae9ca33a0f0b",
@@ -597,7 +737,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "cb883d3039927816ef68",
@@ -632,7 +772,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "4c4095fb8953546ecc88",
@@ -667,7 +807,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "f5ddafc70f5fb83a1ddb",
@@ -702,7 +842,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "0eefdb1971320be65b69",
@@ -737,7 +877,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "e121f4b65ac8bac278ba",
@@ -772,77 +912,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
-    },
-    {
-      "id": "c09ca5af06e7e2aea216",
-      "url": "https://arxiv.org/abs/2610.08698v1",
-      "title": "PrimitiveCAD: An LLM-Based Point-to-CAD Reconstruction with Primitive-Aware Tokenization and Operation Alignment",
-      "excerpt": "Large-model-based point-to-CAD generation holds immense potential for advancing industrial design and enhancing 3D modeling efficiency. However, most existing methods approach the problem as a general point-cloud encoding and token prediction task, neglecting the tokenization and",
-      "publishedAt": "2026-10-06T17:13:46Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Gang Xu",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-06T17:13:46Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Large-model-based point-to-CAD generation holds immense potential for advancing industrial design and enhancing 3D modeling efficiency. However, most existing methods approach the problem as a general point-cloud encoding and token prediction task, neglecting the tokenization and",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Large-model-based point-to-CAD generation holds immense potential for advancing industrial design and enhancing 3D modeling efficiency. However, most existing methods approach the problem as a general point-cloud encoding and token prediction task, neglecting the tokenization and"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.08698v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
-    },
-    {
-      "id": "3447354727d197008137",
-      "url": "https://arxiv.org/abs/2610.08179v1",
-      "title": "View Matters: Keyframe-Guided Text-Driven 3D Gaussian Editing",
-      "excerpt": "Text-driven 3D Gaussian editing commonly does not distinguish the editing reliability of rendered views, although different viewpoints provide supervision of substantially different quality. Views that clearly show the scene and match the edit instruction provide reliable guidanc",
-      "publishedAt": "2026-10-06T11:31:00Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Sha Gong",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-06T11:31:00Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Text-driven 3D Gaussian editing commonly does not distinguish the editing reliability of rendered views, although different viewpoints provide supervision of substantially different quality. Views that clearly show the scene and match the edit instruction provide reliable guidanc",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Text-driven 3D Gaussian editing commonly does not distinguish the editing reliability of rendered views, although different viewpoints provide supervision of substantially different quality. Views that clearly show the scene and match the edit instruction provide reliable guidanc"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.08179v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -877,7 +947,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -912,7 +982,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -947,7 +1017,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1017,7 +1087,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1052,7 +1122,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1087,7 +1157,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1157,7 +1227,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1297,7 +1367,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2102,7 +2172,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2277,7 +2347,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2312,7 +2382,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2417,7 +2487,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2592,7 +2662,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -2732,7 +2802,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -2767,7 +2837,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -2802,7 +2872,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -2872,7 +2942,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -2942,7 +3012,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -2977,7 +3047,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3082,7 +3152,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3117,7 +3187,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3152,7 +3222,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3222,7 +3292,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3327,7 +3397,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3362,7 +3432,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -3397,7 +3467,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3432,7 +3502,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3502,42 +3572,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
-    },
-    {
-      "id": "fe76b712ab6fc6c5ab54",
-      "url": "https://code.blender.org/2025/08/bundles-and-closures/",
-      "title": "Bundles and Closures",
-      "excerpt": "Blender 5.0 will come with new socket types for bundles and closures. This post will explain what they are, why they are important, and what we want to do with them going forward. Overarching Goal These two new concepts help us get closer to one of our primary objectives: allow b",
-      "publishedAt": "2025-08-08T11:48:32Z",
-      "sourceId": "blender-dev",
-      "sourceName": "Blender 开发者博客",
-      "lane": "news",
-      "category": "传统建模",
-      "author": "Jacques Lucke",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2025-08-08T11:48:32Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Blender 5.0 will come with new socket types for bundles and closures. This post will explain what they are, why they are important, and what we want to do with them going forward. Overarching Goal These two new concepts help us get closer to one of our primary objectives: allow b",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Blender 5.0 will come with new socket types for bundles and closures. This post will explain what they are, why they are important, and what we want to do with them going forward. Overarching Goal These two new concepts help us get closer to one of our primary objectives: allow b"
-        ]
-      ],
-      "sources": [
-        [
-          "Blender 开发者博客",
-          "https://code.blender.org/2025/08/bundles-and-closures/"
-        ]
-      ],
-      "tags": [
-        "传统建模"
-      ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3642,7 +3677,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "d70ada50b79e832e6208",
@@ -3677,7 +3712,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "f4ac3447021c4e984042",
@@ -3747,7 +3782,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-14T04:48:24.009584Z"
+      "firstSeenAt": "2026-10-15T04:32:45.408058Z"
     },
     {
       "id": "fbead8a3501ce5438f41",
