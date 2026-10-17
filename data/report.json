@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-16T04:26:00.476667Z",
-  "windowStart": "2026-10-15T04:26:00.476667Z",
-  "windowEnd": "2026-10-16T04:26:00.476667Z",
+  "checkedAt": "2026-10-17T04:20:31.876351Z",
+  "windowStart": "2026-10-16T04:20:31.876351Z",
+  "windowEnd": "2026-10-17T04:20:31.876351Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -51,8 +51,9 @@
       "id": "arxiv-3d",
       "name": "arXiv 3D 研究",
       "lane": "news",
-      "ok": true,
-      "count": 20
+      "ok": false,
+      "count": 0,
+      "error": "来源连接失败或超时；有限重试后仍不可用"
     },
     {
       "id": "lightarchitect",
@@ -71,255 +72,9 @@
       "error": "来源请求失败（HTTP 404）；未绕过访问限制"
     }
   ],
-  "events": [
-    {
-      "id": "2940ecb365e29aeab6cc",
-      "url": "https://arxiv.org/abs/2610.22352v1",
-      "title": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
-      "excerpt": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine detail",
-      "publishedAt": "2026-10-15T17:58:02Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Qi Tian",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-15T17:58:02Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine detail",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine detail"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.22352v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "c1e490aad1d92ece2992",
-      "url": "https://arxiv.org/abs/2610.21865v1",
-      "title": "From Sketch to Scene: Relightable Garment Reconstruction from Marked Sketches",
-      "excerpt": "Sketching is one of the most natural ways for people to express visual ideas. Unlike the text prompts that most generative systems rely on today, a sketch captures spatial structure and intent directly, including where a designer wants highlights and shadows to appear. Yet curren",
-      "publishedAt": "2026-10-15T13:37:55Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Zahra Montazeri",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-15T13:37:55Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Sketching is one of the most natural ways for people to express visual ideas. Unlike the text prompts that most generative systems rely on today, a sketch captures spatial structure and intent directly, including where a designer wants highlights and shadows to appear. Yet curren",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Sketching is one of the most natural ways for people to express visual ideas. Unlike the text prompts that most generative systems rely on today, a sketch captures spatial structure and intent directly, including where a designer wants highlights and shadows to appear. Yet curren"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.21865v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "7dd74f8bd2587d0bdb9d",
-      "url": "https://arxiv.org/abs/2610.21850v1",
-      "title": "Seeing Both the Forest and the Trees: Reusing Holistic 3D Priors for Part-Decomposed Generation",
-      "excerpt": "Generating 3D assets with explicit parts requires two properties at once: geometric detail inside each part and structural coherence across the whole object. Recent image-conditioned 3D generation models adopt a structured 3D representation that anchors tokens to explicit spatial",
-      "publishedAt": "2026-10-15T13:27:34Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Shenghua Gao",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-15T13:27:34Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Generating 3D assets with explicit parts requires two properties at once: geometric detail inside each part and structural coherence across the whole object. Recent image-conditioned 3D generation models adopt a structured 3D representation that anchors tokens to explicit spatial",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Generating 3D assets with explicit parts requires two properties at once: geometric detail inside each part and structural coherence across the whole object. Recent image-conditioned 3D generation models adopt a structured 3D representation that anchors tokens to explicit spatial"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.21850v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "6da27f2edfc4695cdaa9",
-      "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-1/",
-      "title": "Dev snapshot: Godot 4.8 beta 1",
-      "excerpt": "It’s that time of the release cycle once again: the beta snapshot! With this, 4.8 is fully in feature-freeze, and developer resources have shifted exclusively to creating and reviewing various regression fixes . For those interested in aiding us on our quest to squash any bugs th",
-      "publishedAt": "2026-10-15T12:00:00Z",
-      "sourceId": "godot",
-      "sourceName": "Godot 官方新闻",
-      "lane": "news",
-      "category": "引擎与交互",
-      "author": "Thaddeus Crews",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-15T12:00:00Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "It’s that time of the release cycle once again: the beta snapshot! With this, 4.8 is fully in feature-freeze, and developer resources have shifted exclusively to creating and reviewing various regression fixes . For those interested in aiding us on our quest to squash any bugs th",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "It’s that time of the release cycle once again: the beta snapshot! With this, 4.8 is fully in feature-freeze, and developer resources have shifted exclusively to creating and reviewing various regression fixes . For those interested in aiding us on our quest to squash any bugs th"
-        ]
-      ],
-      "sources": [
-        [
-          "Godot 官方新闻",
-          "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-1/"
-        ]
-      ],
-      "tags": [
-        "引擎与交互"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    }
-  ],
+  "events": [],
   "archive": [
     {
-      "id": "2940ecb365e29aeab6cc",
-      "url": "https://arxiv.org/abs/2610.22352v1",
-      "title": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
-      "excerpt": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine detail",
-      "publishedAt": "2026-10-15T17:58:02Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Qi Tian",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-15T17:58:02Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine detail",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine detail"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.22352v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "c1e490aad1d92ece2992",
-      "url": "https://arxiv.org/abs/2610.21865v1",
-      "title": "From Sketch to Scene: Relightable Garment Reconstruction from Marked Sketches",
-      "excerpt": "Sketching is one of the most natural ways for people to express visual ideas. Unlike the text prompts that most generative systems rely on today, a sketch captures spatial structure and intent directly, including where a designer wants highlights and shadows to appear. Yet curren",
-      "publishedAt": "2026-10-15T13:37:55Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Zahra Montazeri",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-15T13:37:55Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Sketching is one of the most natural ways for people to express visual ideas. Unlike the text prompts that most generative systems rely on today, a sketch captures spatial structure and intent directly, including where a designer wants highlights and shadows to appear. Yet curren",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Sketching is one of the most natural ways for people to express visual ideas. Unlike the text prompts that most generative systems rely on today, a sketch captures spatial structure and intent directly, including where a designer wants highlights and shadows to appear. Yet curren"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.21865v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "7dd74f8bd2587d0bdb9d",
-      "url": "https://arxiv.org/abs/2610.21850v1",
-      "title": "Seeing Both the Forest and the Trees: Reusing Holistic 3D Priors for Part-Decomposed Generation",
-      "excerpt": "Generating 3D assets with explicit parts requires two properties at once: geometric detail inside each part and structural coherence across the whole object. Recent image-conditioned 3D generation models adopt a structured 3D representation that anchors tokens to explicit spatial",
-      "publishedAt": "2026-10-15T13:27:34Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Shenghua Gao",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-15T13:27:34Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Generating 3D assets with explicit parts requires two properties at once: geometric detail inside each part and structural coherence across the whole object. Recent image-conditioned 3D generation models adopt a structured 3D representation that anchors tokens to explicit spatial",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Generating 3D assets with explicit parts requires two properties at once: geometric detail inside each part and structural coherence across the whole object. Recent image-conditioned 3D generation models adopt a structured 3D representation that anchors tokens to explicit spatial"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.21850v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
       "id": "6da27f2edfc4695cdaa9",
       "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-1/",
       "title": "Dev snapshot: Godot 4.8 beta 1",
@@ -352,42 +107,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "360b51d58b477aa19cdd",
-      "url": "https://arxiv.org/abs/2610.21121v1",
-      "title": "ResStreamGS: Residual-Sensitive Dual-Stream Gaussian Splatting for Mobile Volumetric Video Streaming",
-      "excerpt": "Real-time mobile volumetric video enables immersive free-viewpoint experiences, but delivering high-quality 3D content under constrained bandwidth and computation remains challenging. Recent 3D Gaussian Splatting (3DGS) systems, such as V$^3$, enable efficient mobile streaming by",
-      "publishedAt": "2026-10-15T02:25:39Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Guocong Quan",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-15T02:25:39Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Real-time mobile volumetric video enables immersive free-viewpoint experiences, but delivering high-quality 3D content under constrained bandwidth and computation remains challenging. Recent 3D Gaussian Splatting (3DGS) systems, such as V$^3$, enable efficient mobile streaming by",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Real-time mobile volumetric video enables immersive free-viewpoint experiences, but delivering high-quality 3D content under constrained bandwidth and computation remains challenging. Recent 3D Gaussian Splatting (3DGS) systems, such as V$^3$, enable efficient mobile streaming by"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.21121v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "a1f3db65653cf6585472",
@@ -422,147 +142,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "d66aece3671cb348ed86",
-      "url": "https://arxiv.org/abs/2610.19847v1",
-      "title": "VisibilitySplat: Ray-Traced Occlusion for Relighting with 3D Gaussian Splatting",
-      "excerpt": "We address inverse rendering with 3D Gaussian Splatting (3DGS) by introducing explicit visibility modeling for relighting as well as material and light decomposition. Our approach augments the standard rasterized 3DGS pipeline with a sparse visibility oracle that estimates transm",
-      "publishedAt": "2026-10-14T09:17:40Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Oliver Staadt",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-14T09:17:40Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We address inverse rendering with 3D Gaussian Splatting (3DGS) by introducing explicit visibility modeling for relighting as well as material and light decomposition. Our approach augments the standard rasterized 3DGS pipeline with a sparse visibility oracle that estimates transm",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We address inverse rendering with 3D Gaussian Splatting (3DGS) by introducing explicit visibility modeling for relighting as well as material and light decomposition. Our approach augments the standard rasterized 3DGS pipeline with a sparse visibility oracle that estimates transm"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.19847v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "da146bab390be895fde3",
-      "url": "https://arxiv.org/abs/2610.19520v1",
-      "title": "Spectral World Renderer: Unified 3D Hyperspectral Unmixing",
-      "excerpt": "Cameras and the foundation models built on them recognize what a 3D scene contains, but not what it is made of: surfaces of the same colour can be different materials. Hyperspectral unmixing explains each spectrum as a mixture of material signatures, yet in 3D it is applied to re",
-      "publishedAt": "2026-10-14T03:40:05Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Chih-Chung Hsu",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-14T03:40:05Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Cameras and the foundation models built on them recognize what a 3D scene contains, but not what it is made of: surfaces of the same colour can be different materials. Hyperspectral unmixing explains each spectrum as a mixture of material signatures, yet in 3D it is applied to re",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Cameras and the foundation models built on them recognize what a 3D scene contains, but not what it is made of: surfaces of the same colour can be different materials. Hyperspectral unmixing explains each spectrum as a mixture of material signatures, yet in 3D it is applied to re"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.19520v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "7aff01e099d958f6cb01",
-      "url": "https://arxiv.org/abs/2610.17803v1",
-      "title": "Construction of Simple Quadrangulations of the Sphere at Skeletal Joints",
-      "excerpt": "We present a method for constructing a simple quadrangulation of the sphere from an unordered set of $n$ direction vectors, with application to parametric volumetric models of skeletal joints. We first select a quadrangulation encoding the joint topology by exhaustively enumerati",
-      "publishedAt": "2026-10-13T06:30:04Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Q Youn Hong",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-13T06:30:04Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We present a method for constructing a simple quadrangulation of the sphere from an unordered set of $n$ direction vectors, with application to parametric volumetric models of skeletal joints. We first select a quadrangulation encoding the joint topology by exhaustively enumerati",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We present a method for constructing a simple quadrangulation of the sphere from an unordered set of $n$ direction vectors, with application to parametric volumetric models of skeletal joints. We first select a quadrangulation encoding the joint topology by exhaustively enumerati"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.17803v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "69bd086957816f66746e",
-      "url": "https://arxiv.org/abs/2610.17671v1",
-      "title": "Integrating 3D Posture Neutralization with Statistical Shape Modeling for Head-Neck-Shoulder Ergonomic Design",
-      "excerpt": "The design of ergonomic products and workspaces requires a deep understanding of human anatomy and posture. In particular, the head-neck-shoulder region is critical for many applications such as cervical orthoses, helmets, and other head-worn or neck-worn devices. This paper pres",
-      "publishedAt": "2026-10-13T03:57:15Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Jie Zhang",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-13T03:57:15Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "The design of ergonomic products and workspaces requires a deep understanding of human anatomy and posture. In particular, the head-neck-shoulder region is critical for many applications such as cervical orthoses, helmets, and other head-worn or neck-worn devices. This paper pres",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "The design of ergonomic products and workspaces requires a deep understanding of human anatomy and posture. In particular, the head-neck-shoulder region is critical for many applications such as cervical orthoses, helmets, and other head-worn or neck-worn devices. This paper pres"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.17671v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "5779216911d1605ae954",
@@ -597,427 +177,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "12f2d9d79b4b562c71a5",
-      "url": "https://arxiv.org/abs/2610.15900v1",
-      "title": "Gen Through the Lens: Camera-Controllable Video Generation via Cross-Coordinate Conditioning Fusion",
-      "excerpt": "We present Gen Through the Lens, a camera-controllable image-to-video generation framework that synthesizes videos from a given reference image while enabling realistic and physically consistent camera operations. Unlike previous models that treat camera motion as abstract condit",
-      "publishedAt": "2026-10-11T20:27:58Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Ran Zhang",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-11T20:27:58Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We present Gen Through the Lens, a camera-controllable image-to-video generation framework that synthesizes videos from a given reference image while enabling realistic and physically consistent camera operations. Unlike previous models that treat camera motion as abstract condit",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We present Gen Through the Lens, a camera-controllable image-to-video generation framework that synthesizes videos from a given reference image while enabling realistic and physically consistent camera operations. Unlike previous models that treat camera motion as abstract condit"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.15900v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "4da286eb8426ac8ba124",
-      "url": "https://arxiv.org/abs/2610.13860v1",
-      "title": "Make It Flow: Animating Water in 3D Gaussian Splatting Scenes",
-      "excerpt": "Explicit 3D scene representations such as 3D Gaussian Splatting (3DGS) have recently enabled high-quality, real-time novel view synthesis. However, these methods assume static scenes, limiting realism in the presence of dynamic phenomena ubiquitous in real-world environments. Whi",
-      "publishedAt": "2026-10-09T17:08:02Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Marcus Magnor",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-09T17:08:02Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Explicit 3D scene representations such as 3D Gaussian Splatting (3DGS) have recently enabled high-quality, real-time novel view synthesis. However, these methods assume static scenes, limiting realism in the presence of dynamic phenomena ubiquitous in real-world environments. Whi",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Explicit 3D scene representations such as 3D Gaussian Splatting (3DGS) have recently enabled high-quality, real-time novel view synthesis. However, these methods assume static scenes, limiting realism in the presence of dynamic phenomena ubiquitous in real-world environments. Whi"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.13860v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "3a4d649fb637130e2638",
-      "url": "https://arxiv.org/abs/2610.13541v1",
-      "title": "Efficient Confidence-Aware Densification for 3DGS",
-      "excerpt": "3DGS-MCMC has replaced the gradient-driven density control of 3D Gaussian Splatting with opacity-based sampling and relocation, and is now the de facto standard for prior-free densification under a fixed primitive budget. Because opacity stays high where the scene is already well",
-      "publishedAt": "2026-10-09T12:59:04Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Lukas Radl",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-09T12:59:04Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "3DGS-MCMC has replaced the gradient-driven density control of 3D Gaussian Splatting with opacity-based sampling and relocation, and is now the de facto standard for prior-free densification under a fixed primitive budget. Because opacity stays high where the scene is already well",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "3DGS-MCMC has replaced the gradient-driven density control of 3D Gaussian Splatting with opacity-based sampling and relocation, and is now the de facto standard for prior-free densification under a fixed primitive budget. Because opacity stays high where the scene is already well"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.13541v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "5d14702a092aa9d27c7d",
-      "url": "https://arxiv.org/abs/2610.13503v1",
-      "title": "SplatQ: Interaction-Aware Pruning of 3D Gaussian Splatting via Quadratic Selection",
-      "excerpt": "Existing 3D Gaussian Splatting (3DGS) pruning methods primarily rely on global Top-K selection based on independent importance scores, lacking regional budget control and ignoring joint deletion effects. Consequently, they cannot ensure balanced reconstruction quality across a sc",
-      "publishedAt": "2026-10-09T12:30:13Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Jingke Meng",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-09T12:30:13Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Existing 3D Gaussian Splatting (3DGS) pruning methods primarily rely on global Top-K selection based on independent importance scores, lacking regional budget control and ignoring joint deletion effects. Consequently, they cannot ensure balanced reconstruction quality across a sc",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Existing 3D Gaussian Splatting (3DGS) pruning methods primarily rely on global Top-K selection based on independent importance scores, lacking regional budget control and ignoring joint deletion effects. Consequently, they cannot ensure balanced reconstruction quality across a sc"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.13503v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "eed7aed2d5375999032b",
-      "url": "https://arxiv.org/abs/2610.13498v1",
-      "title": "A Hybrid and Hierarchical Ray Tracing Method for Efficient 3D Gaussian Rendering",
-      "excerpt": "3D Gaussian Splatting (3DGS) is a powerful representation for real-time neural reconstruction and rendering. While existing 3DGS systems rely on rasterization for efficiency, recent work explores ray tracing to enable secondary lighting, highly distorted cameras, and depth-of-fie",
-      "publishedAt": "2026-10-09T12:28:16Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Chaojian Li",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-09T12:28:16Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "3D Gaussian Splatting (3DGS) is a powerful representation for real-time neural reconstruction and rendering. While existing 3DGS systems rely on rasterization for efficiency, recent work explores ray tracing to enable secondary lighting, highly distorted cameras, and depth-of-fie",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "3D Gaussian Splatting (3DGS) is a powerful representation for real-time neural reconstruction and rendering. While existing 3DGS systems rely on rasterization for efficiency, recent work explores ray tracing to enable secondary lighting, highly distorted cameras, and depth-of-fie"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.13498v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "ed3767d9dd4de3bc2002",
-      "url": "https://arxiv.org/abs/2610.13216v1",
-      "title": "3DRAG: 3D-Native Object Drag Editing with Generative Models",
-      "excerpt": "The rapid progress of 3D generative models has made 3D asset creation increasingly accessible. However, achieving intuitive, precise, and interactive user control, such as point-based drag editing, remains challenging. Existing 3D drag methods either rely on slow 2D diffusion pri",
-      "publishedAt": "2026-10-09T08:34:02Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Jingyi Yu",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-09T08:34:02Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "The rapid progress of 3D generative models has made 3D asset creation increasingly accessible. However, achieving intuitive, precise, and interactive user control, such as point-based drag editing, remains challenging. Existing 3D drag methods either rely on slow 2D diffusion pri",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "The rapid progress of 3D generative models has made 3D asset creation increasingly accessible. However, achieving intuitive, precise, and interactive user control, such as point-based drag editing, remains challenging. Existing 3D drag methods either rely on slow 2D diffusion pri"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.13216v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "498b0cfd3e19de318172",
-      "url": "https://arxiv.org/abs/2610.12461v1",
-      "title": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
-      "excerpt": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoi",
-      "publishedAt": "2026-10-08T17:59:46Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yu-Lun Liu",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-08T17:59:46Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoi",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoi"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.12461v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "e532b5d2466ecbcec617",
-      "url": "https://arxiv.org/abs/2610.12399v1",
-      "title": "SpaceFlow: Locally Controllable 3D Generation",
-      "excerpt": "Current 3D generation methods lack explicit local control: geometric adherence is often defined by a global control strength, and appearance cannot be specified locally. We present SpaceFlow, a training-free pipeline for locally controllable 3D generation from text descriptions a",
-      "publishedAt": "2026-10-08T17:42:39Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Elisabetta Fedele",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-08T17:42:39Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Current 3D generation methods lack explicit local control: geometric adherence is often defined by a global control strength, and appearance cannot be specified locally. We present SpaceFlow, a training-free pipeline for locally controllable 3D generation from text descriptions a",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Current 3D generation methods lack explicit local control: geometric adherence is often defined by a global control strength, and appearance cannot be specified locally. We present SpaceFlow, a training-free pipeline for locally controllable 3D generation from text descriptions a"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.12399v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "50265c850a19fcfa3a95",
-      "url": "https://arxiv.org/abs/2610.12127v1",
-      "title": "LVS: Local View Synthesis from Relative Camera Pose by Reusing Previous Views",
-      "excerpt": "Interactive scene exploration requires frequent view updates, although small camera motions preserve much of the visible content. Conventional 3D Gaussian Splatting nevertheless renders each target view, leaving this image overlap unexploited. Reusing rendered images offers an al",
-      "publishedAt": "2026-10-08T15:19:58Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yuanhao Gong",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-08T15:19:58Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Interactive scene exploration requires frequent view updates, although small camera motions preserve much of the visible content. Conventional 3D Gaussian Splatting nevertheless renders each target view, leaving this image overlap unexploited. Reusing rendered images offers an al",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Interactive scene exploration requires frequent view updates, although small camera motions preserve much of the visible content. Conventional 3D Gaussian Splatting nevertheless renders each target view, leaving this image overlap unexploited. Reusing rendered images offers an al"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.12127v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "f73a813f3d181209fbe3",
-      "url": "https://arxiv.org/abs/2610.11011v1",
-      "title": "PCAsplat: Gaussian Splatting with Local PCA Regularization",
-      "excerpt": "Gaussian splatting has emerged as a flexible representation for 3D reconstruction from posed images. However, existing methods are optimized primarily using rasterization-based losses, which supervise a splat only when it contributes to sampled camera rays. Gaussians that are occ",
-      "publishedAt": "2026-10-07T23:49:39Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Tiago Novello",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-07T23:49:39Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Gaussian splatting has emerged as a flexible representation for 3D reconstruction from posed images. However, existing methods are optimized primarily using rasterization-based losses, which supervise a splat only when it contributes to sampled camera rays. Gaussians that are occ",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Gaussian splatting has emerged as a flexible representation for 3D reconstruction from posed images. However, existing methods are optimized primarily using rasterization-based losses, which supervise a splat only when it contributes to sampled camera rays. Gaussians that are occ"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.11011v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "3ebc430bae9ca33a0f0b",
-      "url": "https://arxiv.org/abs/2610.09846v1",
-      "title": "DynaConTalk: Wavelet-Constrained Diffusion for Long-Form and Controllable Holistic Co-Speech 3D Motion",
-      "excerpt": "Holistic co-speech animation is prone to averaging in both motion representation and speech conditioning. In coordinate-space diffusion, slow body posture, mid-frequency gesture strokes, and fast hand or facial details are entangled in one prediction target, often producing low-v",
-      "publishedAt": "2026-10-07T11:06:42Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yoshifumi Kitamura",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-07T11:06:42Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Holistic co-speech animation is prone to averaging in both motion representation and speech conditioning. In coordinate-space diffusion, slow body posture, mid-frequency gesture strokes, and fast hand or facial details are entangled in one prediction target, often producing low-v",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Holistic co-speech animation is prone to averaging in both motion representation and speech conditioning. In coordinate-space diffusion, slow body posture, mid-frequency gesture strokes, and fast hand or facial details are entangled in one prediction target, often producing low-v"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.09846v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
-    },
-    {
-      "id": "cb883d3039927816ef68",
-      "url": "https://arxiv.org/abs/2610.10622v1",
-      "title": "WorldBench: Evaluating LLMs on Three.js Voxel World Generation",
-      "excerpt": "Large language models can now write complete, interactive 3D worlds as code, but grading those worlds automatically is unreliable. Existing judges take one view of the output: a vision-language model scores a few rendered snapshots, or a language model reads the source. On worlds",
-      "publishedAt": "2026-10-07T08:52:08Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Krish Bakshi",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-07T08:52:08Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Large language models can now write complete, interactive 3D worlds as code, but grading those worlds automatically is unreliable. Existing judges take one view of the output: a vision-language model scores a few rendered snapshots, or a language model reads the source. On worlds",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Large language models can now write complete, interactive 3D worlds as code, but grading those worlds automatically is unreliable. Existing judges take one view of the output: a vision-language model scores a few rendered snapshots, or a language model reads the source. On worlds"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.10622v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -1052,7 +212,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -1087,7 +247,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -1122,7 +282,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1192,7 +352,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1227,7 +387,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1262,7 +422,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1332,7 +492,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1472,7 +632,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2277,7 +1437,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2452,7 +1612,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2487,7 +1647,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2592,7 +1752,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2767,7 +1927,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -2907,7 +2067,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -2942,7 +2102,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -2977,7 +2137,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -3047,7 +2207,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -3117,7 +2277,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -3152,7 +2312,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3257,7 +2417,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3292,7 +2452,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3327,7 +2487,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3397,7 +2557,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3502,7 +2662,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3537,7 +2697,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -3572,7 +2732,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3607,7 +2767,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3677,7 +2837,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3782,7 +2942,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "d70ada50b79e832e6208",
@@ -3817,7 +2977,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "f4ac3447021c4e984042",
@@ -3887,7 +3047,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-16T04:26:00.476667Z"
+      "firstSeenAt": "2026-10-17T04:20:31.876351Z"
     },
     {
       "id": "fbead8a3501ce5438f41",
