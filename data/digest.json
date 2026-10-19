@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-18T04:26:00.125388Z",
-  "windowStart": "2026-10-17T04:26:00.125388Z",
-  "windowEnd": "2026-10-18T04:26:00.125388Z",
+  "checkedAt": "2026-10-19T04:34:59.559766Z",
+  "windowStart": "2026-10-18T04:34:59.559766Z",
+  "windowEnd": "2026-10-19T04:34:59.559766Z",
   "news": [
     {
       "id": "a7c1e5fcf9af05021743",
@@ -389,10 +389,6 @@
       "status": "pending_budget"
     },
     {
-      "id": "3ebc430bae9ca33a0f0b",
-      "status": "pending_budget"
-    },
-    {
       "id": "7aff01e099d958f6cb01",
       "status": "pending_budget"
     },
@@ -532,7 +528,7 @@
       "url": "https://arxiv.org/abs/2610.09846v1",
       "firstSeenAt": "2026-10-08T05:57:48.297425Z",
       "attempts": 0,
-      "status": "pending_budget"
+      "status": "awaiting_source"
     },
     {
       "id": "7aff01e099d958f6cb01",
@@ -587,6 +583,57 @@
   "rejected": {},
   "sourceNews": [
     {
+      "id": "00e33ee20595ca9207f0",
+      "url": "https://arxiv.org/abs/2610.23237v1",
+      "title": "X-Splat: Unified Gaussian Splatting for Joint RGB and X-ray 3D Reconstruction",
+      "publishedAt": "2026-10-16T10:06:11Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Imari Sato",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "excerpt": "Jointly reconstructing RGB and X-ray provides new insights by connecting external appearance with internal structure, enabling a more complete understanding of real-world objects than single modality. Yet existing methods train separate models per modality and suffer from redunda",
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
+      "sourceDigest": "c27f77bf90207a50f9791da5eb8bf8b5ef8240fde685b0d5d93c9ab5a5e2ae6f",
+      "contentStatus": "source_only"
+    },
+    {
+      "id": "0418b6bdbff707e5e6ec",
+      "url": "https://arxiv.org/abs/2610.23173v1",
+      "title": "Structural Affinity: An Algorithm for Coherent Cage-Based Shape Design",
+      "publishedAt": "2026-10-16T09:10:31Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Rika Antonova",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "excerpt": "Cage-based deformation (CBD) parametrises 3D geometry through a small set of control handles, effectively enabling a variety of tasks from animation and interactive modelling to tool-based co-design, neural deformation transfer, and aerodynamic shape optimization. Many optimizati",
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
+      "sourceDigest": "55e4ad669186fabaf57bf36d99642d244e55be6350ab7e4a1c5cebc96b125df1",
+      "contentStatus": "source_only"
+    },
+    {
+      "id": "ea39134029eb31ac3ba6",
+      "url": "https://arxiv.org/abs/2610.22741v1",
+      "title": "SAMS: A Structured Graph Framework for Securing Additive Manufacturing Systems",
+      "publishedAt": "2026-10-15T23:21:33Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Jitender S. Deogun",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "excerpt": "Additive manufacturing, also known as 3D printing, is significant for its use in industries such as aerospace, robotics, medicine, and construction. However, digital mesh files remain vulnerable to geometry defects which can be introduced through malicious tampering or designer e",
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
+      "sourceDigest": "87e73cdf882333446991ce8ffb3b74215e66fd8c4a0eed50b7ef3d5d0bd6a7bc",
+      "contentStatus": "source_only"
+    },
+    {
       "id": "2940ecb365e29aeab6cc",
       "url": "https://arxiv.org/abs/2610.22352v1",
       "title": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
@@ -599,7 +646,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine detail",
       "firstSeenAt": "2026-10-16T04:26:00.476667Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "bc8e45402720f933873f9e92edabe68bf5dd9eb80ef85b1ccc70fb39c1730b8f",
       "contentStatus": "source_only"
     },
@@ -616,7 +663,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Sketching is one of the most natural ways for people to express visual ideas. Unlike the text prompts that most generative systems rely on today, a sketch captures spatial structure and intent directly, including where a designer wants highlights and shadows to appear. Yet curren",
       "firstSeenAt": "2026-10-16T04:26:00.476667Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "dd145b8995efa931ce7fac9494511f26ab4924cabeed411f7b76bfe563579c25",
       "contentStatus": "source_only"
     },
@@ -633,7 +680,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Generating 3D assets with explicit parts requires two properties at once: geometric detail inside each part and structural coherence across the whole object. Recent image-conditioned 3D generation models adopt a structured 3D representation that anchors tokens to explicit spatial",
       "firstSeenAt": "2026-10-16T04:26:00.476667Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "9e7b70165bc91fbbb1ff100fc30681e7230058b2aed2c92bca57c041053abe08",
       "contentStatus": "source_only"
     },
@@ -650,7 +697,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "It’s that time of the release cycle once again: the beta snapshot! With this, 4.8 is fully in feature-freeze, and developer resources have shifted exclusively to creating and reviewing various regression fixes . For those interested in aiding us on our quest to squash any bugs th",
       "firstSeenAt": "2026-10-16T04:26:00.476667Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "f1ba2b36965d873fef1a59bcfd475079a4a5db119c765414c5d785672b7fca8c",
       "contentStatus": "source_only"
     },
@@ -667,7 +714,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Real-time mobile volumetric video enables immersive free-viewpoint experiences, but delivering high-quality 3D content under constrained bandwidth and computation remains challenging. Recent 3D Gaussian Splatting (3DGS) systems, such as V$^3$, enable efficient mobile streaming by",
       "firstSeenAt": "2026-10-16T04:26:00.476667Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "f772ae307ab705208987a36a79591596cfbc69d3cb7fee24cb1aec613b8555f0",
       "contentStatus": "source_only"
     },
@@ -684,7 +731,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "What an eventful edition of the Blender Conference we had earlier this September! Over three days, 700+ attendees from more than 50 countries gathered at the Felix Meritis venue to share their passion for creating with Blender, connect and learn from each other. This year, the kn",
       "firstSeenAt": "2026-10-15T04:32:45.408058Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "6554ac9fecab8748770a2ae66c11e1e1ea79dc59c1eabe115075b0af9e488124",
       "contentStatus": "source_only"
     },
@@ -701,7 +748,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "We address inverse rendering with 3D Gaussian Splatting (3DGS) by introducing explicit visibility modeling for relighting as well as material and light decomposition. Our approach augments the standard rasterized 3DGS pipeline with a sparse visibility oracle that estimates transm",
       "firstSeenAt": "2026-10-15T04:32:45.408058Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "ab1cabeb039972bc845914db990c373692c79407bc5854d59cf92a1acd7ccd2b",
       "contentStatus": "source_only"
     },
@@ -718,7 +765,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Cameras and the foundation models built on them recognize what a 3D scene contains, but not what it is made of: surfaces of the same colour can be different materials. Hyperspectral unmixing explains each spectrum as a mixture of material signatures, yet in 3D it is applied to re",
       "firstSeenAt": "2026-10-15T04:32:45.408058Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "139bddba0efed03b9610641514d423a361776f260dc26bc2b72d2e02e3c8335d",
       "contentStatus": "source_only"
     },
@@ -735,7 +782,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "We present a method for constructing a simple quadrangulation of the sphere from an unordered set of $n$ direction vectors, with application to parametric volumetric models of skeletal joints. We first select a quadrangulation encoding the joint topology by exhaustively enumerati",
       "firstSeenAt": "2026-10-14T04:48:24.009584Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "193d22ed4ac2cf7aac23cdf08a694f45acff521e86b60318e3a7b70ba17c7ad3",
       "contentStatus": "source_only"
     },
@@ -752,7 +799,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "The design of ergonomic products and workspaces requires a deep understanding of human anatomy and posture. In particular, the head-neck-shoulder region is critical for many applications such as cervical orthoses, helmets, and other head-worn or neck-worn devices. This paper pres",
       "firstSeenAt": "2026-10-14T04:48:24.009584Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "3bc7c1801b19c04b6a3eeea94699271a63f661bae33b9d229eef106a71fbdc26",
       "contentStatus": "source_only"
     },
@@ -769,7 +816,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Editor 2.34 is out, two weeks after 2.32, and it is built around Engine 2.23 . The headline is a new Inspector launch option: tick one box and your launched app comes up with a full debug panel docked beside it, where you can pause it, step it a frame at a time, pick entities str",
       "firstSeenAt": "2026-10-14T04:48:24.009584Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "5db70488ec2af4e5a407b9f48b8260535e94ace73b7dfca28124edd680444439",
       "contentStatus": "source_only"
     },
@@ -786,7 +833,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "We present Gen Through the Lens, a camera-controllable image-to-video generation framework that synthesizes videos from a given reference image while enabling realistic and physically consistent camera operations. Unlike previous models that treat camera motion as abstract condit",
       "firstSeenAt": "2026-10-14T04:48:24.009584Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "62f8d44313e6c555480baf2e71900dc269d4175896eda72dcf4ec3b1746af896",
       "contentStatus": "source_only"
     },
@@ -803,7 +850,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Explicit 3D scene representations such as 3D Gaussian Splatting (3DGS) have recently enabled high-quality, real-time novel view synthesis. However, these methods assume static scenes, limiting realism in the presence of dynamic phenomena ubiquitous in real-world environments. Whi",
       "firstSeenAt": "2026-10-12T05:51:15.168342Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "75e39537fac14217fa85e24deffc785688f6903e4f51efdd48c9ca64e73e98db",
       "contentStatus": "source_only"
     },
@@ -820,7 +867,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "3DGS-MCMC has replaced the gradient-driven density control of 3D Gaussian Splatting with opacity-based sampling and relocation, and is now the de facto standard for prior-free densification under a fixed primitive budget. Because opacity stays high where the scene is already well",
       "firstSeenAt": "2026-10-12T05:51:15.168342Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "9413c9e0b1753c06b77f11b96dd6069886e719d4dcc9feaa629e0387a934ac97",
       "contentStatus": "source_only"
     },
@@ -837,7 +884,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Existing 3D Gaussian Splatting (3DGS) pruning methods primarily rely on global Top-K selection based on independent importance scores, lacking regional budget control and ignoring joint deletion effects. Consequently, they cannot ensure balanced reconstruction quality across a sc",
       "firstSeenAt": "2026-10-12T05:51:15.168342Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "56771a304ea17bced94fc44d330f04fd5ac1806b1fa4d9e6179f41455a7aa8be",
       "contentStatus": "source_only"
     },
@@ -854,7 +901,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "3D Gaussian Splatting (3DGS) is a powerful representation for real-time neural reconstruction and rendering. While existing 3DGS systems rely on rasterization for efficiency, recent work explores ray tracing to enable secondary lighting, highly distorted cameras, and depth-of-fie",
       "firstSeenAt": "2026-10-12T05:51:15.168342Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "6a75be6d1d7c7f597b02c5ff1515f953e110662eabdf2b62374ac8f20505803b",
       "contentStatus": "source_only"
     },
@@ -871,7 +918,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "The rapid progress of 3D generative models has made 3D asset creation increasingly accessible. However, achieving intuitive, precise, and interactive user control, such as point-based drag editing, remains challenging. Existing 3D drag methods either rely on slow 2D diffusion pri",
       "firstSeenAt": "2026-10-12T05:51:15.168342Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "4b3fedaee1f81b3447bc066d486202a7a7fa65251c5dfd534472618f8dc3f224",
       "contentStatus": "source_only"
     },
@@ -888,7 +935,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoi",
       "firstSeenAt": "2026-10-10T05:47:07.772086Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "3442cd7a34b029e670154f0d9aeecae84c77a05e850ae9e9b2662b9590fe0969",
       "contentStatus": "source_only"
     },
@@ -905,7 +952,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Current 3D generation methods lack explicit local control: geometric adherence is often defined by a global control strength, and appearance cannot be specified locally. We present SpaceFlow, a training-free pipeline for locally controllable 3D generation from text descriptions a",
       "firstSeenAt": "2026-10-10T05:47:07.772086Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "3446357486b5c4b8c786e502503f812de9860170be7c0b190fd7ef9d99a7e8e2",
       "contentStatus": "source_only"
     },
@@ -922,7 +969,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Interactive scene exploration requires frequent view updates, although small camera motions preserve much of the visible content. Conventional 3D Gaussian Splatting nevertheless renders each target view, leaving this image overlap unexploited. Reusing rendered images offers an al",
       "firstSeenAt": "2026-10-10T05:47:07.772086Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "3a57049918ac7cf224e6d21f2cc2e0e44066193976fc5f83a2bad63599e7c5f8",
       "contentStatus": "source_only"
     },
@@ -1126,7 +1173,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Welcome to the seventh edition of Developer Spotlight, a series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web. Today, we are excited to be joined by Massimo and Mariem from Solaya , a French de",
       "firstSeenAt": "2026-10-07T05:53:46.003469Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "2aa639f1659cde67b71076f5cf9f6d336e91ea9124156ca1cc81d7cfac4b777b",
       "contentStatus": "source_only"
     },
@@ -1143,7 +1190,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "As in previous years, we had a Geometry Nodes workshop during the week after the Blender Conference. This post gives a general overview of the topics we discussed. You can also read all the notes we took during the meetings. Also check out the blog posts about previous workshops:",
       "firstSeenAt": "2026-10-06T06:15:36.020525Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "486726307b41f5213c2b4f27d501ccaed3fef25c8dfb808f43d51902a3c1f7c8",
       "contentStatus": "source_only"
     },
@@ -1483,7 +1530,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "It’s that time once again: feature freeze! With this, no new features will be integrated for Godot 4.8 moving forward, and priorities will be shifting exclusively towards bugfixes and addressing regressions to ensure a functional baseline as soon as possible. So join us for one l",
       "firstSeenAt": "2026-09-30T05:19:58.753836Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "e42b65499ef446bc73a65afcf18c1c67836b582ceee4b86e8517840d4b965b5e",
       "contentStatus": "source_only"
     },
@@ -1670,7 +1717,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe",
       "firstSeenAt": "2026-09-25T00:32:20.317079Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "c6723f0eed847078ce11c48fe05a93a60347b999e0bba3e83fd14e4f1db2f9f5",
       "contentStatus": "source_only"
     },
@@ -1755,7 +1802,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Editor 2.32 is out, and it leads with something that has been a long time coming: the Joint component . Hinges, sliders, ball joints, springs and breakable welds are now things you configure in the inspector rather than assemble from a script. There is more to it than that. Mater",
       "firstSeenAt": "2026-09-23T00:28:55.358694Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "ec8a33127453e4b78a270357cf6fc8a155d943b1fd23abd932231f61e5325af7",
       "contentStatus": "source_only"
     },
@@ -1965,7 +2012,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "“Another development snapshot already? Didn’t they just release one last Friday ?” Indeed, this is much sooner than usual. Even when taking into consideration how development snapshots become more frequent at their tail-end in preparation of feature freeze, less than a week means",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "15020795fdf84ef41bd5a60b72550fb6c7a63f04e72a28e890a08aa0aac69159",
       "contentStatus": "source_only"
     },
@@ -2016,16 +2063,20 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "I want to give people a little bit of insight into what the optimization process looks like for Godot’s renderer. From the outside, rendering optimization can look a little bit like black magic. I want to show a few examples of some optimizations that we did this year to highligh",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
-      "checkedAt": "2026-10-18T04:26:00.125388Z",
+      "checkedAt": "2026-10-19T04:34:59.559766Z",
       "sourceDigest": "316626d3c1e3b430204c3c8b094924b6703525cb96efa3786544f1b3e104e8bc",
       "contentStatus": "source_only"
     }
   ],
   "sourceProcessing": {
-    "checkedAt": "2026-10-18T04:26:00.125388Z",
+    "checkedAt": "2026-10-19T04:34:59.559766Z",
     "status": "updated",
-    "newCount": 0,
-    "newIds": [],
+    "newCount": 3,
+    "newIds": [
+      "00e33ee20595ca9207f0",
+      "0418b6bdbff707e5e6ec",
+      "ea39134029eb31ac3ba6"
+    ],
     "invalidCount": 0,
     "successfulSources": 7
   },
