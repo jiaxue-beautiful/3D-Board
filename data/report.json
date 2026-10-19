@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-18T04:26:00.125388Z",
-  "windowStart": "2026-10-17T04:26:00.125388Z",
-  "windowEnd": "2026-10-18T04:26:00.125388Z",
+  "checkedAt": "2026-10-19T04:34:59.559766Z",
+  "windowStart": "2026-10-18T04:34:59.559766Z",
+  "windowEnd": "2026-10-19T04:34:59.559766Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -74,6 +74,111 @@
   "events": [],
   "archive": [
     {
+      "id": "00e33ee20595ca9207f0",
+      "url": "https://arxiv.org/abs/2610.23237v1",
+      "title": "X-Splat: Unified Gaussian Splatting for Joint RGB and X-ray 3D Reconstruction",
+      "excerpt": "Jointly reconstructing RGB and X-ray provides new insights by connecting external appearance with internal structure, enabling a more complete understanding of real-world objects than single modality. Yet existing methods train separate models per modality and suffer from redunda",
+      "publishedAt": "2026-10-16T10:06:11Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Imari Sato",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-16T10:06:11Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Jointly reconstructing RGB and X-ray provides new insights by connecting external appearance with internal structure, enabling a more complete understanding of real-world objects than single modality. Yet existing methods train separate models per modality and suffer from redunda",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Jointly reconstructing RGB and X-ray provides new insights by connecting external appearance with internal structure, enabling a more complete understanding of real-world objects than single modality. Yet existing methods train separate models per modality and suffer from redunda"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.23237v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+    },
+    {
+      "id": "0418b6bdbff707e5e6ec",
+      "url": "https://arxiv.org/abs/2610.23173v1",
+      "title": "Structural Affinity: An Algorithm for Coherent Cage-Based Shape Design",
+      "excerpt": "Cage-based deformation (CBD) parametrises 3D geometry through a small set of control handles, effectively enabling a variety of tasks from animation and interactive modelling to tool-based co-design, neural deformation transfer, and aerodynamic shape optimization. Many optimizati",
+      "publishedAt": "2026-10-16T09:10:31Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Rika Antonova",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-16T09:10:31Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Cage-based deformation (CBD) parametrises 3D geometry through a small set of control handles, effectively enabling a variety of tasks from animation and interactive modelling to tool-based co-design, neural deformation transfer, and aerodynamic shape optimization. Many optimizati",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Cage-based deformation (CBD) parametrises 3D geometry through a small set of control handles, effectively enabling a variety of tasks from animation and interactive modelling to tool-based co-design, neural deformation transfer, and aerodynamic shape optimization. Many optimizati"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.23173v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+    },
+    {
+      "id": "ea39134029eb31ac3ba6",
+      "url": "https://arxiv.org/abs/2610.22741v1",
+      "title": "SAMS: A Structured Graph Framework for Securing Additive Manufacturing Systems",
+      "excerpt": "Additive manufacturing, also known as 3D printing, is significant for its use in industries such as aerospace, robotics, medicine, and construction. However, digital mesh files remain vulnerable to geometry defects which can be introduced through malicious tampering or designer e",
+      "publishedAt": "2026-10-15T23:21:33Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Jitender S. Deogun",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-15T23:21:33Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Additive manufacturing, also known as 3D printing, is significant for its use in industries such as aerospace, robotics, medicine, and construction. However, digital mesh files remain vulnerable to geometry defects which can be introduced through malicious tampering or designer e",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Additive manufacturing, also known as 3D printing, is significant for its use in industries such as aerospace, robotics, medicine, and construction. However, digital mesh files remain vulnerable to geometry defects which can be introduced through malicious tampering or designer e"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.22741v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+    },
+    {
       "id": "2940ecb365e29aeab6cc",
       "url": "https://arxiv.org/abs/2610.22352v1",
       "title": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
@@ -106,7 +211,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "c1e490aad1d92ece2992",
@@ -141,7 +246,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "7dd74f8bd2587d0bdb9d",
@@ -176,7 +281,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "6da27f2edfc4695cdaa9",
@@ -211,7 +316,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "360b51d58b477aa19cdd",
@@ -246,7 +351,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "a1f3db65653cf6585472",
@@ -281,7 +386,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "d66aece3671cb348ed86",
@@ -316,7 +421,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "da146bab390be895fde3",
@@ -351,7 +456,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "7aff01e099d958f6cb01",
@@ -386,7 +491,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "69bd086957816f66746e",
@@ -421,7 +526,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "5779216911d1605ae954",
@@ -456,7 +561,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "12f2d9d79b4b562c71a5",
@@ -491,7 +596,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "4da286eb8426ac8ba124",
@@ -526,7 +631,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "3a4d649fb637130e2638",
@@ -561,7 +666,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "5d14702a092aa9d27c7d",
@@ -596,7 +701,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "eed7aed2d5375999032b",
@@ -631,7 +736,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "ed3767d9dd4de3bc2002",
@@ -666,7 +771,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "498b0cfd3e19de318172",
@@ -701,7 +806,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "e532b5d2466ecbcec617",
@@ -736,7 +841,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "50265c850a19fcfa3a95",
@@ -771,112 +876,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
-    },
-    {
-      "id": "f73a813f3d181209fbe3",
-      "url": "https://arxiv.org/abs/2610.11011v1",
-      "title": "PCAsplat: Gaussian Splatting with Local PCA Regularization",
-      "excerpt": "Gaussian splatting has emerged as a flexible representation for 3D reconstruction from posed images. However, existing methods are optimized primarily using rasterization-based losses, which supervise a splat only when it contributes to sampled camera rays. Gaussians that are occ",
-      "publishedAt": "2026-10-07T23:49:39Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Tiago Novello",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-07T23:49:39Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Gaussian splatting has emerged as a flexible representation for 3D reconstruction from posed images. However, existing methods are optimized primarily using rasterization-based losses, which supervise a splat only when it contributes to sampled camera rays. Gaussians that are occ",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Gaussian splatting has emerged as a flexible representation for 3D reconstruction from posed images. However, existing methods are optimized primarily using rasterization-based losses, which supervise a splat only when it contributes to sampled camera rays. Gaussians that are occ"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.11011v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
-    },
-    {
-      "id": "3ebc430bae9ca33a0f0b",
-      "url": "https://arxiv.org/abs/2610.09846v1",
-      "title": "DynaConTalk: Wavelet-Constrained Diffusion for Long-Form and Controllable Holistic Co-Speech 3D Motion",
-      "excerpt": "Holistic co-speech animation is prone to averaging in both motion representation and speech conditioning. In coordinate-space diffusion, slow body posture, mid-frequency gesture strokes, and fast hand or facial details are entangled in one prediction target, often producing low-v",
-      "publishedAt": "2026-10-07T11:06:42Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yoshifumi Kitamura",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-07T11:06:42Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Holistic co-speech animation is prone to averaging in both motion representation and speech conditioning. In coordinate-space diffusion, slow body posture, mid-frequency gesture strokes, and fast hand or facial details are entangled in one prediction target, often producing low-v",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Holistic co-speech animation is prone to averaging in both motion representation and speech conditioning. In coordinate-space diffusion, slow body posture, mid-frequency gesture strokes, and fast hand or facial details are entangled in one prediction target, often producing low-v"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.09846v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
-    },
-    {
-      "id": "cb883d3039927816ef68",
-      "url": "https://arxiv.org/abs/2610.10622v1",
-      "title": "WorldBench: Evaluating LLMs on Three.js Voxel World Generation",
-      "excerpt": "Large language models can now write complete, interactive 3D worlds as code, but grading those worlds automatically is unreliable. Existing judges take one view of the output: a vision-language model scores a few rendered snapshots, or a language model reads the source. On worlds",
-      "publishedAt": "2026-10-07T08:52:08Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Krish Bakshi",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-07T08:52:08Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Large language models can now write complete, interactive 3D worlds as code, but grading those worlds automatically is unreliable. Existing judges take one view of the output: a vision-language model scores a few rendered snapshots, or a language model reads the source. On worlds",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Large language models can now write complete, interactive 3D worlds as code, but grading those worlds automatically is unreliable. Existing judges take one view of the output: a vision-language model scores a few rendered snapshots, or a language model reads the source. On worlds"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.10622v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -911,7 +911,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -946,7 +946,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -981,7 +981,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1051,7 +1051,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1086,7 +1086,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1121,7 +1121,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1191,7 +1191,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1331,7 +1331,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2136,7 +2136,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2311,7 +2311,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2346,7 +2346,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2451,7 +2451,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2626,7 +2626,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -2766,7 +2766,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -2801,7 +2801,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -2836,7 +2836,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -2906,7 +2906,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -2976,7 +2976,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -3011,7 +3011,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3116,7 +3116,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3151,7 +3151,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3186,7 +3186,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3256,7 +3256,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3361,7 +3361,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3396,7 +3396,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -3431,7 +3431,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3466,7 +3466,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3536,7 +3536,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3641,7 +3641,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "d70ada50b79e832e6208",
@@ -3676,7 +3676,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "f4ac3447021c4e984042",
@@ -3746,7 +3746,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-18T04:26:00.125388Z"
+      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
     },
     {
       "id": "fbead8a3501ce5438f41",
