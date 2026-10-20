@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-19T04:34:59.559766Z",
-  "windowStart": "2026-10-18T04:34:59.559766Z",
-  "windowEnd": "2026-10-19T04:34:59.559766Z",
+  "checkedAt": "2026-10-20T04:43:58.895206Z",
+  "windowStart": "2026-10-19T04:43:58.895206Z",
+  "windowEnd": "2026-10-20T04:43:58.895206Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -71,8 +71,219 @@
       "error": "来源请求失败（HTTP 404）；未绕过访问限制"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "bd887ec26704092c2884",
+      "url": "https://arxiv.org/abs/2610.26067v1",
+      "title": "PhysSkin++: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning",
+      "excerpt": "Generalizing real-time physics-based animation across diverse 3D shapes and spatial discretizations remains challenging. In this paper, we introduce PhysSkin++, a physics-informed framework that learns continuous neural skinning fields from static geometries to construct compact ",
+      "publishedAt": "2026-10-19T09:25:55Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Zhaopeng Cui",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-19T09:25:55Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Generalizing real-time physics-based animation across diverse 3D shapes and spatial discretizations remains challenging. In this paper, we introduce PhysSkin++, a physics-informed framework that learns continuous neural skinning fields from static geometries to construct compact ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Generalizing real-time physics-based animation across diverse 3D shapes and spatial discretizations remains challenging. In this paper, we introduce PhysSkin++, a physics-informed framework that learns continuous neural skinning fields from static geometries to construct compact "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.26067v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
+    }
+  ],
   "archive": [
+    {
+      "id": "bd887ec26704092c2884",
+      "url": "https://arxiv.org/abs/2610.26067v1",
+      "title": "PhysSkin++: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning",
+      "excerpt": "Generalizing real-time physics-based animation across diverse 3D shapes and spatial discretizations remains challenging. In this paper, we introduce PhysSkin++, a physics-informed framework that learns continuous neural skinning fields from static geometries to construct compact ",
+      "publishedAt": "2026-10-19T09:25:55Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Zhaopeng Cui",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-19T09:25:55Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Generalizing real-time physics-based animation across diverse 3D shapes and spatial discretizations remains challenging. In this paper, we introduce PhysSkin++, a physics-informed framework that learns continuous neural skinning fields from static geometries to construct compact ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Generalizing real-time physics-based animation across diverse 3D shapes and spatial discretizations remains challenging. In this paper, we introduce PhysSkin++, a physics-informed framework that learns continuous neural skinning fields from static geometries to construct compact "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.26067v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
+    },
+    {
+      "id": "3f61b11f4b11641e6a4e",
+      "url": "https://arxiv.org/abs/2610.25660v1",
+      "title": "FluidGen: Physics-Aware Fluid Video Generation via Motion-Guided Post-Training",
+      "excerpt": "Video generation models produce visually compelling motion but systematically fail on fluid phenomena, including smoke, fire, and explosion debris, where outputs lack coherent vortical structure and collapse to bland dynamics that violate the physics of real fluids. Classical sol",
+      "publishedAt": "2026-10-19T02:07:51Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Leonidas Guibas",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-19T02:07:51Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Video generation models produce visually compelling motion but systematically fail on fluid phenomena, including smoke, fire, and explosion debris, where outputs lack coherent vortical structure and collapse to bland dynamics that violate the physics of real fluids. Classical sol",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Video generation models produce visually compelling motion but systematically fail on fluid phenomena, including smoke, fire, and explosion debris, where outputs lack coherent vortical structure and collapse to bland dynamics that violate the physics of real fluids. Classical sol"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.25660v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
+    },
+    {
+      "id": "2a0997b79c5bfb2a73be",
+      "url": "https://arxiv.org/abs/2610.24812v1",
+      "title": "SwitchSplat: Learning Discrete Object States from Casually Captured Scenes",
+      "excerpt": "3D Gaussian Splatting has made high-fidelity 3D reconstruction fast and accessible, yet existing representations assume a static world. This assumption breaks down in casual captures, where a user naturally interacts with the environment -- opening doors, toggling switches, or mo",
+      "publishedAt": "2026-10-17T18:35:44Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Andrea Tagliasacchi",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-17T18:35:44Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D Gaussian Splatting has made high-fidelity 3D reconstruction fast and accessible, yet existing representations assume a static world. This assumption breaks down in casual captures, where a user naturally interacts with the environment -- opening doors, toggling switches, or mo",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D Gaussian Splatting has made high-fidelity 3D reconstruction fast and accessible, yet existing representations assume a static world. This assumption breaks down in casual captures, where a user naturally interacts with the environment -- opening doors, toggling switches, or mo"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.24812v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
+    },
+    {
+      "id": "1aa42437b4a246cf26e7",
+      "url": "https://arxiv.org/abs/2610.24522v1",
+      "title": "MOMO: Human Motion from Moving Sounds",
+      "excerpt": "Human responses to sound depend not only on its semantic content, but also on the evolving spatial relationship between source and listener, conveyed through spatial audio and its temporal dynamics. Modeling human reactions to such dynamic spatial audio is important for character",
+      "publishedAt": "2026-10-17T07:31:54Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Taku Komura",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-17T07:31:54Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Human responses to sound depend not only on its semantic content, but also on the evolving spatial relationship between source and listener, conveyed through spatial audio and its temporal dynamics. Modeling human reactions to such dynamic spatial audio is important for character",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Human responses to sound depend not only on its semantic content, but also on the evolving spatial relationship between source and listener, conveyed through spatial audio and its temporal dynamics. Modeling human reactions to such dynamic spatial audio is important for character"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.24522v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
+    },
+    {
+      "id": "521753dd6a7a337821af",
+      "url": "https://arxiv.org/abs/2610.24459v1",
+      "title": "SLIM: Learning an Operator for Material-Efficient 3D Lattice Refinement",
+      "excerpt": "Lattice inverse-design methods can generate cells that match prescribed effective properties, but property feasibility does not imply material efficiency. Removing redundant material from an existing lattice while preserving its homogenized elasticity ordinarily requires solving ",
+      "publishedAt": "2026-10-17T04:58:24Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Lin Lu",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-17T04:58:24Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Lattice inverse-design methods can generate cells that match prescribed effective properties, but property feasibility does not imply material efficiency. Removing redundant material from an existing lattice while preserving its homogenized elasticity ordinarily requires solving ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Lattice inverse-design methods can generate cells that match prescribed effective properties, but property feasibility does not imply material efficiency. Removing redundant material from an existing lattice while preserving its homogenized elasticity ordinarily requires solving "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.24459v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
+    },
     {
       "id": "00e33ee20595ca9207f0",
       "url": "https://arxiv.org/abs/2610.23237v1",
@@ -106,7 +317,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "0418b6bdbff707e5e6ec",
@@ -141,7 +352,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "ea39134029eb31ac3ba6",
@@ -176,7 +387,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "2940ecb365e29aeab6cc",
@@ -211,7 +422,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "c1e490aad1d92ece2992",
@@ -246,7 +457,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "7dd74f8bd2587d0bdb9d",
@@ -281,7 +492,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "6da27f2edfc4695cdaa9",
@@ -316,7 +527,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "360b51d58b477aa19cdd",
@@ -351,7 +562,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "a1f3db65653cf6585472",
@@ -386,7 +597,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "d66aece3671cb348ed86",
@@ -421,7 +632,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "da146bab390be895fde3",
@@ -456,7 +667,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "7aff01e099d958f6cb01",
@@ -491,7 +702,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "69bd086957816f66746e",
@@ -526,7 +737,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "5779216911d1605ae954",
@@ -561,7 +772,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "12f2d9d79b4b562c71a5",
@@ -596,7 +807,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "4da286eb8426ac8ba124",
@@ -631,7 +842,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "3a4d649fb637130e2638",
@@ -666,7 +877,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "5d14702a092aa9d27c7d",
@@ -701,182 +912,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
-    },
-    {
-      "id": "eed7aed2d5375999032b",
-      "url": "https://arxiv.org/abs/2610.13498v1",
-      "title": "A Hybrid and Hierarchical Ray Tracing Method for Efficient 3D Gaussian Rendering",
-      "excerpt": "3D Gaussian Splatting (3DGS) is a powerful representation for real-time neural reconstruction and rendering. While existing 3DGS systems rely on rasterization for efficiency, recent work explores ray tracing to enable secondary lighting, highly distorted cameras, and depth-of-fie",
-      "publishedAt": "2026-10-09T12:28:16Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Chaojian Li",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-09T12:28:16Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "3D Gaussian Splatting (3DGS) is a powerful representation for real-time neural reconstruction and rendering. While existing 3DGS systems rely on rasterization for efficiency, recent work explores ray tracing to enable secondary lighting, highly distorted cameras, and depth-of-fie",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "3D Gaussian Splatting (3DGS) is a powerful representation for real-time neural reconstruction and rendering. While existing 3DGS systems rely on rasterization for efficiency, recent work explores ray tracing to enable secondary lighting, highly distorted cameras, and depth-of-fie"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.13498v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
-    },
-    {
-      "id": "ed3767d9dd4de3bc2002",
-      "url": "https://arxiv.org/abs/2610.13216v1",
-      "title": "3DRAG: 3D-Native Object Drag Editing with Generative Models",
-      "excerpt": "The rapid progress of 3D generative models has made 3D asset creation increasingly accessible. However, achieving intuitive, precise, and interactive user control, such as point-based drag editing, remains challenging. Existing 3D drag methods either rely on slow 2D diffusion pri",
-      "publishedAt": "2026-10-09T08:34:02Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Jingyi Yu",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-09T08:34:02Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "The rapid progress of 3D generative models has made 3D asset creation increasingly accessible. However, achieving intuitive, precise, and interactive user control, such as point-based drag editing, remains challenging. Existing 3D drag methods either rely on slow 2D diffusion pri",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "The rapid progress of 3D generative models has made 3D asset creation increasingly accessible. However, achieving intuitive, precise, and interactive user control, such as point-based drag editing, remains challenging. Existing 3D drag methods either rely on slow 2D diffusion pri"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.13216v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
-    },
-    {
-      "id": "498b0cfd3e19de318172",
-      "url": "https://arxiv.org/abs/2610.12461v1",
-      "title": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
-      "excerpt": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoi",
-      "publishedAt": "2026-10-08T17:59:46Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yu-Lun Liu",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-08T17:59:46Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoi",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoi"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.12461v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
-    },
-    {
-      "id": "e532b5d2466ecbcec617",
-      "url": "https://arxiv.org/abs/2610.12399v1",
-      "title": "SpaceFlow: Locally Controllable 3D Generation",
-      "excerpt": "Current 3D generation methods lack explicit local control: geometric adherence is often defined by a global control strength, and appearance cannot be specified locally. We present SpaceFlow, a training-free pipeline for locally controllable 3D generation from text descriptions a",
-      "publishedAt": "2026-10-08T17:42:39Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Elisabetta Fedele",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-08T17:42:39Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Current 3D generation methods lack explicit local control: geometric adherence is often defined by a global control strength, and appearance cannot be specified locally. We present SpaceFlow, a training-free pipeline for locally controllable 3D generation from text descriptions a",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Current 3D generation methods lack explicit local control: geometric adherence is often defined by a global control strength, and appearance cannot be specified locally. We present SpaceFlow, a training-free pipeline for locally controllable 3D generation from text descriptions a"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.12399v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
-    },
-    {
-      "id": "50265c850a19fcfa3a95",
-      "url": "https://arxiv.org/abs/2610.12127v1",
-      "title": "LVS: Local View Synthesis from Relative Camera Pose by Reusing Previous Views",
-      "excerpt": "Interactive scene exploration requires frequent view updates, although small camera motions preserve much of the visible content. Conventional 3D Gaussian Splatting nevertheless renders each target view, leaving this image overlap unexploited. Reusing rendered images offers an al",
-      "publishedAt": "2026-10-08T15:19:58Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yuanhao Gong",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-08T15:19:58Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Interactive scene exploration requires frequent view updates, although small camera motions preserve much of the visible content. Conventional 3D Gaussian Splatting nevertheless renders each target view, leaving this image overlap unexploited. Reusing rendered images offers an al",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Interactive scene exploration requires frequent view updates, although small camera motions preserve much of the visible content. Conventional 3D Gaussian Splatting nevertheless renders each target view, leaving this image overlap unexploited. Reusing rendered images offers an al"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.12127v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -911,7 +947,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -946,7 +982,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -981,7 +1017,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1051,7 +1087,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1086,7 +1122,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1121,7 +1157,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1191,7 +1227,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1331,7 +1367,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2136,7 +2172,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2311,7 +2347,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2346,7 +2382,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2451,7 +2487,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2626,7 +2662,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -2766,7 +2802,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -2801,7 +2837,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -2836,7 +2872,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -2906,7 +2942,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -2976,7 +3012,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -3011,7 +3047,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3116,7 +3152,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3151,7 +3187,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3186,7 +3222,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3256,7 +3292,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3361,7 +3397,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3396,7 +3432,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -3431,7 +3467,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3466,7 +3502,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3536,7 +3572,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3641,7 +3677,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "d70ada50b79e832e6208",
@@ -3676,7 +3712,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "f4ac3447021c4e984042",
@@ -3746,7 +3782,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-19T04:34:59.559766Z"
+      "firstSeenAt": "2026-10-20T04:43:58.895206Z"
     },
     {
       "id": "fbead8a3501ce5438f41",
