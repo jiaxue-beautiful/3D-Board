@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-20T04:43:58.895206Z",
-  "windowStart": "2026-10-19T04:43:58.895206Z",
-  "windowEnd": "2026-10-20T04:43:58.895206Z",
+  "checkedAt": "2026-10-21T04:40:47.224912Z",
+  "windowStart": "2026-10-20T04:40:47.224912Z",
+  "windowEnd": "2026-10-21T04:40:47.224912Z",
   "news": [
     {
       "id": "a7c1e5fcf9af05021743",
@@ -389,10 +389,6 @@
       "status": "pending_budget"
     },
     {
-      "id": "7aff01e099d958f6cb01",
-      "status": "pending_budget"
-    },
-    {
       "id": "d66aece3671cb348ed86",
       "status": "pending_budget"
     },
@@ -418,6 +414,22 @@
     },
     {
       "id": "bd887ec26704092c2884",
+      "status": "pending_budget"
+    },
+    {
+      "id": "b5c0d0282cedfd9ba0b1",
+      "status": "pending_budget"
+    },
+    {
+      "id": "dd3b0564fe7ac68b422c",
+      "status": "pending_budget"
+    },
+    {
+      "id": "3d69c7da955d1f3017a0",
+      "status": "pending_budget"
+    },
+    {
+      "id": "b7698091d389d0ce3b25",
       "status": "pending_budget"
     }
   ],
@@ -539,7 +551,7 @@
       "url": "https://arxiv.org/abs/2610.17803v1",
       "firstSeenAt": "2026-10-14T04:48:24.009584Z",
       "attempts": 0,
-      "status": "pending_budget"
+      "status": "awaiting_source"
     },
     {
       "id": "d66aece3671cb348ed86",
@@ -589,10 +601,123 @@
       "firstSeenAt": "2026-10-20T04:43:58.895206Z",
       "attempts": 0,
       "status": "pending_budget"
+    },
+    {
+      "id": "b5c0d0282cedfd9ba0b1",
+      "url": "https://arxiv.org/abs/2610.28131v1",
+      "firstSeenAt": "2026-10-21T04:40:47.224912Z",
+      "attempts": 0,
+      "status": "pending_budget"
+    },
+    {
+      "id": "dd3b0564fe7ac68b422c",
+      "url": "https://arxiv.org/abs/2610.28280v1",
+      "firstSeenAt": "2026-10-21T04:40:47.224912Z",
+      "attempts": 0,
+      "status": "pending_budget"
+    },
+    {
+      "id": "3d69c7da955d1f3017a0",
+      "url": "https://arxiv.org/abs/2610.28490v1",
+      "firstSeenAt": "2026-10-21T04:40:47.224912Z",
+      "attempts": 0,
+      "status": "pending_budget"
+    },
+    {
+      "id": "b7698091d389d0ce3b25",
+      "url": "https://arxiv.org/abs/2610.28632v1",
+      "firstSeenAt": "2026-10-21T04:40:47.224912Z",
+      "attempts": 0,
+      "status": "pending_budget"
     }
   ],
   "rejected": {},
   "sourceNews": [
+    {
+      "id": "b7698091d389d0ce3b25",
+      "url": "https://arxiv.org/abs/2610.28632v1",
+      "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
+      "publishedAt": "2026-10-20T17:59:56Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Yuval Atzmon",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "excerpt": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it canno",
+      "firstSeenAt": "2026-10-21T04:40:47.224912Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
+      "sourceDigest": "d084762509a18d50c655aa8ae2a9d606564286a66f14b8b76f9584edb46cf50e",
+      "contentStatus": "source_only"
+    },
+    {
+      "id": "3d69c7da955d1f3017a0",
+      "url": "https://arxiv.org/abs/2610.28490v1",
+      "title": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection",
+      "publishedAt": "2026-10-20T16:36:39Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Simon Julier",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "excerpt": "Online scene change detection requires integrating incoming observations to determine which regions have changed relative to a reference scene. We update change beliefs as new images arrive using generalised Bayesian evidence fusion. However, the prior probability of change and e",
+      "firstSeenAt": "2026-10-21T04:40:47.224912Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
+      "sourceDigest": "b4c797fbeadc225fc98182686661a60d630b9cb6eaec419c8b3c45f2ee761c92",
+      "contentStatus": "source_only"
+    },
+    {
+      "id": "dd3b0564fe7ac68b422c",
+      "url": "https://arxiv.org/abs/2610.28280v1",
+      "title": "GALA: Geometry-Aware Language Model for Controllable Object Arrangement",
+      "publishedAt": "2026-10-20T14:32:52Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Ligang Liu",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "excerpt": "Reasoning about fine-grained placement constraints, such as support and containment, is essential for realistic 3D scene creation. It remains a significant challenge for existing methods that rely on simplified object representations like oriented bounding box (OBB), which are bl",
+      "firstSeenAt": "2026-10-21T04:40:47.224912Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
+      "sourceDigest": "2cf4af5f47b2e0d7779a465fc81348d29af83194d2309402a7756269f0a5fb2f",
+      "contentStatus": "source_only"
+    },
+    {
+      "id": "b5c0d0282cedfd9ba0b1",
+      "url": "https://arxiv.org/abs/2610.28131v1",
+      "title": "OV-Foam: How 3D Representations Shape Semantic Feature Lifting",
+      "publishedAt": "2026-10-20T12:38:14Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Dominik Engel",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "excerpt": "Existing feature lifting approaches for open-vocabulary segmentation rely on simple backprojection to assign features to primitives. In the case of 3D Gaussian splatting reconstruction, the primitives overlap heavily, leading to suboptimal reconstructions, governed by many primit",
+      "firstSeenAt": "2026-10-21T04:40:47.224912Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
+      "sourceDigest": "ec1de55449a884b1d7bc9741084067a989c1d208dd21b97bebc6f820a0f8871a",
+      "contentStatus": "source_only"
+    },
+    {
+      "id": "af19bcaef650f23ef28d",
+      "url": "https://arxiv.org/abs/2610.27108v1",
+      "title": "Counting Contributions, Not Views: Occlusion-Aware Densification for 3D Gaussian Splatting",
+      "publishedAt": "2026-10-19T18:09:10Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Didier Stricker",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "excerpt": "3D Gaussian Splatting grows a dense scene from a sparse initialization through adaptive density control (ADC), driven by per-Gaussian statistics gathered during rendering. These statistics pass a frustum-based visibility filter blind to occlusion: fully occluded Gaussians still c",
+      "firstSeenAt": "2026-10-21T04:40:47.224912Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
+      "sourceDigest": "39702a475d0815199417b5355c79fd4130e751bdc1243083a9fe9cea0a413379",
+      "contentStatus": "source_only"
+    },
     {
       "id": "bd887ec26704092c2884",
       "url": "https://arxiv.org/abs/2610.26067v1",
@@ -606,7 +731,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Generalizing real-time physics-based animation across diverse 3D shapes and spatial discretizations remains challenging. In this paper, we introduce PhysSkin++, a physics-informed framework that learns continuous neural skinning fields from static geometries to construct compact ",
       "firstSeenAt": "2026-10-20T04:43:58.895206Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "ce86e7dcaf96ef25500d3df72a3e919c10257e6c4024c4711c74d7f938891cd2",
       "contentStatus": "source_only"
     },
@@ -623,7 +748,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Video generation models produce visually compelling motion but systematically fail on fluid phenomena, including smoke, fire, and explosion debris, where outputs lack coherent vortical structure and collapse to bland dynamics that violate the physics of real fluids. Classical sol",
       "firstSeenAt": "2026-10-20T04:43:58.895206Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "f9402e48a56f62659e620ecc8437d42b86d4c1b3d78807b6c77ab1e85573a3f0",
       "contentStatus": "source_only"
     },
@@ -645,6 +770,40 @@
       "contentStatus": "source_only"
     },
     {
+      "id": "6ca0519e2edbbe8c365b",
+      "url": "https://arxiv.org/abs/2610.24812v2",
+      "title": "SwitchSplat: Learning Discrete Object States from Casually Captured Scenes",
+      "publishedAt": "2026-10-17T18:35:44Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Andrea Tagliasacchi",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "excerpt": "3D Gaussian Splatting has made high-fidelity 3D reconstruction fast and accessible, yet existing representations assume a static world. This assumption breaks down in casual captures, where a user naturally interacts with the environment -- opening doors, toggling switches, or mo",
+      "firstSeenAt": "2026-10-21T04:40:47.224912Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
+      "sourceDigest": "367b0475e1dc69335f5901ee8d67617d6ed3c49b7f7da54f0c5f93c597c1a37b",
+      "contentStatus": "source_only"
+    },
+    {
+      "id": "51c0b8b40221cba08265",
+      "url": "https://arxiv.org/abs/2610.26918v1",
+      "title": "GTSM: Gaussian Splatting with Thermal State-Space Dynamics for Spatio-Temporal Thermal Field Reconstruction and Prediction",
+      "publishedAt": "2026-10-17T07:48:57Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Chao Liu",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "excerpt": "Temperature-field reconstruction and prediction are important for condition monitoring, process analysis, and state assessment in industrial and dynamic environments. This work aims to recover a four-dimensional spatio-temporal thermal state field directly from two-dimensional ob",
+      "firstSeenAt": "2026-10-21T04:40:47.224912Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
+      "sourceDigest": "39deac17e3dd253b139c98c6f9dc0a493345fe60c036ba85f8a3dcf6eae9a016",
+      "contentStatus": "source_only"
+    },
+    {
       "id": "1aa42437b4a246cf26e7",
       "url": "https://arxiv.org/abs/2610.24522v1",
       "title": "MOMO: Human Motion from Moving Sounds",
@@ -657,7 +816,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Human responses to sound depend not only on its semantic content, but also on the evolving spatial relationship between source and listener, conveyed through spatial audio and its temporal dynamics. Modeling human reactions to such dynamic spatial audio is important for character",
       "firstSeenAt": "2026-10-20T04:43:58.895206Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "a21f72b73ae926c7c64c69bf93999ee8c86668a51c46cf7531cce6a7a829ec32",
       "contentStatus": "source_only"
     },
@@ -674,7 +833,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Lattice inverse-design methods can generate cells that match prescribed effective properties, but property feasibility does not imply material efficiency. Removing redundant material from an existing lattice while preserving its homogenized elasticity ordinarily requires solving ",
       "firstSeenAt": "2026-10-20T04:43:58.895206Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "5a21908048c9b0c6b53b8e160c7579d768020ff96bcf4056aedb00328e6eab5c",
       "contentStatus": "source_only"
     },
@@ -691,7 +850,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Jointly reconstructing RGB and X-ray provides new insights by connecting external appearance with internal structure, enabling a more complete understanding of real-world objects than single modality. Yet existing methods train separate models per modality and suffer from redunda",
       "firstSeenAt": "2026-10-19T04:34:59.559766Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "c27f77bf90207a50f9791da5eb8bf8b5ef8240fde685b0d5d93c9ab5a5e2ae6f",
       "contentStatus": "source_only"
     },
@@ -708,7 +867,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Cage-based deformation (CBD) parametrises 3D geometry through a small set of control handles, effectively enabling a variety of tasks from animation and interactive modelling to tool-based co-design, neural deformation transfer, and aerodynamic shape optimization. Many optimizati",
       "firstSeenAt": "2026-10-19T04:34:59.559766Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "55e4ad669186fabaf57bf36d99642d244e55be6350ab7e4a1c5cebc96b125df1",
       "contentStatus": "source_only"
     },
@@ -725,7 +884,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Additive manufacturing, also known as 3D printing, is significant for its use in industries such as aerospace, robotics, medicine, and construction. However, digital mesh files remain vulnerable to geometry defects which can be introduced through malicious tampering or designer e",
       "firstSeenAt": "2026-10-19T04:34:59.559766Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "87e73cdf882333446991ce8ffb3b74215e66fd8c4a0eed50b7ef3d5d0bd6a7bc",
       "contentStatus": "source_only"
     },
@@ -742,7 +901,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine detail",
       "firstSeenAt": "2026-10-16T04:26:00.476667Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "bc8e45402720f933873f9e92edabe68bf5dd9eb80ef85b1ccc70fb39c1730b8f",
       "contentStatus": "source_only"
     },
@@ -759,7 +918,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Sketching is one of the most natural ways for people to express visual ideas. Unlike the text prompts that most generative systems rely on today, a sketch captures spatial structure and intent directly, including where a designer wants highlights and shadows to appear. Yet curren",
       "firstSeenAt": "2026-10-16T04:26:00.476667Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "dd145b8995efa931ce7fac9494511f26ab4924cabeed411f7b76bfe563579c25",
       "contentStatus": "source_only"
     },
@@ -776,7 +935,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Generating 3D assets with explicit parts requires two properties at once: geometric detail inside each part and structural coherence across the whole object. Recent image-conditioned 3D generation models adopt a structured 3D representation that anchors tokens to explicit spatial",
       "firstSeenAt": "2026-10-16T04:26:00.476667Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "9e7b70165bc91fbbb1ff100fc30681e7230058b2aed2c92bca57c041053abe08",
       "contentStatus": "source_only"
     },
@@ -793,7 +952,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "It’s that time of the release cycle once again: the beta snapshot! With this, 4.8 is fully in feature-freeze, and developer resources have shifted exclusively to creating and reviewing various regression fixes . For those interested in aiding us on our quest to squash any bugs th",
       "firstSeenAt": "2026-10-16T04:26:00.476667Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "f1ba2b36965d873fef1a59bcfd475079a4a5db119c765414c5d785672b7fca8c",
       "contentStatus": "source_only"
     },
@@ -810,7 +969,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Real-time mobile volumetric video enables immersive free-viewpoint experiences, but delivering high-quality 3D content under constrained bandwidth and computation remains challenging. Recent 3D Gaussian Splatting (3DGS) systems, such as V$^3$, enable efficient mobile streaming by",
       "firstSeenAt": "2026-10-16T04:26:00.476667Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "f772ae307ab705208987a36a79591596cfbc69d3cb7fee24cb1aec613b8555f0",
       "contentStatus": "source_only"
     },
@@ -827,7 +986,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "What an eventful edition of the Blender Conference we had earlier this September! Over three days, 700+ attendees from more than 50 countries gathered at the Felix Meritis venue to share their passion for creating with Blender, connect and learn from each other. This year, the kn",
       "firstSeenAt": "2026-10-15T04:32:45.408058Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "6554ac9fecab8748770a2ae66c11e1e1ea79dc59c1eabe115075b0af9e488124",
       "contentStatus": "source_only"
     },
@@ -844,7 +1003,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "We address inverse rendering with 3D Gaussian Splatting (3DGS) by introducing explicit visibility modeling for relighting as well as material and light decomposition. Our approach augments the standard rasterized 3DGS pipeline with a sparse visibility oracle that estimates transm",
       "firstSeenAt": "2026-10-15T04:32:45.408058Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "ab1cabeb039972bc845914db990c373692c79407bc5854d59cf92a1acd7ccd2b",
       "contentStatus": "source_only"
     },
@@ -861,7 +1020,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Cameras and the foundation models built on them recognize what a 3D scene contains, but not what it is made of: surfaces of the same colour can be different materials. Hyperspectral unmixing explains each spectrum as a mixture of material signatures, yet in 3D it is applied to re",
       "firstSeenAt": "2026-10-15T04:32:45.408058Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "139bddba0efed03b9610641514d423a361776f260dc26bc2b72d2e02e3c8335d",
       "contentStatus": "source_only"
     },
@@ -912,7 +1071,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Editor 2.34 is out, two weeks after 2.32, and it is built around Engine 2.23 . The headline is a new Inspector launch option: tick one box and your launched app comes up with a full debug panel docked beside it, where you can pause it, step it a frame at a time, pick entities str",
       "firstSeenAt": "2026-10-14T04:48:24.009584Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "5db70488ec2af4e5a407b9f48b8260535e94ace73b7dfca28124edd680444439",
       "contentStatus": "source_only"
     },
@@ -1269,7 +1428,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Welcome to the seventh edition of Developer Spotlight, a series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web. Today, we are excited to be joined by Massimo and Mariem from Solaya , a French de",
       "firstSeenAt": "2026-10-07T05:53:46.003469Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "2aa639f1659cde67b71076f5cf9f6d336e91ea9124156ca1cc81d7cfac4b777b",
       "contentStatus": "source_only"
     },
@@ -1286,7 +1445,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "As in previous years, we had a Geometry Nodes workshop during the week after the Blender Conference. This post gives a general overview of the topics we discussed. You can also read all the notes we took during the meetings. Also check out the blog posts about previous workshops:",
       "firstSeenAt": "2026-10-06T06:15:36.020525Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "486726307b41f5213c2b4f27d501ccaed3fef25c8dfb808f43d51902a3c1f7c8",
       "contentStatus": "source_only"
     },
@@ -1626,7 +1785,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "It’s that time once again: feature freeze! With this, no new features will be integrated for Godot 4.8 moving forward, and priorities will be shifting exclusively towards bugfixes and addressing regressions to ensure a functional baseline as soon as possible. So join us for one l",
       "firstSeenAt": "2026-09-30T05:19:58.753836Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "e42b65499ef446bc73a65afcf18c1c67836b582ceee4b86e8517840d4b965b5e",
       "contentStatus": "source_only"
     },
@@ -1813,7 +1972,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe",
       "firstSeenAt": "2026-09-25T00:32:20.317079Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "c6723f0eed847078ce11c48fe05a93a60347b999e0bba3e83fd14e4f1db2f9f5",
       "contentStatus": "source_only"
     },
@@ -1898,7 +2057,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Editor 2.32 is out, and it leads with something that has been a long time coming: the Joint component . Hinges, sliders, ball joints, springs and breakable welds are now things you configure in the inspector rather than assemble from a script. There is more to it than that. Mater",
       "firstSeenAt": "2026-09-23T00:28:55.358694Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "ec8a33127453e4b78a270357cf6fc8a155d943b1fd23abd932231f61e5325af7",
       "contentStatus": "source_only"
     },
@@ -2108,7 +2267,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "“Another development snapshot already? Didn’t they just release one last Friday ?” Indeed, this is much sooner than usual. Even when taking into consideration how development snapshots become more frequent at their tail-end in preparation of feature freeze, less than a week means",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "15020795fdf84ef41bd5a60b72550fb6c7a63f04e72a28e890a08aa0aac69159",
       "contentStatus": "source_only"
     },
@@ -2159,28 +2318,30 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "I want to give people a little bit of insight into what the optimization process looks like for Godot’s renderer. From the outside, rendering optimization can look a little bit like black magic. I want to show a few examples of some optimizations that we did this year to highligh",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
-      "checkedAt": "2026-10-20T04:43:58.895206Z",
+      "checkedAt": "2026-10-21T04:40:47.224912Z",
       "sourceDigest": "316626d3c1e3b430204c3c8b094924b6703525cb96efa3786544f1b3e104e8bc",
       "contentStatus": "source_only"
     }
   ],
   "sourceProcessing": {
-    "checkedAt": "2026-10-20T04:43:58.895206Z",
+    "checkedAt": "2026-10-21T04:40:47.224912Z",
     "status": "updated",
-    "newCount": 5,
+    "newCount": 7,
     "newIds": [
-      "bd887ec26704092c2884",
-      "3f61b11f4b11641e6a4e",
-      "2a0997b79c5bfb2a73be",
-      "1aa42437b4a246cf26e7",
-      "521753dd6a7a337821af"
+      "b7698091d389d0ce3b25",
+      "3d69c7da955d1f3017a0",
+      "dd3b0564fe7ac68b422c",
+      "b5c0d0282cedfd9ba0b1",
+      "af19bcaef650f23ef28d",
+      "6ca0519e2edbbe8c365b",
+      "51c0b8b40221cba08265"
     ],
     "invalidCount": 0,
     "successfulSources": 7
   },
   "processing": {
     "status": "partial",
-    "pendingCount": 24,
+    "pendingCount": 28,
     "attempted": 1
   },
   "notice": "AI辅助整理；引用来自原始订阅，不等于全文或视觉验证。新闻与社媒作品分别收录；没有互动采样，不判断爆款。"
