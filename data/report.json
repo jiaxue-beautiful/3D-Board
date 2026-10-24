@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-23T04:43:53.209526Z",
-  "windowStart": "2026-10-22T04:43:53.209526Z",
-  "windowEnd": "2026-10-23T04:43:53.209526Z",
+  "checkedAt": "2026-10-24T04:30:57.931874Z",
+  "windowStart": "2026-10-23T04:30:57.931874Z",
+  "windowEnd": "2026-10-24T04:30:57.931874Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -51,9 +51,8 @@
       "id": "arxiv-3d",
       "name": "arXiv 3D 研究",
       "lane": "news",
-      "ok": false,
-      "count": 0,
-      "error": "来源请求失败（HTTP 429）；未绕过访问限制"
+      "ok": true,
+      "count": 20
     },
     {
       "id": "lightarchitect",
@@ -74,6 +73,76 @@
   ],
   "events": [],
   "archive": [
+    {
+      "id": "a439f75fe1cc5acce787",
+      "url": "https://blog.playcanvas.com/snapchat-now-supports-playcanvas-games",
+      "title": "Snapchat Now Supports PlayCanvas Games",
+      "excerpt": "Big news for PlayCanvas developers: your games can now run inside Snapchat! 🎉 With Snapchat Web Lenses , you can build a game with PlayCanvas, upload it as a Lens and put it in front of a huge audience of Snapchatters who love to play. In this post, we'll explain what Web Lenses ",
+      "publishedAt": "2026-10-23T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-23T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Big news for PlayCanvas developers: your games can now run inside Snapchat! 🎉 With Snapchat Web Lenses , you can build a game with PlayCanvas, upload it as a Lens and put it in front of a huge audience of Snapchatters who love to play. In this post, we'll explain what Web Lenses ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Big news for PlayCanvas developers: your games can now run inside Snapchat! 🎉 With Snapchat Web Lenses , you can build a game with PlayCanvas, upload it as a Lens and put it in front of a huge audience of Snapchatters who love to play. In this post, we'll explain what Web Lenses "
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/snapchat-now-supports-playcanvas-games"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "1ee770fc776e9fe6941f",
+      "url": "https://arxiv.org/abs/2610.30910v1",
+      "title": "H-2DGS: Height-Field Gaussian Splatting for Sharp and Deformable Neurosurgical Surface Reconstruction",
+      "excerpt": "Neurosurgical navigation commonly presents magnetic resonance imaging (MRI) as 2D slices, making it difficult to relate the anatomy in those slices to the cortical surface observed through the surgical microscope. We seek a common 3D visualization that combines a photorealistic r",
+      "publishedAt": "2026-10-22T08:33:14Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Maxime Chamberland",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-22T08:33:14Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Neurosurgical navigation commonly presents magnetic resonance imaging (MRI) as 2D slices, making it difficult to relate the anatomy in those slices to the cortical surface observed through the surgical microscope. We seek a common 3D visualization that combines a photorealistic r",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Neurosurgical navigation commonly presents magnetic resonance imaging (MRI) as 2D slices, making it difficult to relate the anatomy in those slices to the cortical surface observed through the surgical microscope. We seek a common 3D visualization that combines a photorealistic r"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.30910v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
     {
       "id": "5a15c2fde973ca63e3a7",
       "url": "https://github.com/PixarAnimationStudios/OpenUSD/releases/tag/v26.11.1",
@@ -107,7 +176,112 @@
       "tags": [
         "行业动态"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "4bac7df7aee156f08181",
+      "url": "https://arxiv.org/abs/2610.30033v1",
+      "title": "RLMuscle: Muscle-Driven Character Animation via Reinforcement Learning",
+      "excerpt": "Body deformation caused by muscle contraction plays a vital role in the visual realism of character animation, yet in most 3D animation pipelines artists have to manually specify muscle activations, which is time-consuming and gives no guarantee of physical realism. To address th",
+      "publishedAt": "2026-10-21T16:57:34Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "He Wang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-21T16:57:34Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Body deformation caused by muscle contraction plays a vital role in the visual realism of character animation, yet in most 3D animation pipelines artists have to manually specify muscle activations, which is time-consuming and gives no guarantee of physical realism. To address th",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Body deformation caused by muscle contraction plays a vital role in the visual realism of character animation, yet in most 3D animation pipelines artists have to manually specify muscle activations, which is time-consuming and gives no guarantee of physical realism. To address th"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.30033v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "262888dc25d4ff7bd23a",
+      "url": "https://arxiv.org/abs/2610.29517v1",
+      "title": "AutoPhyX: Automatic Text-Condition Physics Property Generation",
+      "excerpt": "High-fidelity 4D physical simulation requires accurate physical parameter assignments that align with diverse material properties. Previous methods struggle with critical bottlenecks: they either rely on computationally intensive per-scene optimization or predict parameters from ",
+      "publishedAt": "2026-10-21T10:05:23Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Siyuan Huang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-21T10:05:23Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "High-fidelity 4D physical simulation requires accurate physical parameter assignments that align with diverse material properties. Previous methods struggle with critical bottlenecks: they either rely on computationally intensive per-scene optimization or predict parameters from ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "High-fidelity 4D physical simulation requires accurate physical parameter assignments that align with diverse material properties. Previous methods struggle with critical bottlenecks: they either rely on computationally intensive per-scene optimization or predict parameters from "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.29517v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "f7ab335993a04e2750aa",
+      "url": "https://arxiv.org/abs/2610.29014v1",
+      "title": "GenXR-Bench: Benchmarking Coding Agents for Interactive XR Development",
+      "excerpt": "Coding agents are rapidly advancing from single-file generation to long-horizon repository-scale engineering, yet the evaluation of their capabilities to author interactive extended reality (XR) applications remains an open challenge. Unlike traditional software, XR applications ",
+      "publishedAt": "2026-10-21T00:28:16Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Ruofei Du",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-21T00:28:16Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Coding agents are rapidly advancing from single-file generation to long-horizon repository-scale engineering, yet the evaluation of their capabilities to author interactive extended reality (XR) applications remains an open challenge. Unlike traditional software, XR applications ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Coding agents are rapidly advancing from single-file generation to long-horizon repository-scale engineering, yet the evaluation of their capabilities to author interactive extended reality (XR) applications remains an open challenge. Unlike traditional software, XR applications "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.29014v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "4431f80033a00c09120f",
@@ -142,7 +316,567 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "38add879c41c307cd577",
+      "url": "https://arxiv.org/abs/2610.28827v1",
+      "title": "WorldStream: Streaming Interactive 3D Worlds with Hierarchical Planning and Persistent State",
+      "excerpt": "We present WorldStream, an open-ended 3D world model with three simultaneous capabilities: it extends playable terrain beyond any pre-specified map, acts on open-ended language in the running world, and restores visited places with their edits. A hierarchical planner over a typed",
+      "publishedAt": "2026-10-20T18:47:26Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Feng Zhao",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-20T18:47:26Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We present WorldStream, an open-ended 3D world model with three simultaneous capabilities: it extends playable terrain beyond any pre-specified map, acts on open-ended language in the running world, and restores visited places with their edits. A hierarchical planner over a typed",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We present WorldStream, an open-ended 3D world model with three simultaneous capabilities: it extends playable terrain beyond any pre-specified map, acts on open-ended language in the running world, and restores visited places with their edits. A hierarchical planner over a typed"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.28827v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "b7698091d389d0ce3b25",
+      "url": "https://arxiv.org/abs/2610.28632v1",
+      "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
+      "excerpt": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it canno",
+      "publishedAt": "2026-10-20T17:59:56Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Yuval Atzmon",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-20T17:59:56Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it canno",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it canno"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.28632v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "c124c7fbcdcd1f9f9bcf",
+      "url": "https://arxiv.org/abs/2610.28490v2",
+      "title": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection",
+      "excerpt": "Online scene change detection requires integrating incoming observations to determine which regions have changed relative to a reference scene. We update change beliefs as new images arrive using generalised Bayesian evidence fusion. However, the prior probability of change and e",
+      "publishedAt": "2026-10-20T16:36:39Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Simon Julier",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-20T16:36:39Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Online scene change detection requires integrating incoming observations to determine which regions have changed relative to a reference scene. We update change beliefs as new images arrive using generalised Bayesian evidence fusion. However, the prior probability of change and e",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Online scene change detection requires integrating incoming observations to determine which regions have changed relative to a reference scene. We update change beliefs as new images arrive using generalised Bayesian evidence fusion. However, the prior probability of change and e"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.28490v2"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "dd3b0564fe7ac68b422c",
+      "url": "https://arxiv.org/abs/2610.28280v1",
+      "title": "GALA: Geometry-Aware Language Model for Controllable Object Arrangement",
+      "excerpt": "Reasoning about fine-grained placement constraints, such as support and containment, is essential for realistic 3D scene creation. It remains a significant challenge for existing methods that rely on simplified object representations like oriented bounding box (OBB), which are bl",
+      "publishedAt": "2026-10-20T14:32:52Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Ligang Liu",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-20T14:32:52Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Reasoning about fine-grained placement constraints, such as support and containment, is essential for realistic 3D scene creation. It remains a significant challenge for existing methods that rely on simplified object representations like oriented bounding box (OBB), which are bl",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Reasoning about fine-grained placement constraints, such as support and containment, is essential for realistic 3D scene creation. It remains a significant challenge for existing methods that rely on simplified object representations like oriented bounding box (OBB), which are bl"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.28280v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "b5c0d0282cedfd9ba0b1",
+      "url": "https://arxiv.org/abs/2610.28131v1",
+      "title": "OV-Foam: How 3D Representations Shape Semantic Feature Lifting",
+      "excerpt": "Existing feature lifting approaches for open-vocabulary segmentation rely on simple backprojection to assign features to primitives. In the case of 3D Gaussian splatting reconstruction, the primitives overlap heavily, leading to suboptimal reconstructions, governed by many primit",
+      "publishedAt": "2026-10-20T12:38:14Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Dominik Engel",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-20T12:38:14Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Existing feature lifting approaches for open-vocabulary segmentation rely on simple backprojection to assign features to primitives. In the case of 3D Gaussian splatting reconstruction, the primitives overlap heavily, leading to suboptimal reconstructions, governed by many primit",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Existing feature lifting approaches for open-vocabulary segmentation rely on simple backprojection to assign features to primitives. In the case of 3D Gaussian splatting reconstruction, the primitives overlap heavily, leading to suboptimal reconstructions, governed by many primit"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.28131v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "af19bcaef650f23ef28d",
+      "url": "https://arxiv.org/abs/2610.27108v1",
+      "title": "Counting Contributions, Not Views: Occlusion-Aware Densification for 3D Gaussian Splatting",
+      "excerpt": "3D Gaussian Splatting grows a dense scene from a sparse initialization through adaptive density control (ADC), driven by per-Gaussian statistics gathered during rendering. These statistics pass a frustum-based visibility filter blind to occlusion: fully occluded Gaussians still c",
+      "publishedAt": "2026-10-19T18:09:10Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Didier Stricker",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-19T18:09:10Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D Gaussian Splatting grows a dense scene from a sparse initialization through adaptive density control (ADC), driven by per-Gaussian statistics gathered during rendering. These statistics pass a frustum-based visibility filter blind to occlusion: fully occluded Gaussians still c",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D Gaussian Splatting grows a dense scene from a sparse initialization through adaptive density control (ADC), driven by per-Gaussian statistics gathered during rendering. These statistics pass a frustum-based visibility filter blind to occlusion: fully occluded Gaussians still c"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.27108v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "bd887ec26704092c2884",
+      "url": "https://arxiv.org/abs/2610.26067v1",
+      "title": "PhysSkin++: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning",
+      "excerpt": "Generalizing real-time physics-based animation across diverse 3D shapes and spatial discretizations remains challenging. In this paper, we introduce PhysSkin++, a physics-informed framework that learns continuous neural skinning fields from static geometries to construct compact ",
+      "publishedAt": "2026-10-19T09:25:55Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Zhaopeng Cui",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-19T09:25:55Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Generalizing real-time physics-based animation across diverse 3D shapes and spatial discretizations remains challenging. In this paper, we introduce PhysSkin++, a physics-informed framework that learns continuous neural skinning fields from static geometries to construct compact ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Generalizing real-time physics-based animation across diverse 3D shapes and spatial discretizations remains challenging. In this paper, we introduce PhysSkin++, a physics-informed framework that learns continuous neural skinning fields from static geometries to construct compact "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.26067v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "3f61b11f4b11641e6a4e",
+      "url": "https://arxiv.org/abs/2610.25660v1",
+      "title": "FluidGen: Physics-Aware Fluid Video Generation via Motion-Guided Post-Training",
+      "excerpt": "Video generation models produce visually compelling motion but systematically fail on fluid phenomena, including smoke, fire, and explosion debris, where outputs lack coherent vortical structure and collapse to bland dynamics that violate the physics of real fluids. Classical sol",
+      "publishedAt": "2026-10-19T02:07:51Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Leonidas Guibas",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-19T02:07:51Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Video generation models produce visually compelling motion but systematically fail on fluid phenomena, including smoke, fire, and explosion debris, where outputs lack coherent vortical structure and collapse to bland dynamics that violate the physics of real fluids. Classical sol",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Video generation models produce visually compelling motion but systematically fail on fluid phenomena, including smoke, fire, and explosion debris, where outputs lack coherent vortical structure and collapse to bland dynamics that violate the physics of real fluids. Classical sol"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.25660v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "6ca0519e2edbbe8c365b",
+      "url": "https://arxiv.org/abs/2610.24812v2",
+      "title": "SwitchSplat: Learning Discrete Object States from Casually Captured Scenes",
+      "excerpt": "3D Gaussian Splatting has made high-fidelity 3D reconstruction fast and accessible, yet existing representations assume a static world. This assumption breaks down in casual captures, where a user naturally interacts with the environment -- opening doors, toggling switches, or mo",
+      "publishedAt": "2026-10-17T18:35:44Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Andrea Tagliasacchi",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-17T18:35:44Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D Gaussian Splatting has made high-fidelity 3D reconstruction fast and accessible, yet existing representations assume a static world. This assumption breaks down in casual captures, where a user naturally interacts with the environment -- opening doors, toggling switches, or mo",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D Gaussian Splatting has made high-fidelity 3D reconstruction fast and accessible, yet existing representations assume a static world. This assumption breaks down in casual captures, where a user naturally interacts with the environment -- opening doors, toggling switches, or mo"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.24812v2"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "51c0b8b40221cba08265",
+      "url": "https://arxiv.org/abs/2610.26918v1",
+      "title": "GTSM: Gaussian Splatting with Thermal State-Space Dynamics for Spatio-Temporal Thermal Field Reconstruction and Prediction",
+      "excerpt": "Temperature-field reconstruction and prediction are important for condition monitoring, process analysis, and state assessment in industrial and dynamic environments. This work aims to recover a four-dimensional spatio-temporal thermal state field directly from two-dimensional ob",
+      "publishedAt": "2026-10-17T07:48:57Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Chao Liu",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-17T07:48:57Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Temperature-field reconstruction and prediction are important for condition monitoring, process analysis, and state assessment in industrial and dynamic environments. This work aims to recover a four-dimensional spatio-temporal thermal state field directly from two-dimensional ob",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Temperature-field reconstruction and prediction are important for condition monitoring, process analysis, and state assessment in industrial and dynamic environments. This work aims to recover a four-dimensional spatio-temporal thermal state field directly from two-dimensional ob"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.26918v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "1aa42437b4a246cf26e7",
+      "url": "https://arxiv.org/abs/2610.24522v1",
+      "title": "MOMO: Human Motion from Moving Sounds",
+      "excerpt": "Human responses to sound depend not only on its semantic content, but also on the evolving spatial relationship between source and listener, conveyed through spatial audio and its temporal dynamics. Modeling human reactions to such dynamic spatial audio is important for character",
+      "publishedAt": "2026-10-17T07:31:54Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Taku Komura",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-17T07:31:54Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Human responses to sound depend not only on its semantic content, but also on the evolving spatial relationship between source and listener, conveyed through spatial audio and its temporal dynamics. Modeling human reactions to such dynamic spatial audio is important for character",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Human responses to sound depend not only on its semantic content, but also on the evolving spatial relationship between source and listener, conveyed through spatial audio and its temporal dynamics. Modeling human reactions to such dynamic spatial audio is important for character"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.24522v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "521753dd6a7a337821af",
+      "url": "https://arxiv.org/abs/2610.24459v1",
+      "title": "SLIM: Learning an Operator for Material-Efficient 3D Lattice Refinement",
+      "excerpt": "Lattice inverse-design methods can generate cells that match prescribed effective properties, but property feasibility does not imply material efficiency. Removing redundant material from an existing lattice while preserving its homogenized elasticity ordinarily requires solving ",
+      "publishedAt": "2026-10-17T04:58:24Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Lin Lu",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-17T04:58:24Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Lattice inverse-design methods can generate cells that match prescribed effective properties, but property feasibility does not imply material efficiency. Removing redundant material from an existing lattice while preserving its homogenized elasticity ordinarily requires solving ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Lattice inverse-design methods can generate cells that match prescribed effective properties, but property feasibility does not imply material efficiency. Removing redundant material from an existing lattice while preserving its homogenized elasticity ordinarily requires solving "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.24459v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "00e33ee20595ca9207f0",
+      "url": "https://arxiv.org/abs/2610.23237v1",
+      "title": "X-Splat: Unified Gaussian Splatting for Joint RGB and X-ray 3D Reconstruction",
+      "excerpt": "Jointly reconstructing RGB and X-ray provides new insights by connecting external appearance with internal structure, enabling a more complete understanding of real-world objects than single modality. Yet existing methods train separate models per modality and suffer from redunda",
+      "publishedAt": "2026-10-16T10:06:11Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Imari Sato",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-16T10:06:11Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Jointly reconstructing RGB and X-ray provides new insights by connecting external appearance with internal structure, enabling a more complete understanding of real-world objects than single modality. Yet existing methods train separate models per modality and suffer from redunda",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Jointly reconstructing RGB and X-ray provides new insights by connecting external appearance with internal structure, enabling a more complete understanding of real-world objects than single modality. Yet existing methods train separate models per modality and suffer from redunda"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.23237v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "0418b6bdbff707e5e6ec",
+      "url": "https://arxiv.org/abs/2610.23173v1",
+      "title": "Structural Affinity: An Algorithm for Coherent Cage-Based Shape Design",
+      "excerpt": "Cage-based deformation (CBD) parametrises 3D geometry through a small set of control handles, effectively enabling a variety of tasks from animation and interactive modelling to tool-based co-design, neural deformation transfer, and aerodynamic shape optimization. Many optimizati",
+      "publishedAt": "2026-10-16T09:10:31Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Rika Antonova",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-16T09:10:31Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Cage-based deformation (CBD) parametrises 3D geometry through a small set of control handles, effectively enabling a variety of tasks from animation and interactive modelling to tool-based co-design, neural deformation transfer, and aerodynamic shape optimization. Many optimizati",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Cage-based deformation (CBD) parametrises 3D geometry through a small set of control handles, effectively enabling a variety of tasks from animation and interactive modelling to tool-based co-design, neural deformation transfer, and aerodynamic shape optimization. Many optimizati"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.23173v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "ea39134029eb31ac3ba6",
+      "url": "https://arxiv.org/abs/2610.22741v1",
+      "title": "SAMS: A Structured Graph Framework for Securing Additive Manufacturing Systems",
+      "excerpt": "Additive manufacturing, also known as 3D printing, is significant for its use in industries such as aerospace, robotics, medicine, and construction. However, digital mesh files remain vulnerable to geometry defects which can be introduced through malicious tampering or designer e",
+      "publishedAt": "2026-10-15T23:21:33Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Jitender S. Deogun",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-15T23:21:33Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Additive manufacturing, also known as 3D printing, is significant for its use in industries such as aerospace, robotics, medicine, and construction. However, digital mesh files remain vulnerable to geometry defects which can be introduced through malicious tampering or designer e",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Additive manufacturing, also known as 3D printing, is significant for its use in industries such as aerospace, robotics, medicine, and construction. However, digital mesh files remain vulnerable to geometry defects which can be introduced through malicious tampering or designer e"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.22741v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
+    },
+    {
+      "id": "2940ecb365e29aeab6cc",
+      "url": "https://arxiv.org/abs/2610.22352v1",
+      "title": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
+      "excerpt": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine detail",
+      "publishedAt": "2026-10-15T17:58:02Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Qi Tian",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-15T17:58:02Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine detail",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine detail"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.22352v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "6da27f2edfc4695cdaa9",
@@ -177,7 +911,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "a1f3db65653cf6585472",
@@ -212,7 +946,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "5779216911d1605ae954",
@@ -247,7 +981,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -282,7 +1016,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -317,7 +1051,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -352,7 +1086,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -422,7 +1156,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -457,7 +1191,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -492,7 +1226,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -562,7 +1296,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -702,7 +1436,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -1507,7 +2241,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -1682,7 +2416,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -1717,7 +2451,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -1822,7 +2556,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -1997,7 +2731,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -2137,7 +2871,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -2172,7 +2906,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -2207,7 +2941,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -2277,7 +3011,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -2347,7 +3081,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -2382,7 +3116,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -2487,7 +3221,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -2522,7 +3256,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -2557,7 +3291,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -2627,7 +3361,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -2732,7 +3466,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -2767,7 +3501,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -2802,7 +3536,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -2837,7 +3571,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -2907,7 +3641,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3012,42 +3746,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
-    },
-    {
-      "id": "d70ada50b79e832e6208",
-      "url": "https://blog.playcanvas.com/introducing-splat-transform-cli-tool",
-      "title": "Introducing SplatTransform: The Ultimate CLI Tool for 3D Gaussian Splats",
-      "excerpt": "We're thrilled to announce the release of SplatTransform — a powerful CLI tool that makes working with 3D Gaussian Splats a breeze! Open Source SplatTransform is open-sourced under an MIT license on GitHub When 3D Gaussian Splats began to revolutionize real-time rendering and pho",
-      "publishedAt": "2025-07-15T00:00:00Z",
-      "sourceId": "playcanvas",
-      "sourceName": "PlayCanvas 官方博客",
-      "lane": "news",
-      "category": "图形与渲染",
-      "author": "PlayCanvas 官方博客",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2025-07-15T00:00:00Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We're thrilled to announce the release of SplatTransform — a powerful CLI tool that makes working with 3D Gaussian Splats a breeze! Open Source SplatTransform is open-sourced under an MIT license on GitHub When 3D Gaussian Splats began to revolutionize real-time rendering and pho",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We're thrilled to announce the release of SplatTransform — a powerful CLI tool that makes working with 3D Gaussian Splats a breeze! Open Source SplatTransform is open-sourced under an MIT license on GitHub When 3D Gaussian Splats began to revolutionize real-time rendering and pho"
-        ]
-      ],
-      "sources": [
-        [
-          "PlayCanvas 官方博客",
-          "https://blog.playcanvas.com/introducing-splat-transform-cli-tool"
-        ]
-      ],
-      "tags": [
-        "图形与渲染"
-      ],
-      "firstSeenAt": "2026-10-23T04:43:53.209526Z"
+      "firstSeenAt": "2026-10-24T04:30:57.931874Z"
     },
     {
       "id": "f4ac3447021c4e984042",
