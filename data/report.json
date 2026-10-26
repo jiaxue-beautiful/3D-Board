@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-25T04:35:43.503175Z",
-  "windowStart": "2026-10-24T04:35:43.503175Z",
-  "windowEnd": "2026-10-25T04:35:43.503175Z",
+  "checkedAt": "2026-10-26T04:40:48.588297Z",
+  "windowStart": "2026-10-25T04:40:48.588297Z",
+  "windowEnd": "2026-10-26T04:40:48.588297Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -71,8 +71,114 @@
       "error": "来源请求失败（HTTP 404）；未绕过访问限制"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "d0aa8ede854db3782fcd",
+      "url": "https://godotengine.org/article/godot-xr-update-oct2026/",
+      "title": "Godot XR Community Game Jam VI",
+      "excerpt": "The sixth Godot XR Community Game Jam ran from 21 September 2026 until 5 October 2026. We had 85 participants join, who submitted 28 games. Down from 98 participants but up from 22 games last jam. The quality of the entries however has risen sharply. The theme of this game jam wa",
+      "publishedAt": "2026-10-25T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Bastiaan Olij",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-25T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "The sixth Godot XR Community Game Jam ran from 21 September 2026 until 5 October 2026. We had 85 participants join, who submitted 28 games. Down from 98 participants but up from 22 games last jam. The quality of the entries however has risen sharply. The theme of this game jam wa",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "The sixth Godot XR Community Game Jam ran from 21 September 2026 until 5 October 2026. We had 85 participants join, who submitted 28 games. Down from 98 participants but up from 22 games last jam. The quality of the entries however has risen sharply. The theme of this game jam wa"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/godot-xr-update-oct2026/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+    }
+  ],
   "archive": [
+    {
+      "id": "d0aa8ede854db3782fcd",
+      "url": "https://godotengine.org/article/godot-xr-update-oct2026/",
+      "title": "Godot XR Community Game Jam VI",
+      "excerpt": "The sixth Godot XR Community Game Jam ran from 21 September 2026 until 5 October 2026. We had 85 participants join, who submitted 28 games. Down from 98 participants but up from 22 games last jam. The quality of the entries however has risen sharply. The theme of this game jam wa",
+      "publishedAt": "2026-10-25T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Bastiaan Olij",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-25T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "The sixth Godot XR Community Game Jam ran from 21 September 2026 until 5 October 2026. We had 85 participants join, who submitted 28 games. Down from 98 participants but up from 22 games last jam. The quality of the entries however has risen sharply. The theme of this game jam wa",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "The sixth Godot XR Community Game Jam ran from 21 September 2026 until 5 October 2026. We had 85 participants join, who submitted 28 games. Down from 98 participants but up from 22 games last jam. The quality of the entries however has risen sharply. The theme of this game jam wa"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/godot-xr-update-oct2026/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+    },
+    {
+      "id": "08f63366f460988b918e",
+      "url": "https://arxiv.org/abs/2610.32075v1",
+      "title": "RADIANT: Object-Centric Feed-Forward Global Illumination",
+      "excerpt": "Feed-forward neural renderers synthesize global illumination across novel 3D scenes without per-scene optimization or runtime ray tracing. Existing transformer-based renderers tokenize individual triangles, so self-attention scales quadratically with mesh resolution. Yet macrosco",
+      "publishedAt": "2026-10-23T02:22:31Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Wojciech Matusik",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-23T02:22:31Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Feed-forward neural renderers synthesize global illumination across novel 3D scenes without per-scene optimization or runtime ray tracing. Existing transformer-based renderers tokenize individual triangles, so self-attention scales quadratically with mesh resolution. Yet macrosco",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Feed-forward neural renderers synthesize global illumination across novel 3D scenes without per-scene optimization or runtime ray tracing. Existing transformer-based renderers tokenize individual triangles, so self-attention scales quadratically with mesh resolution. Yet macrosco"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.32075v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+    },
     {
       "id": "a439f75fe1cc5acce787",
       "url": "https://blog.playcanvas.com/snapchat-now-supports-playcanvas-games",
@@ -106,7 +212,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "1ee770fc776e9fe6941f",
@@ -141,7 +247,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "5a15c2fde973ca63e3a7",
@@ -176,7 +282,7 @@
       "tags": [
         "行业动态"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "4bac7df7aee156f08181",
@@ -211,7 +317,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "262888dc25d4ff7bd23a",
@@ -246,11 +352,11 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
-      "id": "f7ab335993a04e2750aa",
-      "url": "https://arxiv.org/abs/2610.29014v1",
+      "id": "93d975665bacfb57ed0e",
+      "url": "https://arxiv.org/abs/2610.29014v2",
       "title": "GenXR-Bench: Benchmarking Coding Agents for Interactive XR Development",
       "excerpt": "Coding agents are rapidly advancing from single-file generation to long-horizon repository-scale engineering, yet the evaluation of their capabilities to author interactive extended reality (XR) applications remains an open challenge. Unlike traditional software, XR applications ",
       "publishedAt": "2026-10-21T00:28:16Z",
@@ -275,13 +381,13 @@
       "sources": [
         [
           "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.29014v1"
+          "https://arxiv.org/abs/2610.29014v2"
         ]
       ],
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "4431f80033a00c09120f",
@@ -316,7 +422,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "38add879c41c307cd577",
@@ -351,7 +457,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "b7698091d389d0ce3b25",
@@ -386,7 +492,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "c124c7fbcdcd1f9f9bcf",
@@ -421,7 +527,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "dd3b0564fe7ac68b422c",
@@ -456,7 +562,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "b5c0d0282cedfd9ba0b1",
@@ -491,7 +597,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "af19bcaef650f23ef28d",
@@ -526,7 +632,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "bd887ec26704092c2884",
@@ -561,7 +667,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "3f61b11f4b11641e6a4e",
@@ -596,7 +702,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "6ca0519e2edbbe8c365b",
@@ -631,7 +737,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "51c0b8b40221cba08265",
@@ -666,7 +772,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "1aa42437b4a246cf26e7",
@@ -701,7 +807,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "521753dd6a7a337821af",
@@ -736,7 +842,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "00e33ee20595ca9207f0",
@@ -771,7 +877,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "0418b6bdbff707e5e6ec",
@@ -806,7 +912,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "ea39134029eb31ac3ba6",
@@ -841,42 +947,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
-    },
-    {
-      "id": "2940ecb365e29aeab6cc",
-      "url": "https://arxiv.org/abs/2610.22352v1",
-      "title": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
-      "excerpt": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine detail",
-      "publishedAt": "2026-10-15T17:58:02Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Qi Tian",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-15T17:58:02Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine detail",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine detail"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.22352v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "6da27f2edfc4695cdaa9",
@@ -911,7 +982,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "a1f3db65653cf6585472",
@@ -946,7 +1017,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "5779216911d1605ae954",
@@ -981,7 +1052,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -1016,7 +1087,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -1051,7 +1122,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -1086,7 +1157,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1156,7 +1227,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1191,7 +1262,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1226,7 +1297,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1296,7 +1367,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1436,7 +1507,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2241,7 +2312,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2416,7 +2487,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2451,7 +2522,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2556,7 +2627,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2731,7 +2802,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -2871,7 +2942,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -2906,7 +2977,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -2941,7 +3012,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -3011,7 +3082,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -3081,7 +3152,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -3116,7 +3187,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3221,7 +3292,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3256,7 +3327,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3291,7 +3362,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3361,7 +3432,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3466,7 +3537,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3501,7 +3572,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -3536,7 +3607,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3571,7 +3642,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3641,7 +3712,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3746,7 +3817,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-25T04:35:43.503175Z"
+      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
     },
     {
       "id": "f4ac3447021c4e984042",
