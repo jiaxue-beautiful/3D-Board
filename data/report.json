@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-26T04:40:48.588297Z",
-  "windowStart": "2026-10-25T04:40:48.588297Z",
-  "windowEnd": "2026-10-26T04:40:48.588297Z",
+  "checkedAt": "2026-10-27T04:58:25.986271Z",
+  "windowStart": "2026-10-26T04:58:25.986271Z",
+  "windowEnd": "2026-10-27T04:58:25.986271Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -73,42 +73,252 @@
   ],
   "events": [
     {
-      "id": "d0aa8ede854db3782fcd",
-      "url": "https://godotengine.org/article/godot-xr-update-oct2026/",
-      "title": "Godot XR Community Game Jam VI",
-      "excerpt": "The sixth Godot XR Community Game Jam ran from 21 September 2026 until 5 October 2026. We had 85 participants join, who submitted 28 games. Down from 98 participants but up from 22 games last jam. The quality of the entries however has risen sharply. The theme of this game jam wa",
-      "publishedAt": "2026-10-25T12:00:00Z",
-      "sourceId": "godot",
-      "sourceName": "Godot 官方新闻",
+      "id": "0acf584aaf31f3d2b2d0",
+      "url": "https://arxiv.org/abs/2610.35224v1",
+      "title": "GaussianSpline: Adaptive Bézier Splines for Highly Dynamic 4D Gaussian Splatting",
+      "excerpt": "We present GaussianSpline, a dynamic 4D Gaussian Splatting method that models per-Gaussian motion using adaptive, non-uniform piecewise cubic Bézier splines. Unlike approaches based on global deformations, fixed-order polynomials, or uniformly parameterized splines, GaussianSplin",
+      "publishedAt": "2026-10-26T11:14:09Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
       "lane": "news",
-      "category": "引擎与交互",
-      "author": "Bastiaan Olij",
+      "category": "学术研究",
+      "author": "Andrei Sharf",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-25T12:00:00Z",
+      "date": "2026-10-26T11:14:09Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "The sixth Godot XR Community Game Jam ran from 21 September 2026 until 5 October 2026. We had 85 participants join, who submitted 28 games. Down from 98 participants but up from 22 games last jam. The quality of the entries however has risen sharply. The theme of this game jam wa",
+      "summary": "We present GaussianSpline, a dynamic 4D Gaussian Splatting method that models per-Gaussian motion using adaptive, non-uniform piecewise cubic Bézier splines. Unlike approaches based on global deformations, fixed-order polynomials, or uniformly parameterized splines, GaussianSplin",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "The sixth Godot XR Community Game Jam ran from 21 September 2026 until 5 October 2026. We had 85 participants join, who submitted 28 games. Down from 98 participants but up from 22 games last jam. The quality of the entries however has risen sharply. The theme of this game jam wa"
+          "We present GaussianSpline, a dynamic 4D Gaussian Splatting method that models per-Gaussian motion using adaptive, non-uniform piecewise cubic Bézier splines. Unlike approaches based on global deformations, fixed-order polynomials, or uniformly parameterized splines, GaussianSplin"
         ]
       ],
       "sources": [
         [
-          "Godot 官方新闻",
-          "https://godotengine.org/article/godot-xr-update-oct2026/"
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.35224v1"
         ]
       ],
       "tags": [
-        "引擎与交互"
+        "学术研究"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
+    },
+    {
+      "id": "23eeffc82358e17eb869",
+      "url": "https://arxiv.org/abs/2610.35076v1",
+      "title": "Blendshape Generation for Models with Disconnected Parts: Adding ARKit/MediaPipe Blendshapes to Anime-Style Character Models",
+      "excerpt": "Blendshape generation for 3D models has been extensively researched, but very few works address generating blendshapes for models with multiple disconnected parts. We present a case study of generating fixed facial expression blendshapes for commercial anime-style 3D character mo",
+      "publishedAt": "2026-10-26T09:20:41Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Pramook Khungurn",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-26T09:20:41Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Blendshape generation for 3D models has been extensively researched, but very few works address generating blendshapes for models with multiple disconnected parts. We present a case study of generating fixed facial expression blendshapes for commercial anime-style 3D character mo",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Blendshape generation for 3D models has been extensively researched, but very few works address generating blendshapes for models with multiple disconnected parts. We present a case study of generating fixed facial expression blendshapes for commercial anime-style 3D character mo"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.35076v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
+    },
+    {
+      "id": "50c26d451538d1c6a376",
+      "url": "https://arxiv.org/abs/2610.34903v1",
+      "title": "Inverse origami inspired by insect morphogenesis: geometric design of wrinkle structures for curved surface formation",
+      "excerpt": "Insect exoskeletons abruptly acquire complex three-dimensional forms during metamorphosis from larva to pupa. This transformation occurs through the unfolding of preformed wrinkle structures inside the larval body under internal pressure. Inspired by this process, we investigate ",
+      "publishedAt": "2026-10-26T06:24:19Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Yasuhiro Inoue",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-26T06:24:19Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Insect exoskeletons abruptly acquire complex three-dimensional forms during metamorphosis from larva to pupa. This transformation occurs through the unfolding of preformed wrinkle structures inside the larval body under internal pressure. Inspired by this process, we investigate ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Insect exoskeletons abruptly acquire complex three-dimensional forms during metamorphosis from larva to pupa. This transformation occurs through the unfolding of preformed wrinkle structures inside the larval body under internal pressure. Inspired by this process, we investigate "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.34903v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     }
   ],
   "archive": [
+    {
+      "id": "0acf584aaf31f3d2b2d0",
+      "url": "https://arxiv.org/abs/2610.35224v1",
+      "title": "GaussianSpline: Adaptive Bézier Splines for Highly Dynamic 4D Gaussian Splatting",
+      "excerpt": "We present GaussianSpline, a dynamic 4D Gaussian Splatting method that models per-Gaussian motion using adaptive, non-uniform piecewise cubic Bézier splines. Unlike approaches based on global deformations, fixed-order polynomials, or uniformly parameterized splines, GaussianSplin",
+      "publishedAt": "2026-10-26T11:14:09Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Andrei Sharf",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-26T11:14:09Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We present GaussianSpline, a dynamic 4D Gaussian Splatting method that models per-Gaussian motion using adaptive, non-uniform piecewise cubic Bézier splines. Unlike approaches based on global deformations, fixed-order polynomials, or uniformly parameterized splines, GaussianSplin",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We present GaussianSpline, a dynamic 4D Gaussian Splatting method that models per-Gaussian motion using adaptive, non-uniform piecewise cubic Bézier splines. Unlike approaches based on global deformations, fixed-order polynomials, or uniformly parameterized splines, GaussianSplin"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.35224v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
+    },
+    {
+      "id": "23eeffc82358e17eb869",
+      "url": "https://arxiv.org/abs/2610.35076v1",
+      "title": "Blendshape Generation for Models with Disconnected Parts: Adding ARKit/MediaPipe Blendshapes to Anime-Style Character Models",
+      "excerpt": "Blendshape generation for 3D models has been extensively researched, but very few works address generating blendshapes for models with multiple disconnected parts. We present a case study of generating fixed facial expression blendshapes for commercial anime-style 3D character mo",
+      "publishedAt": "2026-10-26T09:20:41Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Pramook Khungurn",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-26T09:20:41Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Blendshape generation for 3D models has been extensively researched, but very few works address generating blendshapes for models with multiple disconnected parts. We present a case study of generating fixed facial expression blendshapes for commercial anime-style 3D character mo",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Blendshape generation for 3D models has been extensively researched, but very few works address generating blendshapes for models with multiple disconnected parts. We present a case study of generating fixed facial expression blendshapes for commercial anime-style 3D character mo"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.35076v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
+    },
+    {
+      "id": "50c26d451538d1c6a376",
+      "url": "https://arxiv.org/abs/2610.34903v1",
+      "title": "Inverse origami inspired by insect morphogenesis: geometric design of wrinkle structures for curved surface formation",
+      "excerpt": "Insect exoskeletons abruptly acquire complex three-dimensional forms during metamorphosis from larva to pupa. This transformation occurs through the unfolding of preformed wrinkle structures inside the larval body under internal pressure. Inspired by this process, we investigate ",
+      "publishedAt": "2026-10-26T06:24:19Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Yasuhiro Inoue",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-26T06:24:19Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Insect exoskeletons abruptly acquire complex three-dimensional forms during metamorphosis from larva to pupa. This transformation occurs through the unfolding of preformed wrinkle structures inside the larval body under internal pressure. Inspired by this process, we investigate ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Insect exoskeletons abruptly acquire complex three-dimensional forms during metamorphosis from larva to pupa. This transformation occurs through the unfolding of preformed wrinkle structures inside the larval body under internal pressure. Inspired by this process, we investigate "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.34903v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
+    },
+    {
+      "id": "e540d282f5e73bd3611d",
+      "url": "https://arxiv.org/abs/2610.34263v1",
+      "title": "RacerGS: Residual-Autoregressive Context for 3D Gaussian Splatting Compression",
+      "excerpt": "3D Gaussian Splatting (3DGS) has emerged as a promising approach for fast, high-quality novel-view rendering. However, its large parameter size remains a bottleneck for storage and transmission. We propose RacerGS, a compact 3DGS compression framework that achieves scene reconstr",
+      "publishedAt": "2026-10-25T12:49:11Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Yun Fu",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-25T12:49:11Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D Gaussian Splatting (3DGS) has emerged as a promising approach for fast, high-quality novel-view rendering. However, its large parameter size remains a bottleneck for storage and transmission. We propose RacerGS, a compact 3DGS compression framework that achieves scene reconstr",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D Gaussian Splatting (3DGS) has emerged as a promising approach for fast, high-quality novel-view rendering. However, its large parameter size remains a bottleneck for storage and transmission. We propose RacerGS, a compact 3DGS compression framework that achieves scene reconstr"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.34263v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
+    },
     {
       "id": "d0aa8ede854db3782fcd",
       "url": "https://godotengine.org/article/godot-xr-update-oct2026/",
@@ -142,7 +352,42 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
+    },
+    {
+      "id": "f5a0f1cf0741cbd72b0e",
+      "url": "https://arxiv.org/abs/2610.34223v1",
+      "title": "Single Camera based Simulation and Try-on Ready Avatar Modeling",
+      "excerpt": "Reconstructing and rendering high-fidelity, animatable, and try-on-ready virtual avatars using only a single camera is crucial for many applications. However, existing try-on-ready human avatar reconstruction methods struggle to achieve this from monocular videos or single images",
+      "publishedAt": "2026-10-25T11:36:14Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Juyong Zhang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-25T11:36:14Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Reconstructing and rendering high-fidelity, animatable, and try-on-ready virtual avatars using only a single camera is crucial for many applications. However, existing try-on-ready human avatar reconstruction methods struggle to achieve this from monocular videos or single images",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Reconstructing and rendering high-fidelity, animatable, and try-on-ready virtual avatars using only a single camera is crucial for many applications. However, existing try-on-ready human avatar reconstruction methods struggle to achieve this from monocular videos or single images"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.34223v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "08f63366f460988b918e",
@@ -177,7 +422,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "a439f75fe1cc5acce787",
@@ -212,7 +457,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "1ee770fc776e9fe6941f",
@@ -247,7 +492,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "5a15c2fde973ca63e3a7",
@@ -282,7 +527,7 @@
       "tags": [
         "行业动态"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "4bac7df7aee156f08181",
@@ -317,7 +562,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "262888dc25d4ff7bd23a",
@@ -352,7 +597,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "93d975665bacfb57ed0e",
@@ -387,7 +632,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "4431f80033a00c09120f",
@@ -422,7 +667,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "38add879c41c307cd577",
@@ -457,7 +702,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "b7698091d389d0ce3b25",
@@ -492,7 +737,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "c124c7fbcdcd1f9f9bcf",
@@ -527,7 +772,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "dd3b0564fe7ac68b422c",
@@ -562,7 +807,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "b5c0d0282cedfd9ba0b1",
@@ -597,7 +842,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "af19bcaef650f23ef28d",
@@ -632,7 +877,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "bd887ec26704092c2884",
@@ -667,7 +912,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "3f61b11f4b11641e6a4e",
@@ -702,7 +947,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "6ca0519e2edbbe8c365b",
@@ -737,7 +982,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "51c0b8b40221cba08265",
@@ -772,182 +1017,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
-    },
-    {
-      "id": "1aa42437b4a246cf26e7",
-      "url": "https://arxiv.org/abs/2610.24522v1",
-      "title": "MOMO: Human Motion from Moving Sounds",
-      "excerpt": "Human responses to sound depend not only on its semantic content, but also on the evolving spatial relationship between source and listener, conveyed through spatial audio and its temporal dynamics. Modeling human reactions to such dynamic spatial audio is important for character",
-      "publishedAt": "2026-10-17T07:31:54Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Taku Komura",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-17T07:31:54Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Human responses to sound depend not only on its semantic content, but also on the evolving spatial relationship between source and listener, conveyed through spatial audio and its temporal dynamics. Modeling human reactions to such dynamic spatial audio is important for character",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Human responses to sound depend not only on its semantic content, but also on the evolving spatial relationship between source and listener, conveyed through spatial audio and its temporal dynamics. Modeling human reactions to such dynamic spatial audio is important for character"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.24522v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
-    },
-    {
-      "id": "521753dd6a7a337821af",
-      "url": "https://arxiv.org/abs/2610.24459v1",
-      "title": "SLIM: Learning an Operator for Material-Efficient 3D Lattice Refinement",
-      "excerpt": "Lattice inverse-design methods can generate cells that match prescribed effective properties, but property feasibility does not imply material efficiency. Removing redundant material from an existing lattice while preserving its homogenized elasticity ordinarily requires solving ",
-      "publishedAt": "2026-10-17T04:58:24Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Lin Lu",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-17T04:58:24Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Lattice inverse-design methods can generate cells that match prescribed effective properties, but property feasibility does not imply material efficiency. Removing redundant material from an existing lattice while preserving its homogenized elasticity ordinarily requires solving ",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Lattice inverse-design methods can generate cells that match prescribed effective properties, but property feasibility does not imply material efficiency. Removing redundant material from an existing lattice while preserving its homogenized elasticity ordinarily requires solving "
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.24459v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
-    },
-    {
-      "id": "00e33ee20595ca9207f0",
-      "url": "https://arxiv.org/abs/2610.23237v1",
-      "title": "X-Splat: Unified Gaussian Splatting for Joint RGB and X-ray 3D Reconstruction",
-      "excerpt": "Jointly reconstructing RGB and X-ray provides new insights by connecting external appearance with internal structure, enabling a more complete understanding of real-world objects than single modality. Yet existing methods train separate models per modality and suffer from redunda",
-      "publishedAt": "2026-10-16T10:06:11Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Imari Sato",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-16T10:06:11Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Jointly reconstructing RGB and X-ray provides new insights by connecting external appearance with internal structure, enabling a more complete understanding of real-world objects than single modality. Yet existing methods train separate models per modality and suffer from redunda",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Jointly reconstructing RGB and X-ray provides new insights by connecting external appearance with internal structure, enabling a more complete understanding of real-world objects than single modality. Yet existing methods train separate models per modality and suffer from redunda"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.23237v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
-    },
-    {
-      "id": "0418b6bdbff707e5e6ec",
-      "url": "https://arxiv.org/abs/2610.23173v1",
-      "title": "Structural Affinity: An Algorithm for Coherent Cage-Based Shape Design",
-      "excerpt": "Cage-based deformation (CBD) parametrises 3D geometry through a small set of control handles, effectively enabling a variety of tasks from animation and interactive modelling to tool-based co-design, neural deformation transfer, and aerodynamic shape optimization. Many optimizati",
-      "publishedAt": "2026-10-16T09:10:31Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Rika Antonova",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-16T09:10:31Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Cage-based deformation (CBD) parametrises 3D geometry through a small set of control handles, effectively enabling a variety of tasks from animation and interactive modelling to tool-based co-design, neural deformation transfer, and aerodynamic shape optimization. Many optimizati",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Cage-based deformation (CBD) parametrises 3D geometry through a small set of control handles, effectively enabling a variety of tasks from animation and interactive modelling to tool-based co-design, neural deformation transfer, and aerodynamic shape optimization. Many optimizati"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.23173v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
-    },
-    {
-      "id": "ea39134029eb31ac3ba6",
-      "url": "https://arxiv.org/abs/2610.22741v1",
-      "title": "SAMS: A Structured Graph Framework for Securing Additive Manufacturing Systems",
-      "excerpt": "Additive manufacturing, also known as 3D printing, is significant for its use in industries such as aerospace, robotics, medicine, and construction. However, digital mesh files remain vulnerable to geometry defects which can be introduced through malicious tampering or designer e",
-      "publishedAt": "2026-10-15T23:21:33Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Jitender S. Deogun",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-15T23:21:33Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Additive manufacturing, also known as 3D printing, is significant for its use in industries such as aerospace, robotics, medicine, and construction. However, digital mesh files remain vulnerable to geometry defects which can be introduced through malicious tampering or designer e",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Additive manufacturing, also known as 3D printing, is significant for its use in industries such as aerospace, robotics, medicine, and construction. However, digital mesh files remain vulnerable to geometry defects which can be introduced through malicious tampering or designer e"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.22741v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "6da27f2edfc4695cdaa9",
@@ -982,7 +1052,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "a1f3db65653cf6585472",
@@ -1017,7 +1087,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "5779216911d1605ae954",
@@ -1052,7 +1122,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -1087,7 +1157,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -1122,7 +1192,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -1157,7 +1227,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1227,7 +1297,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1262,7 +1332,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1297,7 +1367,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1367,7 +1437,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1507,7 +1577,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2312,7 +2382,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2487,7 +2557,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2522,7 +2592,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2627,7 +2697,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2802,7 +2872,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -2942,7 +3012,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -2977,7 +3047,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -3012,7 +3082,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -3082,7 +3152,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -3152,7 +3222,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -3187,7 +3257,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3292,7 +3362,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3327,7 +3397,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3362,7 +3432,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3432,7 +3502,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3537,7 +3607,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3572,7 +3642,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -3607,7 +3677,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3642,7 +3712,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3712,7 +3782,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3817,7 +3887,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-26T04:40:48.588297Z"
+      "firstSeenAt": "2026-10-27T04:58:25.986271Z"
     },
     {
       "id": "f4ac3447021c4e984042",
