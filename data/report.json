@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-28T05:34:49.966509Z",
-  "windowStart": "2026-10-27T05:34:49.966509Z",
-  "windowEnd": "2026-10-28T05:34:49.966509Z",
+  "checkedAt": "2026-10-29T05:41:57.225678Z",
+  "windowStart": "2026-10-28T05:41:57.225678Z",
+  "windowEnd": "2026-10-29T05:41:57.225678Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -73,183 +73,78 @@
   ],
   "events": [
     {
-      "id": "17635e8369a240386c60",
-      "url": "https://arxiv.org/abs/2610.37668v1",
-      "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
-      "excerpt": "Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with a first-order spatia",
-      "publishedAt": "2026-10-27T17:59:59Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
+      "id": "3ab4f526e58b4006dc0b",
+      "url": "https://godotengine.org/article/godot-xreal-aura-launch/",
+      "title": "Ready for XREAL AURA",
+      "excerpt": "XREAL AURA , the first optical see-through glasses on Android XR, is here and Godot is part of the launch lineup! Develop natively on spatial computing glasses Download the Godot editor and its companion app on the XREAL AURA, and develop, export, and publish spatial Godot games ",
+      "publishedAt": "2026-10-28T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
       "lane": "news",
-      "category": "学术研究",
-      "author": "Alan Yuille",
+      "category": "引擎与交互",
+      "author": "Fredia Huya-Kouadio",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-27T17:59:59Z",
+      "date": "2026-10-28T12:00:00Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with a first-order spatia",
+      "summary": "XREAL AURA , the first optical see-through glasses on Android XR, is here and Godot is part of the launch lineup! Develop natively on spatial computing glasses Download the Godot editor and its companion app on the XREAL AURA, and develop, export, and publish spatial Godot games ",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with a first-order spatia"
+          "XREAL AURA , the first optical see-through glasses on Android XR, is here and Godot is part of the launch lineup! Develop natively on spatial computing glasses Download the Godot editor and its companion app on the XREAL AURA, and develop, export, and publish spatial Godot games "
         ]
       ],
       "sources": [
         [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.37668v1"
+          "Godot 官方新闻",
+          "https://godotengine.org/article/godot-xreal-aura-launch/"
         ]
       ],
       "tags": [
-        "学术研究"
+        "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
-    },
-    {
-      "id": "73ff5ae0fa45090e77de",
-      "url": "https://arxiv.org/abs/2610.37406v1",
-      "title": "CTBakeGS: training-free baking of photorealistic CT volume renderings into 3D Gaussian splats",
-      "excerpt": "Photorealistic volume rendering of computed tomography (CT) may convey anatomy intuitively, but it needs the CT data, dedicated software and a powerful graphics processor. Three-dimensional Gaussian splatting (3DGS) displays photorealistic scenes in real time on less powerful dev",
-      "publishedAt": "2026-10-27T15:21:01Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Lars Ebert",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-27T15:21:01Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Photorealistic volume rendering of computed tomography (CT) may convey anatomy intuitively, but it needs the CT data, dedicated software and a powerful graphics processor. Three-dimensional Gaussian splatting (3DGS) displays photorealistic scenes in real time on less powerful dev",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Photorealistic volume rendering of computed tomography (CT) may convey anatomy intuitively, but it needs the CT data, dedicated software and a powerful graphics processor. Three-dimensional Gaussian splatting (3DGS) displays photorealistic scenes in real time on less powerful dev"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.37406v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
-    },
-    {
-      "id": "10ce1f22a67da5a4a32d",
-      "url": "https://arxiv.org/abs/2610.37172v1",
-      "title": "DomeGS: Perceptually Consistent Background Completion for Unbounded 3D Gaussian Splatting in Virtual Reality",
-      "excerpt": "The growing need for high-quality 3D content remains among the most prevalent challenges in virtual reality (VR). Recently, novel view synthesis techniques have enabled rapid content creation, with 3D Gaussian Splatting (3DGS) emerging as one of the most promising methods for gen",
-      "publishedAt": "2026-10-27T12:58:16Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Przemysław Spurek",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-27T12:58:16Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "The growing need for high-quality 3D content remains among the most prevalent challenges in virtual reality (VR). Recently, novel view synthesis techniques have enabled rapid content creation, with 3D Gaussian Splatting (3DGS) emerging as one of the most promising methods for gen",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "The growing need for high-quality 3D content remains among the most prevalent challenges in virtual reality (VR). Recently, novel view synthesis techniques have enabled rapid content creation, with 3D Gaussian Splatting (3DGS) emerging as one of the most promising methods for gen"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.37172v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
-    },
-    {
-      "id": "3a159af697c632c1b07e",
-      "url": "https://arxiv.org/abs/2610.37036v1",
-      "title": "GraftRay: Physically Based Mesh Insertion into Gaussian Splatting Scenes via Path Tracing",
-      "excerpt": "Inserting virtual objects into scenes reconstructed via 2D or 3D Gaussian Splatting (2DGS/3DGS) is a key capability for content creation, AR, and synthetic data generation. However, realistic insertion requires the object to be seamlessly lit by the scene and, conversely, to cast",
-      "publishedAt": "2026-10-27T11:11:48Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Matthias Niessner",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-27T11:11:48Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Inserting virtual objects into scenes reconstructed via 2D or 3D Gaussian Splatting (2DGS/3DGS) is a key capability for content creation, AR, and synthetic data generation. However, realistic insertion requires the object to be seamlessly lit by the scene and, conversely, to cast",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Inserting virtual objects into scenes reconstructed via 2D or 3D Gaussian Splatting (2DGS/3DGS) is a key capability for content creation, AR, and synthetic data generation. However, realistic insertion requires the object to be seamlessly lit by the scene and, conversely, to cast"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.37036v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
-    },
-    {
-      "id": "a911ecf7777676a2f487",
-      "url": "https://arxiv.org/abs/2610.36853v1",
-      "title": "LingGS: Decoupling Feed-Forward Geometry Prediction from Camera Tracking for High-Fidelity Gaussian SLAM",
-      "excerpt": "Achieving high-quality reconstruction and responsive camera tracking remains challenging for monocular RGB Gaussian splatting SLAM under a limited optimization budget. We present an online system that addresses this challenge by combining learned geometric priors with explicit ge",
-      "publishedAt": "2026-10-27T08:51:00Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Dominik Engel",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-27T08:51:00Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Achieving high-quality reconstruction and responsive camera tracking remains challenging for monocular RGB Gaussian splatting SLAM under a limited optimization budget. We present an online system that addresses this challenge by combining learned geometric priors with explicit ge",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Achieving high-quality reconstruction and responsive camera tracking remains challenging for monocular RGB Gaussian splatting SLAM under a limited optimization budget. We present an online system that addresses this challenge by combining learned geometric priors with explicit ge"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.36853v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     }
   ],
   "archive": [
     {
+      "id": "3ab4f526e58b4006dc0b",
+      "url": "https://godotengine.org/article/godot-xreal-aura-launch/",
+      "title": "Ready for XREAL AURA",
+      "excerpt": "XREAL AURA , the first optical see-through glasses on Android XR, is here and Godot is part of the launch lineup! Develop natively on spatial computing glasses Download the Godot editor and its companion app on the XREAL AURA, and develop, export, and publish spatial Godot games ",
+      "publishedAt": "2026-10-28T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Fredia Huya-Kouadio",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-28T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "XREAL AURA , the first optical see-through glasses on Android XR, is here and Godot is part of the launch lineup! Develop natively on spatial computing glasses Download the Godot editor and its companion app on the XREAL AURA, and develop, export, and publish spatial Godot games ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "XREAL AURA , the first optical see-through glasses on Android XR, is here and Godot is part of the launch lineup! Develop natively on spatial computing glasses Download the Godot editor and its companion app on the XREAL AURA, and develop, export, and publish spatial Godot games "
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/godot-xreal-aura-launch/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+    },
+    {
       "id": "17635e8369a240386c60",
       "url": "https://arxiv.org/abs/2610.37668v1",
       "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
@@ -282,7 +177,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "73ff5ae0fa45090e77de",
@@ -317,7 +212,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "10ce1f22a67da5a4a32d",
@@ -352,7 +247,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "3a159af697c632c1b07e",
@@ -387,7 +282,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "a911ecf7777676a2f487",
@@ -422,7 +317,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "fe0e7bd79950f92de1de",
@@ -457,7 +352,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "0acf584aaf31f3d2b2d0",
@@ -492,7 +387,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "23eeffc82358e17eb869",
@@ -527,7 +422,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "50c26d451538d1c6a376",
@@ -562,7 +457,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "e540d282f5e73bd3611d",
@@ -597,7 +492,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "d0aa8ede854db3782fcd",
@@ -632,7 +527,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "f5a0f1cf0741cbd72b0e",
@@ -667,7 +562,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "08f63366f460988b918e",
@@ -702,7 +597,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "a439f75fe1cc5acce787",
@@ -737,7 +632,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "1ee770fc776e9fe6941f",
@@ -772,7 +667,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "5a15c2fde973ca63e3a7",
@@ -807,7 +702,7 @@
       "tags": [
         "行业动态"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "4bac7df7aee156f08181",
@@ -842,7 +737,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "262888dc25d4ff7bd23a",
@@ -877,7 +772,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "93d975665bacfb57ed0e",
@@ -912,7 +807,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "4431f80033a00c09120f",
@@ -947,7 +842,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "38add879c41c307cd577",
@@ -982,7 +877,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "b7698091d389d0ce3b25",
@@ -1017,7 +912,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "c124c7fbcdcd1f9f9bcf",
@@ -1052,7 +947,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "dd3b0564fe7ac68b422c",
@@ -1087,7 +982,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "6da27f2edfc4695cdaa9",
@@ -1122,7 +1017,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "a1f3db65653cf6585472",
@@ -1157,7 +1052,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "5779216911d1605ae954",
@@ -1192,7 +1087,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -1227,7 +1122,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -1262,7 +1157,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -1297,7 +1192,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1367,7 +1262,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1402,7 +1297,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1437,7 +1332,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1507,7 +1402,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1647,7 +1542,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2452,7 +2347,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2627,7 +2522,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2662,7 +2557,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2767,7 +2662,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2942,7 +2837,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -3082,7 +2977,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -3117,7 +3012,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -3152,7 +3047,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -3222,7 +3117,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -3292,7 +3187,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -3327,7 +3222,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3432,7 +3327,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3467,7 +3362,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3502,7 +3397,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3572,7 +3467,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3677,7 +3572,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3712,7 +3607,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -3747,7 +3642,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3782,7 +3677,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3852,7 +3747,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3957,7 +3852,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-28T05:34:49.966509Z"
+      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "f4ac3447021c4e984042",
