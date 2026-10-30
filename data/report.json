@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-29T05:41:57.225678Z",
-  "windowStart": "2026-10-28T05:41:57.225678Z",
-  "windowEnd": "2026-10-29T05:41:57.225678Z",
+  "checkedAt": "2026-10-30T05:41:06.860880Z",
+  "windowStart": "2026-10-29T05:41:06.860880Z",
+  "windowEnd": "2026-10-30T05:41:06.860880Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -73,42 +73,322 @@
   ],
   "events": [
     {
-      "id": "3ab4f526e58b4006dc0b",
-      "url": "https://godotengine.org/article/godot-xreal-aura-launch/",
-      "title": "Ready for XREAL AURA",
-      "excerpt": "XREAL AURA , the first optical see-through glasses on Android XR, is here and Godot is part of the launch lineup! Develop natively on spatial computing glasses Download the Godot editor and its companion app on the XREAL AURA, and develop, export, and publish spatial Godot games ",
-      "publishedAt": "2026-10-28T12:00:00Z",
-      "sourceId": "godot",
-      "sourceName": "Godot 官方新闻",
+      "id": "04d9fce64382ecff5f09",
+      "url": "https://arxiv.org/abs/2610.40599v1",
+      "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
+      "excerpt": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of styliz",
+      "publishedAt": "2026-10-29T17:50:26Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
       "lane": "news",
-      "category": "引擎与交互",
-      "author": "Fredia Huya-Kouadio",
+      "category": "学术研究",
+      "author": "Yong-Jin Liu",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-28T12:00:00Z",
+      "date": "2026-10-29T17:50:26Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "XREAL AURA , the first optical see-through glasses on Android XR, is here and Godot is part of the launch lineup! Develop natively on spatial computing glasses Download the Godot editor and its companion app on the XREAL AURA, and develop, export, and publish spatial Godot games ",
+      "summary": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of styliz",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "XREAL AURA , the first optical see-through glasses on Android XR, is here and Godot is part of the launch lineup! Develop natively on spatial computing glasses Download the Godot editor and its companion app on the XREAL AURA, and develop, export, and publish spatial Godot games "
+          "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of styliz"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.40599v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+    },
+    {
+      "id": "338a75ce2ff1f7c6d835",
+      "url": "https://arxiv.org/abs/2610.40007v1",
+      "title": "Greenscapes: Optimized Vegetation Configurations in Cities",
+      "excerpt": "Vegetation plays a central role in cities, serving functional roles such as balancing shade and sky exposure, shaping the microclimate, carbon sequestration, and providing acoustic screening. Furthermore, aesthetic choices in landscape styles (formal, modernist, picturesque) are ",
+      "publishedAt": "2026-10-29T13:24:24Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Wojciech Pałubicki",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-29T13:24:24Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Vegetation plays a central role in cities, serving functional roles such as balancing shade and sky exposure, shaping the microclimate, carbon sequestration, and providing acoustic screening. Furthermore, aesthetic choices in landscape styles (formal, modernist, picturesque) are ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Vegetation plays a central role in cities, serving functional roles such as balancing shade and sky exposure, shaping the microclimate, carbon sequestration, and providing acoustic screening. Furthermore, aesthetic choices in landscape styles (formal, modernist, picturesque) are "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.40007v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+    },
+    {
+      "id": "17f447cb198f64a8b9cc",
+      "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-2/",
+      "title": "Dev snapshot: Godot 4.8 beta 2",
+      "excerpt": "In the two weeks since the release of 4.8 beta 1 , our team has made great strides in ensuring the detection and resolution of nearly 150 regressions. This blog post covering the beta snapshot, and however many more are to come, will be lighter than the dev snapshots as 4.8 is co",
+      "publishedAt": "2026-10-29T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Thaddeus Crews",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-29T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "In the two weeks since the release of 4.8 beta 1 , our team has made great strides in ensuring the detection and resolution of nearly 150 regressions. This blog post covering the beta snapshot, and however many more are to come, will be lighter than the dev snapshots as 4.8 is co",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "In the two weeks since the release of 4.8 beta 1 , our team has made great strides in ensuring the detection and resolution of nearly 150 regressions. This blog post covering the beta snapshot, and however many more are to come, will be lighter than the dev snapshots as 4.8 is co"
         ]
       ],
       "sources": [
         [
           "Godot 官方新闻",
-          "https://godotengine.org/article/godot-xreal-aura-launch/"
+          "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-2/"
         ]
       ],
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+    },
+    {
+      "id": "01686b1a8f1a0c68f7ab",
+      "url": "https://arxiv.org/abs/2610.39745v1",
+      "title": "UniffordInteractor: Reasoning the Unified Affordance for Human and Multi-Object Interaction",
+      "excerpt": "Deriving plausible and dynamic Human Object Interaction (HOI) has gained tremendous progress in Embodied AI and Immersive AR/VR. While existing HOI methods have effectively explored human interaction with individual or fixed objects, they still show limitations in complex multi-o",
+      "publishedAt": "2026-10-29T10:06:06Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Zhenan Sun",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-29T10:06:06Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Deriving plausible and dynamic Human Object Interaction (HOI) has gained tremendous progress in Embodied AI and Immersive AR/VR. While existing HOI methods have effectively explored human interaction with individual or fixed objects, they still show limitations in complex multi-o",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Deriving plausible and dynamic Human Object Interaction (HOI) has gained tremendous progress in Embodied AI and Immersive AR/VR. While existing HOI methods have effectively explored human interaction with individual or fixed objects, they still show limitations in complex multi-o"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.39745v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     }
   ],
   "archive": [
+    {
+      "id": "04d9fce64382ecff5f09",
+      "url": "https://arxiv.org/abs/2610.40599v1",
+      "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
+      "excerpt": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of styliz",
+      "publishedAt": "2026-10-29T17:50:26Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Yong-Jin Liu",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-29T17:50:26Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of styliz",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of styliz"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.40599v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+    },
+    {
+      "id": "338a75ce2ff1f7c6d835",
+      "url": "https://arxiv.org/abs/2610.40007v1",
+      "title": "Greenscapes: Optimized Vegetation Configurations in Cities",
+      "excerpt": "Vegetation plays a central role in cities, serving functional roles such as balancing shade and sky exposure, shaping the microclimate, carbon sequestration, and providing acoustic screening. Furthermore, aesthetic choices in landscape styles (formal, modernist, picturesque) are ",
+      "publishedAt": "2026-10-29T13:24:24Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Wojciech Pałubicki",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-29T13:24:24Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Vegetation plays a central role in cities, serving functional roles such as balancing shade and sky exposure, shaping the microclimate, carbon sequestration, and providing acoustic screening. Furthermore, aesthetic choices in landscape styles (formal, modernist, picturesque) are ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Vegetation plays a central role in cities, serving functional roles such as balancing shade and sky exposure, shaping the microclimate, carbon sequestration, and providing acoustic screening. Furthermore, aesthetic choices in landscape styles (formal, modernist, picturesque) are "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.40007v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+    },
+    {
+      "id": "17f447cb198f64a8b9cc",
+      "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-2/",
+      "title": "Dev snapshot: Godot 4.8 beta 2",
+      "excerpt": "In the two weeks since the release of 4.8 beta 1 , our team has made great strides in ensuring the detection and resolution of nearly 150 regressions. This blog post covering the beta snapshot, and however many more are to come, will be lighter than the dev snapshots as 4.8 is co",
+      "publishedAt": "2026-10-29T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Thaddeus Crews",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-29T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "In the two weeks since the release of 4.8 beta 1 , our team has made great strides in ensuring the detection and resolution of nearly 150 regressions. This blog post covering the beta snapshot, and however many more are to come, will be lighter than the dev snapshots as 4.8 is co",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "In the two weeks since the release of 4.8 beta 1 , our team has made great strides in ensuring the detection and resolution of nearly 150 regressions. This blog post covering the beta snapshot, and however many more are to come, will be lighter than the dev snapshots as 4.8 is co"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-2/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+    },
+    {
+      "id": "01686b1a8f1a0c68f7ab",
+      "url": "https://arxiv.org/abs/2610.39745v1",
+      "title": "UniffordInteractor: Reasoning the Unified Affordance for Human and Multi-Object Interaction",
+      "excerpt": "Deriving plausible and dynamic Human Object Interaction (HOI) has gained tremendous progress in Embodied AI and Immersive AR/VR. While existing HOI methods have effectively explored human interaction with individual or fixed objects, they still show limitations in complex multi-o",
+      "publishedAt": "2026-10-29T10:06:06Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Zhenan Sun",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-29T10:06:06Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Deriving plausible and dynamic Human Object Interaction (HOI) has gained tremendous progress in Embodied AI and Immersive AR/VR. While existing HOI methods have effectively explored human interaction with individual or fixed objects, they still show limitations in complex multi-o",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Deriving plausible and dynamic Human Object Interaction (HOI) has gained tremendous progress in Embodied AI and Immersive AR/VR. While existing HOI methods have effectively explored human interaction with individual or fixed objects, they still show limitations in complex multi-o"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.39745v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+    },
+    {
+      "id": "e274c0db87d30a2a4aa6",
+      "url": "https://blog.playcanvas.com/new-in-supersplat-follow-creators-a-new-home-page-and-enhanced-xr-mode",
+      "title": "New in SuperSplat: Follow Creators, a New Home Page and Enhanced XR Mode",
+      "excerpt": "Last month we shipped SuperSplat Editor 3.0 , rebuilt from the ground up on WebGPU. This time most of the work went into SuperSplat itself. We wanted to make it easier to discover great splats and the people who make them, so you can now follow creators and get notifications when",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "sourceId": "playcanvas",
+      "sourceName": "PlayCanvas 官方博客",
+      "lane": "news",
+      "category": "图形与渲染",
+      "author": "PlayCanvas 官方博客",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-29T00:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Last month we shipped SuperSplat Editor 3.0 , rebuilt from the ground up on WebGPU. This time most of the work went into SuperSplat itself. We wanted to make it easier to discover great splats and the people who make them, so you can now follow creators and get notifications when",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Last month we shipped SuperSplat Editor 3.0 , rebuilt from the ground up on WebGPU. This time most of the work went into SuperSplat itself. We wanted to make it easier to discover great splats and the people who make them, so you can now follow creators and get notifications when"
+        ]
+      ],
+      "sources": [
+        [
+          "PlayCanvas 官方博客",
+          "https://blog.playcanvas.com/new-in-supersplat-follow-creators-a-new-home-page-and-enhanced-xr-mode"
+        ]
+      ],
+      "tags": [
+        "图形与渲染"
+      ],
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+    },
     {
       "id": "3ab4f526e58b4006dc0b",
       "url": "https://godotengine.org/article/godot-xreal-aura-launch/",
@@ -142,7 +422,112 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+    },
+    {
+      "id": "07b7cda6e9d9f7b227f1",
+      "url": "https://arxiv.org/abs/2610.38441v1",
+      "title": "Neural Explicit Shape Representation",
+      "excerpt": "Existing neural 3D representations separately address continuous surface modeling, efficient image synthesis, or object-specific compression. They do not jointly provide the explicit surface queries required by ray tracing and a structured output space that can be predicted acros",
+      "publishedAt": "2026-10-28T08:22:01Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Peng-Shuai Wang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-28T08:22:01Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Existing neural 3D representations separately address continuous surface modeling, efficient image synthesis, or object-specific compression. They do not jointly provide the explicit surface queries required by ray tracing and a structured output space that can be predicted acros",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Existing neural 3D representations separately address continuous surface modeling, efficient image synthesis, or object-specific compression. They do not jointly provide the explicit surface queries required by ray tracing and a structured output space that can be predicted acros"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.38441v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+    },
+    {
+      "id": "52f661cc27cf1bcd3bee",
+      "url": "https://arxiv.org/abs/2610.38231v1",
+      "title": "3DCodeEdit: Benchmarking Instruction-Guided 3D Program Editing",
+      "excerpt": "Language models increasingly create 3D content through code, with practical workflows often relying on editing existing programs rather than regenerating them, for speed and precise control. Such edits require understanding what a program builds and foreseeing how a change reshap",
+      "publishedAt": "2026-10-28T03:29:59Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Tongshuang Wu",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-28T03:29:59Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Language models increasingly create 3D content through code, with practical workflows often relying on editing existing programs rather than regenerating them, for speed and precise control. Such edits require understanding what a program builds and foreseeing how a change reshap",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Language models increasingly create 3D content through code, with practical workflows often relying on editing existing programs rather than regenerating them, for speed and precise control. Such edits require understanding what a program builds and foreseeing how a change reshap"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.38231v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+    },
+    {
+      "id": "10771ce6e4d0741ef7bc",
+      "url": "https://arxiv.org/abs/2610.37818v1",
+      "title": "GOFish: Full Field-of-View Gaussian Splatting and Mesh Extraction",
+      "excerpt": "Robots, autonomous vehicles, and consumer 360° cameras use fisheye lenses for wide fields of view (FoVs). Simulation-ready digital twins require photorealistic rendering across the full FoV and an aligned collision mesh. However, prior fisheye Gaussian Splatting methods only rast",
+      "publishedAt": "2026-10-27T18:32:45Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Tom Goldstein",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-27T18:32:45Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Robots, autonomous vehicles, and consumer 360° cameras use fisheye lenses for wide fields of view (FoVs). Simulation-ready digital twins require photorealistic rendering across the full FoV and an aligned collision mesh. However, prior fisheye Gaussian Splatting methods only rast",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Robots, autonomous vehicles, and consumer 360° cameras use fisheye lenses for wide fields of view (FoVs). Simulation-ready digital twins require photorealistic rendering across the full FoV and an aligned collision mesh. However, prior fisheye Gaussian Splatting methods only rast"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2610.37818v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "17635e8369a240386c60",
@@ -177,7 +562,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "73ff5ae0fa45090e77de",
@@ -212,7 +597,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "10ce1f22a67da5a4a32d",
@@ -247,7 +632,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "3a159af697c632c1b07e",
@@ -282,7 +667,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "a911ecf7777676a2f487",
@@ -317,7 +702,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "fe0e7bd79950f92de1de",
@@ -352,7 +737,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "0acf584aaf31f3d2b2d0",
@@ -387,7 +772,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "23eeffc82358e17eb869",
@@ -422,7 +807,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "50c26d451538d1c6a376",
@@ -457,7 +842,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "e540d282f5e73bd3611d",
@@ -492,7 +877,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "d0aa8ede854db3782fcd",
@@ -527,7 +912,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "f5a0f1cf0741cbd72b0e",
@@ -562,7 +947,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "08f63366f460988b918e",
@@ -597,7 +982,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "a439f75fe1cc5acce787",
@@ -632,7 +1017,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "1ee770fc776e9fe6941f",
@@ -667,7 +1052,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "5a15c2fde973ca63e3a7",
@@ -702,7 +1087,7 @@
       "tags": [
         "行业动态"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "4bac7df7aee156f08181",
@@ -737,77 +1122,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
-    },
-    {
-      "id": "262888dc25d4ff7bd23a",
-      "url": "https://arxiv.org/abs/2610.29517v1",
-      "title": "AutoPhyX: Automatic Text-Condition Physics Property Generation",
-      "excerpt": "High-fidelity 4D physical simulation requires accurate physical parameter assignments that align with diverse material properties. Previous methods struggle with critical bottlenecks: they either rely on computationally intensive per-scene optimization or predict parameters from ",
-      "publishedAt": "2026-10-21T10:05:23Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Siyuan Huang",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-21T10:05:23Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "High-fidelity 4D physical simulation requires accurate physical parameter assignments that align with diverse material properties. Previous methods struggle with critical bottlenecks: they either rely on computationally intensive per-scene optimization or predict parameters from ",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "High-fidelity 4D physical simulation requires accurate physical parameter assignments that align with diverse material properties. Previous methods struggle with critical bottlenecks: they either rely on computationally intensive per-scene optimization or predict parameters from "
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.29517v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
-    },
-    {
-      "id": "93d975665bacfb57ed0e",
-      "url": "https://arxiv.org/abs/2610.29014v2",
-      "title": "GenXR-Bench: Benchmarking Coding Agents for Interactive XR Development",
-      "excerpt": "Coding agents are rapidly advancing from single-file generation to long-horizon repository-scale engineering, yet the evaluation of their capabilities to author interactive extended reality (XR) applications remains an open challenge. Unlike traditional software, XR applications ",
-      "publishedAt": "2026-10-21T00:28:16Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Ruofei Du",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-21T00:28:16Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Coding agents are rapidly advancing from single-file generation to long-horizon repository-scale engineering, yet the evaluation of their capabilities to author interactive extended reality (XR) applications remains an open challenge. Unlike traditional software, XR applications ",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Coding agents are rapidly advancing from single-file generation to long-horizon repository-scale engineering, yet the evaluation of their capabilities to author interactive extended reality (XR) applications remains an open challenge. Unlike traditional software, XR applications "
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.29014v2"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "4431f80033a00c09120f",
@@ -842,147 +1157,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
-    },
-    {
-      "id": "38add879c41c307cd577",
-      "url": "https://arxiv.org/abs/2610.28827v1",
-      "title": "WorldStream: Streaming Interactive 3D Worlds with Hierarchical Planning and Persistent State",
-      "excerpt": "We present WorldStream, an open-ended 3D world model with three simultaneous capabilities: it extends playable terrain beyond any pre-specified map, acts on open-ended language in the running world, and restores visited places with their edits. A hierarchical planner over a typed",
-      "publishedAt": "2026-10-20T18:47:26Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Feng Zhao",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-20T18:47:26Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We present WorldStream, an open-ended 3D world model with three simultaneous capabilities: it extends playable terrain beyond any pre-specified map, acts on open-ended language in the running world, and restores visited places with their edits. A hierarchical planner over a typed",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We present WorldStream, an open-ended 3D world model with three simultaneous capabilities: it extends playable terrain beyond any pre-specified map, acts on open-ended language in the running world, and restores visited places with their edits. A hierarchical planner over a typed"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.28827v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
-    },
-    {
-      "id": "b7698091d389d0ce3b25",
-      "url": "https://arxiv.org/abs/2610.28632v1",
-      "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
-      "excerpt": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it canno",
-      "publishedAt": "2026-10-20T17:59:56Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Yuval Atzmon",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-20T17:59:56Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it canno",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it canno"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.28632v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
-    },
-    {
-      "id": "c124c7fbcdcd1f9f9bcf",
-      "url": "https://arxiv.org/abs/2610.28490v2",
-      "title": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection",
-      "excerpt": "Online scene change detection requires integrating incoming observations to determine which regions have changed relative to a reference scene. We update change beliefs as new images arrive using generalised Bayesian evidence fusion. However, the prior probability of change and e",
-      "publishedAt": "2026-10-20T16:36:39Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Simon Julier",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-20T16:36:39Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Online scene change detection requires integrating incoming observations to determine which regions have changed relative to a reference scene. We update change beliefs as new images arrive using generalised Bayesian evidence fusion. However, the prior probability of change and e",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Online scene change detection requires integrating incoming observations to determine which regions have changed relative to a reference scene. We update change beliefs as new images arrive using generalised Bayesian evidence fusion. However, the prior probability of change and e"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.28490v2"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
-    },
-    {
-      "id": "dd3b0564fe7ac68b422c",
-      "url": "https://arxiv.org/abs/2610.28280v1",
-      "title": "GALA: Geometry-Aware Language Model for Controllable Object Arrangement",
-      "excerpt": "Reasoning about fine-grained placement constraints, such as support and containment, is essential for realistic 3D scene creation. It remains a significant challenge for existing methods that rely on simplified object representations like oriented bounding box (OBB), which are bl",
-      "publishedAt": "2026-10-20T14:32:52Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Ligang Liu",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-20T14:32:52Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Reasoning about fine-grained placement constraints, such as support and containment, is essential for realistic 3D scene creation. It remains a significant challenge for existing methods that rely on simplified object representations like oriented bounding box (OBB), which are bl",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Reasoning about fine-grained placement constraints, such as support and containment, is essential for realistic 3D scene creation. It remains a significant challenge for existing methods that rely on simplified object representations like oriented bounding box (OBB), which are bl"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.28280v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "6da27f2edfc4695cdaa9",
@@ -1017,7 +1192,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "a1f3db65653cf6585472",
@@ -1052,7 +1227,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "5779216911d1605ae954",
@@ -1087,7 +1262,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -1122,7 +1297,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -1157,7 +1332,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -1192,7 +1367,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1262,7 +1437,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1297,7 +1472,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1332,7 +1507,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1402,7 +1577,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1542,7 +1717,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2347,7 +2522,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2522,7 +2697,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2557,7 +2732,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2662,7 +2837,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2837,7 +3012,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -2977,7 +3152,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -3012,7 +3187,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -3047,7 +3222,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -3117,7 +3292,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -3187,7 +3362,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -3222,7 +3397,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3327,7 +3502,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3362,7 +3537,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3397,7 +3572,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3467,7 +3642,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3572,7 +3747,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3607,7 +3782,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "bb317b438ebbd204eee3",
@@ -3642,7 +3817,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3677,7 +3852,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3747,7 +3922,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
+      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
@@ -3818,41 +3993,6 @@
         "行业动态"
       ],
       "firstSeenAt": "2026-09-10T12:53:15.811892Z"
-    },
-    {
-      "id": "2d7e07697bdc6e891597",
-      "url": "https://blog.playcanvas.com/playcanvas-editor-frontend-is-now-open-source",
-      "title": "PlayCanvas Editor Frontend is now Open Source",
-      "excerpt": "Today, we are thrilled to announce the open sourcing of the PlayCanvas Editor Frontend ! The PlayCanvas Editor is a powerful visual editing environment for building WebGL, WebGPU, and WebXR applications. It has been the cornerstone of countless incredible projects, many of which ",
-      "publishedAt": "2025-07-30T00:00:00Z",
-      "sourceId": "playcanvas",
-      "sourceName": "PlayCanvas 官方博客",
-      "lane": "news",
-      "category": "图形与渲染",
-      "author": "PlayCanvas 官方博客",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2025-07-30T00:00:00Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Today, we are thrilled to announce the open sourcing of the PlayCanvas Editor Frontend ! The PlayCanvas Editor is a powerful visual editing environment for building WebGL, WebGPU, and WebXR applications. It has been the cornerstone of countless incredible projects, many of which ",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Today, we are thrilled to announce the open sourcing of the PlayCanvas Editor Frontend ! The PlayCanvas Editor is a powerful visual editing environment for building WebGL, WebGPU, and WebXR applications. It has been the cornerstone of countless incredible projects, many of which "
-        ]
-      ],
-      "sources": [
-        [
-          "PlayCanvas 官方博客",
-          "https://blog.playcanvas.com/playcanvas-editor-frontend-is-now-open-source"
-        ]
-      ],
-      "tags": [
-        "图形与渲染"
-      ],
-      "firstSeenAt": "2026-10-29T05:41:57.225678Z"
     },
     {
       "id": "f4ac3447021c4e984042",
