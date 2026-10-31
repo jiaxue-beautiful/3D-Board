@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-30T05:41:06.860880Z",
-  "windowStart": "2026-10-29T05:41:06.860880Z",
-  "windowEnd": "2026-10-30T05:41:06.860880Z",
+  "checkedAt": "2026-10-31T05:33:48.516149Z",
+  "windowStart": "2026-10-30T05:33:48.516149Z",
+  "windowEnd": "2026-10-31T05:33:48.516149Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -73,148 +73,148 @@
   ],
   "events": [
     {
-      "id": "04d9fce64382ecff5f09",
-      "url": "https://arxiv.org/abs/2610.40599v1",
-      "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
-      "excerpt": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of styliz",
-      "publishedAt": "2026-10-29T17:50:26Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
+      "id": "900e199369b6bee06ccd",
+      "url": "https://code.blender.org/2026/10/splatting-the-gaussians-into-blender/",
+      "title": "Splatting the Gaussians into Blender",
+      "excerpt": "In Blender 5.3, we are introducing initial support for 3D Gaussian splats! This enables importing, editing, and rendering of fast, high-quality scene captures. A lot of groundwork has been done to integrate 3D Gaussian splats (gsplats) into Blender natively, and we’ll continue to",
+      "publishedAt": "2026-10-30T13:18:52Z",
+      "sourceId": "blender-dev",
+      "sourceName": "Blender 开发者博客",
       "lane": "news",
-      "category": "学术研究",
-      "author": "Yong-Jin Liu",
+      "category": "传统建模",
+      "author": "Anastasia Rudina",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-29T17:50:26Z",
+      "date": "2026-10-30T13:18:52Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of styliz",
+      "summary": "In Blender 5.3, we are introducing initial support for 3D Gaussian splats! This enables importing, editing, and rendering of fast, high-quality scene captures. A lot of groundwork has been done to integrate 3D Gaussian splats (gsplats) into Blender natively, and we’ll continue to",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of styliz"
+          "In Blender 5.3, we are introducing initial support for 3D Gaussian splats! This enables importing, editing, and rendering of fast, high-quality scene captures. A lot of groundwork has been done to integrate 3D Gaussian splats (gsplats) into Blender natively, and we’ll continue to"
         ]
       ],
       "sources": [
         [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.40599v1"
+          "Blender 开发者博客",
+          "https://code.blender.org/2026/10/splatting-the-gaussians-into-blender/"
         ]
       ],
       "tags": [
-        "学术研究"
+        "传统建模"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
-      "id": "338a75ce2ff1f7c6d835",
-      "url": "https://arxiv.org/abs/2610.40007v1",
-      "title": "Greenscapes: Optimized Vegetation Configurations in Cities",
-      "excerpt": "Vegetation plays a central role in cities, serving functional roles such as balancing shade and sky exposure, shaping the microclimate, carbon sequestration, and providing acoustic screening. Furthermore, aesthetic choices in landscape styles (formal, modernist, picturesque) are ",
-      "publishedAt": "2026-10-29T13:24:24Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Wojciech Pałubicki",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-29T13:24:24Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Vegetation plays a central role in cities, serving functional roles such as balancing shade and sky exposure, shaping the microclimate, carbon sequestration, and providing acoustic screening. Furthermore, aesthetic choices in landscape styles (formal, modernist, picturesque) are ",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Vegetation plays a central role in cities, serving functional roles such as balancing shade and sky exposure, shaping the microclimate, carbon sequestration, and providing acoustic screening. Furthermore, aesthetic choices in landscape styles (formal, modernist, picturesque) are "
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.40007v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
-    },
-    {
-      "id": "17f447cb198f64a8b9cc",
-      "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-2/",
-      "title": "Dev snapshot: Godot 4.8 beta 2",
-      "excerpt": "In the two weeks since the release of 4.8 beta 1 , our team has made great strides in ensuring the detection and resolution of nearly 150 regressions. This blog post covering the beta snapshot, and however many more are to come, will be lighter than the dev snapshots as 4.8 is co",
-      "publishedAt": "2026-10-29T12:00:00Z",
-      "sourceId": "godot",
-      "sourceName": "Godot 官方新闻",
+      "id": "de8c72df8d1a2394b1b2",
+      "url": "https://github.com/mrdoob/three.js/releases/tag/r187",
+      "title": "r187",
+      "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#186--187 https://github.com/mrdoob/three.js/milestone/100?closed=1 - Global - Remove code deprecated in r177. #34517 (@linbingquan, @Mugen87) - AnimationUtils - Fix cubic spline additive reference sampling. #34860 (@gjija) -",
+      "publishedAt": "2026-10-30T08:03:18Z",
+      "sourceId": "three",
+      "sourceName": "Three.js Releases",
       "lane": "news",
       "category": "引擎与交互",
-      "author": "Thaddeus Crews",
+      "author": "Three.js Releases",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-29T12:00:00Z",
+      "date": "2026-10-30T08:03:18Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "In the two weeks since the release of 4.8 beta 1 , our team has made great strides in ensuring the detection and resolution of nearly 150 regressions. This blog post covering the beta snapshot, and however many more are to come, will be lighter than the dev snapshots as 4.8 is co",
+      "summary": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#186--187 https://github.com/mrdoob/three.js/milestone/100?closed=1 - Global - Remove code deprecated in r177. #34517 (@linbingquan, @Mugen87) - AnimationUtils - Fix cubic spline additive reference sampling. #34860 (@gjija) -",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "In the two weeks since the release of 4.8 beta 1 , our team has made great strides in ensuring the detection and resolution of nearly 150 regressions. This blog post covering the beta snapshot, and however many more are to come, will be lighter than the dev snapshots as 4.8 is co"
+          "https://github.com/mrdoob/three.js/wiki/Migration-Guide#186--187 https://github.com/mrdoob/three.js/milestone/100?closed=1 - Global - Remove code deprecated in r177. #34517 (@linbingquan, @Mugen87) - AnimationUtils - Fix cubic spline additive reference sampling. #34860 (@gjija) -"
         ]
       ],
       "sources": [
         [
-          "Godot 官方新闻",
-          "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-2/"
+          "Three.js Releases",
+          "https://github.com/mrdoob/three.js/releases/tag/r187"
         ]
       ],
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
-    },
-    {
-      "id": "01686b1a8f1a0c68f7ab",
-      "url": "https://arxiv.org/abs/2610.39745v1",
-      "title": "UniffordInteractor: Reasoning the Unified Affordance for Human and Multi-Object Interaction",
-      "excerpt": "Deriving plausible and dynamic Human Object Interaction (HOI) has gained tremendous progress in Embodied AI and Immersive AR/VR. While existing HOI methods have effectively explored human interaction with individual or fixed objects, they still show limitations in complex multi-o",
-      "publishedAt": "2026-10-29T10:06:06Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Zhenan Sun",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-29T10:06:06Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Deriving plausible and dynamic Human Object Interaction (HOI) has gained tremendous progress in Embodied AI and Immersive AR/VR. While existing HOI methods have effectively explored human interaction with individual or fixed objects, they still show limitations in complex multi-o",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Deriving plausible and dynamic Human Object Interaction (HOI) has gained tremendous progress in Embodied AI and Immersive AR/VR. While existing HOI methods have effectively explored human interaction with individual or fixed objects, they still show limitations in complex multi-o"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.39745v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     }
   ],
   "archive": [
     {
+      "id": "900e199369b6bee06ccd",
+      "url": "https://code.blender.org/2026/10/splatting-the-gaussians-into-blender/",
+      "title": "Splatting the Gaussians into Blender",
+      "excerpt": "In Blender 5.3, we are introducing initial support for 3D Gaussian splats! This enables importing, editing, and rendering of fast, high-quality scene captures. A lot of groundwork has been done to integrate 3D Gaussian splats (gsplats) into Blender natively, and we’ll continue to",
+      "publishedAt": "2026-10-30T13:18:52Z",
+      "sourceId": "blender-dev",
+      "sourceName": "Blender 开发者博客",
+      "lane": "news",
+      "category": "传统建模",
+      "author": "Anastasia Rudina",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-30T13:18:52Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "In Blender 5.3, we are introducing initial support for 3D Gaussian splats! This enables importing, editing, and rendering of fast, high-quality scene captures. A lot of groundwork has been done to integrate 3D Gaussian splats (gsplats) into Blender natively, and we’ll continue to",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "In Blender 5.3, we are introducing initial support for 3D Gaussian splats! This enables importing, editing, and rendering of fast, high-quality scene captures. A lot of groundwork has been done to integrate 3D Gaussian splats (gsplats) into Blender natively, and we’ll continue to"
+        ]
+      ],
+      "sources": [
+        [
+          "Blender 开发者博客",
+          "https://code.blender.org/2026/10/splatting-the-gaussians-into-blender/"
+        ]
+      ],
+      "tags": [
+        "传统建模"
+      ],
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
+    },
+    {
+      "id": "de8c72df8d1a2394b1b2",
+      "url": "https://github.com/mrdoob/three.js/releases/tag/r187",
+      "title": "r187",
+      "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#186--187 https://github.com/mrdoob/three.js/milestone/100?closed=1 - Global - Remove code deprecated in r177. #34517 (@linbingquan, @Mugen87) - AnimationUtils - Fix cubic spline additive reference sampling. #34860 (@gjija) -",
+      "publishedAt": "2026-10-30T08:03:18Z",
+      "sourceId": "three",
+      "sourceName": "Three.js Releases",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Three.js Releases",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-10-30T08:03:18Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#186--187 https://github.com/mrdoob/three.js/milestone/100?closed=1 - Global - Remove code deprecated in r177. #34517 (@linbingquan, @Mugen87) - AnimationUtils - Fix cubic spline additive reference sampling. #34860 (@gjija) -",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "https://github.com/mrdoob/three.js/wiki/Migration-Guide#186--187 https://github.com/mrdoob/three.js/milestone/100?closed=1 - Global - Remove code deprecated in r177. #34517 (@linbingquan, @Mugen87) - AnimationUtils - Fix cubic spline additive reference sampling. #34860 (@gjija) -"
+        ]
+      ],
+      "sources": [
+        [
+          "Three.js Releases",
+          "https://github.com/mrdoob/three.js/releases/tag/r187"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
+    },
+    {
       "id": "04d9fce64382ecff5f09",
       "url": "https://arxiv.org/abs/2610.40599v1",
       "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
@@ -247,7 +247,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "338a75ce2ff1f7c6d835",
@@ -282,7 +282,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "17f447cb198f64a8b9cc",
@@ -317,7 +317,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "01686b1a8f1a0c68f7ab",
@@ -352,7 +352,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "e274c0db87d30a2a4aa6",
@@ -387,7 +387,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "3ab4f526e58b4006dc0b",
@@ -422,7 +422,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "07b7cda6e9d9f7b227f1",
@@ -457,7 +457,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "52f661cc27cf1bcd3bee",
@@ -492,7 +492,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "10771ce6e4d0741ef7bc",
@@ -527,7 +527,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "17635e8369a240386c60",
@@ -562,7 +562,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "73ff5ae0fa45090e77de",
@@ -597,7 +597,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "10ce1f22a67da5a4a32d",
@@ -632,7 +632,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "3a159af697c632c1b07e",
@@ -667,7 +667,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "a911ecf7777676a2f487",
@@ -702,7 +702,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "fe0e7bd79950f92de1de",
@@ -737,7 +737,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "0acf584aaf31f3d2b2d0",
@@ -772,7 +772,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "23eeffc82358e17eb869",
@@ -807,7 +807,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "50c26d451538d1c6a376",
@@ -842,7 +842,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "e540d282f5e73bd3611d",
@@ -877,7 +877,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "d0aa8ede854db3782fcd",
@@ -912,7 +912,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "f5a0f1cf0741cbd72b0e",
@@ -947,7 +947,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "08f63366f460988b918e",
@@ -982,7 +982,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "a439f75fe1cc5acce787",
@@ -1017,7 +1017,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "1ee770fc776e9fe6941f",
@@ -1052,7 +1052,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "5a15c2fde973ca63e3a7",
@@ -1087,7 +1087,7 @@
       "tags": [
         "行业动态"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "4bac7df7aee156f08181",
@@ -1122,7 +1122,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "4431f80033a00c09120f",
@@ -1157,7 +1157,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "6da27f2edfc4695cdaa9",
@@ -1192,7 +1192,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "a1f3db65653cf6585472",
@@ -1227,7 +1227,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "5779216911d1605ae954",
@@ -1262,7 +1262,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -1297,7 +1297,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -1332,7 +1332,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -1367,13 +1367,13 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
       "url": "https://github.com/mrdoob/three.js/releases/tag/r186",
       "title": "r186",
-      "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe",
+      "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Remove deprecated code. #33886 (@linbingquan) - Improve retroreflection nomenclature. #34079 (@WestLangley) - AnimationObjectGroup - Fix stale inde",
       "publishedAt": "2026-09-24T14:35:44Z",
       "sourceId": "three",
       "sourceName": "Three.js Releases",
@@ -1384,13 +1384,13 @@
       "date": "2026-09-24T14:35:44Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe",
+      "summary": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Remove deprecated code. #33886 (@linbingquan) - Improve retroreflection nomenclature. #34079 (@WestLangley) - AnimationObjectGroup - Fix stale inde",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Add linting for tsl/. #34488 (@ycw) - Clean up. #34499 (@Mugen87) - AnimationObjectGroup - Fix stale index bookkeeping in uncache() and unsubscribe"
+          "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Remove deprecated code. #33886 (@linbingquan) - Improve retroreflection nomenclature. #34079 (@WestLangley) - AnimationObjectGroup - Fix stale inde"
         ]
       ],
       "sources": [
@@ -1437,7 +1437,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1472,7 +1472,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1507,7 +1507,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1577,7 +1577,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1717,7 +1717,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2522,7 +2522,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2697,7 +2697,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2732,7 +2732,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2837,7 +2837,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -3012,7 +3012,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -3152,7 +3152,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -3187,7 +3187,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -3222,7 +3222,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -3292,7 +3292,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -3362,7 +3362,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -3397,7 +3397,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3502,7 +3502,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3537,7 +3537,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3572,7 +3572,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3642,7 +3642,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3747,7 +3747,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "2f51d211a5c45cce7632",
@@ -3782,42 +3782,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
-    },
-    {
-      "id": "bb317b438ebbd204eee3",
-      "url": "https://code.blender.org/2025/10/volume-grids-in-geometry-nodes/",
-      "title": "Volume Grids in Geometry Nodes",
-      "excerpt": "Volumetric data is one of the core geometry types next to meshes, point clouds and curves. While there are already many ways to process the last three, the Geometry Nodes feature set for using volumes was very limited and mainly involved converting between volumes and other types",
-      "publishedAt": "2025-10-07T20:29:49Z",
-      "sourceId": "blender-dev",
-      "sourceName": "Blender 开发者博客",
-      "lane": "news",
-      "category": "传统建模",
-      "author": "Hans Goudey",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2025-10-07T20:29:49Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Volumetric data is one of the core geometry types next to meshes, point clouds and curves. While there are already many ways to process the last three, the Geometry Nodes feature set for using volumes was very limited and mainly involved converting between volumes and other types",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Volumetric data is one of the core geometry types next to meshes, point clouds and curves. While there are already many ways to process the last three, the Geometry Nodes feature set for using volumes was very limited and mainly involved converting between volumes and other types"
-        ]
-      ],
-      "sources": [
-        [
-          "Blender 开发者博客",
-          "https://code.blender.org/2025/10/volume-grids-in-geometry-nodes/"
-        ]
-      ],
-      "tags": [
-        "传统建模"
-      ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3852,7 +3817,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3922,7 +3887,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-10-30T05:41:06.860880Z"
+      "firstSeenAt": "2026-10-31T05:33:48.516149Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
