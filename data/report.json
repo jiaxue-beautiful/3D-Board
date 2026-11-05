@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-04T06:10:27.238997Z",
-  "windowStart": "2026-11-03T06:10:27.238997Z",
-  "windowEnd": "2026-11-04T06:10:27.238997Z",
+  "checkedAt": "2026-11-05T06:38:44.826132Z",
+  "windowStart": "2026-11-04T06:38:44.826132Z",
+  "windowEnd": "2026-11-05T06:38:44.826132Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -71,45 +71,44 @@
       "error": "来源请求失败（HTTP 404）；未绕过访问限制"
     }
   ],
-  "events": [
-    {
-      "id": "095d50b65d0f12d25d1d",
-      "url": "https://code.blender.org/2026/11/layered-actions-workshop-september-2026/",
-      "title": "Layered Actions workshop: September 2026",
-      "excerpt": "As is tradition by now, on the day before Blender Conference 2026, the Animation & Rigging module held a day-long workshop to discuss how layered actions should work in Blender. In this post, we’ll share the outcomes of that workshop. For more context on this topic, visit Animati",
-      "publishedAt": "2026-11-03T10:37:30Z",
-      "sourceId": "blender-dev",
-      "sourceName": "Blender 开发者博客",
-      "lane": "news",
-      "category": "传统建模",
-      "author": "dr. Sybren",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-03T10:37:30Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "As is tradition by now, on the day before Blender Conference 2026, the Animation & Rigging module held a day-long workshop to discuss how layered actions should work in Blender. In this post, we’ll share the outcomes of that workshop. For more context on this topic, visit Animati",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "As is tradition by now, on the day before Blender Conference 2026, the Animation & Rigging module held a day-long workshop to discuss how layered actions should work in Blender. In this post, we’ll share the outcomes of that workshop. For more context on this topic, visit Animati"
-        ]
-      ],
-      "sources": [
-        [
-          "Blender 开发者博客",
-          "https://code.blender.org/2026/11/layered-actions-workshop-september-2026/"
-        ]
-      ],
-      "tags": [
-        "传统建模"
-      ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
-    }
-  ],
+  "events": [],
   "archive": [
     {
+      "id": "96963ec29f7e35014777",
+      "url": "https://arxiv.org/abs/2611.05593v1",
+      "title": "GaussianRenderFormer: Transformer-based Rendering of 3D Gaussian Splats",
+      "excerpt": "Can a neural network learn to render 3D Gaussian splats on its own, with no rasterizer in the renderer? We present GaussianRenderFormer, a transformer that takes a set of Gaussians and a camera and outputs the image directly. Each Gaussian becomes one token in a view-independent ",
+      "publishedAt": "2026-11-03T20:26:14Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Sagie Benaim",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-03T20:26:14Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Can a neural network learn to render 3D Gaussian splats on its own, with no rasterizer in the renderer? We present GaussianRenderFormer, a transformer that takes a set of Gaussians and a camera and outputs the image directly. Each Gaussian becomes one token in a view-independent ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Can a neural network learn to render 3D Gaussian splats on its own, with no rasterizer in the renderer? We present GaussianRenderFormer, a transformer that takes a set of Gaussians and a camera and outputs the image directly. Each Gaussian becomes one token in a view-independent "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.05593v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+    },
+    {
       "id": "095d50b65d0f12d25d1d",
       "url": "https://code.blender.org/2026/11/layered-actions-workshop-september-2026/",
       "title": "Layered Actions workshop: September 2026",
@@ -142,11 +141,11 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
-      "id": "2f8d3ce3edc8a5eae5ec",
-      "url": "https://arxiv.org/abs/2611.03775v1",
+      "id": "9e707f9c5649535f327c",
+      "url": "https://arxiv.org/abs/2611.03775v2",
       "title": "FlowRig: Unified Skeleton Generation for 3D and 4D Meshes via Flow Matching",
       "excerpt": "Automatic rigging is a fundamental task for both static 3D and dynamic 4D mesh animation, yet existing methods do not provide a unified feedforward solution for these two settings. While static 3D riggers achieve strong quality, they often provide limited control over bone count ",
       "publishedAt": "2026-11-02T18:39:17Z",
@@ -171,13 +170,13 @@
       "sources": [
         [
           "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.03775v1"
+          "https://arxiv.org/abs/2611.03775v2"
         ]
       ],
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "2a335c4427e5c21887aa",
@@ -212,7 +211,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "186f991a098a43c0a3a3",
@@ -247,7 +246,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "16abf77063c3bc524a7d",
@@ -282,7 +281,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "fdc92b8664e31178b8d2",
@@ -317,7 +316,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "7642396d0b67d4d30785",
@@ -352,7 +351,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "9a316c4e405f40a94f5d",
@@ -387,7 +386,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "5aec3a09c6498974876a",
@@ -422,7 +421,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "0bacc23a3a9d72535cd2",
@@ -457,7 +456,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "900e199369b6bee06ccd",
@@ -492,7 +491,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "de8c72df8d1a2394b1b2",
@@ -527,7 +526,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "04d9fce64382ecff5f09",
@@ -562,7 +561,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "338a75ce2ff1f7c6d835",
@@ -597,7 +596,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "17f447cb198f64a8b9cc",
@@ -632,7 +631,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "01686b1a8f1a0c68f7ab",
@@ -667,7 +666,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "e274c0db87d30a2a4aa6",
@@ -702,7 +701,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "3ab4f526e58b4006dc0b",
@@ -737,7 +736,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "07b7cda6e9d9f7b227f1",
@@ -772,7 +771,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "52f661cc27cf1bcd3bee",
@@ -807,7 +806,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "10771ce6e4d0741ef7bc",
@@ -842,7 +841,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "17635e8369a240386c60",
@@ -877,7 +876,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "73ff5ae0fa45090e77de",
@@ -912,7 +911,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "10ce1f22a67da5a4a32d",
@@ -947,7 +946,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "3a159af697c632c1b07e",
@@ -982,42 +981,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
-    },
-    {
-      "id": "a911ecf7777676a2f487",
-      "url": "https://arxiv.org/abs/2610.36853v1",
-      "title": "LingGS: Decoupling Feed-Forward Geometry Prediction from Camera Tracking for High-Fidelity Gaussian SLAM",
-      "excerpt": "Achieving high-quality reconstruction and responsive camera tracking remains challenging for monocular RGB Gaussian splatting SLAM under a limited optimization budget. We present an online system that addresses this challenge by combining learned geometric priors with explicit ge",
-      "publishedAt": "2026-10-27T08:51:00Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Dominik Engel",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-27T08:51:00Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Achieving high-quality reconstruction and responsive camera tracking remains challenging for monocular RGB Gaussian splatting SLAM under a limited optimization budget. We present an online system that addresses this challenge by combining learned geometric priors with explicit ge",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Achieving high-quality reconstruction and responsive camera tracking remains challenging for monocular RGB Gaussian splatting SLAM under a limited optimization budget. We present an online system that addresses this challenge by combining learned geometric priors with explicit ge"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.36853v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "d0aa8ede854db3782fcd",
@@ -1052,7 +1016,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "a439f75fe1cc5acce787",
@@ -1087,7 +1051,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "5a15c2fde973ca63e3a7",
@@ -1122,7 +1086,7 @@
       "tags": [
         "行业动态"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "4431f80033a00c09120f",
@@ -1157,7 +1121,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "6da27f2edfc4695cdaa9",
@@ -1192,7 +1156,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "a1f3db65653cf6585472",
@@ -1227,7 +1191,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "5779216911d1605ae954",
@@ -1262,7 +1226,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -1297,7 +1261,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -1332,7 +1296,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -1367,7 +1331,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1437,7 +1401,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1472,7 +1436,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1507,7 +1471,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1577,7 +1541,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1717,7 +1681,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2522,7 +2486,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2697,7 +2661,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2732,7 +2696,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2837,7 +2801,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -3012,7 +2976,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -3152,7 +3116,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -3187,7 +3151,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -3222,7 +3186,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -3292,7 +3256,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -3362,7 +3326,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -3397,7 +3361,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3502,7 +3466,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3537,7 +3501,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3572,7 +3536,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3642,7 +3606,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3747,7 +3711,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3782,7 +3746,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3852,7 +3816,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-04T06:10:27.238997Z"
+      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
