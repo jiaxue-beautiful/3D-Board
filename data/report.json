@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-05T06:38:44.826132Z",
-  "windowStart": "2026-11-04T06:38:44.826132Z",
-  "windowEnd": "2026-11-05T06:38:44.826132Z",
+  "checkedAt": "2026-11-06T06:34:49.929693Z",
+  "windowStart": "2026-11-05T06:34:49.929693Z",
+  "windowEnd": "2026-11-06T06:34:49.929693Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -71,8 +71,149 @@
       "error": "来源请求失败（HTTP 404）；未绕过访问限制"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "4e786d4e3875ba4fc5aa",
+      "url": "https://arxiv.org/abs/2611.08288v1",
+      "title": "Hierarchical Incremental Beta Splatting for Online Reconstruction",
+      "excerpt": "Online 3D Gaussian Splatting reconstructs a scene during capture: each keyframe spawns primitives once and refines them for only a few dozen iterations, leaving little chance to fix poor initialization or missing detail. Gaussians are also inherently soft, needing many overlaps f",
+      "publishedAt": "2026-11-05T16:52:46Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Linus Franke",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-05T16:52:46Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Online 3D Gaussian Splatting reconstructs a scene during capture: each keyframe spawns primitives once and refines them for only a few dozen iterations, leaving little chance to fix poor initialization or missing detail. Gaussians are also inherently soft, needing many overlaps f",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Online 3D Gaussian Splatting reconstructs a scene during capture: each keyframe spawns primitives once and refines them for only a few dozen iterations, leaving little chance to fix poor initialization or missing detail. Gaussians are also inherently soft, needing many overlaps f"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.08288v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+    },
+    {
+      "id": "79336ccae02852099d66",
+      "url": "https://arxiv.org/abs/2611.07979v1",
+      "title": "Perception Over Geometry: Rethinking Gaussian Allocation in Mesh-based Splatting",
+      "excerpt": "3D Gaussian Splatting (3DGS) enables photorealistic novel-view synthesis but lacks explicit topology for geometric editing. Existing mesh-based methods enable geometric manipulation by associating Gaussians with triangular mesh faces, typically assigning a fixed number of Gaussia",
+      "publishedAt": "2026-11-05T13:09:42Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Ronggang Wang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-05T13:09:42Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D Gaussian Splatting (3DGS) enables photorealistic novel-view synthesis but lacks explicit topology for geometric editing. Existing mesh-based methods enable geometric manipulation by associating Gaussians with triangular mesh faces, typically assigning a fixed number of Gaussia",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D Gaussian Splatting (3DGS) enables photorealistic novel-view synthesis but lacks explicit topology for geometric editing. Existing mesh-based methods enable geometric manipulation by associating Gaussians with triangular mesh faces, typically assigning a fixed number of Gaussia"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.07979v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+    }
+  ],
   "archive": [
+    {
+      "id": "4e786d4e3875ba4fc5aa",
+      "url": "https://arxiv.org/abs/2611.08288v1",
+      "title": "Hierarchical Incremental Beta Splatting for Online Reconstruction",
+      "excerpt": "Online 3D Gaussian Splatting reconstructs a scene during capture: each keyframe spawns primitives once and refines them for only a few dozen iterations, leaving little chance to fix poor initialization or missing detail. Gaussians are also inherently soft, needing many overlaps f",
+      "publishedAt": "2026-11-05T16:52:46Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Linus Franke",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-05T16:52:46Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Online 3D Gaussian Splatting reconstructs a scene during capture: each keyframe spawns primitives once and refines them for only a few dozen iterations, leaving little chance to fix poor initialization or missing detail. Gaussians are also inherently soft, needing many overlaps f",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Online 3D Gaussian Splatting reconstructs a scene during capture: each keyframe spawns primitives once and refines them for only a few dozen iterations, leaving little chance to fix poor initialization or missing detail. Gaussians are also inherently soft, needing many overlaps f"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.08288v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+    },
+    {
+      "id": "79336ccae02852099d66",
+      "url": "https://arxiv.org/abs/2611.07979v1",
+      "title": "Perception Over Geometry: Rethinking Gaussian Allocation in Mesh-based Splatting",
+      "excerpt": "3D Gaussian Splatting (3DGS) enables photorealistic novel-view synthesis but lacks explicit topology for geometric editing. Existing mesh-based methods enable geometric manipulation by associating Gaussians with triangular mesh faces, typically assigning a fixed number of Gaussia",
+      "publishedAt": "2026-11-05T13:09:42Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Ronggang Wang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-05T13:09:42Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D Gaussian Splatting (3DGS) enables photorealistic novel-view synthesis but lacks explicit topology for geometric editing. Existing mesh-based methods enable geometric manipulation by associating Gaussians with triangular mesh faces, typically assigning a fixed number of Gaussia",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D Gaussian Splatting (3DGS) enables photorealistic novel-view synthesis but lacks explicit topology for geometric editing. Existing mesh-based methods enable geometric manipulation by associating Gaussians with triangular mesh faces, typically assigning a fixed number of Gaussia"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.07979v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+    },
     {
       "id": "96963ec29f7e35014777",
       "url": "https://arxiv.org/abs/2611.05593v1",
@@ -106,13 +247,13 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "095d50b65d0f12d25d1d",
       "url": "https://code.blender.org/2026/11/layered-actions-workshop-september-2026/",
-      "title": "Layered Actions workshop: September 2026",
-      "excerpt": "As is tradition by now, on the day before Blender Conference 2026, the Animation & Rigging module held a day-long workshop to discuss how layered actions should work in Blender. In this post, we’ll share the outcomes of that workshop. For more context on this topic, visit Animati",
+      "title": "Layered Actions Workshop: September 2026",
+      "excerpt": "As is tradition by now, on the day before Blender Conference 2026, the Animation & Rigging module held a day-long workshop to discuss how Layered Actions should work in Blender. In this post, we’ll share the outcomes of that workshop. For more context on this topic, visit Animati",
       "publishedAt": "2026-11-03T10:37:30Z",
       "sourceId": "blender-dev",
       "sourceName": "Blender 开发者博客",
@@ -123,13 +264,13 @@
       "date": "2026-11-03T10:37:30Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "As is tradition by now, on the day before Blender Conference 2026, the Animation & Rigging module held a day-long workshop to discuss how layered actions should work in Blender. In this post, we’ll share the outcomes of that workshop. For more context on this topic, visit Animati",
+      "summary": "As is tradition by now, on the day before Blender Conference 2026, the Animation & Rigging module held a day-long workshop to discuss how Layered Actions should work in Blender. In this post, we’ll share the outcomes of that workshop. For more context on this topic, visit Animati",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "As is tradition by now, on the day before Blender Conference 2026, the Animation & Rigging module held a day-long workshop to discuss how layered actions should work in Blender. In this post, we’ll share the outcomes of that workshop. For more context on this topic, visit Animati"
+          "As is tradition by now, on the day before Blender Conference 2026, the Animation & Rigging module held a day-long workshop to discuss how Layered Actions should work in Blender. In this post, we’ll share the outcomes of that workshop. For more context on this topic, visit Animati"
         ]
       ],
       "sources": [
@@ -141,7 +282,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "9e707f9c5649535f327c",
@@ -176,7 +317,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "2a335c4427e5c21887aa",
@@ -211,7 +352,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "186f991a098a43c0a3a3",
@@ -246,7 +387,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "16abf77063c3bc524a7d",
@@ -281,7 +422,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "fdc92b8664e31178b8d2",
@@ -316,7 +457,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "7642396d0b67d4d30785",
@@ -351,7 +492,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "9a316c4e405f40a94f5d",
@@ -386,7 +527,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "5aec3a09c6498974876a",
@@ -421,7 +562,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "0bacc23a3a9d72535cd2",
@@ -456,7 +597,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "900e199369b6bee06ccd",
@@ -491,7 +632,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "de8c72df8d1a2394b1b2",
@@ -526,7 +667,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "04d9fce64382ecff5f09",
@@ -561,7 +702,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "338a75ce2ff1f7c6d835",
@@ -596,7 +737,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "17f447cb198f64a8b9cc",
@@ -631,7 +772,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "01686b1a8f1a0c68f7ab",
@@ -666,7 +807,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "e274c0db87d30a2a4aa6",
@@ -701,7 +842,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "3ab4f526e58b4006dc0b",
@@ -736,7 +877,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "07b7cda6e9d9f7b227f1",
@@ -771,7 +912,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "52f661cc27cf1bcd3bee",
@@ -806,7 +947,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "10771ce6e4d0741ef7bc",
@@ -841,7 +982,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "17635e8369a240386c60",
@@ -876,7 +1017,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "73ff5ae0fa45090e77de",
@@ -911,77 +1052,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
-    },
-    {
-      "id": "10ce1f22a67da5a4a32d",
-      "url": "https://arxiv.org/abs/2610.37172v1",
-      "title": "DomeGS: Perceptually Consistent Background Completion for Unbounded 3D Gaussian Splatting in Virtual Reality",
-      "excerpt": "The growing need for high-quality 3D content remains among the most prevalent challenges in virtual reality (VR). Recently, novel view synthesis techniques have enabled rapid content creation, with 3D Gaussian Splatting (3DGS) emerging as one of the most promising methods for gen",
-      "publishedAt": "2026-10-27T12:58:16Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Przemysław Spurek",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-27T12:58:16Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "The growing need for high-quality 3D content remains among the most prevalent challenges in virtual reality (VR). Recently, novel view synthesis techniques have enabled rapid content creation, with 3D Gaussian Splatting (3DGS) emerging as one of the most promising methods for gen",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "The growing need for high-quality 3D content remains among the most prevalent challenges in virtual reality (VR). Recently, novel view synthesis techniques have enabled rapid content creation, with 3D Gaussian Splatting (3DGS) emerging as one of the most promising methods for gen"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.37172v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
-    },
-    {
-      "id": "3a159af697c632c1b07e",
-      "url": "https://arxiv.org/abs/2610.37036v1",
-      "title": "GraftRay: Physically Based Mesh Insertion into Gaussian Splatting Scenes via Path Tracing",
-      "excerpt": "Inserting virtual objects into scenes reconstructed via 2D or 3D Gaussian Splatting (2DGS/3DGS) is a key capability for content creation, AR, and synthetic data generation. However, realistic insertion requires the object to be seamlessly lit by the scene and, conversely, to cast",
-      "publishedAt": "2026-10-27T11:11:48Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Matthias Niessner",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-27T11:11:48Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Inserting virtual objects into scenes reconstructed via 2D or 3D Gaussian Splatting (2DGS/3DGS) is a key capability for content creation, AR, and synthetic data generation. However, realistic insertion requires the object to be seamlessly lit by the scene and, conversely, to cast",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Inserting virtual objects into scenes reconstructed via 2D or 3D Gaussian Splatting (2DGS/3DGS) is a key capability for content creation, AR, and synthetic data generation. However, realistic insertion requires the object to be seamlessly lit by the scene and, conversely, to cast"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2610.37036v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "d0aa8ede854db3782fcd",
@@ -1016,7 +1087,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "a439f75fe1cc5acce787",
@@ -1051,7 +1122,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "5a15c2fde973ca63e3a7",
@@ -1086,7 +1157,7 @@
       "tags": [
         "行业动态"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "4431f80033a00c09120f",
@@ -1121,7 +1192,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "6da27f2edfc4695cdaa9",
@@ -1156,7 +1227,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "a1f3db65653cf6585472",
@@ -1191,7 +1262,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "5779216911d1605ae954",
@@ -1226,7 +1297,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -1261,7 +1332,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -1296,7 +1367,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -1331,7 +1402,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1401,7 +1472,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1436,7 +1507,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1471,7 +1542,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1541,7 +1612,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1681,7 +1752,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2486,7 +2557,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2661,7 +2732,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2696,7 +2767,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2801,7 +2872,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -2976,7 +3047,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -3116,7 +3187,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -3151,7 +3222,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -3186,7 +3257,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -3256,7 +3327,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -3326,7 +3397,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -3361,7 +3432,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3466,7 +3537,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3501,7 +3572,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3536,7 +3607,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3606,7 +3677,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3711,7 +3782,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3746,7 +3817,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3816,7 +3887,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-05T06:38:44.826132Z"
+      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
