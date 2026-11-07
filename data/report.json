@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-06T06:34:49.929693Z",
-  "windowStart": "2026-11-05T06:34:49.929693Z",
-  "windowEnd": "2026-11-06T06:34:49.929693Z",
+  "checkedAt": "2026-11-07T05:53:20.673201Z",
+  "windowStart": "2026-11-06T05:53:20.673201Z",
+  "windowEnd": "2026-11-07T05:53:20.673201Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -73,78 +73,78 @@
   ],
   "events": [
     {
-      "id": "4e786d4e3875ba4fc5aa",
-      "url": "https://arxiv.org/abs/2611.08288v1",
-      "title": "Hierarchical Incremental Beta Splatting for Online Reconstruction",
-      "excerpt": "Online 3D Gaussian Splatting reconstructs a scene during capture: each keyframe spawns primitives once and refines them for only a few dozen iterations, leaving little chance to fix poor initialization or missing detail. Gaussians are also inherently soft, needing many overlaps f",
-      "publishedAt": "2026-11-05T16:52:46Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
+      "id": "ff6b07a876c655ba7dad",
+      "url": "https://godotengine.org/article/godot-showcase-sovereign-tower/",
+      "title": "Godot Showcase - Sovereign Tower",
+      "excerpt": ".paul { color: #aa77e2; } .lisa { color: #40b99f; } Today, Paul Mozet (Lead Programmer on Sovereign Tower) and Lisa Garnier (Narrative Design and Technical Artist on Sovereign Tower) from Wild Wits Games tell us about their experience developing their latest Godot game: Sovereign",
+      "publishedAt": "2026-11-06T14:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
       "lane": "news",
-      "category": "学术研究",
-      "author": "Linus Franke",
+      "category": "引擎与交互",
+      "author": "Hugo Locurcio",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-05T16:52:46Z",
+      "date": "2026-11-06T14:00:00Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "Online 3D Gaussian Splatting reconstructs a scene during capture: each keyframe spawns primitives once and refines them for only a few dozen iterations, leaving little chance to fix poor initialization or missing detail. Gaussians are also inherently soft, needing many overlaps f",
+      "summary": ".paul { color: #aa77e2; } .lisa { color: #40b99f; } Today, Paul Mozet (Lead Programmer on Sovereign Tower) and Lisa Garnier (Narrative Design and Technical Artist on Sovereign Tower) from Wild Wits Games tell us about their experience developing their latest Godot game: Sovereign",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "Online 3D Gaussian Splatting reconstructs a scene during capture: each keyframe spawns primitives once and refines them for only a few dozen iterations, leaving little chance to fix poor initialization or missing detail. Gaussians are also inherently soft, needing many overlaps f"
+          ".paul { color: #aa77e2; } .lisa { color: #40b99f; } Today, Paul Mozet (Lead Programmer on Sovereign Tower) and Lisa Garnier (Narrative Design and Technical Artist on Sovereign Tower) from Wild Wits Games tell us about their experience developing their latest Godot game: Sovereign"
         ]
       ],
       "sources": [
         [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.08288v1"
+          "Godot 官方新闻",
+          "https://godotengine.org/article/godot-showcase-sovereign-tower/"
         ]
       ],
       "tags": [
-        "学术研究"
+        "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
-    },
-    {
-      "id": "79336ccae02852099d66",
-      "url": "https://arxiv.org/abs/2611.07979v1",
-      "title": "Perception Over Geometry: Rethinking Gaussian Allocation in Mesh-based Splatting",
-      "excerpt": "3D Gaussian Splatting (3DGS) enables photorealistic novel-view synthesis but lacks explicit topology for geometric editing. Existing mesh-based methods enable geometric manipulation by associating Gaussians with triangular mesh faces, typically assigning a fixed number of Gaussia",
-      "publishedAt": "2026-11-05T13:09:42Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Ronggang Wang",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-05T13:09:42Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "3D Gaussian Splatting (3DGS) enables photorealistic novel-view synthesis but lacks explicit topology for geometric editing. Existing mesh-based methods enable geometric manipulation by associating Gaussians with triangular mesh faces, typically assigning a fixed number of Gaussia",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "3D Gaussian Splatting (3DGS) enables photorealistic novel-view synthesis but lacks explicit topology for geometric editing. Existing mesh-based methods enable geometric manipulation by associating Gaussians with triangular mesh faces, typically assigning a fixed number of Gaussia"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.07979v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     }
   ],
   "archive": [
     {
+      "id": "ff6b07a876c655ba7dad",
+      "url": "https://godotengine.org/article/godot-showcase-sovereign-tower/",
+      "title": "Godot Showcase - Sovereign Tower",
+      "excerpt": ".paul { color: #aa77e2; } .lisa { color: #40b99f; } Today, Paul Mozet (Lead Programmer on Sovereign Tower) and Lisa Garnier (Narrative Design and Technical Artist on Sovereign Tower) from Wild Wits Games tell us about their experience developing their latest Godot game: Sovereign",
+      "publishedAt": "2026-11-06T14:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Hugo Locurcio",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-06T14:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": ".paul { color: #aa77e2; } .lisa { color: #40b99f; } Today, Paul Mozet (Lead Programmer on Sovereign Tower) and Lisa Garnier (Narrative Design and Technical Artist on Sovereign Tower) from Wild Wits Games tell us about their experience developing their latest Godot game: Sovereign",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          ".paul { color: #aa77e2; } .lisa { color: #40b99f; } Today, Paul Mozet (Lead Programmer on Sovereign Tower) and Lisa Garnier (Narrative Design and Technical Artist on Sovereign Tower) from Wild Wits Games tell us about their experience developing their latest Godot game: Sovereign"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/godot-showcase-sovereign-tower/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
+    },
+    {
       "id": "4e786d4e3875ba4fc5aa",
       "url": "https://arxiv.org/abs/2611.08288v1",
       "title": "Hierarchical Incremental Beta Splatting for Online Reconstruction",
@@ -177,7 +177,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "79336ccae02852099d66",
@@ -212,7 +212,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "96963ec29f7e35014777",
@@ -247,7 +247,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "095d50b65d0f12d25d1d",
@@ -282,7 +282,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "9e707f9c5649535f327c",
@@ -317,7 +317,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "2a335c4427e5c21887aa",
@@ -352,7 +352,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "186f991a098a43c0a3a3",
@@ -387,7 +387,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "16abf77063c3bc524a7d",
@@ -422,7 +422,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "fdc92b8664e31178b8d2",
@@ -457,7 +457,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "7642396d0b67d4d30785",
@@ -492,7 +492,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "9a316c4e405f40a94f5d",
@@ -527,7 +527,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "5aec3a09c6498974876a",
@@ -562,7 +562,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "0bacc23a3a9d72535cd2",
@@ -597,7 +597,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "900e199369b6bee06ccd",
@@ -632,7 +632,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "de8c72df8d1a2394b1b2",
@@ -667,7 +667,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "04d9fce64382ecff5f09",
@@ -702,7 +702,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "338a75ce2ff1f7c6d835",
@@ -737,7 +737,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "17f447cb198f64a8b9cc",
@@ -772,7 +772,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "01686b1a8f1a0c68f7ab",
@@ -807,7 +807,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "e274c0db87d30a2a4aa6",
@@ -842,7 +842,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "3ab4f526e58b4006dc0b",
@@ -877,7 +877,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "07b7cda6e9d9f7b227f1",
@@ -912,7 +912,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "52f661cc27cf1bcd3bee",
@@ -947,7 +947,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "10771ce6e4d0741ef7bc",
@@ -982,7 +982,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "17635e8369a240386c60",
@@ -1017,7 +1017,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "73ff5ae0fa45090e77de",
@@ -1052,7 +1052,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "d0aa8ede854db3782fcd",
@@ -1087,7 +1087,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "a439f75fe1cc5acce787",
@@ -1122,7 +1122,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "5a15c2fde973ca63e3a7",
@@ -1157,7 +1157,7 @@
       "tags": [
         "行业动态"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "4431f80033a00c09120f",
@@ -1192,7 +1192,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "6da27f2edfc4695cdaa9",
@@ -1227,7 +1227,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "a1f3db65653cf6585472",
@@ -1262,7 +1262,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "5779216911d1605ae954",
@@ -1297,7 +1297,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -1332,7 +1332,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -1367,7 +1367,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -1402,7 +1402,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1472,7 +1472,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1507,7 +1507,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1542,7 +1542,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1612,7 +1612,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1752,7 +1752,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2557,7 +2557,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2732,7 +2732,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2767,7 +2767,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2872,7 +2872,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -3047,7 +3047,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -3187,7 +3187,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -3222,7 +3222,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -3257,7 +3257,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -3327,7 +3327,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -3397,7 +3397,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -3432,7 +3432,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3537,7 +3537,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3572,7 +3572,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3607,7 +3607,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3677,7 +3677,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3782,7 +3782,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3817,7 +3817,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3887,7 +3887,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-06T06:34:49.929693Z"
+      "firstSeenAt": "2026-11-07T05:53:20.673201Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
