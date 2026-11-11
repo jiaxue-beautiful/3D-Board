@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-10T07:11:16.219661Z",
-  "windowStart": "2026-11-09T07:11:16.219661Z",
-  "windowEnd": "2026-11-10T07:11:16.219661Z",
+  "checkedAt": "2026-11-11T06:07:10.220116Z",
+  "windowStart": "2026-11-10T06:07:10.220116Z",
+  "windowEnd": "2026-11-11T06:07:10.220116Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -73,113 +73,113 @@
   ],
   "events": [
     {
-      "id": "eb29b750caf7325fb57b",
-      "url": "https://arxiv.org/abs/2611.12716v1",
-      "title": "Spaghetti Splatting: Differentiating Curvilinear Dirac Masses via Convolution",
-      "excerpt": "In production systems, 3D geometry is represented by primitives such as points, lines, and triangles, as rendering hardware is optimized to generate images from them very efficiently. Learning such primitives from images by volume rendering is challenging, as they are Dirac masse",
-      "publishedAt": "2026-11-09T17:04:26Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Andrea Tagliasacchi",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-09T17:04:26Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "In production systems, 3D geometry is represented by primitives such as points, lines, and triangles, as rendering hardware is optimized to generate images from them very efficiently. Learning such primitives from images by volume rendering is challenging, as they are Dirac masse",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "In production systems, 3D geometry is represented by primitives such as points, lines, and triangles, as rendering hardware is optimized to generate images from them very efficiently. Learning such primitives from images by volume rendering is challenging, as they are Dirac masse"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.12716v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
-    },
-    {
-      "id": "85f4da73557088e9f937",
-      "url": "https://arxiv.org/abs/2611.12319v1",
-      "title": "Mitigating SM-Level Load Imbalance in 3D Gaussian Splatting on GPUs",
-      "excerpt": "3D Gaussian Splatting (3DGS) enables photorealistic, real-time rendering on commodity GPUs and is increasingly adopted in generative world models and autonomous driving simulators. However, existing optimizations rely on algorithmic changes that often require retraining, or on sp",
-      "publishedAt": "2026-11-09T12:41:30Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Hoi-Jun Yoo",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-09T12:41:30Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "3D Gaussian Splatting (3DGS) enables photorealistic, real-time rendering on commodity GPUs and is increasingly adopted in generative world models and autonomous driving simulators. However, existing optimizations rely on algorithmic changes that often require retraining, or on sp",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "3D Gaussian Splatting (3DGS) enables photorealistic, real-time rendering on commodity GPUs and is increasingly adopted in generative world models and autonomous driving simulators. However, existing optimizations rely on algorithmic changes that often require retraining, or on sp"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.12319v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
-    },
-    {
-      "id": "e9c1cd83437be519aaa5",
-      "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-3/",
-      "title": "Dev snapshot: Godot 4.8 beta 3",
-      "excerpt": "Despite much of our team being at GodotFest this past week , there was still a healthy amount of progress made on our handful of remaining release blockers. It’s looking like it won’t be too much longer before we’re ready to transition to the release candidate phase, so now’s the",
-      "publishedAt": "2026-11-09T12:00:00Z",
+      "id": "022a64022e04ab357d60",
+      "url": "https://godotengine.org/article/partners_jetbrains_sponsorship_renewal_2027/",
+      "title": "JetBrains Renews its Platinum Sponsorship of the Godot Foundation",
+      "excerpt": "We’re happy to share that JetBrains has renewed its Platinum sponsorship of the Godot Foundation for 2027. JetBrains first joined as a Platinum sponsor in August 2025. Alongside the sponsorship, JetBrains has kept expanding Godot support in JetBrains Rider. Over the past year, Ri",
+      "publishedAt": "2026-11-10T12:00:00Z",
       "sourceId": "godot",
       "sourceName": "Godot 官方新闻",
       "lane": "news",
       "category": "引擎与交互",
-      "author": "Thaddeus Crews",
+      "author": "Godot Foundation",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-09T12:00:00Z",
+      "date": "2026-11-10T12:00:00Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "Despite much of our team being at GodotFest this past week , there was still a healthy amount of progress made on our handful of remaining release blockers. It’s looking like it won’t be too much longer before we’re ready to transition to the release candidate phase, so now’s the",
+      "summary": "We’re happy to share that JetBrains has renewed its Platinum sponsorship of the Godot Foundation for 2027. JetBrains first joined as a Platinum sponsor in August 2025. Alongside the sponsorship, JetBrains has kept expanding Godot support in JetBrains Rider. Over the past year, Ri",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "Despite much of our team being at GodotFest this past week , there was still a healthy amount of progress made on our handful of remaining release blockers. It’s looking like it won’t be too much longer before we’re ready to transition to the release candidate phase, so now’s the"
+          "We’re happy to share that JetBrains has renewed its Platinum sponsorship of the Godot Foundation for 2027. JetBrains first joined as a Platinum sponsor in August 2025. Alongside the sponsorship, JetBrains has kept expanding Godot support in JetBrains Rider. Over the past year, Ri"
         ]
       ],
       "sources": [
         [
           "Godot 官方新闻",
-          "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-3/"
+          "https://godotengine.org/article/partners_jetbrains_sponsorship_renewal_2027/"
         ]
       ],
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     }
   ],
   "archive": [
     {
+      "id": "022a64022e04ab357d60",
+      "url": "https://godotengine.org/article/partners_jetbrains_sponsorship_renewal_2027/",
+      "title": "JetBrains Renews its Platinum Sponsorship of the Godot Foundation",
+      "excerpt": "We’re happy to share that JetBrains has renewed its Platinum sponsorship of the Godot Foundation for 2027. JetBrains first joined as a Platinum sponsor in August 2025. Alongside the sponsorship, JetBrains has kept expanding Godot support in JetBrains Rider. Over the past year, Ri",
+      "publishedAt": "2026-11-10T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Godot Foundation",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-10T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We’re happy to share that JetBrains has renewed its Platinum sponsorship of the Godot Foundation for 2027. JetBrains first joined as a Platinum sponsor in August 2025. Alongside the sponsorship, JetBrains has kept expanding Godot support in JetBrains Rider. Over the past year, Ri",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We’re happy to share that JetBrains has renewed its Platinum sponsorship of the Godot Foundation for 2027. JetBrains first joined as a Platinum sponsor in August 2025. Alongside the sponsorship, JetBrains has kept expanding Godot support in JetBrains Rider. Over the past year, Ri"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/partners_jetbrains_sponsorship_renewal_2027/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
+    },
+    {
+      "id": "83cb288945bd71c9d8f7",
+      "url": "https://arxiv.org/abs/2611.13296v1",
+      "title": "A Unified Interactive Framework for Real-Time Three-Dimensional Cellular Automata Simulation in XR",
+      "excerpt": "Integrating three-dimensional cellular automata (3D CA) into extended reality (XR) requires coordinated simulation, volumetric data management, rendering, and interaction under variable hardware constraints. This paper presents a hybrid study combining a critical review of existi",
+      "publishedAt": "2026-11-09T22:03:03Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Mohammad Erfan Safabakhsh",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-09T22:03:03Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Integrating three-dimensional cellular automata (3D CA) into extended reality (XR) requires coordinated simulation, volumetric data management, rendering, and interaction under variable hardware constraints. This paper presents a hybrid study combining a critical review of existi",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Integrating three-dimensional cellular automata (3D CA) into extended reality (XR) requires coordinated simulation, volumetric data management, rendering, and interaction under variable hardware constraints. This paper presents a hybrid study combining a critical review of existi"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.13296v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
+    },
+    {
       "id": "eb29b750caf7325fb57b",
       "url": "https://arxiv.org/abs/2611.12716v1",
       "title": "Spaghetti Splatting: Differentiating Curvilinear Dirac Masses via Convolution",
@@ -212,7 +212,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "85f4da73557088e9f937",
@@ -247,7 +247,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "e9c1cd83437be519aaa5",
@@ -282,7 +282,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "a9cadb8dd5bb53c4656b",
@@ -317,7 +317,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "227eb63952e8e69694fb",
@@ -352,7 +352,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "c23e462067e7784898af",
@@ -387,7 +387,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "ff6b07a876c655ba7dad",
@@ -422,7 +422,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "7456e21aa1406759e164",
@@ -457,7 +457,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "0f8920a87e9107cde59f",
@@ -492,7 +492,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "99cfe1b9708f62147e3f",
@@ -527,7 +527,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "4e786d4e3875ba4fc5aa",
@@ -562,7 +562,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "79336ccae02852099d66",
@@ -597,7 +597,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "cb571d8d58d8c3280d11",
@@ -632,7 +632,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "96963ec29f7e35014777",
@@ -667,7 +667,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "095d50b65d0f12d25d1d",
@@ -702,7 +702,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "9e707f9c5649535f327c",
@@ -737,7 +737,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "2a335c4427e5c21887aa",
@@ -772,7 +772,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "186f991a098a43c0a3a3",
@@ -807,7 +807,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "16abf77063c3bc524a7d",
@@ -842,7 +842,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "fdc92b8664e31178b8d2",
@@ -877,7 +877,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "7642396d0b67d4d30785",
@@ -912,7 +912,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "9a316c4e405f40a94f5d",
@@ -947,42 +947,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
-    },
-    {
-      "id": "5aec3a09c6498974876a",
-      "url": "https://arxiv.org/abs/2611.00227v1",
-      "title": "Piecewise CMC Segmentation for Fluidic Shaping",
-      "excerpt": "We present a novel mesh segmentation approach for the fabrication of 3D geometries using fluidic shaping. The physics of fluidic shaping gives rise to Constant Mean Curvature (CMC) surfaces due to interfacial tension between the polymer fluid used to shape the 3D structure and an",
-      "publishedAt": "2026-10-30T18:10:21Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Emily Whiting",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-10-30T18:10:21Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "We present a novel mesh segmentation approach for the fabrication of 3D geometries using fluidic shaping. The physics of fluidic shaping gives rise to Constant Mean Curvature (CMC) surfaces due to interfacial tension between the polymer fluid used to shape the 3D structure and an",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "We present a novel mesh segmentation approach for the fabrication of 3D geometries using fluidic shaping. The physics of fluidic shaping gives rise to Constant Mean Curvature (CMC) surfaces due to interfacial tension between the polymer fluid used to shape the 3D structure and an"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.00227v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "900e199369b6bee06ccd",
@@ -1017,7 +982,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "de8c72df8d1a2394b1b2",
@@ -1052,7 +1017,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "17f447cb198f64a8b9cc",
@@ -1087,7 +1052,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "e274c0db87d30a2a4aa6",
@@ -1122,7 +1087,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "3ab4f526e58b4006dc0b",
@@ -1157,7 +1122,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "d0aa8ede854db3782fcd",
@@ -1192,7 +1157,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "a439f75fe1cc5acce787",
@@ -1227,7 +1192,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "5a15c2fde973ca63e3a7",
@@ -1262,7 +1227,7 @@
       "tags": [
         "行业动态"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "4431f80033a00c09120f",
@@ -1297,7 +1262,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "6da27f2edfc4695cdaa9",
@@ -1332,7 +1297,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "a1f3db65653cf6585472",
@@ -1367,7 +1332,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "5779216911d1605ae954",
@@ -1402,7 +1367,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -1437,7 +1402,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -1472,7 +1437,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -1507,7 +1472,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1577,7 +1542,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1612,7 +1577,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1647,7 +1612,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1717,7 +1682,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1857,7 +1822,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2662,7 +2627,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2837,7 +2802,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -2872,7 +2837,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -2977,7 +2942,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -3152,7 +3117,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -3292,7 +3257,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -3327,7 +3292,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -3362,7 +3327,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -3432,7 +3397,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -3502,7 +3467,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -3537,7 +3502,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3642,7 +3607,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "b3d1e4ce434d25124890",
@@ -3677,7 +3642,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3712,7 +3677,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3782,7 +3747,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3887,7 +3852,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "c2bc9289bacb57df292c",
@@ -3922,7 +3887,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -3992,7 +3957,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-10T07:11:16.219661Z"
+      "firstSeenAt": "2026-11-11T06:07:10.220116Z"
     },
     {
       "id": "d7d9be76f0d43c8c9c86",
