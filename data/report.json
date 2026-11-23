@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-22T06:39:32.084741Z",
-  "windowStart": "2026-11-21T06:39:32.084741Z",
-  "windowEnd": "2026-11-22T06:39:32.084741Z",
+  "checkedAt": "2026-11-23T07:28:47.843354Z",
+  "windowStart": "2026-11-22T07:28:47.843354Z",
+  "windowEnd": "2026-11-23T07:28:47.843354Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -72,6 +72,76 @@
   "events": [],
   "archive": [
     {
+      "id": "f6ed00d793d13f1471a3",
+      "url": "https://arxiv.org/abs/2611.27719v1",
+      "title": "VeilGS: Solving Darkness as a Veil of 2D Basis Maps over Retinex 3DGS",
+      "excerpt": "In a dark capture, the darkness is not uniform. How much light reaches a surface depends on where it lies relative to the few light sources, and the camera compresses what remains with a tone curve. Most low-light 3D reconstruction methods either apply one curve to every pixel of",
+      "publishedAt": "2026-11-20T15:23:12Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Jun Chen",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-20T15:23:12Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "In a dark capture, the darkness is not uniform. How much light reaches a surface depends on where it lies relative to the few light sources, and the camera compresses what remains with a tone curve. Most low-light 3D reconstruction methods either apply one curve to every pixel of",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "In a dark capture, the darkness is not uniform. How much light reaches a surface depends on where it lies relative to the few light sources, and the camera compresses what remains with a tone curve. Most low-light 3D reconstruction methods either apply one curve to every pixel of"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.27719v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+    },
+    {
+      "id": "f0ff676c4f6a72845ef3",
+      "url": "https://arxiv.org/abs/2611.27525v1",
+      "title": "PennyGS: Full Resolution 3DGS Training in Minutes on Consumer GPUs",
+      "excerpt": "3D Gaussian Splatting is increasingly fed by high-resolution captures from commodity devices, yet training still happens at reduced resolution with research-grade GPUs. We present PennyGS, a method to achieve full-resolution (4K) training of 3DGS on consumer GPUs by improving the",
+      "publishedAt": "2026-11-20T12:18:49Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Wei Tsang Ooi",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-20T12:18:49Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D Gaussian Splatting is increasingly fed by high-resolution captures from commodity devices, yet training still happens at reduced resolution with research-grade GPUs. We present PennyGS, a method to achieve full-resolution (4K) training of 3DGS on consumer GPUs by improving the",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D Gaussian Splatting is increasingly fed by high-resolution captures from commodity devices, yet training still happens at reduced resolution with research-grade GPUs. We present PennyGS, a method to achieve full-resolution (4K) training of 3DGS on consumer GPUs by improving the"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.27525v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+    },
+    {
       "id": "0640542d70a9a4c8bede",
       "url": "https://godotengine.org/article/godot-showreel-2026/",
       "title": "Godot Showreel 2026",
@@ -104,7 +174,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "ff17a75b4d006b194019",
@@ -139,7 +209,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "4ab38ddfd895d1cfb4a0",
@@ -174,7 +244,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "0896db1878d697545532",
@@ -209,7 +279,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "c028d0aa23807579aa8c",
@@ -244,7 +314,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "e4cc21e268351b667316",
@@ -279,7 +349,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "599edbe928ccf6a6a9b7",
@@ -314,7 +384,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "f2d2257cdac7c1423499",
@@ -349,7 +419,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "b70e5b775b2f97f1b07b",
@@ -384,7 +454,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "5d0e14d126bffedfb4a5",
@@ -419,7 +489,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "8bde3545199cf16ccd03",
@@ -454,7 +524,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "4fab0efb7ce7e9e3810f",
@@ -489,7 +559,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "3b53998a6113418e766c",
@@ -524,7 +594,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "bac7fb8dbe45987c0687",
@@ -559,7 +629,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "7d490bcf588a35d5a22e",
@@ -594,7 +664,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "d25af8bb44a4f7733507",
@@ -629,7 +699,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "6314e77fef814658451c",
@@ -664,7 +734,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "82b03666106e08f02edb",
@@ -699,7 +769,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "861b7707499519d4a24f",
@@ -734,7 +804,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "e505935be8a942546471",
@@ -769,7 +839,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "a50fee87af21cd7ccdb2",
@@ -804,7 +874,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "a0856d64957a231e0f4f",
@@ -839,7 +909,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "9b592dffc463d1dac95b",
@@ -874,77 +944,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
-    },
-    {
-      "id": "ee35b49a30d1c18d8061",
-      "url": "https://arxiv.org/abs/2611.16701v1",
-      "title": "Sprint3D: Accelerating End-to-End 3D Asset Generation through Pipeline Optimization",
-      "excerpt": "Image-to-3D generative models now produce asset-quality textured meshes, but at minutes per asset they remain slow to iterate with and costly to deploy. Prior work has mostly accelerated the sampling of the networks, and where it also optimizes the mesh processing, it trains its ",
-      "publishedAt": "2026-11-12T12:18:49Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Zhixiang Wang",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-12T12:18:49Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Image-to-3D generative models now produce asset-quality textured meshes, but at minutes per asset they remain slow to iterate with and costly to deploy. Prior work has mostly accelerated the sampling of the networks, and where it also optimizes the mesh processing, it trains its ",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Image-to-3D generative models now produce asset-quality textured meshes, but at minutes per asset they remain slow to iterate with and costly to deploy. Prior work has mostly accelerated the sampling of the networks, and where it also optimizes the mesh processing, it trains its "
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.16701v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
-    },
-    {
-      "id": "b3fd9d32c5846006e566",
-      "url": "https://arxiv.org/abs/2611.15320v1",
-      "title": "Delaunay-Based Nearest Neighbor Search with Grid-Accelerated Queries and Parallel Construction",
-      "excerpt": "Nearest-neighbor search is a fundamental primitive in computer graphics, with applications in distance field computation, surface reconstruction, and point cloud registration. In many graphics applications, data points lie on a surface manifold embedded in 3D space, whereas queri",
-      "publishedAt": "2026-11-11T10:57:56Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Changhe Tu",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-11T10:57:56Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Nearest-neighbor search is a fundamental primitive in computer graphics, with applications in distance field computation, surface reconstruction, and point cloud registration. In many graphics applications, data points lie on a surface manifold embedded in 3D space, whereas queri",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Nearest-neighbor search is a fundamental primitive in computer graphics, with applications in distance field computation, surface reconstruction, and point cloud registration. In many graphics applications, data points lie on a surface manifold embedded in 3D space, whereas queri"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.15320v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "022a64022e04ab357d60",
@@ -979,7 +979,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "e9c1cd83437be519aaa5",
@@ -1014,7 +1014,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "c3eb42a8596b1cafaf4f",
@@ -1049,7 +1049,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "ff6b07a876c655ba7dad",
@@ -1084,7 +1084,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "095d50b65d0f12d25d1d",
@@ -1119,7 +1119,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "900e199369b6bee06ccd",
@@ -1154,7 +1154,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "de8c72df8d1a2394b1b2",
@@ -1189,7 +1189,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "17f447cb198f64a8b9cc",
@@ -1224,7 +1224,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "e274c0db87d30a2a4aa6",
@@ -1259,7 +1259,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "3ab4f526e58b4006dc0b",
@@ -1294,7 +1294,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "d0aa8ede854db3782fcd",
@@ -1329,7 +1329,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "a439f75fe1cc5acce787",
@@ -1364,7 +1364,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "5a15c2fde973ca63e3a7",
@@ -1399,7 +1399,7 @@
       "tags": [
         "行业动态"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "4431f80033a00c09120f",
@@ -1434,7 +1434,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "6da27f2edfc4695cdaa9",
@@ -1469,7 +1469,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "a1f3db65653cf6585472",
@@ -1504,7 +1504,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "5779216911d1605ae954",
@@ -1539,7 +1539,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -1574,7 +1574,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -1609,7 +1609,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -1644,7 +1644,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1714,7 +1714,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1749,7 +1749,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1784,7 +1784,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1854,7 +1854,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1994,7 +1994,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2799,7 +2799,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2974,7 +2974,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -3009,7 +3009,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -3114,7 +3114,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -3289,7 +3289,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -3429,7 +3429,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -3464,7 +3464,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -3499,7 +3499,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -3569,7 +3569,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -3639,7 +3639,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -3674,7 +3674,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3779,7 +3779,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3814,7 +3814,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3884,7 +3884,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3989,7 +3989,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -4355,7 +4355,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "0f69ecb355dda22f9e6c",
@@ -4369,7 +4369,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "61c3a5b0a61c7eb44373",
@@ -4383,7 +4383,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "54df96e23c9a1d1fcd4f",
@@ -4397,7 +4397,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "80f6a584e0073c8bef3b",
@@ -4411,7 +4411,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-22T06:39:32.084741Z"
+      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
     },
     {
       "id": "143d0040a196fe573687",
