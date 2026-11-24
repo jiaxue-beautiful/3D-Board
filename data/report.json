@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-23T07:28:47.843354Z",
-  "windowStart": "2026-11-22T07:28:47.843354Z",
-  "windowEnd": "2026-11-23T07:28:47.843354Z",
+  "checkedAt": "2026-11-24T09:48:23.977177Z",
+  "windowStart": "2026-11-23T09:48:23.977177Z",
+  "windowEnd": "2026-11-24T09:48:23.977177Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -69,8 +69,394 @@
       "count": 15
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "aafa8db3109e0dd08749",
+      "url": "https://arxiv.org/abs/2611.31140v1",
+      "title": "HoloSplat: Real-Time Token Streaming for Feed-Forward Human Reconstruction",
+      "excerpt": "Live free-viewpoint video streaming of humans enables immersive telepresence and interactive XR applications. However, this requires reconstructing each frame in real time, transmitting the data within strict bandwidth budgets, and decoding it on lightweight client GPUs. Existing",
+      "publishedAt": "2026-11-23T18:11:00Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Xin Lou",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-23T18:11:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Live free-viewpoint video streaming of humans enables immersive telepresence and interactive XR applications. However, this requires reconstructing each frame in real time, transmitting the data within strict bandwidth budgets, and decoding it on lightweight client GPUs. Existing",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Live free-viewpoint video streaming of humans enables immersive telepresence and interactive XR applications. However, this requires reconstructing each frame in real time, transmitting the data within strict bandwidth budgets, and decoding it on lightweight client GPUs. Existing"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.31140v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
+    },
+    {
+      "id": "a0f10241e1161c1ea2d5",
+      "url": "https://arxiv.org/abs/2611.31128v1",
+      "title": "CrownFusion: 3D Dental Crown Generation Using Geometry Images and Latent Diffusion",
+      "excerpt": "We introduce CrownFusion, a latent diffusion model to generate 3D dental crown designs from geometry images, a 2D-grid encoding of surface coordinates. Departing from traditional approaches that use point clouds, our \"CrownImage\" representation not only unlocks the full power of ",
+      "publishedAt": "2026-11-23T18:00:20Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Peter Lempel Søndergaard",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-23T18:00:20Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We introduce CrownFusion, a latent diffusion model to generate 3D dental crown designs from geometry images, a 2D-grid encoding of surface coordinates. Departing from traditional approaches that use point clouds, our \"CrownImage\" representation not only unlocks the full power of ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We introduce CrownFusion, a latent diffusion model to generate 3D dental crown designs from geometry images, a 2D-grid encoding of surface coordinates. Departing from traditional approaches that use point clouds, our \"CrownImage\" representation not only unlocks the full power of "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.31128v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
+    },
+    {
+      "id": "add2c35d2c2d5749a55d",
+      "url": "https://arxiv.org/abs/2611.31018v1",
+      "title": "DiffSimp: Differentiable Mesh Simplification for Gradient-Based Low-Poly Modeling",
+      "excerpt": "Differentiable mesh extraction enables gradient-based optimization of detailed 3D geometry across diverse tasks. However, compact meshes are commonly obtained through post-processing simplification, leaving simplification-induced errors outside upstream optimization. We introduce",
+      "publishedAt": "2026-11-23T17:01:03Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Seonghun Oh",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-23T17:01:03Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Differentiable mesh extraction enables gradient-based optimization of detailed 3D geometry across diverse tasks. However, compact meshes are commonly obtained through post-processing simplification, leaving simplification-induced errors outside upstream optimization. We introduce",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Differentiable mesh extraction enables gradient-based optimization of detailed 3D geometry across diverse tasks. However, compact meshes are commonly obtained through post-processing simplification, leaving simplification-induced errors outside upstream optimization. We introduce"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.31018v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
+    },
+    {
+      "id": "18575fd38303d3778410",
+      "url": "https://arxiv.org/abs/2611.30607v1",
+      "title": "Tri-DNO: Trilateral Diffusion Noise Optimization for 3D Human Object Interaction",
+      "excerpt": "Generating realistic 3D human object interactions (HOI) is essential for applications, such as augmented or virtual reality (AR/VR) or character animation of interactive entertainment. A particular challenge lies in the faithful generation of hand grasps in human object interacti",
+      "publishedAt": "2026-11-23T12:44:02Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Peter Eisert",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-23T12:44:02Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Generating realistic 3D human object interactions (HOI) is essential for applications, such as augmented or virtual reality (AR/VR) or character animation of interactive entertainment. A particular challenge lies in the faithful generation of hand grasps in human object interacti",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Generating realistic 3D human object interactions (HOI) is essential for applications, such as augmented or virtual reality (AR/VR) or character animation of interactive entertainment. A particular challenge lies in the faithful generation of hand grasps in human object interacti"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.30607v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
+    }
+  ],
   "archive": [
+    {
+      "id": "aafa8db3109e0dd08749",
+      "url": "https://arxiv.org/abs/2611.31140v1",
+      "title": "HoloSplat: Real-Time Token Streaming for Feed-Forward Human Reconstruction",
+      "excerpt": "Live free-viewpoint video streaming of humans enables immersive telepresence and interactive XR applications. However, this requires reconstructing each frame in real time, transmitting the data within strict bandwidth budgets, and decoding it on lightweight client GPUs. Existing",
+      "publishedAt": "2026-11-23T18:11:00Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Xin Lou",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-23T18:11:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Live free-viewpoint video streaming of humans enables immersive telepresence and interactive XR applications. However, this requires reconstructing each frame in real time, transmitting the data within strict bandwidth budgets, and decoding it on lightweight client GPUs. Existing",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Live free-viewpoint video streaming of humans enables immersive telepresence and interactive XR applications. However, this requires reconstructing each frame in real time, transmitting the data within strict bandwidth budgets, and decoding it on lightweight client GPUs. Existing"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.31140v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
+    },
+    {
+      "id": "a0f10241e1161c1ea2d5",
+      "url": "https://arxiv.org/abs/2611.31128v1",
+      "title": "CrownFusion: 3D Dental Crown Generation Using Geometry Images and Latent Diffusion",
+      "excerpt": "We introduce CrownFusion, a latent diffusion model to generate 3D dental crown designs from geometry images, a 2D-grid encoding of surface coordinates. Departing from traditional approaches that use point clouds, our \"CrownImage\" representation not only unlocks the full power of ",
+      "publishedAt": "2026-11-23T18:00:20Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Peter Lempel Søndergaard",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-23T18:00:20Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "We introduce CrownFusion, a latent diffusion model to generate 3D dental crown designs from geometry images, a 2D-grid encoding of surface coordinates. Departing from traditional approaches that use point clouds, our \"CrownImage\" representation not only unlocks the full power of ",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "We introduce CrownFusion, a latent diffusion model to generate 3D dental crown designs from geometry images, a 2D-grid encoding of surface coordinates. Departing from traditional approaches that use point clouds, our \"CrownImage\" representation not only unlocks the full power of "
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.31128v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
+    },
+    {
+      "id": "add2c35d2c2d5749a55d",
+      "url": "https://arxiv.org/abs/2611.31018v1",
+      "title": "DiffSimp: Differentiable Mesh Simplification for Gradient-Based Low-Poly Modeling",
+      "excerpt": "Differentiable mesh extraction enables gradient-based optimization of detailed 3D geometry across diverse tasks. However, compact meshes are commonly obtained through post-processing simplification, leaving simplification-induced errors outside upstream optimization. We introduce",
+      "publishedAt": "2026-11-23T17:01:03Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Seonghun Oh",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-23T17:01:03Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Differentiable mesh extraction enables gradient-based optimization of detailed 3D geometry across diverse tasks. However, compact meshes are commonly obtained through post-processing simplification, leaving simplification-induced errors outside upstream optimization. We introduce",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Differentiable mesh extraction enables gradient-based optimization of detailed 3D geometry across diverse tasks. However, compact meshes are commonly obtained through post-processing simplification, leaving simplification-induced errors outside upstream optimization. We introduce"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.31018v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
+    },
+    {
+      "id": "18575fd38303d3778410",
+      "url": "https://arxiv.org/abs/2611.30607v1",
+      "title": "Tri-DNO: Trilateral Diffusion Noise Optimization for 3D Human Object Interaction",
+      "excerpt": "Generating realistic 3D human object interactions (HOI) is essential for applications, such as augmented or virtual reality (AR/VR) or character animation of interactive entertainment. A particular challenge lies in the faithful generation of hand grasps in human object interacti",
+      "publishedAt": "2026-11-23T12:44:02Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Peter Eisert",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-23T12:44:02Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Generating realistic 3D human object interactions (HOI) is essential for applications, such as augmented or virtual reality (AR/VR) or character animation of interactive entertainment. A particular challenge lies in the faithful generation of hand grasps in human object interacti",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Generating realistic 3D human object interactions (HOI) is essential for applications, such as augmented or virtual reality (AR/VR) or character animation of interactive entertainment. A particular challenge lies in the faithful generation of hand grasps in human object interacti"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.30607v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
+    },
+    {
+      "id": "71bddc92dbfad465e141",
+      "url": "https://arxiv.org/abs/2611.30219v1",
+      "title": "RoomTokens: Masked Diffusion over Structured Tokens for Indoor Scene Synthesis",
+      "excerpt": "Generating 3D indoor scenes requires a representation that captures object semantics, instance identity, height structure, and orientation while respecting room geometry. Methods that model scenes as sequences of object vectors learn spatial constraints implicitly, leaving collis",
+      "publishedAt": "2026-11-23T07:51:14Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Angel X. Chang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-23T07:51:14Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Generating 3D indoor scenes requires a representation that captures object semantics, instance identity, height structure, and orientation while respecting room geometry. Methods that model scenes as sequences of object vectors learn spatial constraints implicitly, leaving collis",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Generating 3D indoor scenes requires a representation that captures object semantics, instance identity, height structure, and orientation while respecting room geometry. Methods that model scenes as sequences of object vectors learn spatial constraints implicitly, leaving collis"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.30219v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
+    },
+    {
+      "id": "55ff0d9110dde38b90ab",
+      "url": "https://arxiv.org/abs/2611.30102v1",
+      "title": "LMnOP: Pruning 3D Gaussian Splatting via Leave-Many-Out Importance",
+      "excerpt": "3D Gaussian Splatting renders photorealistic views in real time. However, a single scene often needs millions of Gaussians, so these models are costly to store and render. Pruning reduces this cost by keeping a subset of the Gaussians. A common score is the leave-one-out importan",
+      "publishedAt": "2026-11-23T05:59:03Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Hyoseok Hwang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-23T05:59:03Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "3D Gaussian Splatting renders photorealistic views in real time. However, a single scene often needs millions of Gaussians, so these models are costly to store and render. Pruning reduces this cost by keeping a subset of the Gaussians. A common score is the leave-one-out importan",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "3D Gaussian Splatting renders photorealistic views in real time. However, a single scene often needs millions of Gaussians, so these models are costly to store and render. Pruning reduces this cost by keeping a subset of the Gaussians. A common score is the leave-one-out importan"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.30102v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
+    },
+    {
+      "id": "28cfe9b2d6ba604de724",
+      "url": "https://arxiv.org/abs/2611.28793v1",
+      "title": "STAC++: Plug-and-Play Adaptive Spatio-Temporal Aware Cache Compression for Streaming 3D Reconstruction",
+      "excerpt": "Streaming 3D reconstruction must preserve geometry under limited memory, yet STAC's fixed-resolution spatial key-value (KV) cache grows as scenes expand. We propose STAC++, a plug-and-play, training-free framework that compresses and reuses spatial memory for long-term reconstruc",
+      "publishedAt": "2026-11-21T13:12:41Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Dong Wang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-21T13:12:41Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Streaming 3D reconstruction must preserve geometry under limited memory, yet STAC's fixed-resolution spatial key-value (KV) cache grows as scenes expand. We propose STAC++, a plug-and-play, training-free framework that compresses and reuses spatial memory for long-term reconstruc",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Streaming 3D reconstruction must preserve geometry under limited memory, yet STAC's fixed-resolution spatial key-value (KV) cache grows as scenes expand. We propose STAC++, a plug-and-play, training-free framework that compresses and reuses spatial memory for long-term reconstruc"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.28793v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
+    },
     {
       "id": "f6ed00d793d13f1471a3",
       "url": "https://arxiv.org/abs/2611.27719v1",
@@ -104,7 +490,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "f0ff676c4f6a72845ef3",
@@ -139,7 +525,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "0640542d70a9a4c8bede",
@@ -174,7 +560,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "ff17a75b4d006b194019",
@@ -209,7 +595,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "4ab38ddfd895d1cfb4a0",
@@ -244,7 +630,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "0896db1878d697545532",
@@ -279,7 +665,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "c028d0aa23807579aa8c",
@@ -314,7 +700,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "e4cc21e268351b667316",
@@ -349,7 +735,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "599edbe928ccf6a6a9b7",
@@ -384,7 +770,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "f2d2257cdac7c1423499",
@@ -419,7 +805,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "b70e5b775b2f97f1b07b",
@@ -454,7 +840,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "5d0e14d126bffedfb4a5",
@@ -489,7 +875,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "8bde3545199cf16ccd03",
@@ -524,7 +910,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "4fab0efb7ce7e9e3810f",
@@ -559,7 +945,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "3b53998a6113418e766c",
@@ -594,7 +980,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "bac7fb8dbe45987c0687",
@@ -629,7 +1015,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "7d490bcf588a35d5a22e",
@@ -664,217 +1050,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
-    },
-    {
-      "id": "d25af8bb44a4f7733507",
-      "url": "https://arxiv.org/abs/2611.20502v1",
-      "title": "Pointillist Maize: 3D Reconstruction of Field-Grown Maize Using RGB UAV Imagery",
-      "excerpt": "Three-dimensional reconstruction can extend field phenotyping to individual maize organs, but thin, flexible, occluding structures and plant movement complicate reconstruction. We evaluated whether consumer-grade UAV RGB video processed with Structure from Motion and multi-view s",
-      "publishedAt": "2026-11-16T04:13:56Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Toni Kazic",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-16T04:13:56Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Three-dimensional reconstruction can extend field phenotyping to individual maize organs, but thin, flexible, occluding structures and plant movement complicate reconstruction. We evaluated whether consumer-grade UAV RGB video processed with Structure from Motion and multi-view s",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Three-dimensional reconstruction can extend field phenotyping to individual maize organs, but thin, flexible, occluding structures and plant movement complicate reconstruction. We evaluated whether consumer-grade UAV RGB video processed with Structure from Motion and multi-view s"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.20502v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
-    },
-    {
-      "id": "6314e77fef814658451c",
-      "url": "https://arxiv.org/abs/2611.20401v1",
-      "title": "Interlocking Tiling of 3D Finite Domains",
-      "excerpt": "A K-hedral tiling of a 3D finite domain is a covering of the domain with tiles without gaps or overlaps, where each tile is congruent to one of the K distinct shapes called prototiles. To use 3D K-hedral tilings in practice, they need to satisfy two requirements. First, K should ",
-      "publishedAt": "2026-11-16T02:02:05Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Peng Song",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-16T02:02:05Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "A K-hedral tiling of a 3D finite domain is a covering of the domain with tiles without gaps or overlaps, where each tile is congruent to one of the K distinct shapes called prototiles. To use 3D K-hedral tilings in practice, they need to satisfy two requirements. First, K should ",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "A K-hedral tiling of a 3D finite domain is a covering of the domain with tiles without gaps or overlaps, where each tile is congruent to one of the K distinct shapes called prototiles. To use 3D K-hedral tilings in practice, they need to satisfy two requirements. First, K should "
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.20401v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
-    },
-    {
-      "id": "82b03666106e08f02edb",
-      "url": "https://arxiv.org/abs/2611.20245v1",
-      "title": "From XR Sketches to CAD: Preserving Design Intent with AI",
-      "excerpt": "Extended reality (XR) allows designers to sketch shapes directly in 3D, but converting these sketches into editable, feature-based CAD requires interpreting their intent. A sketch may contain drawing errors, intended features, and design choices that remain open. Correcting every",
-      "publishedAt": "2026-11-15T20:57:48Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Trudi Di Qi",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-15T20:57:48Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Extended reality (XR) allows designers to sketch shapes directly in 3D, but converting these sketches into editable, feature-based CAD requires interpreting their intent. A sketch may contain drawing errors, intended features, and design choices that remain open. Correcting every",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Extended reality (XR) allows designers to sketch shapes directly in 3D, but converting these sketches into editable, feature-based CAD requires interpreting their intent. A sketch may contain drawing errors, intended features, and design choices that remain open. Correcting every"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.20245v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
-    },
-    {
-      "id": "861b7707499519d4a24f",
-      "url": "https://arxiv.org/abs/2611.20190v1",
-      "title": "A Line is Not Just a Line: Visualizing Harmonious Complex Line Sets",
-      "excerpt": "Line is a foundational building block in visual design for traditional media and computer graphics. Controlled variation in line quality can be used to define form, create abstractions, distinguish categories, control affect, and more. Yet, when it comes to computer graphics visu",
-      "publishedAt": "2026-11-15T18:42:28Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Gregory Abram",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-15T18:42:28Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Line is a foundational building block in visual design for traditional media and computer graphics. Controlled variation in line quality can be used to define form, create abstractions, distinguish categories, control affect, and more. Yet, when it comes to computer graphics visu",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Line is a foundational building block in visual design for traditional media and computer graphics. Controlled variation in line quality can be used to define form, create abstractions, distinguish categories, control affect, and more. Yet, when it comes to computer graphics visu"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.20190v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
-    },
-    {
-      "id": "e505935be8a942546471",
-      "url": "https://arxiv.org/abs/2611.19429v1",
-      "title": "Prepare Lighter and Faster for Open-Vocabulary Queries: A Query-Wise 3D Segmenter for Gaussian Splatting",
-      "excerpt": "Open-vocabulary 3D understanding aims to localize and segment arbitrary objects beyond predefined categories. However, existing approaches based on Gaussian Splatting often rely on expensive preprocessing and lengthy training, limiting their applicability when fast and lightweigh",
-      "publishedAt": "2026-11-14T14:24:34Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Binh-Son Hua",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-14T14:24:34Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Open-vocabulary 3D understanding aims to localize and segment arbitrary objects beyond predefined categories. However, existing approaches based on Gaussian Splatting often rely on expensive preprocessing and lengthy training, limiting their applicability when fast and lightweigh",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Open-vocabulary 3D understanding aims to localize and segment arbitrary objects beyond predefined categories. However, existing approaches based on Gaussian Splatting often rely on expensive preprocessing and lengthy training, limiting their applicability when fast and lightweigh"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.19429v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
-    },
-    {
-      "id": "a50fee87af21cd7ccdb2",
-      "url": "https://arxiv.org/abs/2611.18267v3",
-      "title": "TetraCoder: Adaptive Tetrahedral Encoding for Neural Fields",
-      "excerpt": "Implicit and explicit representations of geometry are central in computer graphics applications and come with their pros and cons. With surface sampling being faster on explicit representations and spatial queries being faster on implicit representations, finding efficient conver",
-      "publishedAt": "2026-11-13T15:00:25Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Nicola Garau",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-13T15:00:25Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Implicit and explicit representations of geometry are central in computer graphics applications and come with their pros and cons. With surface sampling being faster on explicit representations and spatial queries being faster on implicit representations, finding efficient conver",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Implicit and explicit representations of geometry are central in computer graphics applications and come with their pros and cons. With surface sampling being faster on explicit representations and spatial queries being faster on implicit representations, finding efficient conver"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.18267v3"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "a0856d64957a231e0f4f",
@@ -909,42 +1085,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
-    },
-    {
-      "id": "9b592dffc463d1dac95b",
-      "url": "https://arxiv.org/abs/2611.17321v1",
-      "title": "BrickFlow: Connectivity-Guided Brick Reconstruction",
-      "excerpt": "Given a set of LEGO parts and an image of an assembled object, our task is to infer the pose of each part to assemble the object. In contrast with traditional 3D reconstruction, doing so requires satisfying discrete physical constraints, which provide structure but render the pro",
-      "publishedAt": "2026-11-12T18:58:51Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Cordelia Schmid",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-12T18:58:51Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Given a set of LEGO parts and an image of an assembled object, our task is to infer the pose of each part to assemble the object. In contrast with traditional 3D reconstruction, doing so requires satisfying discrete physical constraints, which provide structure but render the pro",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Given a set of LEGO parts and an image of an assembled object, our task is to infer the pose of each part to assemble the object. In contrast with traditional 3D reconstruction, doing so requires satisfying discrete physical constraints, which provide structure but render the pro"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.17321v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "022a64022e04ab357d60",
@@ -979,7 +1120,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "e9c1cd83437be519aaa5",
@@ -1014,7 +1155,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "c3eb42a8596b1cafaf4f",
@@ -1049,7 +1190,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "ff6b07a876c655ba7dad",
@@ -1084,7 +1225,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "095d50b65d0f12d25d1d",
@@ -1119,7 +1260,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "900e199369b6bee06ccd",
@@ -1154,7 +1295,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "de8c72df8d1a2394b1b2",
@@ -1189,7 +1330,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "17f447cb198f64a8b9cc",
@@ -1224,7 +1365,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "e274c0db87d30a2a4aa6",
@@ -1259,7 +1400,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "3ab4f526e58b4006dc0b",
@@ -1294,7 +1435,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "d0aa8ede854db3782fcd",
@@ -1329,7 +1470,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "a439f75fe1cc5acce787",
@@ -1364,7 +1505,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "5a15c2fde973ca63e3a7",
@@ -1399,7 +1540,7 @@
       "tags": [
         "行业动态"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "4431f80033a00c09120f",
@@ -1434,7 +1575,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "6da27f2edfc4695cdaa9",
@@ -1469,7 +1610,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "a1f3db65653cf6585472",
@@ -1504,7 +1645,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "5779216911d1605ae954",
@@ -1539,7 +1680,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -1574,7 +1715,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -1609,7 +1750,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -1644,7 +1785,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1714,7 +1855,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1749,7 +1890,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1784,7 +1925,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1854,7 +1995,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -1994,7 +2135,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2799,7 +2940,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -2974,7 +3115,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -3009,7 +3150,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -3114,7 +3255,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -3289,7 +3430,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -3429,7 +3570,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -3464,7 +3605,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -3499,7 +3640,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -3569,7 +3710,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -3639,7 +3780,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -3674,7 +3815,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3779,7 +3920,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3814,7 +3955,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3884,7 +4025,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -3989,7 +4130,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -4355,7 +4496,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "0f69ecb355dda22f9e6c",
@@ -4369,7 +4510,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "61c3a5b0a61c7eb44373",
@@ -4383,7 +4524,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "54df96e23c9a1d1fcd4f",
@@ -4397,7 +4538,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "80f6a584e0073c8bef3b",
@@ -4411,7 +4552,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-23T07:28:47.843354Z"
+      "firstSeenAt": "2026-11-24T09:48:23.977177Z"
     },
     {
       "id": "143d0040a196fe573687",
