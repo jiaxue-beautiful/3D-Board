@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-25T08:24:17.182220Z",
-  "windowStart": "2026-11-24T08:24:17.182220Z",
-  "windowEnd": "2026-11-25T08:24:17.182220Z",
+  "checkedAt": "2026-11-26T08:08:54.169937Z",
+  "windowStart": "2026-11-25T08:08:54.169937Z",
+  "windowEnd": "2026-11-26T08:08:54.169937Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -71,148 +71,253 @@
   ],
   "events": [
     {
-      "id": "b43b81d4eb3243bfbb83",
-      "url": "https://arxiv.org/abs/2611.33042v1",
-      "title": "Spectrify: Framework for Hyperspectral Image Generation Using Computer Graphics",
-      "excerpt": "Hyperspectral images (HSIs) record the full spectrum of light at every pixel, so projecting an HSI through a camera's spectral sensitivities gives that camera's RAW image, and one HSI can supply training data for hyperspectral reconstruction and camera-pipeline methods. Real HSIs",
-      "publishedAt": "2026-11-24T17:53:00Z",
+      "id": "cf508ec44a9f6f839928",
+      "url": "https://arxiv.org/abs/2611.34894v1",
+      "title": "What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Objects from Video",
+      "excerpt": "How an object deforms when it hits the ground reveals what it is made of. From a single real video of a drop, we estimate a deformable object's density-normalized stiffness $E/ρ$, and its yield stress $σ_Y/ρ$ when the impact causes plastic deformation, with a feed-forward predict",
+      "publishedAt": "2026-11-25T18:47:56Z",
       "sourceId": "arxiv-3d",
       "sourceName": "arXiv 3D 研究",
       "lane": "news",
       "category": "学术研究",
-      "author": "Egor Ershov",
+      "author": "Brandon Y. Feng",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-24T17:53:00Z",
+      "date": "2026-11-25T18:47:56Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "Hyperspectral images (HSIs) record the full spectrum of light at every pixel, so projecting an HSI through a camera's spectral sensitivities gives that camera's RAW image, and one HSI can supply training data for hyperspectral reconstruction and camera-pipeline methods. Real HSIs",
+      "summary": "How an object deforms when it hits the ground reveals what it is made of. From a single real video of a drop, we estimate a deformable object's density-normalized stiffness $E/ρ$, and its yield stress $σ_Y/ρ$ when the impact causes plastic deformation, with a feed-forward predict",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "Hyperspectral images (HSIs) record the full spectrum of light at every pixel, so projecting an HSI through a camera's spectral sensitivities gives that camera's RAW image, and one HSI can supply training data for hyperspectral reconstruction and camera-pipeline methods. Real HSIs"
+          "How an object deforms when it hits the ground reveals what it is made of. From a single real video of a drop, we estimate a deformable object's density-normalized stiffness $E/ρ$, and its yield stress $σ_Y/ρ$ when the impact causes plastic deformation, with a feed-forward predict"
         ]
       ],
       "sources": [
         [
           "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.33042v1"
+          "https://arxiv.org/abs/2611.34894v1"
         ]
       ],
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
-      "id": "1bcdbb859ef4c9bd8b5a",
-      "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-5/",
-      "title": "Dev snapshot: Godot 4.8 beta 5",
-      "excerpt": "Not even a full week after 4.8 beta 4 , our team has already resolved all remaining release blockers! While there’s a very real temptation on our end to jump straight into the Release Candidate stage, we wanted to play things as safe as possible by getting out one last beta snaps",
-      "publishedAt": "2026-11-24T12:00:00Z",
-      "sourceId": "godot",
-      "sourceName": "Godot 官方新闻",
-      "lane": "news",
-      "category": "引擎与交互",
-      "author": "Thaddeus Crews",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-24T12:00:00Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Not even a full week after 4.8 beta 4 , our team has already resolved all remaining release blockers! While there’s a very real temptation on our end to jump straight into the Release Candidate stage, we wanted to play things as safe as possible by getting out one last beta snaps",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Not even a full week after 4.8 beta 4 , our team has already resolved all remaining release blockers! While there’s a very real temptation on our end to jump straight into the Release Candidate stage, we wanted to play things as safe as possible by getting out one last beta snaps"
-        ]
-      ],
-      "sources": [
-        [
-          "Godot 官方新闻",
-          "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-5/"
-        ]
-      ],
-      "tags": [
-        "引擎与交互"
-      ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
-    },
-    {
-      "id": "8b8255d77d43d8e1beb9",
-      "url": "https://arxiv.org/abs/2611.32432v1",
-      "title": "Video Models are Excellent Motion Models",
-      "excerpt": "Video foundation models have emerged as powerful generators of dynamic visual content, exhibiting remarkable capabilities in synthesizing complex actions and interactions. We argue that these models have also become excellent motion generators, with motion priors that are richer ",
-      "publishedAt": "2026-11-24T11:33:11Z",
+      "id": "715d4496e7a9fb2106cf",
+      "url": "https://arxiv.org/abs/2611.34284v1",
+      "title": "ReMeDi: Single-Image PBR Material Estimation via Reparameterization between Metal and Dielectric Hypotheses",
+      "excerpt": "Physically based rendering (PBR) material estimation facilitates relighting, material editing, and 3D content creation. As the reflectance of a surface heavily depends on whether it is a metal or a dielectric, producing any map that determines albedo involves a decision on metaln",
+      "publishedAt": "2026-11-25T12:37:52Z",
       "sourceId": "arxiv-3d",
       "sourceName": "arXiv 3D 研究",
       "lane": "news",
       "category": "学术研究",
-      "author": "Andreas Aristidou",
+      "author": "Chunchao Guo",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-24T11:33:11Z",
+      "date": "2026-11-25T12:37:52Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "Video foundation models have emerged as powerful generators of dynamic visual content, exhibiting remarkable capabilities in synthesizing complex actions and interactions. We argue that these models have also become excellent motion generators, with motion priors that are richer ",
+      "summary": "Physically based rendering (PBR) material estimation facilitates relighting, material editing, and 3D content creation. As the reflectance of a surface heavily depends on whether it is a metal or a dielectric, producing any map that determines albedo involves a decision on metaln",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "Video foundation models have emerged as powerful generators of dynamic visual content, exhibiting remarkable capabilities in synthesizing complex actions and interactions. We argue that these models have also become excellent motion generators, with motion priors that are richer "
+          "Physically based rendering (PBR) material estimation facilitates relighting, material editing, and 3D content creation. As the reflectance of a surface heavily depends on whether it is a metal or a dielectric, producing any map that determines albedo involves a decision on metaln"
         ]
       ],
       "sources": [
         [
           "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.32432v1"
+          "https://arxiv.org/abs/2611.34284v1"
         ]
       ],
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
-      "id": "e8240c3957709465057d",
-      "url": "https://arxiv.org/abs/2611.32202v1",
-      "title": "SplatTok: Data-Driven Compression of 3D Gaussian Splats with Scene-Level Tokens",
-      "excerpt": "3D Gaussian splats enable real-time rendering but require substantial storage. Existing compression methods either encode the primitives of a given splat or optimize a compact representation independently for each scene. Yet a Gaussian splat is only one realization of a scene: di",
-      "publishedAt": "2026-11-24T08:49:32Z",
+      "id": "20e0e58ed6fbc7485f3f",
+      "url": "https://arxiv.org/abs/2611.34128v1",
+      "title": "FoundSurface: Feedforward Ray-Based 3D Scene Surface Reconstruction from Unposed Images",
+      "excerpt": "Accurate 3D surface reconstruction from unposed images remains a fundamental challenge in computer vision. Recent feed-forward pointmap methods eliminate the need for camera poses but inherently produce discrete, sparse representations. In this paper, we present a generalizable p",
+      "publishedAt": "2026-11-25T10:30:24Z",
       "sourceId": "arxiv-3d",
       "sourceName": "arXiv 3D 研究",
       "lane": "news",
       "category": "学术研究",
-      "author": "Alan C. Bovik",
+      "author": "Bo Yang",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-24T08:49:32Z",
+      "date": "2026-11-25T10:30:24Z",
       "status": "来源更新",
       "type": "原始来源动态",
-      "summary": "3D Gaussian splats enable real-time rendering but require substantial storage. Existing compression methods either encode the primitives of a given splat or optimize a compact representation independently for each scene. Yet a Gaussian splat is only one realization of a scene: di",
+      "summary": "Accurate 3D surface reconstruction from unposed images remains a fundamental challenge in computer vision. Recent feed-forward pointmap methods eliminate the need for camera poses but inherently produce discrete, sparse representations. In this paper, we present a generalizable p",
       "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
       "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
       "evidence": [
         [
           "来源摘要 · 非全文核验",
-          "3D Gaussian splats enable real-time rendering but require substantial storage. Existing compression methods either encode the primitives of a given splat or optimize a compact representation independently for each scene. Yet a Gaussian splat is only one realization of a scene: di"
+          "Accurate 3D surface reconstruction from unposed images remains a fundamental challenge in computer vision. Recent feed-forward pointmap methods eliminate the need for camera poses but inherently produce discrete, sparse representations. In this paper, we present a generalizable p"
         ]
       ],
       "sources": [
         [
           "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.32202v1"
+          "https://arxiv.org/abs/2611.34128v1"
         ]
       ],
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     }
   ],
   "archive": [
     {
+      "id": "cf508ec44a9f6f839928",
+      "url": "https://arxiv.org/abs/2611.34894v1",
+      "title": "What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Objects from Video",
+      "excerpt": "How an object deforms when it hits the ground reveals what it is made of. From a single real video of a drop, we estimate a deformable object's density-normalized stiffness $E/ρ$, and its yield stress $σ_Y/ρ$ when the impact causes plastic deformation, with a feed-forward predict",
+      "publishedAt": "2026-11-25T18:47:56Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Brandon Y. Feng",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-25T18:47:56Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "How an object deforms when it hits the ground reveals what it is made of. From a single real video of a drop, we estimate a deformable object's density-normalized stiffness $E/ρ$, and its yield stress $σ_Y/ρ$ when the impact causes plastic deformation, with a feed-forward predict",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "How an object deforms when it hits the ground reveals what it is made of. From a single real video of a drop, we estimate a deformable object's density-normalized stiffness $E/ρ$, and its yield stress $σ_Y/ρ$ when the impact causes plastic deformation, with a feed-forward predict"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.34894v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
+    },
+    {
+      "id": "715d4496e7a9fb2106cf",
+      "url": "https://arxiv.org/abs/2611.34284v1",
+      "title": "ReMeDi: Single-Image PBR Material Estimation via Reparameterization between Metal and Dielectric Hypotheses",
+      "excerpt": "Physically based rendering (PBR) material estimation facilitates relighting, material editing, and 3D content creation. As the reflectance of a surface heavily depends on whether it is a metal or a dielectric, producing any map that determines albedo involves a decision on metaln",
+      "publishedAt": "2026-11-25T12:37:52Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Chunchao Guo",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-25T12:37:52Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Physically based rendering (PBR) material estimation facilitates relighting, material editing, and 3D content creation. As the reflectance of a surface heavily depends on whether it is a metal or a dielectric, producing any map that determines albedo involves a decision on metaln",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Physically based rendering (PBR) material estimation facilitates relighting, material editing, and 3D content creation. As the reflectance of a surface heavily depends on whether it is a metal or a dielectric, producing any map that determines albedo involves a decision on metaln"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.34284v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
+    },
+    {
+      "id": "20e0e58ed6fbc7485f3f",
+      "url": "https://arxiv.org/abs/2611.34128v1",
+      "title": "FoundSurface: Feedforward Ray-Based 3D Scene Surface Reconstruction from Unposed Images",
+      "excerpt": "Accurate 3D surface reconstruction from unposed images remains a fundamental challenge in computer vision. Recent feed-forward pointmap methods eliminate the need for camera poses but inherently produce discrete, sparse representations. In this paper, we present a generalizable p",
+      "publishedAt": "2026-11-25T10:30:24Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Bo Yang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-25T10:30:24Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "Accurate 3D surface reconstruction from unposed images remains a fundamental challenge in computer vision. Recent feed-forward pointmap methods eliminate the need for camera poses but inherently produce discrete, sparse representations. In this paper, we present a generalizable p",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "Accurate 3D surface reconstruction from unposed images remains a fundamental challenge in computer vision. Recent feed-forward pointmap methods eliminate the need for camera poses but inherently produce discrete, sparse representations. In this paper, we present a generalizable p"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.34128v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
+    },
+    {
+      "id": "56b6d4fa5266be89f9a9",
+      "url": "https://arxiv.org/abs/2611.33824v1",
+      "title": "Revisiting Monocular In-Hand Object Scanning: Dataset, Pose Estimation, and Surface Reconstruction",
+      "excerpt": "In-Hand Object Scanning (IHOS) from monocular video captured by a commodity smartphone holds immense potential to democratize 3D digitization for non-expert users, facilitating applications in digital archiving, augmented reality, and custom fabrication. Yet, IHOS remains largely",
+      "publishedAt": "2026-11-25T05:54:14Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Shu Kong",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-25T05:54:14Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "In-Hand Object Scanning (IHOS) from monocular video captured by a commodity smartphone holds immense potential to democratize 3D digitization for non-expert users, facilitating applications in digital archiving, augmented reality, and custom fabrication. Yet, IHOS remains largely",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "In-Hand Object Scanning (IHOS) from monocular video captured by a commodity smartphone holds immense potential to democratize 3D digitization for non-expert users, facilitating applications in digital archiving, augmented reality, and custom fabrication. Yet, IHOS remains largely"
+        ]
+      ],
+      "sources": [
+        [
+          "arXiv 3D 研究",
+          "https://arxiv.org/abs/2611.33824v1"
+        ]
+      ],
+      "tags": [
+        "学术研究"
+      ],
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
+    },
+    {
       "id": "b43b81d4eb3243bfbb83",
       "url": "https://arxiv.org/abs/2611.33042v1",
       "title": "Spectrify: Framework for Hyperspectral Image Generation Using Computer Graphics",
@@ -245,7 +350,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "1bcdbb859ef4c9bd8b5a",
@@ -280,7 +385,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "8b8255d77d43d8e1beb9",
@@ -315,7 +420,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "e8240c3957709465057d",
@@ -350,7 +455,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "259f54a4c91ac6eb94e3",
@@ -385,7 +490,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "ac4f526b70fc4d344bc6",
@@ -420,7 +525,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "33b134e2d9dac73771dd",
@@ -455,7 +560,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "aafa8db3109e0dd08749",
@@ -490,7 +595,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "a0f10241e1161c1ea2d5",
@@ -525,7 +630,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "add2c35d2c2d5749a55d",
@@ -560,7 +665,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "18575fd38303d3778410",
@@ -595,7 +700,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "71bddc92dbfad465e141",
@@ -630,7 +735,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "55ff0d9110dde38b90ab",
@@ -665,7 +770,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "28cfe9b2d6ba604de724",
@@ -700,7 +805,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "f6ed00d793d13f1471a3",
@@ -735,7 +840,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "f0ff676c4f6a72845ef3",
@@ -770,7 +875,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "0640542d70a9a4c8bede",
@@ -805,7 +910,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "ff17a75b4d006b194019",
@@ -840,112 +945,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
-    },
-    {
-      "id": "4ab38ddfd895d1cfb4a0",
-      "url": "https://arxiv.org/abs/2611.25934v1",
-      "title": "AGSR: Aperture-Guided Super-Resolution for Gaussian Splatting",
-      "excerpt": "3D Gaussian Splatting (3DGS) enables real-time novel view synthesis, but Gaussian rasterization attenuates fine-scale scene structure through the projected covariance of each primitive. We show that contracting these projected covariances at inference time can mitigate the effect",
-      "publishedAt": "2026-11-19T11:20:23Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Christian Timmerer",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-19T11:20:23Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "3D Gaussian Splatting (3DGS) enables real-time novel view synthesis, but Gaussian rasterization attenuates fine-scale scene structure through the projected covariance of each primitive. We show that contracting these projected covariances at inference time can mitigate the effect",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "3D Gaussian Splatting (3DGS) enables real-time novel view synthesis, but Gaussian rasterization attenuates fine-scale scene structure through the projected covariance of each primitive. We show that contracting these projected covariances at inference time can mitigate the effect"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.25934v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
-    },
-    {
-      "id": "0896db1878d697545532",
-      "url": "https://arxiv.org/abs/2611.25340v1",
-      "title": "SceneAnything: Agentic Reconstruction of Large-Scale Mesh Scenes from a Single Video",
-      "excerpt": "Reconstructing an editable 3D scene from video requires matching visible structure while plausibly completing unseen surfaces. Agents can write scene-construction programs, but direct reconstruction attempts often produce errors in layout, scale, and lighting. We introduce SceneA",
-      "publishedAt": "2026-11-19T01:26:02Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Milos Hasan",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-19T01:26:02Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Reconstructing an editable 3D scene from video requires matching visible structure while plausibly completing unseen surfaces. Agents can write scene-construction programs, but direct reconstruction attempts often produce errors in layout, scale, and lighting. We introduce SceneA",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Reconstructing an editable 3D scene from video requires matching visible structure while plausibly completing unseen surfaces. Agents can write scene-construction programs, but direct reconstruction attempts often produce errors in layout, scale, and lighting. We introduce SceneA"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.25340v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
-    },
-    {
-      "id": "c028d0aa23807579aa8c",
-      "url": "https://arxiv.org/abs/2611.25338v1",
-      "title": "VideoRNG: Relightable Neural Gaussians from Generative Video Models",
-      "excerpt": "Generating realistic 3D assets remains constrained by classical representations: surface meshes and compact physically based materials struggle to express objects whose appearance arises from fine geometry or complex light transport, while existing Gaussian-splatting generators t",
-      "publishedAt": "2026-11-19T01:25:30Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Miloš Hašan",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-19T01:25:30Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Generating realistic 3D assets remains constrained by classical representations: surface meshes and compact physically based materials struggle to express objects whose appearance arises from fine geometry or complex light transport, while existing Gaussian-splatting generators t",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Generating realistic 3D assets remains constrained by classical representations: surface meshes and compact physically based materials struggle to express objects whose appearance arises from fine geometry or complex light transport, while existing Gaussian-splatting generators t"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.25338v1"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "e4cc21e268351b667316",
@@ -980,7 +980,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "599edbe928ccf6a6a9b7",
@@ -1015,42 +1015,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
-    },
-    {
-      "id": "defb2099f550345882ab",
-      "url": "https://arxiv.org/abs/2611.23450v2",
-      "title": "NIRJALA: Draining the Sea out of Gaussian Splatting with Three-Path Optics and Reversible Physics",
-      "excerpt": "Water does not just tint an underwater photograph; it rewrites it. Each pixel mixes attenuated scene radiance, backscattered light, and scene light scattered forward on its way to the camera, and many combinations of scene and water explain the same pixels. Most Gaussian-splattin",
-      "publishedAt": "2026-11-17T19:53:32Z",
-      "sourceId": "arxiv-3d",
-      "sourceName": "arXiv 3D 研究",
-      "lane": "news",
-      "category": "学术研究",
-      "author": "Aman Kumar",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "date": "2026-11-17T19:53:32Z",
-      "status": "来源更新",
-      "type": "原始来源动态",
-      "summary": "Water does not just tint an underwater photograph; it rewrites it. Each pixel mixes attenuated scene radiance, backscattered light, and scene light scattered forward on its way to the camera, and many combinations of scene and water explain the same pixels. Most Gaussian-splattin",
-      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
-      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
-      "evidence": [
-        [
-          "来源摘要 · 非全文核验",
-          "Water does not just tint an underwater photograph; it rewrites it. Each pixel mixes attenuated scene radiance, backscattered light, and scene light scattered forward on its way to the camera, and many combinations of scene and water explain the same pixels. Most Gaussian-splattin"
-        ]
-      ],
-      "sources": [
-        [
-          "arXiv 3D 研究",
-          "https://arxiv.org/abs/2611.23450v2"
-        ]
-      ],
-      "tags": [
-        "学术研究"
-      ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "5d0e14d126bffedfb4a5",
@@ -1085,7 +1050,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "a0856d64957a231e0f4f",
@@ -1120,7 +1085,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "022a64022e04ab357d60",
@@ -1155,7 +1120,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "e9c1cd83437be519aaa5",
@@ -1190,7 +1155,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "c3eb42a8596b1cafaf4f",
@@ -1225,7 +1190,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "ff6b07a876c655ba7dad",
@@ -1260,7 +1225,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "095d50b65d0f12d25d1d",
@@ -1295,7 +1260,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "900e199369b6bee06ccd",
@@ -1330,7 +1295,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "de8c72df8d1a2394b1b2",
@@ -1365,7 +1330,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "17f447cb198f64a8b9cc",
@@ -1400,7 +1365,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "e274c0db87d30a2a4aa6",
@@ -1435,7 +1400,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "3ab4f526e58b4006dc0b",
@@ -1470,7 +1435,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "d0aa8ede854db3782fcd",
@@ -1505,7 +1470,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "a439f75fe1cc5acce787",
@@ -1540,7 +1505,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "5a15c2fde973ca63e3a7",
@@ -1575,7 +1540,7 @@
       "tags": [
         "行业动态"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "4431f80033a00c09120f",
@@ -1610,7 +1575,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "6da27f2edfc4695cdaa9",
@@ -1645,7 +1610,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "a1f3db65653cf6585472",
@@ -1680,7 +1645,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "5779216911d1605ae954",
@@ -1715,7 +1680,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "3d154ac64b5c28b19b8b",
@@ -1750,7 +1715,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -1785,7 +1750,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -1820,7 +1785,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1890,7 +1855,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1925,7 +1890,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1960,7 +1925,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -2030,7 +1995,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -2170,7 +2135,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2975,7 +2940,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -3150,7 +3115,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -3185,7 +3150,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -3290,7 +3255,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -3465,7 +3430,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -3605,7 +3570,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "c89ec1085ebf9c82ad43",
@@ -3640,7 +3605,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -3675,7 +3640,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -3745,7 +3710,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -3815,7 +3780,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "30cc3adc5e376cd0afa4",
@@ -3850,7 +3815,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3955,7 +3920,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "db45556b6fc865e939c5",
@@ -3990,7 +3955,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -4060,7 +4025,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -4165,7 +4130,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -4522,7 +4487,7 @@
     {
       "id": "bc3d957c647eb26422bc",
       "url": "https://www.youtube.com/watch?v=sPoV7FeC0GQ",
-      "title": "Turn ANY Image into a 3D Model | Trellis-2 + ComfyUI Tutorial",
+      "title": "Trellis 2 in ComfyUI: Best Settings for HIGH-QUALITY 3D Models (Local & FREE)",
       "excerpt": "Start Meshy-ing here: https://www.meshy.ai/s/Zk4ASd use this code MDMZ01 to get 60% off Turn any image into a 3D model for free with TRELLIS.2 (Trellis 2), Microsoft's open-source image-to-3D AI model, running locally in ComfyUI. In this step-by-step tutorial, I show you how to i",
       "publishedAt": "2026-11-04T13:56:56Z",
       "sourceId": "mdmz",
@@ -4531,7 +4496,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "0f69ecb355dda22f9e6c",
@@ -4545,7 +4510,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "61c3a5b0a61c7eb44373",
@@ -4559,7 +4524,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "54df96e23c9a1d1fcd4f",
@@ -4573,7 +4538,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "80f6a584e0073c8bef3b",
@@ -4587,7 +4552,7 @@
       "category": "AI 工作流",
       "author": "MDMZ",
       "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-25T08:24:17.182220Z"
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z"
     },
     {
       "id": "143d0040a196fe573687",
