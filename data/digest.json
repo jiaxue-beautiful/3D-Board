@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-25T08:24:17.182220Z",
-  "windowStart": "2026-11-24T08:24:17.182220Z",
-  "windowEnd": "2026-11-25T08:24:17.182220Z",
+  "checkedAt": "2026-11-26T08:08:54.169937Z",
+  "windowStart": "2026-11-25T08:08:54.169937Z",
+  "windowEnd": "2026-11-26T08:08:54.169937Z",
   "news": [
     {
       "id": "a7c1e5fcf9af05021743",
@@ -463,10 +463,6 @@
       "status": "pending_budget"
     },
     {
-      "id": "4ab38ddfd895d1cfb4a0",
-      "status": "pending_budget"
-    },
-    {
       "id": "ff17a75b4d006b194019",
       "status": "pending_budget"
     },
@@ -491,10 +487,6 @@
       "status": "pending_budget"
     },
     {
-      "id": "0dc839d02e7a74acee01",
-      "status": "insufficient_source"
-    },
-    {
       "id": "e8240c3957709465057d",
       "status": "pending_budget"
     },
@@ -508,6 +500,22 @@
     },
     {
       "id": "b43b81d4eb3243bfbb83",
+      "status": "pending_budget"
+    },
+    {
+      "id": "0dc839d02e7a74acee01",
+      "status": "insufficient_source"
+    },
+    {
+      "id": "20e0e58ed6fbc7485f3f",
+      "status": "pending_budget"
+    },
+    {
+      "id": "715d4496e7a9fb2106cf",
+      "status": "pending_budget"
+    },
+    {
+      "id": "cf508ec44a9f6f839928",
       "status": "pending_budget"
     },
     {
@@ -983,7 +991,7 @@
       "url": "https://arxiv.org/abs/2611.25934v1",
       "firstSeenAt": "2026-11-20T07:06:46.164040Z",
       "attempts": 0,
-      "status": "pending_budget"
+      "status": "awaiting_source"
     },
     {
       "id": "ff17a75b4d006b194019",
@@ -1054,10 +1062,99 @@
       "firstSeenAt": "2026-11-25T08:24:17.182220Z",
       "attempts": 0,
       "status": "pending_budget"
+    },
+    {
+      "id": "20e0e58ed6fbc7485f3f",
+      "url": "https://arxiv.org/abs/2611.34128v1",
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z",
+      "attempts": 0,
+      "status": "pending_budget"
+    },
+    {
+      "id": "715d4496e7a9fb2106cf",
+      "url": "https://arxiv.org/abs/2611.34284v1",
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z",
+      "attempts": 0,
+      "status": "pending_budget"
+    },
+    {
+      "id": "cf508ec44a9f6f839928",
+      "url": "https://arxiv.org/abs/2611.34894v1",
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z",
+      "attempts": 0,
+      "status": "pending_budget"
     }
   ],
   "rejected": {},
   "sourceNews": [
+    {
+      "id": "cf508ec44a9f6f839928",
+      "url": "https://arxiv.org/abs/2611.34894v1",
+      "title": "What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Objects from Video",
+      "publishedAt": "2026-11-25T18:47:56Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Brandon Y. Feng",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "excerpt": "How an object deforms when it hits the ground reveals what it is made of. From a single real video of a drop, we estimate a deformable object's density-normalized stiffness $E/ρ$, and its yield stress $σ_Y/ρ$ when the impact causes plastic deformation, with a feed-forward predict",
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
+      "sourceDigest": "806ebf2798f6cee4ddcd4b15eb897ba9136da9b8bf11521da393dce7c1b62b5a",
+      "contentStatus": "source_only"
+    },
+    {
+      "id": "715d4496e7a9fb2106cf",
+      "url": "https://arxiv.org/abs/2611.34284v1",
+      "title": "ReMeDi: Single-Image PBR Material Estimation via Reparameterization between Metal and Dielectric Hypotheses",
+      "publishedAt": "2026-11-25T12:37:52Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Chunchao Guo",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "excerpt": "Physically based rendering (PBR) material estimation facilitates relighting, material editing, and 3D content creation. As the reflectance of a surface heavily depends on whether it is a metal or a dielectric, producing any map that determines albedo involves a decision on metaln",
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
+      "sourceDigest": "64e63e100cfbca3cdf0b851b9f8ba46105c5da2b865dbf81021cd591b6af466f",
+      "contentStatus": "source_only"
+    },
+    {
+      "id": "20e0e58ed6fbc7485f3f",
+      "url": "https://arxiv.org/abs/2611.34128v1",
+      "title": "FoundSurface: Feedforward Ray-Based 3D Scene Surface Reconstruction from Unposed Images",
+      "publishedAt": "2026-11-25T10:30:24Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Bo Yang",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "excerpt": "Accurate 3D surface reconstruction from unposed images remains a fundamental challenge in computer vision. Recent feed-forward pointmap methods eliminate the need for camera poses but inherently produce discrete, sparse representations. In this paper, we present a generalizable p",
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
+      "sourceDigest": "a5b1363d032c5227b75b68d8af7de73df24022c46e848bb039af08cd1999fa50",
+      "contentStatus": "source_only"
+    },
+    {
+      "id": "56b6d4fa5266be89f9a9",
+      "url": "https://arxiv.org/abs/2611.33824v1",
+      "title": "Revisiting Monocular In-Hand Object Scanning: Dataset, Pose Estimation, and Surface Reconstruction",
+      "publishedAt": "2026-11-25T05:54:14Z",
+      "sourceId": "arxiv-3d",
+      "sourceName": "arXiv 3D 研究",
+      "lane": "news",
+      "category": "学术研究",
+      "author": "Shu Kong",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "excerpt": "In-Hand Object Scanning (IHOS) from monocular video captured by a commodity smartphone holds immense potential to democratize 3D digitization for non-expert users, facilitating applications in digital archiving, augmented reality, and custom fabrication. Yet, IHOS remains largely",
+      "firstSeenAt": "2026-11-26T08:08:54.169937Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
+      "sourceDigest": "3837904a2149a4b483c1600fd3e6e56b3421b4f8873088c11ed68d080ae9cb8e",
+      "contentStatus": "source_only"
+    },
     {
       "id": "b43b81d4eb3243bfbb83",
       "url": "https://arxiv.org/abs/2611.33042v1",
@@ -1071,7 +1168,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Hyperspectral images (HSIs) record the full spectrum of light at every pixel, so projecting an HSI through a camera's spectral sensitivities gives that camera's RAW image, and one HSI can supply training data for hyperspectral reconstruction and camera-pipeline methods. Real HSIs",
       "firstSeenAt": "2026-11-25T08:24:17.182220Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "7c0250917430d712358417621ab35c49b84c3d8c64b7faf2316a1f6d1ec38996",
       "contentStatus": "source_only"
     },
@@ -1088,7 +1185,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Not even a full week after 4.8 beta 4 , our team has already resolved all remaining release blockers! While there’s a very real temptation on our end to jump straight into the Release Candidate stage, we wanted to play things as safe as possible by getting out one last beta snaps",
       "firstSeenAt": "2026-11-25T08:24:17.182220Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "64910a14cd8011cdb21a1b6671370b28f1e0be4ebeb105fb7d9a357321c262b5",
       "contentStatus": "source_only"
     },
@@ -1105,7 +1202,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Video foundation models have emerged as powerful generators of dynamic visual content, exhibiting remarkable capabilities in synthesizing complex actions and interactions. We argue that these models have also become excellent motion generators, with motion priors that are richer ",
       "firstSeenAt": "2026-11-25T08:24:17.182220Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "e78c3db4432756d906dd44b7ffeaa9caa07c2e2cbe280ab8f36f8e00b6f4a011",
       "contentStatus": "source_only"
     },
@@ -1122,7 +1219,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "3D Gaussian splats enable real-time rendering but require substantial storage. Existing compression methods either encode the primitives of a given splat or optimize a compact representation independently for each scene. Yet a Gaussian splat is only one realization of a scene: di",
       "firstSeenAt": "2026-11-25T08:24:17.182220Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "8436ad381420b01164e117052dcac5b89004f1ec8a23d151c201790a8d822aa2",
       "contentStatus": "source_only"
     },
@@ -1139,7 +1236,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Text-to-scene methods turn a short instruction into a furnished 3D room, but the room that a particular person wants rarely comes across fully in words: many preferences surface only when the person sees a concrete room and can point to what they like and dislike in it. We theref",
       "firstSeenAt": "2026-11-25T08:24:17.182220Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "a6642ab99bed6c02d91106252c02c90e442e4b41069306e417f5a29fd77f81bd",
       "contentStatus": "source_only"
     },
@@ -1156,7 +1253,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "3D Gaussian Splatting (3DGS) makes one screen tile the cell of partitioning, the cell of rasterization, and the unit of parallel work. Partitioning favors large tiles and rasterization small ones, and with one unit per tile the densest tiles set the frame time. We present Hierarc",
       "firstSeenAt": "2026-11-25T08:24:17.182220Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "c2cc56f129461fd08b76f0305d8e78f3027ff884c69a1cc937abe48a2446696b",
       "contentStatus": "source_only"
     },
@@ -1173,7 +1270,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Characterizing how tornadoes evolve over space and time is critically important for understanding and preparing for these highly destructive weather events. Towards this end, we develop algorithms capable of forming time-resolved 3D reconstructions of laboratory smoke tornadoes f",
       "firstSeenAt": "2026-11-25T08:24:17.182220Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "c58697037c687f98ee98dd21c2e22bc109710c67d8b127d3cd73502e098a20f3",
       "contentStatus": "source_only"
     },
@@ -1190,7 +1287,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Live free-viewpoint video streaming of humans enables immersive telepresence and interactive XR applications. However, this requires reconstructing each frame in real time, transmitting the data within strict bandwidth budgets, and decoding it on lightweight client GPUs. Existing",
       "firstSeenAt": "2026-11-24T09:48:23.977177Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "87dafd0cb3a190b4d1849fa1b385c81b6d75a8da047bc6695e5ef6cbac4b1bdf",
       "contentStatus": "source_only"
     },
@@ -1207,7 +1304,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "We introduce CrownFusion, a latent diffusion model to generate 3D dental crown designs from geometry images, a 2D-grid encoding of surface coordinates. Departing from traditional approaches that use point clouds, our \"CrownImage\" representation not only unlocks the full power of ",
       "firstSeenAt": "2026-11-24T09:48:23.977177Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "d43ef89a2afceea9bbcaee9a63dd5260c4f687d2694a12c7ff9f5a590b93dca8",
       "contentStatus": "source_only"
     },
@@ -1224,7 +1321,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Differentiable mesh extraction enables gradient-based optimization of detailed 3D geometry across diverse tasks. However, compact meshes are commonly obtained through post-processing simplification, leaving simplification-induced errors outside upstream optimization. We introduce",
       "firstSeenAt": "2026-11-24T09:48:23.977177Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "1d4f5feddccb02254eaae5a84b5077a641b4b3427713008b4758bee9feb653a4",
       "contentStatus": "source_only"
     },
@@ -1241,7 +1338,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Generating realistic 3D human object interactions (HOI) is essential for applications, such as augmented or virtual reality (AR/VR) or character animation of interactive entertainment. A particular challenge lies in the faithful generation of hand grasps in human object interacti",
       "firstSeenAt": "2026-11-24T09:48:23.977177Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "4b6855a8bab6bffca1942baffd941cd1090534f4620d610f20c7d9bf1a5caa08",
       "contentStatus": "source_only"
     },
@@ -1258,7 +1355,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Generating 3D indoor scenes requires a representation that captures object semantics, instance identity, height structure, and orientation while respecting room geometry. Methods that model scenes as sequences of object vectors learn spatial constraints implicitly, leaving collis",
       "firstSeenAt": "2026-11-24T09:48:23.977177Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "9ea1d2c22176070fce92adc9855cbd7af13cdc22f452bc2c91a8790d33a2184e",
       "contentStatus": "source_only"
     },
@@ -1275,7 +1372,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "3D Gaussian Splatting renders photorealistic views in real time. However, a single scene often needs millions of Gaussians, so these models are costly to store and render. Pruning reduces this cost by keeping a subset of the Gaussians. A common score is the leave-one-out importan",
       "firstSeenAt": "2026-11-24T09:48:23.977177Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "851a01ca057ad10194a03b651068126b92862129f47edf657b01c798fec09a05",
       "contentStatus": "source_only"
     },
@@ -1292,7 +1389,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Streaming 3D reconstruction must preserve geometry under limited memory, yet STAC's fixed-resolution spatial key-value (KV) cache grows as scenes expand. We propose STAC++, a plug-and-play, training-free framework that compresses and reuses spatial memory for long-term reconstruc",
       "firstSeenAt": "2026-11-24T09:48:23.977177Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "597f9645a34ae75fa743ba5f1a5806f79fe8577cdacd1f384b0c20d38759ab1c",
       "contentStatus": "source_only"
     },
@@ -1309,7 +1406,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "In a dark capture, the darkness is not uniform. How much light reaches a surface depends on where it lies relative to the few light sources, and the camera compresses what remains with a tone curve. Most low-light 3D reconstruction methods either apply one curve to every pixel of",
       "firstSeenAt": "2026-11-23T07:28:47.843354Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "9cdeb7fb3bb7ad49bc86f8d6a72ffe4dde29affcb045214e500f6d84cb3ccc91",
       "contentStatus": "source_only"
     },
@@ -1326,7 +1423,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "3D Gaussian Splatting is increasingly fed by high-resolution captures from commodity devices, yet training still happens at reduced resolution with research-grade GPUs. We present PennyGS, a method to achieve full-resolution (4K) training of 3DGS on consumer GPUs by improving the",
       "firstSeenAt": "2026-11-23T07:28:47.843354Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "3870da5b5da7b557c2dea9698b70482656fc246fa2a66a5da5c26c743925bb19",
       "contentStatus": "source_only"
     },
@@ -1343,7 +1440,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "The Godot 2026 showreel is out! We’re so grateful for every submission, vote, and support from our community. This year we had 422 submissions which is a new record. To deal with the increased amount of entries, next year we’ll do a first pass and disqualify the entries that don’",
       "firstSeenAt": "2026-11-20T07:06:46.164040Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "5f1589459e14c50c5e7d5c13f376575b821a9fb27370ac7fea853530fb6ab70d",
       "contentStatus": "source_only"
     },
@@ -1360,7 +1457,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Immersive 3D content allows text and graphical elements, such as subtitles, annotations, and icons, to be placed inside a scene rather than displayed as flat overlays. Placed this way, they respect occlusion and perspective and take on user-assigned materials and lighting while p",
       "firstSeenAt": "2026-11-20T07:06:46.164040Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "a97310c7ac2bb8c728f71a32489b20f31f023e9f392759103b6017a04318ae5f",
       "contentStatus": "source_only"
     },
@@ -1428,7 +1525,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "In 2025, Blender HQ organized a workshop to kick off the tablet project in Blender. Now that the project has reached a new stage, we wanted to revisit the previous discussions and propose a fresh plan of action. To do this, we hosted a week-long workshop in Amsterdam this October",
       "firstSeenAt": "2026-11-19T07:17:40.458642Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "b7b48c301cdc30102a708879e7f958bb697603b88b9732914c7ef70fccf96610",
       "contentStatus": "source_only"
     },
@@ -1445,7 +1542,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "It’s only been a little over a week since our previous development snapshot, 4.8 beta 3 , and in that time we’ve already worked through the majority of remaining release blockers! What that means is that this will be one of the last beta snapshots of the 4.8 cycle—potentially eve",
       "firstSeenAt": "2026-11-19T07:17:40.458642Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "d96623da51a3d5d6062204645d088625f4e7e07601ff8bd354ba4eb752664863",
       "contentStatus": "source_only"
     },
@@ -1496,7 +1593,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "We’d like to welcome Manus as a Platinum Sponsor of the Godot Foundation. Their contribution helps keep Godot free, open, and in constant development for everyone, and we truly appreciate it. Here is a message from them: A message from Manus: AI is lowering the technical barriers",
       "firstSeenAt": "2026-11-18T07:20:08.362809Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "249e71d87cd2cec0a3a144e831632fe9d619a0645bcd735d929b3af7780b13b3",
       "contentStatus": "source_only"
     },
@@ -1734,7 +1831,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Blender’s preferences used to be shared across all projects, and it was up to users and teams to keep related files and resources tidy and organized. Blender 5.3 introduces Project Setup, an opt-in system that lets users define settings, asset libraries and shared variables uniqu",
       "firstSeenAt": "2026-11-14T06:13:50.722158Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "840fac004b10d4d214d9424e62d18f976baa328423f276fb2f3de13e2cc1e2b6",
       "contentStatus": "source_only"
     },
@@ -1802,7 +1899,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "We’re happy to share that JetBrains has renewed its Platinum sponsorship of the Godot Foundation for 2027. JetBrains first joined as a Platinum sponsor in August 2025. Alongside the sponsorship, JetBrains has kept expanding Godot support in JetBrains Rider. Over the past year, Ri",
       "firstSeenAt": "2026-11-11T06:07:10.220116Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "adcb8dc134c5ac013dd3e834ec32116fbd250bafe54e418838bc3e425253e784",
       "contentStatus": "source_only"
     },
@@ -1870,7 +1967,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Despite much of our team being at GodotFest this past week , there was still a healthy amount of progress made on our handful of remaining release blockers. It’s looking like it won’t be too much longer before we’re ready to transition to the release candidate phase, so now’s the",
       "firstSeenAt": "2026-11-10T07:11:16.219661Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "09c508b59fba14b5a7ea492f572ab8c031c30bc5958e4e509aded9adc8033c3d",
       "contentStatus": "source_only"
     },
@@ -1887,7 +1984,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Snap recently launched Web Lenses , a brand-new way to put web games inside Snapchat, where they open with a tap just like any other Lens. 🎉 I built one of the first: Mojo Ski , a snowboarding game where you race down the mountain as your own Bitmoji. It has now been viewed 300 m",
       "firstSeenAt": "2026-11-14T06:13:50.722158Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "38daeb264efc0926988e91e606e92907479d5e811653a22628a0367e01e04067",
       "contentStatus": "source_only"
     },
@@ -1955,7 +2052,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": ".paul { color: #aa77e2; } .lisa { color: #40b99f; } Today, Paul Mozet (Lead Programmer on Sovereign Tower) and Lisa Garnier (Narrative Design and Technical Artist on Sovereign Tower) from Wild Wits Games tell us about their experience developing their latest Godot game: Sovereign",
       "firstSeenAt": "2026-11-07T05:53:20.673201Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "9b03e5091252b497d84eaa66cb7ed216300095de7946bb5f0f020038bbea11d3",
       "contentStatus": "source_only"
     },
@@ -2091,7 +2188,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "As is tradition by now, on the day before Blender Conference 2026, the Animation & Rigging module held a day-long workshop to discuss how Layered Actions should work in Blender. In this post, we’ll share the outcomes of that workshop. For more context on this topic, visit Animati",
       "firstSeenAt": "2026-11-04T06:10:27.238997Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "95751329ffbe9f41c53679657e760f1354743148957df67c4fef7703787f940d",
       "contentStatus": "source_only"
     },
@@ -2295,7 +2392,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "In Blender 5.3, we are introducing initial support for 3D Gaussian splats! This enables importing, editing, and rendering of fast, high-quality scene captures. A lot of groundwork has been done to integrate 3D Gaussian splats (gsplats) into Blender natively, and we’ll continue to",
       "firstSeenAt": "2026-10-31T05:33:48.516149Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "62ef6192cf32241a9c6f4853070460879e4e5389654315e32aa0d4d7fa7d2c83",
       "contentStatus": "source_only"
     },
@@ -2312,7 +2409,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#186--187 https://github.com/mrdoob/three.js/milestone/100?closed=1 - Global - Remove code deprecated in r177. #34517 (@linbingquan, @Mugen87) - AnimationUtils - Fix cubic spline additive reference sampling. #34860 (@gjija) -",
       "firstSeenAt": "2026-10-31T05:33:48.516149Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "96aa92903aadc0192b2dbdda05336816705fae950c176d0f441c88ee639a027e",
       "contentStatus": "source_only"
     },
@@ -2363,7 +2460,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "In the two weeks since the release of 4.8 beta 1 , our team has made great strides in ensuring the resolution of nearly 150 bugs including around 30 regressions. This blog post covering the beta snapshot, and however many more are to come, will be lighter than the dev snapshots a",
       "firstSeenAt": "2026-10-30T05:41:06.860880Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "01b44b640d1006a9141fd49a541c535e5ea425873778f2a6e7de9868bd02f1ca",
       "contentStatus": "source_only"
     },
@@ -2397,7 +2494,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Last month we shipped SuperSplat Editor 3.0 , rebuilt from the ground up on WebGPU. This time most of the work went into SuperSplat itself. We wanted to make it easier to discover great splats and the people who make them, so you can now follow creators and get notifications when",
       "firstSeenAt": "2026-10-30T05:41:06.860880Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "f8a55924af0ee81903ced1be92afb7a37af85f5fbf5b5110856f2f1eb5b26a42",
       "contentStatus": "source_only"
     },
@@ -2414,7 +2511,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "XREAL AURA , the first optical see-through glasses on Android XR, is here and Godot is part of the launch lineup! Develop natively on spatial computing glasses Download the Godot editor and its companion app on the XREAL AURA, and develop, export, and publish spatial Godot games ",
       "firstSeenAt": "2026-10-29T05:41:57.225678Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "8bdeb20b5d1fa81d2aa6f0243913cafb50520afe258e4e49ed789493bf615948",
       "contentStatus": "source_only"
     },
@@ -2652,7 +2749,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "The sixth Godot XR Community Game Jam ran from 21 September 2026 until 5 October 2026. We had 85 participants join, who submitted 28 games. Down from 98 participants but up from 22 games last jam. The quality of the entries however has risen sharply. The theme of this game jam wa",
       "firstSeenAt": "2026-10-26T04:40:48.588297Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "774b3b4109794f6e896a5bab029a2663d7bb6c9f608f10a123713705642c662a",
       "contentStatus": "source_only"
     },
@@ -2703,7 +2800,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Big news for PlayCanvas developers: your games can now run inside Snapchat! 🎉 With Snapchat Web Lenses , you can build a game with PlayCanvas, upload it as a Lens and put it in front of a huge audience of Snapchatters who love to play. In this post, we'll explain what Web Lenses ",
       "firstSeenAt": "2026-10-24T04:30:57.931874Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "e0ece8a12fc4376eae78e91b77fd407970448255d1e4b6694e3c7d1aab54d9cf",
       "contentStatus": "source_only"
     },
@@ -2737,7 +2834,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Version 26.11.1",
       "firstSeenAt": "2026-10-22T04:38:02.224965Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "7ba1f7a9d14396cee25a6a943ab0e2e6783a8d997876d64aa7071d019a188f20",
       "contentStatus": "source_only"
     },
@@ -2822,7 +2919,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Editor 2.35 is out, and it changes the first page you see. playcanvas.com/editor is now a projects home of its own, and the project management you used to do on the playcanvas.com projects page has moved into it: search, stars, forks, transfers, project settings, dev logs, teams,",
       "firstSeenAt": "2026-10-22T04:38:02.224965Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "c51dbaa47967c5731bae5f3bca0f04951e04b9de34a4662a90e36e2278c77048",
       "contentStatus": "source_only"
     },
@@ -3179,7 +3276,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "It’s that time of the release cycle once again: the beta snapshot! With this, 4.8 is fully in feature-freeze, and developer resources have shifted exclusively to creating and reviewing various regression fixes . For those interested in aiding us on our quest to squash any bugs th",
       "firstSeenAt": "2026-10-16T04:26:00.476667Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "f1ba2b36965d873fef1a59bcfd475079a4a5db119c765414c5d785672b7fca8c",
       "contentStatus": "source_only"
     },
@@ -3213,7 +3310,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "What an eventful edition of the Blender Conference we had earlier this September! Over three days, 700+ attendees from more than 50 countries gathered at the Felix Meritis venue to share their passion for creating with Blender, connect and learn from each other. This year, the kn",
       "firstSeenAt": "2026-10-15T04:32:45.408058Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "6554ac9fecab8748770a2ae66c11e1e1ea79dc59c1eabe115075b0af9e488124",
       "contentStatus": "source_only"
     },
@@ -3298,7 +3395,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Editor 2.34 is out, two weeks after 2.32, and it is built around Engine 2.23 . The headline is a new Inspector launch option: tick one box and your launched app comes up with a full debug panel docked beside it, where you can pause it, step it a frame at a time, pick entities str",
       "firstSeenAt": "2026-10-14T04:48:24.009584Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "5db70488ec2af4e5a407b9f48b8260535e94ace73b7dfca28124edd680444439",
       "contentStatus": "source_only"
     },
@@ -3655,7 +3752,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Welcome to the seventh edition of Developer Spotlight, a series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web. Today, we are excited to be joined by Massimo and Mariem from Solaya , a French de",
       "firstSeenAt": "2026-10-07T05:53:46.003469Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "2aa639f1659cde67b71076f5cf9f6d336e91ea9124156ca1cc81d7cfac4b777b",
       "contentStatus": "source_only"
     },
@@ -3672,7 +3769,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "As in previous years, we had a Geometry Nodes workshop during the week after the Blender Conference. This post gives a general overview of the topics we discussed. You can also read all the notes we took during the meetings. Also check out the blog posts about previous workshops:",
       "firstSeenAt": "2026-10-06T06:15:36.020525Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "486726307b41f5213c2b4f27d501ccaed3fef25c8dfb808f43d51902a3c1f7c8",
       "contentStatus": "source_only"
     },
@@ -4012,7 +4109,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "It’s that time once again: feature freeze! With this, no new features will be integrated for Godot 4.8 moving forward, and priorities will be shifting exclusively towards bugfixes and addressing regressions to ensure a functional baseline as soon as possible. So join us for one l",
       "firstSeenAt": "2026-09-30T05:19:58.753836Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "e42b65499ef446bc73a65afcf18c1c67836b582ceee4b86e8517840d4b965b5e",
       "contentStatus": "source_only"
     },
@@ -4199,7 +4296,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "https://github.com/mrdoob/three.js/wiki/Migration-Guide#185--186 https://github.com/mrdoob/three.js/milestone/99?closed=1 - Global - Remove deprecated code. #33886 (@linbingquan) - Improve retroreflection nomenclature. #34079 (@WestLangley) - AnimationObjectGroup - Fix stale inde",
       "firstSeenAt": "2026-09-25T00:32:20.317079Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "ff44554b307d4bbebd31a6b9adc1cf51d602c892191cb51d3e9c9c3ad3ee358d",
       "contentStatus": "source_only"
     },
@@ -4284,7 +4381,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "Editor 2.32 is out, and it leads with something that has been a long time coming: the Joint component . Hinges, sliders, ball joints, springs and breakable welds are now things you configure in the inspector rather than assemble from a script. There is more to it than that. Mater",
       "firstSeenAt": "2026-09-23T00:28:55.358694Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "ec8a33127453e4b78a270357cf6fc8a155d943b1fd23abd932231f61e5325af7",
       "contentStatus": "source_only"
     },
@@ -4494,7 +4591,7 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "“Another development snapshot already? Didn’t they just release one last Friday ?” Indeed, this is much sooner than usual. Even when taking into consideration how development snapshots become more frequent at their tail-end in preparation of feature freeze, less than a week means",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "15020795fdf84ef41bd5a60b72550fb6c7a63f04e72a28e890a08aa0aac69159",
       "contentStatus": "source_only"
     },
@@ -4545,30 +4642,27 @@
       "dateEvidence": "原始订阅条目的发布时间字段",
       "excerpt": "I want to give people a little bit of insight into what the optimization process looks like for Godot’s renderer. From the outside, rendering optimization can look a little bit like black magic. I want to show a few examples of some optimizations that we did this year to highligh",
       "firstSeenAt": "2026-09-22T07:09:50.006793Z",
-      "checkedAt": "2026-11-25T08:24:17.182220Z",
+      "checkedAt": "2026-11-26T08:08:54.169937Z",
       "sourceDigest": "316626d3c1e3b430204c3c8b094924b6703525cb96efa3786544f1b3e104e8bc",
       "contentStatus": "source_only"
     }
   ],
   "sourceProcessing": {
-    "checkedAt": "2026-11-25T08:24:17.182220Z",
+    "checkedAt": "2026-11-26T08:08:54.169937Z",
     "status": "updated",
-    "newCount": 7,
+    "newCount": 4,
     "newIds": [
-      "1bcdbb859ef4c9bd8b5a",
-      "b43b81d4eb3243bfbb83",
-      "8b8255d77d43d8e1beb9",
-      "e8240c3957709465057d",
-      "259f54a4c91ac6eb94e3",
-      "ac4f526b70fc4d344bc6",
-      "33b134e2d9dac73771dd"
+      "cf508ec44a9f6f839928",
+      "715d4496e7a9fb2106cf",
+      "20e0e58ed6fbc7485f3f",
+      "56b6d4fa5266be89f9a9"
     ],
     "invalidCount": 0,
     "successfulSources": 7
   },
   "processing": {
     "status": "partial",
-    "pendingCount": 77,
+    "pendingCount": 80,
     "attempted": 1
   },
   "notice": "AI辅助整理；引用来自原始订阅，不等于全文或视觉验证。新闻与社媒作品分别收录；没有互动采样，不判断爆款。"
