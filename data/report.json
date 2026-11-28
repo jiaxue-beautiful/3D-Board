@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-27T08:19:37.070419Z",
-  "windowStart": "2026-11-26T08:19:37.070419Z",
-  "windowEnd": "2026-11-27T08:19:37.070419Z",
+  "checkedAt": "2026-11-28T07:40:27.025369Z",
+  "windowStart": "2026-11-27T07:40:27.025369Z",
+  "windowEnd": "2026-11-28T07:40:27.025369Z",
   "mode": "source_metadata",
   "checks": [
     {
@@ -58,19 +58,92 @@
       "id": "lightarchitect",
       "name": "LightArchitect 原视频",
       "lane": "cases",
-      "ok": true,
-      "count": 15
+      "ok": false,
+      "count": 0,
+      "error": "来源请求失败（HTTP 503）；未绕过访问限制"
     },
     {
       "id": "mdmz",
       "name": "MDMZ 原视频",
       "lane": "cases",
-      "ok": true,
-      "count": 15
+      "ok": false,
+      "count": 0,
+      "error": "来源请求失败（HTTP 503）；未绕过访问限制"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "971548d5cc2cd44645cd",
+      "url": "https://godotengine.org/article/release-candidate-godot-4-8-rc-1/",
+      "title": "Release candidate: Godot 4.8 RC 1",
+      "excerpt": "To all of our users in the States, we hope everyone had a wonderful Thanksgiving! There’s a lot to be thankful for in our community, and narrowing it down to only a single highlight or area would be a fools errand. Instead, let us express our thanks with something that everyone c",
+      "publishedAt": "2026-11-27T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Thaddeus Crews",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-27T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "To all of our users in the States, we hope everyone had a wonderful Thanksgiving! There’s a lot to be thankful for in our community, and narrowing it down to only a single highlight or area would be a fools errand. Instead, let us express our thanks with something that everyone c",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "To all of our users in the States, we hope everyone had a wonderful Thanksgiving! There’s a lot to be thankful for in our community, and narrowing it down to only a single highlight or area would be a fools errand. Instead, let us express our thanks with something that everyone c"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/release-candidate-godot-4-8-rc-1/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
+    }
+  ],
   "archive": [
+    {
+      "id": "971548d5cc2cd44645cd",
+      "url": "https://godotengine.org/article/release-candidate-godot-4-8-rc-1/",
+      "title": "Release candidate: Godot 4.8 RC 1",
+      "excerpt": "To all of our users in the States, we hope everyone had a wonderful Thanksgiving! There’s a lot to be thankful for in our community, and narrowing it down to only a single highlight or area would be a fools errand. Instead, let us express our thanks with something that everyone c",
+      "publishedAt": "2026-11-27T12:00:00Z",
+      "sourceId": "godot",
+      "sourceName": "Godot 官方新闻",
+      "lane": "news",
+      "category": "引擎与交互",
+      "author": "Thaddeus Crews",
+      "dateEvidence": "原始订阅条目的发布时间字段",
+      "date": "2026-11-27T12:00:00Z",
+      "status": "来源更新",
+      "type": "原始来源动态",
+      "summary": "To all of our users in the States, we hope everyone had a wonderful Thanksgiving! There’s a lot to be thankful for in our community, and narrowing it down to only a single highlight or area would be a fools errand. Instead, let us express our thanks with something that everyone c",
+      "background": "当前仅采集来源标题、发布时间与订阅摘要，尚未完成全文核对和中文分析。",
+      "signal": "按原始发布时间排序；没有持续互动采样，不判断爆款或升温。",
+      "evidence": [
+        [
+          "来源摘要 · 非全文核验",
+          "To all of our users in the States, we hope everyone had a wonderful Thanksgiving! There’s a lot to be thankful for in our community, and narrowing it down to only a single highlight or area would be a fools errand. Instead, let us express our thanks with something that everyone c"
+        ]
+      ],
+      "sources": [
+        [
+          "Godot 官方新闻",
+          "https://godotengine.org/article/release-candidate-godot-4-8-rc-1/"
+        ]
+      ],
+      "tags": [
+        "引擎与交互"
+      ],
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
+    },
     {
       "id": "cf508ec44a9f6f839928",
       "url": "https://arxiv.org/abs/2611.34894v1",
@@ -104,7 +177,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "715d4496e7a9fb2106cf",
@@ -139,7 +212,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "20e0e58ed6fbc7485f3f",
@@ -174,7 +247,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "56b6d4fa5266be89f9a9",
@@ -209,7 +282,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "b43b81d4eb3243bfbb83",
@@ -244,7 +317,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "1bcdbb859ef4c9bd8b5a",
@@ -279,7 +352,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "8b8255d77d43d8e1beb9",
@@ -314,7 +387,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "e8240c3957709465057d",
@@ -349,7 +422,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "259f54a4c91ac6eb94e3",
@@ -384,7 +457,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "ac4f526b70fc4d344bc6",
@@ -419,7 +492,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "33b134e2d9dac73771dd",
@@ -454,7 +527,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "aafa8db3109e0dd08749",
@@ -489,7 +562,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "a0f10241e1161c1ea2d5",
@@ -524,7 +597,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "add2c35d2c2d5749a55d",
@@ -559,7 +632,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "18575fd38303d3778410",
@@ -594,7 +667,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "71bddc92dbfad465e141",
@@ -629,7 +702,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "55ff0d9110dde38b90ab",
@@ -664,7 +737,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "28cfe9b2d6ba604de724",
@@ -699,7 +772,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "f6ed00d793d13f1471a3",
@@ -734,7 +807,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "f0ff676c4f6a72845ef3",
@@ -769,7 +842,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "0640542d70a9a4c8bede",
@@ -804,7 +877,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "ff17a75b4d006b194019",
@@ -839,7 +912,7 @@
       "tags": [
         "学术研究"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "e4cc21e268351b667316",
@@ -874,7 +947,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "599edbe928ccf6a6a9b7",
@@ -909,7 +982,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "5d0e14d126bffedfb4a5",
@@ -944,7 +1017,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "a0856d64957a231e0f4f",
@@ -979,7 +1052,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "022a64022e04ab357d60",
@@ -1014,7 +1087,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "e9c1cd83437be519aaa5",
@@ -1049,7 +1122,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "1b36cad5b271ebc3cd9f",
@@ -1084,7 +1157,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "ff6b07a876c655ba7dad",
@@ -1119,7 +1192,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "095d50b65d0f12d25d1d",
@@ -1154,7 +1227,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "900e199369b6bee06ccd",
@@ -1189,7 +1262,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "de8c72df8d1a2394b1b2",
@@ -1224,7 +1297,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "17f447cb198f64a8b9cc",
@@ -1259,7 +1332,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "e0ef7f2a192ef382c6ca",
@@ -1294,7 +1367,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "3ab4f526e58b4006dc0b",
@@ -1329,7 +1402,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "d0aa8ede854db3782fcd",
@@ -1364,7 +1437,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "d1495cb63397f095fd01",
@@ -1399,7 +1472,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "5a15c2fde973ca63e3a7",
@@ -1434,7 +1507,7 @@
       "tags": [
         "行业动态"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "7df707fe98d071a3e66a",
@@ -1469,7 +1542,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "6da27f2edfc4695cdaa9",
@@ -1504,7 +1577,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "a1f3db65653cf6585472",
@@ -1539,7 +1612,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "cf768cf510709068584b",
@@ -1574,7 +1647,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "376e189241fb6aef1b79",
@@ -1609,7 +1682,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "8a085ef017581985d0e1",
@@ -1644,7 +1717,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "246ba51c6aaac42ae7f2",
@@ -1679,7 +1752,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "06efcedcb2a9131cd463",
@@ -1749,7 +1822,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "a17b4f755f455444c2f4",
@@ -1784,7 +1857,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "105f64196834384c6a04",
@@ -1819,7 +1892,7 @@
       "tags": [
         "引擎与交互"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "a7c1e5fcf9af05021743",
@@ -1889,7 +1962,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "cca8d225a3520ac4af7c",
@@ -2029,7 +2102,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "347a8c40e3843b25bd72",
@@ -2834,7 +2907,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "1fb98e79b8bb63e33ac0",
@@ -3009,7 +3082,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "20b38d1afef290b604a0",
@@ -3044,7 +3117,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "e4486c8d915c1568bf3a",
@@ -3149,7 +3222,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "6bc34921968f198708e5",
@@ -3324,7 +3397,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "a62d06c67d0e081e82c0",
@@ -3464,7 +3537,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "4fd1cfc7f027905a5f0d",
@@ -3499,7 +3572,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "6b7a6627d8d3f965b455",
@@ -3534,7 +3607,7 @@
       "tags": [
         "传统建模"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "ec0ee9eea2fe028cc001",
@@ -3604,7 +3677,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "5b552c73bf5a9f75f2ce",
@@ -3674,7 +3747,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "cf578747dbf24dd9634c",
@@ -3709,7 +3782,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "b7ce352ba9ff4eb0f09d",
@@ -3814,7 +3887,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "c85f6dffe439bc798784",
@@ -3849,7 +3922,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "b288b4a17cb64e3e9174",
@@ -3919,7 +3992,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "1cad412c536faf22fd59",
@@ -4024,7 +4097,7 @@
       "tags": [
         "图形与渲染"
       ],
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
+      "firstSeenAt": "2026-11-28T07:40:27.025369Z"
     },
     {
       "id": "7e2238449fe00d72b061",
@@ -4379,76 +4452,6 @@
   ],
   "caseCandidates": [
     {
-      "id": "bc3d957c647eb26422bc",
-      "url": "https://www.youtube.com/watch?v=sPoV7FeC0GQ",
-      "title": "Trellis 2 in ComfyUI: Best Settings for HIGH-QUALITY 3D Models (Local & FREE)",
-      "excerpt": "Start Meshy-ing here: https://www.meshy.ai/s/Zk4ASd use this code MDMZ01 to get 60% off Turn any image into a 3D model for free with TRELLIS.2 (Trellis 2), Microsoft's open-source image-to-3D AI model, running locally in ComfyUI. In this step-by-step tutorial, I show you how to i",
-      "publishedAt": "2026-11-04T13:56:56Z",
-      "sourceId": "mdmz",
-      "sourceName": "MDMZ 原视频",
-      "lane": "cases",
-      "category": "AI 工作流",
-      "author": "MDMZ",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
-    },
-    {
-      "id": "0f69ecb355dda22f9e6c",
-      "url": "https://www.youtube.com/shorts/BptbWttex18",
-      "title": "Replace any Character With AI for FREE #minimaxh3 #comfyui #aivideo",
-      "excerpt": "Tutorial: https://youtu.be/r4P3hpoA1Is I built a ComfyUI workflow that swaps any character in your video using MiniMax H3, the open-source AI video model by Hailuo AI. The new character picks up the original lighting and colors, and keeps the body movement and even the lip sync. ",
-      "publishedAt": "2026-10-26T14:50:40Z",
-      "sourceId": "mdmz",
-      "sourceName": "MDMZ 原视频",
-      "lane": "cases",
-      "category": "AI 工作流",
-      "author": "MDMZ",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
-    },
-    {
-      "id": "61c3a5b0a61c7eb44373",
-      "url": "https://www.youtube.com/watch?v=r4P3hpoA1Is",
-      "title": "MiniMax H3: Swap Any Character in Your Videos Using AI | FREE ComfyUI Tutorial",
-      "excerpt": "I built a ComfyUI workflow that swaps any character in your video using MiniMax H3, the open-source AI video model by Hailuo AI. The new character picks up the original lighting and colors, and keeps the body movement and even the lip sync. You can also flip it into motion transf",
-      "publishedAt": "2026-10-22T11:08:43Z",
-      "sourceId": "mdmz",
-      "sourceName": "MDMZ 原视频",
-      "lane": "cases",
-      "category": "AI 工作流",
-      "author": "MDMZ",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
-    },
-    {
-      "id": "54df96e23c9a1d1fcd4f",
-      "url": "https://www.youtube.com/watch?v=686GLvp5kek",
-      "title": "This Drone Has a Brain...And Builds 3D models! | DJI Matrice 4E",
-      "excerpt": "In this video, I scan a lighthouse with the DJI Matrice 4E using Smart 3D Capture, where the drone plans its own flight path and captures every detail automatically. This tutorial-style video covers my full drone 3D scanning workflow, from the flight to the final photogrammetry m",
-      "publishedAt": "2026-10-08T13:50:06Z",
-      "sourceId": "mdmz",
-      "sourceName": "MDMZ 原视频",
-      "lane": "cases",
-      "category": "AI 工作流",
-      "author": "MDMZ",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
-    },
-    {
-      "id": "80f6a584e0073c8bef3b",
-      "url": "https://www.youtube.com/shorts/aHAhGhhxBcg",
-      "title": "How to Turn Images Into A 3D Scene In After Effects #aftereffects #2.5D #animation",
-      "excerpt": "People keep saying this is AI 😂 Here's exactly how I made it 👇 1️⃣ The assets I used over 200 flat images, all generated in @envato so I could keep the same style across every building, car and character. Then I brought every single one into Photoshop to remove backgrounds, and c",
-      "publishedAt": "2026-09-14T11:04:29Z",
-      "sourceId": "mdmz",
-      "sourceName": "MDMZ 原视频",
-      "lane": "cases",
-      "category": "AI 工作流",
-      "author": "MDMZ",
-      "dateEvidence": "原始订阅条目的发布时间字段",
-      "firstSeenAt": "2026-11-27T08:19:37.070419Z"
-    },
-    {
       "id": "143d0040a196fe573687",
       "url": "https://www.youtube.com/shorts/-9kkHWJgMs4",
       "title": "Add creature swarms to any shot with the Spyderfy Add-on for After Effects and Blender 3D!",
@@ -4563,7 +4566,7 @@
     {
       "id": "e4829607e5a133db0f3b",
       "url": "https://www.youtube.com/shorts/kLRC21uoAJw",
-      "title": "Drone footage to 3D fly-through #gaussiansplatting #360drone #antigravity",
+      "title": "Drone footage → 3D fly-through #gaussiansplatting #360drone #antigravity",
       "excerpt": "Been obsessing over Gaussian splatting for a while now and this is honestly one of my favourite results so far. Here's the quick breakdown: 1. Capture — flew the Antigravity A1 around the temple at 3 different heights using the built-in orbit feature. The fact that it records 360",
       "publishedAt": "2026-06-26T10:49:22Z",
       "sourceId": "mdmz",
